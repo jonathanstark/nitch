@@ -1,0 +1,24 @@
+{
+    "blog": {
+        "title":"The Nitch Podcast",
+        "url":"http://nitch.cc/podcast/",
+        "description":"Making apps that run everywhere",
+        "author": {
+            "name":"Jonathan Stark, Kelli Shaver",
+            "email":"hello@nitch.cc"
+        },
+        "date_format":"m/d/Y \\a\\t g:ia"
+    },
+    "feeds": {
+        "language":"en-us",
+        "max_items":10
+    },
+    "margo": {
+        "directory_of_posts":"../",
+        "post_file_extension":".md",
+        "404_template_file":"./templates/404.php",
+        "blog_template_file":"./templates/blog.php",
+        "post_template_file":"./templates/post.php",
+        "display_errors":false
+    }
+}

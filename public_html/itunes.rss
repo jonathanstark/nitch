@@ -1,0 +1,891 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" media="screen" href="/~d/styles/rss2enclosuresfull.xsl"?>
+<?xml-stylesheet type="text/css" media="screen" href="http://feeds.feedburner.com/~d/styles/itemcontent.css"?>
+<rss 
+xmlns:dc="http://purl.org/dc/elements/1.1/" 
+xmlns:sy="http://purl.org/rss/1.0/modules/syndication/" 
+xmlns:admin="http://webns.net/mvcb/" 
+xmlns:atom="http://www.w3.org/2005/Atom/" 
+xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" 
+xmlns:content="http://purl.org/rss/1.0/modules/content/" 
+xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" 
+xmlns:media="http://search.yahoo.com/mrss/" 
+xmlns:feedburner="http://rssnamespace.org/feedburner/ext/1.0" 
+version="2.0">
+    <channel>
+        <title>The Nitch Podcast</title>
+        <link>http://nitch.cc/podcast</link>
+        <pubDate>Fri, 23 Mar 2012 14:00:00 GMT</pubDate>
+        <description>A weekly podcast about making apps that run everywhere using open web standards like HTML, CSS, JavaScript, REST, and JSON. Hosted by Jonathan Stark and Kelli Shaver.</description>
+        <language>en-us</language>
+        <atom10:link xmlns:atom10="http://www.w3.org/2005/Atom" rel="self" type="application/rss+xml" href="http://feeds.feedburner.com/nitch"/>
+        <feedburner:info uri="thewebahead"/>
+        <atom10:link xmlns:atom10="http://www.w3.org/2005/Atom" rel="hub" href="http://pubsubhubbub.appspot.com/"/>
+        <feedburner:browserFriendly/>
+        <itunes:subtitle>A weekly podcast about making apps that run everywhere using open web standards like HTML, CSS, JavaScript, REST, and JSON. Hosted by Jonathan Stark and Kelli Shaver.</itunes:subtitle>
+        <itunes:author>Nitch</itunes:author>
+        <itunes:summary>A weekly podcast about making apps that run everywhere using open web standards like HTML, CSS, JavaScript, REST, and JSON. Hosted by Jonathan Stark and Kelli Shaver.</itunes:summary>
+        <itunes:image href="http://nitch.cc/img/512x512.png"/>
+        <itunes:keywords>web, mobile, html5, rest, json</itunes:keywords>
+        <itunes:explicit>no</itunes:explicit>
+        <itunes:owner>
+            <itunes:name>Nitch</itunes:name>
+            <itunes:email>hello@nitch.cc</itunes:email>
+        </itunes:owner>
+        <itunes:category text="Technology">
+            <itunes:category text="Software How-To"/>
+        </itunes:category>
+        <media:category scheme="http://www.itunes.com/dtds/podcast-1.0.dtd">Technology/Software How-To</media:category>
+        <media:credit role="author">Nitch</media:credit>
+        <media:description type="plain">A weekly podcast about making apps that run everywhere using open web standards like HTML, CSS, JavaScript, REST, and JSON. Hosted by Jonathan Stark and Kelli Shaver.</media:description>
+        <media:keywords>web, mobile, html5, rest, json</media:keywords>
+        <media:rating>nonadult</media:rating>
+        <media:thumbnail url="http://nitch.cc/img/512x512.png"/>
+        <item>
+            <title>Episode 1: Hello World</title>
+            <link>http://nitch.cc/podcast/episode-1-hello-world</link>
+            <guid>http://nitch.cc/podcast/episode-1-hello-world</guid>
+            <pubDate>Mon, 09 Apr 2012 14:00:00 GMT</pubDate>
+            <author>Nitch</author>
+            <description>Jonathan and Kelli talk about the Nitch concept, touch events, and offline web apps.</description>
+            <enclosure url="https://s3.amazonaws.com/nitch/Episode_1_Hello_World.mp3" length="34812723" type="audio/mpeg"/>
+            <content:encoded>Jonathan and Kelli talk about the Nitch concept, touch events, and offline web apps.</content:encoded>
+            <itunes:author>Nitch</itunes:author>
+            <itunes:duration>35:29</itunes:duration>
+            <itunes:subtitle>Jonathan and Kelli talk about the Nitch concept, touch events, and offline web apps.</itunes:subtitle>
+            <itunes:summary>Jonathan and Kelli talk about the Nitch concept, touch events, and offline web apps.</itunes:summary>
+            <itunes:keywords>web, mobile, html5, rest, json</itunes:keywords>
+            <itunes:image href="http://nitch.cc/img/512x512.png"/>
+            <media:content url="https://s3.amazonaws.com/nitch/Episode_1_Hello_World.mp3" fileSize="34812723" type="audio/mpeg"/>
+            <itunes:explicit>no</itunes:explicit>
+        </item>
+        <item>
+            <title>Episode 2: Eyeball Polish</title>
+            <link>http://nitch.cc/podcast/episode-2-eyeball-polish</link>
+            <guid>http://nitch.cc/podcast/episode-2-eyeball-polish</guid>
+            <pubDate>Mon, 16 Apr 2012 14:00:00 GMT</pubDate>
+            <author>Nitch</author>
+            <description>Jonathan and Kelli talk about HTML source order issues, painless API documentation, frictionless blogging with static Markdown files, people vs users, esoteric htaccess bugs, polishing eyeballs, and more.</description>
+            <enclosure url="https://s3.amazonaws.com/nitch/Episode_2_Eyeball_Polish.mp3" length="34603008" type="audio/mpeg"/>
+            <content:encoded>Jonathan and Kelli talk about HTML source order issues, painless API documentation, frictionless blogging with static Markdown files, people vs users, esoteric htaccess bugs, polishing eyeballs, and more.</content:encoded>
+            <itunes:author>Nitch</itunes:author>
+            <itunes:duration>34:39</itunes:duration>
+            <itunes:subtitle>Jonathan and Kelli talk about HTML source order issues, painless API documentation, frictionless blogging with static Markdown files, people vs users, esoteric htaccess bugs, polishing eyeballs, and more.</itunes:subtitle>
+            <itunes:summary>Jonathan and Kelli talk about HTML source order issues, painless API documentation, frictionless blogging with static Markdown files, people vs users, esoteric htaccess bugs, polishing eyeballs, and more.</itunes:summary>
+            <itunes:keywords>web, mobile, html5, rest, json</itunes:keywords>
+            <itunes:image href="http://nitch.cc/img/512x512.png"/>
+            <media:content url="https://s3.amazonaws.com/nitch/Episode_2_Eyeball_Polish.mp3" fileSize="34603008" type="audio/mpeg"/>
+            <itunes:explicit>no</itunes:explicit>
+        </item>
+        <item>
+            <title>Episode 3: Nicefully Degradationing</title>
+            <link>http://nitch.cc/podcast/episode-3-nicefully-degradationing</link>
+            <guid>http://nitch.cc/podcast/episode-3-nicefully-degradationing</guid>
+            <pubDate>Tue, 24 Apr 2012 14:00:00 GMT</pubDate>
+            <author>Nitch</author>
+            <description>Jonathan and Kelli talk about everything under the sun this week: ghost clicks in Availio, EOF merge conflicts in git, database events with Boutique.js, confusion about CORS, bitmapped text clipping paths on retina iPad, fun with the file API, and much more.</description>
+            <enclosure url="https://s3.amazonaws.com/nitch/Episode_3_Nicefully_Degradationing.mp3" length="42991616" type="audio/mpeg"/>
+            <content:encoded>Jonathan and Kelli talk about everything under the sun this week: ghost clicks in Availio, EOF merge conflicts in git, database events with Boutique.js, confusion about CORS, bitmapped text clipping paths on retina iPad, fun with the file API, and much more.</content:encoded>
+            <itunes:author>Nitch</itunes:author>
+            <itunes:duration>43:48</itunes:duration>
+            <itunes:subtitle>Jonathan and Kelli talk about everything under the sun this week: ghost clicks in Availio, EOF merge conflicts in git, database events with Boutique.js, confusion about CORS, bitmapped text clipping paths on retina iPad, fun with the file API, and much more.</itunes:subtitle>
+            <itunes:summary>Jonathan and Kelli talk about everything under the sun this week: ghost clicks in Availio, EOF merge conflicts in git, database events with Boutique.js, confusion about CORS, bitmapped text clipping paths on retina iPad, fun with the file API, and much more.</itunes:summary>
+            <itunes:keywords>web, mobile, html5, rest, json</itunes:keywords>
+            <itunes:image href="http://nitch.cc/img/512x512.png"/>
+            <media:content url="https://s3.amazonaws.com/nitch/Episode_3_Nicefully_Degradationing.mp3" fileSize="42991616" type="audio/mpeg"/>
+            <itunes:explicit>no</itunes:explicit>
+        </item>
+        <item>
+            <title>Episode 4: Passive Aggressive Elbow Guy</title>
+            <link>http://nitch.cc/podcast/episode-4-passive-aggressive-elbow-guy</link>
+            <guid>http://nitch.cc/podcast/episode-4-passive-aggressive-elbow-guy</guid>
+            <pubDate>Wed, 02 May 2012 14:00:00 GMT</pubDate>
+            <author>Nitch</author>
+            <description>Jonathan and Kelli talk about REST APIs, automated testing, and knowing the rules before you break them.</description>
+            <enclosure url="https://s3.amazonaws.com/nitch/Episode_4_Passive_Aggressive_Elbow_Guy.mp3" length="37539021" type="audio/mpeg"/>
+            <content:encoded>Jonathan and Kelli talk about REST APIs, automated testing, and knowing the rules before you break them.</content:encoded>
+            <itunes:author>Nitch</itunes:author>
+            <itunes:duration>37:04</itunes:duration>
+            <itunes:subtitle>Jonathan and Kelli talk about REST APIs, automated testing, and knowing the rules before you break them.</itunes:subtitle>
+            <itunes:summary>Jonathan and Kelli talk about REST APIs, automated testing, and knowing the rules before you break them.</itunes:summary>
+            <itunes:keywords>web, mobile, html5, rest, json</itunes:keywords>
+            <itunes:image href="http://nitch.cc/img/512x512.png"/>
+            <media:content url="https://s3.amazonaws.com/nitch/Episode_4_Passive_Aggressive_Elbow_Guy.mp3" fileSize="37539021" type="audio/mpeg"/>
+            <itunes:explicit>no</itunes:explicit>
+        </item>
+        <item>
+            <title>Episode 5: Whack A Mole</title>
+            <link>http://nitch.cc/podcast/episode-5-whack-a-mole</link>
+            <guid>http://nitch.cc/podcast/episode-5-whack-a-mole</guid>
+            <pubDate>Wed, 09 May 2012 14:00:00 GMT</pubDate>
+            <author>Nitch</author>
+            <description>Jonathan and Kelli talk about writing API docs before API code, the advantages of progressive enhancement over graceful degradation, and the lost art of writing SQL queries.</description>
+            <enclosure url="https://s3.amazonaws.com/nitch/Episode_5_Whack_A_Mole.mp3" length="53582234" type="audio/mpeg"/>
+            <content:encoded>Jonathan and Kelli talk about writing API docs before API code, the advantages of progressive enhancement over graceful degradation, and the lost art of writing SQL queries.</content:encoded>
+            <itunes:author>Nitch</itunes:author>
+            <itunes:duration>50:57</itunes:duration>
+            <itunes:subtitle>Jonathan and Kelli talk about writing API docs before API code, the advantages of progressive enhancement over graceful degradation, and the lost art of writing SQL queries.</itunes:subtitle>
+            <itunes:summary>Jonathan and Kelli talk about writing API docs before API code, the advantages of progressive enhancement over graceful degradation, and the lost art of writing SQL queries.</itunes:summary>
+            <itunes:keywords>web, mobile, html5, rest, json</itunes:keywords>
+            <itunes:image href="http://nitch.cc/img/512x512.png"/>
+            <media:content url="https://s3.amazonaws.com/nitch/Episode_5_Whack_A_Mole.mp3" fileSize="53582234" type="audio/mpeg"/>
+            <itunes:explicit>no</itunes:explicit>
+        </item>
+        <item>
+            <title>Episode 6: The Dot Is Optional</title>
+            <link>http://nitch.cc/podcast/episode-6-the-dot-is-optional</link>
+            <guid>http://nitch.cc/podcast/episode-6-the-dot-is-optional</guid>
+            <pubDate>Wed, 16 May 2012 14:00:00 GMT</pubDate>
+            <author>Nitch</author>
+            <description>Jonathan and Kelli talk about accessing REST APIs over SMS, wrestling with Google Chat bots, confusion about the HTML5 Audio tag, and so much more.</description>
+            <enclosure url="https://s3.amazonaws.com/nitch/Episode_6_The_Dot_Is_Optional.mp3" length="49807360" type="audio/mpeg"/>
+            <content:encoded>Jonathan and Kelli talk about accessing REST APIs over SMS, wrestling with Google Chat bots, confusion about the HTML5 Audio tag, and so much more.</content:encoded>
+            <itunes:author>Nitch</itunes:author>
+            <itunes:duration>47:17</itunes:duration>
+            <itunes:subtitle>Jonathan and Kelli talk about accessing REST APIs over SMS, wrestling with Google Chat bots, confusion about the HTML5 Audio tag, and so much more.</itunes:subtitle>
+            <itunes:summary>Jonathan and Kelli talk about accessing REST APIs over SMS, wrestling with Google Chat bots, confusion about the HTML5 Audio tag, and so much more.</itunes:summary>
+            <itunes:keywords>web, mobile, html5, rest, json</itunes:keywords>
+            <itunes:image href="http://nitch.cc/img/512x512.png"/>
+            <media:content url="https://s3.amazonaws.com/nitch/Episode_6_The_Dot_Is_Optional.mp3" fileSize="49807360" type="audio/mpeg"/>
+            <itunes:explicit>no</itunes:explicit>
+        </item>
+        <item>
+            <title>Episode 7: Suckaphobia</title>
+            <link>http://nitch.cc/podcast/episode-7-suckaphobia</link>
+            <guid>http://nitch.cc/podcast/episode-7-suckaphobia</guid>
+            <pubDate>Wed, 23 May 2012 14:00:00 GMT</pubDate>
+            <author>Nitch</author>
+            <description>Jonathan and Kelli talk about audio tag support in Firefox, the allure of nosql key-value store Redis, the emotional impact of SMS vs the mobile web, and enjoy a visit from a very special guest - J's blue Kenmore Intuition vacuum cleaner.</description>
+            <enclosure url="https://s3.amazonaws.com/nitch/Episode_7_Suckaphobia.mp3" length="71512883" type="audio/mpeg"/>
+            <content:encoded>Jonathan and Kelli talk about audio tag support in Firefox, the allure of nosql key-value store Redis, the emotional impact of SMS vs the mobile web, and enjoy a visit from a very special guest - J's blue Kenmore Intuition vacuum cleaner.</content:encoded>
+            <itunes:author>Nitch</itunes:author>
+            <itunes:duration>1:11:03</itunes:duration>
+            <itunes:subtitle>Jonathan and Kelli talk about audio tag support in Firefox, the allure of nosql key-value store Redis, the emotional impact of SMS vs the mobile web, and enjoy a visit from a very special guest - J's blue Kenmore Intuition vacuum cleaner.</itunes:subtitle>
+            <itunes:summary>Jonathan and Kelli talk about audio tag support in Firefox, the allure of nosql key-value store Redis, the emotional impact of SMS vs the mobile web, and enjoy a visit from a very special guest - J's blue Kenmore Intuition vacuum cleaner.</itunes:summary>
+            <itunes:keywords>web, mobile, html5, rest, json</itunes:keywords>
+            <itunes:image href="http://nitch.cc/img/512x512.png"/>
+            <media:content url="https://s3.amazonaws.com/nitch/Episode_7_Suckaphobia.mp3" fileSize="71512883" type="audio/mpeg"/>
+            <itunes:explicit>no</itunes:explicit>
+        </item>
+        <item>
+            <title>Episode 8: Barely Broken</title>
+            <link>http://nitch.cc/podcast/episode-8-barely-broken</link>
+            <guid>http://nitch.cc/podcast/episode-8-barely-broken</guid>
+            <pubDate>Wed, 30 May 2012 14:00:00 GMT</pubDate>
+            <author>Nitch</author>
+            <description>Jonathan and Kelli have a rambling chat about broken feet, bad movies, and bocce night in an attempt to talk about anything but Availio. Spoiler alert: we fail miserably.</description>
+            <enclosure url="https://s3.amazonaws.com/nitch/Episode_8_Barely_Broken.mp3" length="53582234" type="audio/mpeg"/>
+            <content:encoded>Jonathan and Kelli have a rambling chat about broken feet, bad movies, and bocce night in an attempt to talk about anything but Availio. Spoiler alert: we fail miserably.</content:encoded>
+            <itunes:author>Nitch</itunes:author>
+            <itunes:duration>55:53</itunes:duration>
+            <itunes:subtitle>Jonathan and Kelli have a rambling chat about broken feet, bad movies, and bocce night in an attempt to talk about anything but Availio. Spoiler alert: we fail miserably.</itunes:subtitle>
+            <itunes:summary>Jonathan and Kelli have a rambling chat about broken feet, bad movies, and bocce night in an attempt to talk about anything but Availio. Spoiler alert: we fail miserably.</itunes:summary>
+            <itunes:keywords>web, mobile, html5, rest, json</itunes:keywords>
+            <itunes:image href="http://nitch.cc/img/512x512.png"/>
+            <media:content url="https://s3.amazonaws.com/nitch/Episode_8_Barely_Broken.mp3" fileSize="53582234" type="audio/mpeg"/>
+            <itunes:explicit>no</itunes:explicit>
+        </item>
+        <item>
+            <title>Episode 9: Naked Dogs</title>
+            <link>http://nitch.cc/podcast/episode-9-naked-dogs</link>
+            <guid>http://nitch.cc/podcast/episode-9-naked-dogs</guid>
+            <pubDate>Wed, 06 Jun 2012 14:00:00 GMT</pubDate>
+            <author>Nitch</author>
+            <description>Jonathan and Kelli apologize to the internet, shave our dogs, and discuss tools, tools, and more tools: wireframing, prototyping, documentation, debugging, and everyone's favorite - time tracking.</description>
+            <enclosure url="https://s3.amazonaws.com/nitch/Episode_9_Naked_Dogs.mp3" length="57042534" type="audio/mpeg"/>
+            <content:encoded>Jonathan and Kelli apologize to the internet, shave our dogs, and discuss tools, tools, and more tools: wireframing, prototyping, documentation, debugging, and everyone's favorite - time tracking.</content:encoded>
+            <itunes:author>Nitch</itunes:author>
+            <itunes:duration>56:40</itunes:duration>
+            <itunes:subtitle>Jonathan and Kelli apologize to the internet, shave our dogs, and discuss tools, tools, and more tools: wireframing, prototyping, documentation, debugging, and everyone's favorite - time tracking.</itunes:subtitle>
+            <itunes:summary>Jonathan and Kelli apologize to the internet, shave our dogs, and discuss tools, tools, and more tools: wireframing, prototyping, documentation, debugging, and everyone's favorite - time tracking.</itunes:summary>
+            <itunes:keywords>web, mobile, html5, rest, json</itunes:keywords>
+            <itunes:image href="http://nitch.cc/img/512x512.png"/>
+            <media:content url="https://s3.amazonaws.com/nitch/Episode_9_Naked_Dogs.mp3" fileSize="57042534" type="audio/mpeg"/>
+            <itunes:explicit>no</itunes:explicit>
+        </item>
+        <item>
+            <title>Episode 10: Tub Slumber</title>
+            <link>http://nitch.cc/podcast/episode-10-tub-slumber</link>
+            <guid>http://nitch.cc/podcast/episode-10-tub-slumber</guid>
+            <pubDate>Wed, 13 Jun 2012 14:00:00 GMT</pubDate>
+            <author>Nitch</author>
+            <description>Jonathan and Kelli explain why the mobile web is really just a warning shot in the wireless revolution, what content creators can do to prepare for interactive Coke bottles, and the difference between portable and mobile devices. But not before we spend some time navel gazing in honor of our tenth episode.</description>
+            <enclosure url="https://s3.amazonaws.com/nitch/Episode_10_Tub_Slumber.mp3" length="64172851" type="audio/mpeg"/>
+            <content:encoded>Jonathan and Kelli explain why the mobile web is really just a warning shot in the wireless revolution, what content creators can do to prepare for interactive Coke bottles, and the difference between portable and mobile devices. But not before we spend some time navel gazing in honor of our tenth episode.</content:encoded>
+            <itunes:author>Nitch</itunes:author>
+            <itunes:duration>1:06:56</itunes:duration>
+            <itunes:subtitle>Jonathan and Kelli explain why the mobile web is really just a warning shot in the wireless revolution, what content creators can do to prepare for interactive Coke bottles, and the difference between portable and mobile devices. But not before we spend some time navel gazing in honor of our tenth episode.</itunes:subtitle>
+            <itunes:summary>Jonathan and Kelli explain why the mobile web is really just a warning shot in the wireless revolution, what content creators can do to prepare for interactive Coke bottles, and the difference between portable and mobile devices. But not before we spend some time navel gazing in honor of our tenth episode.</itunes:summary>
+            <itunes:keywords>web, mobile, html5, rest, json</itunes:keywords>
+            <itunes:image href="http://nitch.cc/img/512x512.png"/>
+            <media:content url="https://s3.amazonaws.com/nitch/Episode_10_Tub_Slumber.mp3" fileSize="64172851" type="audio/mpeg"/>
+            <itunes:explicit>no</itunes:explicit>
+        </item>
+        <item>
+            <title>Episode 11: Kelli With One I</title>
+            <link>http://nitch.cc/podcast/episode-11-kelli-with-one-i</link>
+            <guid>http://nitch.cc/podcast/episode-11-kelli-with-one-i</guid>
+            <pubDate>Fri, 22 Jun 2012 14:00:00 GMT</pubDate>
+            <author>Nitch</author>
+            <description>Jonathan and Kelli suggest a process for developing apps that run everywhere, share anecdotes about the alarming insecurity of telephonic communications, and wonder aloud about what will become of our website when we eventually shed this mortal coil. Grab yer hanky... it's a very special episode of the Nitch Podcast.</description>
+            <enclosure url="https://s3.amazonaws.com/nitch/Episode_11_Kelli_With_One_I.mp3" length="64172851" type="audio/mpeg"/>
+            <content:encoded>Jonathan and Kelli suggest a process for developing apps that run everywhere, share anecdotes about the alarming insecurity of telephonic communications, and wonder aloud about what will become of our website when we eventually shed this mortal coil. Grab yer hanky... it's a very special episode of the Nitch Podcast.</content:encoded>
+            <itunes:author>Nitch</itunes:author>
+            <itunes:duration>1:05:30</itunes:duration>
+            <itunes:subtitle>Jonathan and Kelli suggest a process for developing apps that run everywhere, share anecdotes about the alarming insecurity of telephonic communications, and wonder aloud about what will become of our website when we eventually shed this mortal coil. Grab yer hanky... it's a very special episode of the Nitch Podcast.</itunes:subtitle>
+            <itunes:summary>Jonathan and Kelli suggest a process for developing apps that run everywhere, share anecdotes about the alarming insecurity of telephonic communications, and wonder aloud about what will become of our website when we eventually shed this mortal coil. Grab yer hanky... it's a very special episode of the Nitch Podcast.</itunes:summary>
+            <itunes:keywords>web, mobile, html5, rest, json</itunes:keywords>
+            <itunes:image href="http://nitch.cc/img/512x512.png"/>
+            <media:content url="https://s3.amazonaws.com/nitch/Episode_11_Kelli_With_One_I.mp3" fileSize="64172851" type="audio/mpeg"/>
+            <itunes:explicit>no</itunes:explicit>
+        </item>
+        <item>
+            <title>Episode 12: Snail Says Meow</title>
+            <link>http://nitch.cc/podcast/episode-12-snail-says-meow</link>
+            <guid>http://nitch.cc/podcast/episode-12-snail-says-meow</guid>
+            <pubDate>Fri, 29 Jun 2012 14:00:00 GMT</pubDate>
+            <author>Nitch</author>
+            <description>Jonathan and Kelli talk about X header deprecation, Margo ported to Ruby, database migrations with Active Record, and all things AWS.</description>
+            <enclosure url="https://s3.amazonaws.com/nitch/Episode_12_Snail_Says_Meow.mp3" length="64172851" type="audio/mpeg"/>
+            <content:encoded>Jonathan and Kelli talk about X header deprecation, Margo ported to Ruby, database migrations with Active Record, and all things AWS.</content:encoded>
+            <itunes:author>Nitch</itunes:author>
+            <itunes:duration>1:07:04</itunes:duration>
+            <itunes:subtitle>Jonathan and Kelli talk about X header deprecation, Margo ported to Ruby, database migrations with Active Record, and all things AWS.</itunes:subtitle>
+            <itunes:summary>Jonathan and Kelli talk about X header deprecation, Margo ported to Ruby, database migrations with Active Record, and all things AWS.</itunes:summary>
+            <itunes:keywords>web, mobile, html5, rest, json</itunes:keywords>
+            <itunes:image href="http://nitch.cc/img/512x512.png"/>
+            <media:content url="https://s3.amazonaws.com/nitch/Episode_12_Snail_Says_Meow.mp3" fileSize="64172851" type="audio/mpeg"/>
+            <itunes:explicit>no</itunes:explicit>
+        </item>
+        <item>
+            <title>Episode 13: Leftover Shrimp</title>
+            <link>http://nitch.cc/podcast/episode-13-leftover-shrimp</link>
+            <guid>http://nitch.cc/podcast/episode-13-leftover-shrimp</guid>
+            <pubDate>Fri, 06 Jul 2012 14:00:00 GMT</pubDate>
+            <author>Nitch</author>
+            <description>Jonathan and Kelli talk about X header deprecation, Margo ported to Ruby, database migrations with Active Record, and all things AWS.</description>
+            <enclosure url="https://s3.amazonaws.com/nitch/Episode_13_Leftover_Shrimp.mp3" length="64172851" type="audio/mpeg"/>
+            <content:encoded>Jonathan and Kelli talk about the process of starting a mobile development project, the psychology of native apps vs web apps, and why we think companies should embrace cloud computing ASAP.</content:encoded>
+            <itunes:author>Nitch</itunes:author>
+            <itunes:duration>1:08:29</itunes:duration>
+            <itunes:subtitle>Jonathan and Kelli talk about the process of starting a mobile development project, the psychology of native apps vs web apps, and why we think companies should embrace cloud computing ASAP.</itunes:subtitle>
+            <itunes:summary>Jonathan and Kelli talk about the process of starting a mobile development project, the psychology of native apps vs web apps, and why we think companies should embrace cloud computing ASAP.</itunes:summary>
+            <itunes:keywords>web, mobile, html5, rest, json</itunes:keywords>
+            <itunes:image href="http://nitch.cc/img/512x512.png"/>
+            <media:content url="https://s3.amazonaws.com/nitch/Episode_13_Leftover_Shrimp.mp3" fileSize="64172851" type="audio/mpeg"/>
+            <itunes:explicit>no</itunes:explicit>
+        </item>
+        <item>
+            <title>Episode 14: Got Elephants?</title>
+            <link>http://nitch.cc/podcast/episode-14-got-elephants</link>
+            <guid>http://nitch.cc/podcast/episode-14-got-elephants</guid>
+            <pubDate>Fri, 13 Jul 2012 14:00:00 GMT</pubDate>
+            <author>Nitch</author>
+            <description>Jonathan and Kelli talk about ActiveRecord and SQL views, complexity in the database vs the middleware, HATEOAS vs OPTIONS requests, and much MUCH more. Coffee printers, predator pee, and the future of bricks and mortar retailers, for example.</description>
+            <enclosure url="https://s3.amazonaws.com/nitch/Episode_14_Got_Elephants.mp3" length="64172851" type="audio/mpeg"/>
+            <content:encoded>Jonathan and Kelli talk about ActiveRecord and SQL views, complexity in the database vs the middleware, HATEOAS vs OPTIONS requests, and much MUCH more. Coffee printers, predator pee, and the future of bricks and mortar retailers, for example.</content:encoded>
+            <itunes:author>Nitch</itunes:author>
+            <itunes:duration>1:08:21</itunes:duration>
+            <itunes:subtitle>Jonathan and Kelli talk about ActiveRecord and SQL views, complexity in the database vs the middleware, HATEOAS vs OPTIONS requests, and much MUCH more. Coffee printers, predator pee, and the future of bricks and mortar retailers, for example.</itunes:subtitle>
+            <itunes:summary>Jonathan and Kelli talk about ActiveRecord and SQL views, complexity in the database vs the middleware, HATEOAS vs OPTIONS requests, and much MUCH more. Coffee printers, predator pee, and the future of bricks and mortar retailers, for example.</itunes:summary>
+            <itunes:keywords>web, mobile, html5, rest, json</itunes:keywords>
+            <itunes:image href="http://nitch.cc/img/512x512.png"/>
+            <media:content url="https://s3.amazonaws.com/nitch/Episode_14_Got_Elephants.mp3" fileSize="64172851" type="audio/mpeg"/>
+            <itunes:explicit>no</itunes:explicit>
+        </item>
+        <item>
+            <title>Episode 15: Interesting Or What Have You</title>
+            <link>http://nitch.cc/podcast/episode-15-interesting-or-what-have-you</link>
+            <guid>http://nitch.cc/podcast/episode-15-interesting-or-what-have-you</guid>
+            <pubDate>Fri, 20 Jul 2012 14:00:00 GMT</pubDate>
+            <author>Nitch</author>
+            <description>Jonathan and Kelli talk about mobile web debugging tools, the moral conflict of using tables for layout, and development principles vs client demands. Also this week, The Nitch Podcast Drinking Game is born. WARNING: The audio is absolutely atrocious this week, so proceed at your own risk. Sorry!</description>
+            <enclosure url="https://s3.amazonaws.com/nitch/Episode_15_Interesting_Or_What_Have_You.mp3" length="64172851" type="audio/mpeg"/>
+            <content:encoded>Jonathan and Kelli talk about mobile web debugging tools, the moral conflict of using tables for layout, and development principles vs client demands. Also this week, The Nitch Podcast Drinking Game is born. WARNING: The audio is absolutely atrocious this week, so proceed at your own risk. Sorry!</content:encoded>
+            <itunes:author>Nitch</itunes:author>
+            <itunes:duration>59:25</itunes:duration>
+            <itunes:subtitle>Jonathan and Kelli talk about mobile web debugging tools, the moral conflict of using tables for layout, and development principles vs client demands. Also this week, The Nitch Podcast Drinking Game is born. WARNING: The audio is absolutely atrocious this week, so proceed at your own risk. Sorry!</itunes:subtitle>
+            <itunes:summary>Jonathan and Kelli talk about mobile web debugging tools, the moral conflict of using tables for layout, and development principles vs client demands. Also this week, The Nitch Podcast Drinking Game is born. WARNING: The audio is absolutely atrocious this week, so proceed at your own risk. Sorry!</itunes:summary>
+            <itunes:keywords>web, mobile, html5, rest, json</itunes:keywords>
+            <itunes:image href="http://nitch.cc/img/512x512.png"/>
+            <media:content url="https://s3.amazonaws.com/nitch/Episode_15_Interesting_Or_What_Have_You.mp3" fileSize="64172851" type="audio/mpeg"/>
+            <itunes:explicit>no</itunes:explicit>
+        </item>
+        <item>
+            <title>Episode 16: Terrifying Robot Dog</title>
+            <link>http://nitch.cc/podcast/episode-16-terrifying-robot-dog</link>
+            <guid>http://nitch.cc/podcast/episode-16-terrifying-robot-dog</guid>
+            <pubDate>Fri, 27 Jul 2012 14:00:00 GMT</pubDate>
+            <author>Nitch</author>
+            <description>Jonathan and Kelli begin with many-to-many self joins with ActiveRecord, "sticky-finger" swipe in the People.com mobile site, and a philosophy of comments for self-documenting code. And then we go totally off the reservation with broadcasting human senses, cars for the blind, and a truly terrifying robot dog. Fun!</description>
+            <enclosure url="https://s3.amazonaws.com/nitch/Episode_16_Terrifying_Robot_Dog.mp3" length="64172851" type="audio/mpeg"/>
+            <content:encoded>Jonathan and Kelli begin with many-to-many self joins with ActiveRecord, "sticky-finger" swipe in the People.com mobile site, and a philosophy of comments for self-documenting code. And then we go totally off the reservation with broadcasting human senses, cars for the blind, and a truly terrifying robot dog. Fun!</content:encoded>
+            <itunes:author>Nitch</itunes:author>
+            <itunes:duration>1:24:56</itunes:duration>
+            <itunes:subtitle>Jonathan and Kelli begin with many-to-many self joins with ActiveRecord, "sticky-finger" swipe in the People.com mobile site, and a philosophy of comments for self-documenting code. And then we go totally off the reservation with broadcasting human senses, cars for the blind, and a truly terrifying robot dog. Fun!</itunes:subtitle>
+            <itunes:summary>Jonathan and Kelli begin with many-to-many self joins with ActiveRecord, "sticky-finger" swipe in the People.com mobile site, and a philosophy of comments for self-documenting code. And then we go totally off the reservation with broadcasting human senses, cars for the blind, and a truly terrifying robot dog. Fun!</itunes:summary>
+            <itunes:keywords>web, mobile, html5, rest, json</itunes:keywords>
+            <itunes:image href="http://nitch.cc/img/512x512.png"/>
+            <media:content url="https://s3.amazonaws.com/nitch/Episode_16_Terrifying_Robot_Dog.mp3" fileSize="64172851" type="audio/mpeg"/>
+            <itunes:explicit>no</itunes:explicit>
+        </item>
+        <item>
+            <title>Episode 17: Bad Guy Boss</title>
+            <link>http://nitch.cc/podcast/episode-17-bad-guy-boss</link>
+            <guid>http://nitch.cc/podcast/episode-17-bad-guy-boss</guid>
+            <pubDate>Fri, 03 Aug 2012 14:00:00 GMT</pubDate>
+            <author>Nitch</author>
+            <description>Jonathan and Kelli talk about the genius of "view source" in web browsers, idealism vs reality in responsive web design, and freedom vs control in the coming wireless society.</description>
+            <enclosure url="https://s3.amazonaws.com/nitch/Episode_17_Bad_Guy_Boss.mp3" length="64172851" type="audio/mpeg"/>
+            <content:encoded>Jonathan and Kelli talk about the genius of "view source" in web browsers, idealism vs reality in responsive web design, and freedom vs control in the coming wireless society.</content:encoded>
+            <itunes:author>Nitch</itunes:author>
+            <itunes:duration>1:02:07</itunes:duration>
+            <itunes:subtitle>Jonathan and Kelli talk about the genius of "view source" in web browsers, idealism vs reality in responsive web design, and freedom vs control in the coming wireless society.</itunes:subtitle>
+            <itunes:summary>Jonathan and Kelli talk about the genius of "view source" in web browsers, idealism vs reality in responsive web design, and freedom vs control in the coming wireless society.</itunes:summary>
+            <itunes:keywords>web, mobile, html5, rest, json</itunes:keywords>
+            <itunes:image href="http://nitch.cc/img/512x512.png"/>
+            <media:content url="https://s3.amazonaws.com/nitch/Episode_17_Bad_Guy_Boss.mp3" fileSize="64172851" type="audio/mpeg"/>
+            <itunes:explicit>no</itunes:explicit>
+        </item>
+        <item>
+            <title>Episode 18: Why Is The Bathroom Clean?</title>
+            <link>http://nitch.cc/podcast/episode-18-why-is-the-bathroom-clean</link>
+            <guid>http://nitch.cc/podcast/episode-18-why-is-the-bathroom-clean</guid>
+            <pubDate>Fri, 10 Aug 2012 14:00:00 GMT</pubDate>
+            <author>Nitch</author>
+            <description>Jonathan and Kelli rag on cross-origin resource sharing, defend php as a REST framework language, and open sources oranges. Then we head into the weeds with sms for dogs, digital pills, and trusting your eyesight to a computer.</description>
+            <enclosure url="https://s3.amazonaws.com/nitch/Episode_18_Why_Is_The_Bathroom_Clean.mp3" length="64172851" type="audio/mpeg"/>
+            <content:encoded>Jonathan and Kelli rag on cross-origin resource sharing, defend php as a REST framework language, and open sources oranges. Then we head into the weeds with sms for dogs, digital pills, and trusting your eyesight to a computer.</content:encoded>
+            <itunes:author>Nitch</itunes:author>
+            <itunes:duration>1:05:44</itunes:duration>
+            <itunes:subtitle>Jonathan and Kelli rag on cross-origin resource sharing, defend php as a REST framework language, and open sources oranges. Then we head into the weeds with sms for dogs, digital pills, and trusting your eyesight to a computer.</itunes:subtitle>
+            <itunes:summary>Jonathan and Kelli rag on cross-origin resource sharing, defend php as a REST framework language, and open sources oranges. Then we head into the weeds with sms for dogs, digital pills, and trusting your eyesight to a computer.</itunes:summary>
+            <itunes:keywords>web, mobile, html5, rest, json</itunes:keywords>
+            <itunes:image href="http://nitch.cc/img/512x512.png"/>
+            <media:content url="https://s3.amazonaws.com/nitch/Episode_18_Why_Is_The_Bathroom_Clean.mp3" fileSize="64172851" type="audio/mpeg"/>
+            <itunes:explicit>no</itunes:explicit>
+        </item>
+        <item>
+            <title>Episode 19: Flintstoning It</title>
+            <link>http://nitch.cc/podcast/episode-19-flintstoning-it</link>
+            <guid>http://nitch.cc/podcast/episode-19-flintstoning-it</guid>
+            <pubDate>Fri, 17 Aug 2012 14:00:00 GMT</pubDate>
+            <author>Nitch</author>
+            <description>Jonathan and Kelli apologize to the authors of the CORS spec, explain why the Web vs Native debate is a red herring, and wonder aloud what will happen to all the soon to be unemployed cabbies in Boston.</description>
+            <enclosure url="https://s3.amazonaws.com/nitch/Episode_19_Flintstoning_It.mp3" length="64172851" type="audio/mpeg"/>
+            <content:encoded>Jonathan and Kelli apologize to the authors of the CORS spec, explain why the Web vs Native debate is a red herring, and wonder aloud what will happen to all the soon to be unemployed cabbies in Boston.</content:encoded>
+            <itunes:author>Nitch</itunes:author>
+            <itunes:duration>1:03:22</itunes:duration>
+            <itunes:subtitle>Jonathan and Kelli apologize to the authors of the CORS spec, explain why the Web vs Native debate is a red herring, and wonder aloud what will happen to all the soon to be unemployed cabbies in Boston.</itunes:subtitle>
+            <itunes:summary>Jonathan and Kelli apologize to the authors of the CORS spec, explain why the Web vs Native debate is a red herring, and wonder aloud what will happen to all the soon to be unemployed cabbies in Boston.</itunes:summary>
+            <itunes:keywords>web, mobile, html5, rest, json</itunes:keywords>
+            <itunes:image href="http://nitch.cc/img/512x512.png"/>
+            <media:content url="https://s3.amazonaws.com/nitch/Episode_19_Flintstoning_It.mp3" fileSize="64172851" type="audio/mpeg"/>
+            <itunes:explicit>no</itunes:explicit>
+        </item>
+        <item>
+            <title>Episode 20: Disembodied iPads</title>
+            <link>http://nitch.cc/podcast/episode-20-disembodied-ipads</link>
+            <guid>http://nitch.cc/podcast/episode-20-disembodied-ipads</guid>
+            <pubDate>Fri, 24 Aug 2012 14:00:00 GMT</pubDate>
+            <author>Nitch</author>
+            <description>Jonathan and Kelli talk about programming for a world where everyone has multiple connected devices, the tension between graphic design vs responsive design, and the challenges of managing open-source projects. But not before we spend 15 or so minutes waffling about juice fasts, coding as a family, and mousing with your face. You've been warned.</description>
+            <enclosure url="https://s3.amazonaws.com/nitch/Episode_20_Disembodied_iPads.mp3" length="64172851" type="audio/mpeg"/>
+            <content:encoded>Jonathan and Kelli talk about programming for a world where everyone has multiple connected devices, the tension between graphic design vs responsive design, and the challenges of managing open-source projects. But not before we spend 15 or so minutes waffling about juice fasts, coding as a family, and mousing with your face. You've been warned.</content:encoded>
+            <itunes:author>Nitch</itunes:author>
+            <itunes:duration>1:04:04</itunes:duration>
+            <itunes:subtitle>Jonathan and Kelli talk about programming for a world where everyone has multiple connected devices, the tension between graphic design vs responsive design, and the challenges of managing open-source projects. But not before we spend 15 or so minutes waffling about juice fasts, coding as a family, and mousing with your face. You've been warned.</itunes:subtitle>
+            <itunes:summary>Jonathan and Kelli talk about programming for a world where everyone has multiple connected devices, the tension between graphic design vs responsive design, and the challenges of managing open-source projects. But not before we spend 15 or so minutes waffling about juice fasts, coding as a family, and mousing with your face. You've been warned.</itunes:summary>
+            <itunes:keywords>web, mobile, html5, rest, json</itunes:keywords>
+            <itunes:image href="http://nitch.cc/img/512x512.png"/>
+            <media:content url="https://s3.amazonaws.com/nitch/Episode_20_Disembodied_iPads.mp3" fileSize="64172851" type="audio/mpeg"/>
+            <itunes:explicit>no</itunes:explicit>
+        </item>
+        <item>
+            <title>Episode 21: There's A Cream For That</title>
+            <link>http://nitch.cc/podcast/episode-21-there's-a-cream-for-that</link>
+            <guid>http://nitch.cc/podcast/episode-21-there's-a-cream-for-that</guid>
+            <pubDate>Fri, 31 Aug 2012 14:00:00 GMT</pubDate>
+            <author>Nitch</author>
+            <description>Jonathan and Kelli talk about everything from the future of online publishing to Cochlear implant hijacking. Sorry, no intro and outro music this week. If you miss it, please complain loudly on Twitter to @nitchapps.</description>
+            <enclosure url="https://s3.amazonaws.com/nitch/Episode_21_There's_A_Cream_For_That.mp3" length="64172851" type="audio/mpeg"/>
+            <content:encoded>Jonathan and Kelli talk about everything from the future of online publishing to Cochlear implant hijacking. Sorry, no intro and outro music this week. If you miss it, please complain loudly on Twitter to @nitchapps.</content:encoded>
+            <itunes:author>Nitch</itunes:author>
+            <itunes:duration>1:15:03</itunes:duration>
+            <itunes:subtitle>Jonathan and Kelli talk about everything from the future of online publishing to Cochlear implant hijacking. Sorry, no intro and outro music this week. If you miss it, please complain loudly on Twitter to @nitchapps.</itunes:subtitle>
+            <itunes:summary>Jonathan and Kelli talk about everything from the future of online publishing to Cochlear implant hijacking. Sorry, no intro and outro music this week. If you miss it, please complain loudly on Twitter to @nitchapps.</itunes:summary>
+            <itunes:keywords>web, mobile, html5, rest, json</itunes:keywords>
+            <itunes:image href="http://nitch.cc/img/512x512.png"/>
+            <media:content url="https://s3.amazonaws.com/nitch/Episode_21_There's_A_Cream_For_That.mp3" fileSize="64172851" type="audio/mpeg"/>
+            <itunes:explicit>no</itunes:explicit>
+        </item>
+        <item>
+            <title>Episode 22: iCarpet</title>
+            <link>http://nitch.cc/podcast/episode-22-icarpet</link>
+            <guid>http://nitch.cc/podcast/episode-22-icarpet</guid>
+            <pubDate>Fri, 07 Sep 2012 14:00:00 GMT</pubDate>
+            <author>Nitch</author>
+            <description>Jonathan and Kelli warm up with responsive web design, javascript media queries, and smart carpet before diving into Apple: how to learn Objective-C in a long weekend, the awesomeness of Xcode, and why iOS will never be a dominant software platform.</description>
+            <enclosure url="https://s3.amazonaws.com/nitch/Episode_22_iCarpet.mp3" length="64172851" type="audio/mpeg"/>
+            <content:encoded>Jonathan and Kelli warm up with responsive web design, javascript media queries, and smart carpet before diving into Apple: how to learn Objective-C in a long weekend, the awesomeness of Xcode, and why iOS will never be a dominant software platform.</content:encoded>
+            <itunes:author>Nitch</itunes:author>
+            <itunes:duration>52:02</itunes:duration>
+            <itunes:subtitle>Jonathan and Kelli warm up with responsive web design, javascript media queries, and smart carpet before diving into Apple: how to learn Objective-C in a long weekend, the awesomeness of Xcode, and why iOS will never be a dominant software platform.</itunes:subtitle>
+            <itunes:summary>Jonathan and Kelli warm up with responsive web design, javascript media queries, and smart carpet before diving into Apple: how to learn Objective-C in a long weekend, the awesomeness of Xcode, and why iOS will never be a dominant software platform.</itunes:summary>
+            <itunes:keywords>web, mobile, html5, rest, json</itunes:keywords>
+            <itunes:image href="http://nitch.cc/img/512x512.png"/>
+            <media:content url="https://s3.amazonaws.com/nitch/Episode_22_iCarpet.mp3" fileSize="64172851" type="audio/mpeg"/>
+            <itunes:explicit>no</itunes:explicit>
+        </item>
+        <item>
+            <title>Episode 23: Honey Nut Hateos</title>
+            <link>http://nitch.cc/podcast/episode-23-honey-nut-hateos</link>
+            <guid>http://nitch.cc/podcast/episode-23-honey-nut-hateos</guid>
+            <pubDate>Fri, 14 Sep 2012 14:00:00 GMT</pubDate>
+            <author>Nitch</author>
+            <description>Jonathan and Kelli talk about slogging through kernel logs on AWS, Kelli's mobile first responsive redesign, self-documentation vs static docs for RESTful APIs, the future of web browsers on iOS, why Jonathan is not an hypocrite on the Facebook native app thing, and the heartwarming story of a ragtag bunch of watermelon seeds who beat the odds and go on to win the big game. Wat?</description>
+            <enclosure url="https://s3.amazonaws.com/nitch/Episode_23_Honey_Nut_Hateos.mp3" length="64172851" type="audio/mpeg"/>
+            <content:encoded>Jonathan and Kelli talk about slogging through kernel logs on AWS, Kelli's mobile first responsive redesign, self-documentation vs static docs for RESTful APIs, the future of web browsers on iOS, why Jonathan is not an hypocrite on the Facebook native app thing, and the heartwarming story of a ragtag bunch of watermelon seeds who beat the odds and go on to win the big game. Wat?</content:encoded>
+            <itunes:author>Nitch</itunes:author>
+            <itunes:duration>52:02</itunes:duration>
+            <itunes:subtitle>Jonathan and Kelli talk about slogging through kernel logs on AWS, Kelli's mobile first responsive redesign, self-documentation vs static docs for RESTful APIs, the future of web browsers on iOS, why Jonathan is not an hypocrite on the Facebook native app thing, and the heartwarming story of a ragtag bunch of watermelon seeds who beat the odds and go on to win the big game. Wat?</itunes:subtitle>
+            <itunes:summary>Jonathan and Kelli talk about slogging through kernel logs on AWS, Kelli's mobile first responsive redesign, self-documentation vs static docs for RESTful APIs, the future of web browsers on iOS, why Jonathan is not an hypocrite on the Facebook native app thing, and the heartwarming story of a ragtag bunch of watermelon seeds who beat the odds and go on to win the big game. Wat?</itunes:summary>
+            <itunes:keywords>web, mobile, html5, rest, json</itunes:keywords>
+            <itunes:image href="http://nitch.cc/img/512x512.png"/>
+            <media:content url="https://s3.amazonaws.com/nitch/Episode_23_Honey_Nut_Hateos.mp3" fileSize="64172851" type="audio/mpeg"/>
+            <itunes:explicit>no</itunes:explicit>
+        </item>
+        <item>
+            <title>Episode 24: Three Foot Commute</title>
+            <link>http://nitch.cc/podcast/episode-24-three-foot-commute</link>
+            <guid>http://nitch.cc/podcast/episode-24-three-foot-commute</guid>
+            <pubDate>Fri, 21 Sep 2012 14:00:00 GMT</pubDate>
+            <author>Nitch</author>
+            <description>Jonathan and Kelli talk about sandwich achievements, gratuitous animations, wireless green peas, and a future without graphical user interfaces.</description>
+            <enclosure url="https://s3.amazonaws.com/nitch/Episode_24_Three_Foot_Commute.mp3" length="64172851" type="audio/mpeg"/>
+            <content:encoded>Jonathan and Kelli talk about sandwich achievements, gratuitous animations, wireless green peas, and a future without graphical user interfaces.</content:encoded>
+            <itunes:author>Nitch</itunes:author>
+            <itunes:duration>1:17:47</itunes:duration>
+            <itunes:subtitle>Jonathan and Kelli talk about sandwich achievements, gratuitous animations, wireless green peas, and a future without graphical user interfaces.</itunes:subtitle>
+            <itunes:summary>Jonathan and Kelli talk about sandwich achievements, gratuitous animations, wireless green peas, and a future without graphical user interfaces.</itunes:summary>
+            <itunes:keywords>web, mobile, html5, rest, json</itunes:keywords>
+            <itunes:image href="http://nitch.cc/img/512x512.png"/>
+            <media:content url="https://s3.amazonaws.com/nitch/Episode_24_Three_Foot_Commute.mp3" fileSize="64172851" type="audio/mpeg"/>
+            <itunes:explicit>no</itunes:explicit>
+        </item>
+        <item>
+            <title>Episode 25: Zippermouth</title>
+            <link>http://nitch.cc/podcast/episode-25-zippermouth</link>
+            <guid>http://nitch.cc/podcast/episode-25-zippermouth</guid>
+            <pubDate>Fri, 28 Sep 2012 14:00:00 GMT</pubDate>
+            <author>Nitch</author>
+            <description>Jonathan and Kelli talk about what went on in the Dallas biodome, highlights of the iPhone announcement (from 2007), Jonathan redesigns his site live out of sheer embarrassment, and then we get tooly on yoaz: text editors, CSS pre-processors, lightweight blogging engines, and... whatever CodeKit is.</description>
+            <enclosure url="https://s3.amazonaws.com/nitch/Episode_25_Zippermouth.mp3" length="64172851" type="audio/mpeg"/>
+            <content:encoded>Jonathan and Kelli talk about what went on in the Dallas biodome, highlights of the iPhone announcement (from 2007), Jonathan redesigns his site live out of sheer embarrassment, and then we get tooly on yoaz: text editors, CSS pre-processors, lightweight blogging engines, and... whatever CodeKit is.</content:encoded>
+            <itunes:author>Nitch</itunes:author>
+            <itunes:duration>1:05:57</itunes:duration>
+            <itunes:subtitle>Jonathan and Kelli talk about what went on in the Dallas biodome, highlights of the iPhone announcement (from 2007), Jonathan redesigns his site live out of sheer embarrassment, and then we get tooly on yoaz: text editors, CSS pre-processors, lightweight blogging engines, and... whatever CodeKit is.</itunes:subtitle>
+            <itunes:summary>Jonathan and Kelli talk about what went on in the Dallas biodome, highlights of the iPhone announcement (from 2007), Jonathan redesigns his site live out of sheer embarrassment, and then we get tooly on yoaz: text editors, CSS pre-processors, lightweight blogging engines, and... whatever CodeKit is.</itunes:summary>
+            <itunes:keywords>web, mobile, html5, rest, json</itunes:keywords>
+            <itunes:image href="http://nitch.cc/img/512x512.png"/>
+            <media:content url="https://s3.amazonaws.com/nitch/Episode_25_Zippermouth.mp3" fileSize="64172851" type="audio/mpeg"/>
+            <itunes:explicit>no</itunes:explicit>
+        </item>
+        <item>
+            <title>Episode 26: 900,000 Pixels Wide</title>
+            <link>http://nitch.cc/podcast/episode-26-900000-pixels-wide</link>
+            <guid>http://nitch.cc/podcast/episode-26-900000-pixels-wide</guid>
+            <pubDate>Fri, 05 Oct 2012 14:00:00 GMT</pubDate>
+            <author>Nitch</author>
+            <description>Jonathan and Kelli talk about audio augmented reality, mobile sticker shock, bitching on (and about) Twitter, and the upside of getting hacked.</description>
+            <enclosure url="https://s3.amazonaws.com/nitch/Episode_26_900000_Pixels_Wide.mp3" length="64172851" type="audio/mpeg"/>
+            <content:encoded>Jonathan and Kelli talk about audio augmented reality, mobile sticker shock, bitching on (and about) Twitter, and the upside of getting hacked.</content:encoded>
+            <itunes:author>Nitch</itunes:author>
+            <itunes:duration>1:20:10</itunes:duration>
+            <itunes:subtitle>Jonathan and Kelli talk about audio augmented reality, mobile sticker shock, bitching on (and about) Twitter, and the upside of getting hacked.</itunes:subtitle>
+            <itunes:summary>Jonathan and Kelli talk about audio augmented reality, mobile sticker shock, bitching on (and about) Twitter, and the upside of getting hacked.</itunes:summary>
+            <itunes:keywords>web, mobile, html5, rest, json</itunes:keywords>
+            <itunes:image href="http://nitch.cc/img/512x512.png"/>
+            <media:content url="https://s3.amazonaws.com/nitch/Episode_26_900000_Pixels_Wide.mp3" fileSize="64172851" type="audio/mpeg"/>
+            <itunes:explicit>no</itunes:explicit>
+        </item>
+        <item>
+            <title>Episode 27: Fishing Around In The Woods</title>
+            <link>http://nitch.cc/podcast/episode-27-fishing-around-in-the-woods</link>
+            <guid>http://nitch.cc/podcast/episode-27-fishing-around-in-the-woods</guid>
+            <pubDate>Fri, 12 Oct 2012 14:00:00 GMT</pubDate>
+            <author>Nitch</author>
+            <description>Jonathan and Kelli talk about one million things, including: what the DocBook XML grammar has in common with Beats by Dr. Dre. Yep... seriously.</description>
+            <enclosure url="https://s3.amazonaws.com/nitch/Episode_27_Fishing_Around_In_The_Woods.mp3" length="64172851" type="audio/mpeg"/>
+            <content:encoded>Jonathan and Kelli talk about one million things, including: what the DocBook XML grammar has in common with Beats by Dr. Dre. Yep... seriously.</content:encoded>
+            <itunes:author>Nitch</itunes:author>
+            <itunes:duration>1:15:11</itunes:duration>
+            <itunes:subtitle>Jonathan and Kelli talk about one million things, including: what the DocBook XML grammar has in common with Beats by Dr. Dre. Yep... seriously.</itunes:subtitle>
+            <itunes:summary>Jonathan and Kelli talk about one million things, including: what the DocBook XML grammar has in common with Beats by Dr. Dre. Yep... seriously.</itunes:summary>
+            <itunes:keywords>web, mobile, html5, rest, json</itunes:keywords>
+            <itunes:image href="http://nitch.cc/img/512x512.png"/>
+            <media:content url="https://s3.amazonaws.com/nitch/Episode_27_Fishing_Around_In_The_Woods.mp3" fileSize="64172851" type="audio/mpeg"/>
+            <itunes:explicit>no</itunes:explicit>
+        </item>
+        <item>
+            <title>Episode 28: Wrench In The Monkeyworks</title>
+            <link>http://nitch.cc/podcast/episode-28-wrench-in-the-monkeyworks</link>
+            <guid>http://nitch.cc/podcast/episode-28-wrench-in-the-monkeyworks</guid>
+            <pubDate>Fri, 19 Oct 2012 14:00:00 GMT</pubDate>
+            <author>Nitch</author>
+            <description>Jonathan and Kelli talk about red flags, cranky moodlies, viral tweets... aaaand PhoneGap, and REST APIs, and interactive SMS bots, and all the usual stuff.</description>
+            <enclosure url="https://s3.amazonaws.com/nitch/Episode_28_Wrench_In_The_Monkeyworks.mp3" length="64172851" type="audio/mpeg"/>
+            <content:encoded>Jonathan and Kelli talk about red flags, cranky moodlies, viral tweets... aaaand PhoneGap, and REST APIs, and interactive SMS bots, and all the usual stuff.</content:encoded>
+            <itunes:author>Nitch</itunes:author>
+            <itunes:duration>1:00:43</itunes:duration>
+            <itunes:subtitle>Jonathan and Kelli talk about red flags, cranky moodlies, viral tweets... aaaand PhoneGap, and REST APIs, and interactive SMS bots, and all the usual stuff.</itunes:subtitle>
+            <itunes:summary>Jonathan and Kelli talk about red flags, cranky moodlies, viral tweets... aaaand PhoneGap, and REST APIs, and interactive SMS bots, and all the usual stuff.</itunes:summary>
+            <itunes:keywords>web, mobile, html5, rest, json</itunes:keywords>
+            <itunes:image href="http://nitch.cc/img/512x512.png"/>
+            <media:content url="https://s3.amazonaws.com/nitch/Episode_28_Wrench_In_The_Monkeyworks.mp3" fileSize="64172851" type="audio/mpeg"/>
+            <itunes:explicit>no</itunes:explicit>
+        </item>
+        <item>
+            <title>Episode 29: Carl Is Not Pleased</title>
+            <link>http://nitch.cc/podcast/episode-29-carl-is-not-pleased</link>
+            <guid>http://nitch.cc/podcast/episode-29-carl-is-not-pleased</guid>
+            <pubDate>Fri, 26 Oct 2012 14:00:00 GMT</pubDate>
+            <author>Nitch</author>
+            <description>Jonathan and Kelli talk about tools, tools, and more tools: EC2, Markdown, MySQL Workbench, Sequel Pro, Sencha Architect, Zend Studio, Geek tool, and more.</description>
+            <enclosure url="https://s3.amazonaws.com/nitch/Episode_29_Carl_Is_Not_Pleased.mp3" length="64172851" type="audio/mpeg"/>
+            <content:encoded>Jonathan and Kelli talk about tools, tools, and more tools: EC2, Markdown, MySQL Workbench, Sequel Pro, Sencha Architect, Zend Studio, Geek tool, and more.</content:encoded>
+            <itunes:author>Nitch</itunes:author>
+            <itunes:duration>1:20:43</itunes:duration>
+            <itunes:subtitle>Jonathan and Kelli talk about tools, tools, and more tools: EC2, Markdown, MySQL Workbench, Sequel Pro, Sencha Architect, Zend Studio, Geek tool, and more.</itunes:subtitle>
+            <itunes:summary>Jonathan and Kelli talk about tools, tools, and more tools: EC2, Markdown, MySQL Workbench, Sequel Pro, Sencha Architect, Zend Studio, Geek tool, and more.</itunes:summary>
+            <itunes:keywords>web, mobile, html5, rest, json</itunes:keywords>
+            <itunes:image href="http://nitch.cc/img/512x512.png"/>
+            <media:content url="https://s3.amazonaws.com/nitch/Episode_29_Carl_Is_Not_Pleased.mp3" fileSize="64172851" type="audio/mpeg"/>
+            <itunes:explicit>no</itunes:explicit>
+        </item>
+        <item>
+            <title>Episode 30: The Mighty Gweed</title>
+            <link>http://nitch.cc/podcast/episode-30-the-mighty-gweed</link>
+            <guid>http://nitch.cc/podcast/episode-30-the-mighty-gweed</guid>
+            <pubDate>Fri, 02 Nov 2012 14:00:00 GMT</pubDate>
+            <author>Nitch</author>
+            <description>Jonathan and Kelli talk about debugging mod_rewrite, securing PHP installations, making Apache directory listings mobile-friendly, and who owns the data in a social application.</description>
+            <enclosure url="https://s3.amazonaws.com/nitch/Episode_30_The_Mighty_Gweed.mp3" length="64172851" type="audio/mpeg"/>
+            <content:encoded>Jonathan and Kelli talk about debugging mod_rewrite, securing PHP installations, making Apache directory listings mobile-friendly, and who owns the data in a social application.</content:encoded>
+            <itunes:author>Nitch</itunes:author>
+            <itunes:duration>1:10:00</itunes:duration>
+            <itunes:subtitle>Jonathan and Kelli talk about debugging mod_rewrite, securing PHP installations, making Apache directory listings mobile-friendly, and who owns the data in a social application.</itunes:subtitle>
+            <itunes:summary>Jonathan and Kelli talk about debugging mod_rewrite, securing PHP installations, making Apache directory listings mobile-friendly, and who owns the data in a social application.</itunes:summary>
+            <itunes:keywords>web, mobile, html5, rest, json</itunes:keywords>
+            <itunes:image href="http://nitch.cc/img/512x512.png"/>
+            <media:content url="https://s3.amazonaws.com/nitch/Episode_30_The_Mighty_Gweed.mp3" fileSize="64172851" type="audio/mpeg"/>
+            <itunes:explicit>no</itunes:explicit>
+        </item>
+        <item>
+            <title>Episode 31: Lonely Sneakers</title>
+            <link>http://nitch.cc/podcast/episode-31-lonely-sneakers</link>
+            <guid>http://nitch.cc/podcast/episode-31-lonely-sneakers</guid>
+            <pubDate>Fri, 09 Nov 2012 14:00:00 GMT</pubDate>
+            <author>Nitch</author>
+            <description>Jonathan and Kelli talk about debugging appcache in standalone webapps on iOS, Multi-AZ deployment with Amazon RDS, and the inevitable invasion of 7 inch tablets this holiday season.</description>
+            <enclosure url="https://s3.amazonaws.com/nitch/Episode_31_Lonely_Sneakers.mp3" length="64172851" type="audio/mpeg"/>
+            <content:encoded>Jonathan and Kelli talk about debugging appcache in standalone webapps on iOS, Multi-AZ deployment with Amazon RDS, and the inevitable invasion of 7 inch tablets this holiday season.</content:encoded>
+            <itunes:author>Nitch</itunes:author>
+            <itunes:duration>1:05:38</itunes:duration>
+            <itunes:subtitle>Jonathan and Kelli talk about debugging appcache in standalone webapps on iOS, Multi-AZ deployment with Amazon RDS, and the inevitable invasion of 7 inch tablets this holiday season.</itunes:subtitle>
+            <itunes:summary>Jonathan and Kelli talk about debugging appcache in standalone webapps on iOS, Multi-AZ deployment with Amazon RDS, and the inevitable invasion of 7 inch tablets this holiday season.</itunes:summary>
+            <itunes:keywords>web, mobile, html5, rest, json</itunes:keywords>
+            <itunes:image href="http://nitch.cc/img/512x512.png"/>
+            <media:content url="https://s3.amazonaws.com/nitch/Episode_31_Lonely_Sneakers.mp3" fileSize="64172851" type="audio/mpeg"/>
+            <itunes:explicit>no</itunes:explicit>
+        </item>
+        <item>
+            <title>Episode 32: Echo Chamber of Misinformation</title>
+            <link>http://nitch.cc/podcast/episode-32-echo-chamber-of-misinformation</link>
+            <guid>http://nitch.cc/podcast/episode-32-echo-chamber-of-misinformation</guid>
+            <pubDate>Fri, 16 Nov 2012 14:00:00 GMT</pubDate>
+            <author>Nitch</author>
+            <description>Jonathan and Kelli talk about using DataMapper with CodeIgniter, the pros and cons of CSS grids in Bootstrap, icon font resources for responsive web design, and tips for using CORS with REST APIs.</description>
+            <enclosure url="https://s3.amazonaws.com/nitch/Episode_32_Echo_Chamber_of_Misinformation.mp3" length="64172851" type="audio/mpeg"/>
+            <content:encoded>Jonathan and Kelli talk about using DataMapper with CodeIgniter, the pros and cons of CSS grids in Bootstrap, icon font resources for responsive web design, and tips for using CORS with REST APIs.</content:encoded>
+            <itunes:author>Nitch</itunes:author>
+            <itunes:duration>57:12</itunes:duration>
+            <itunes:subtitle>Jonathan and Kelli talk about using DataMapper with CodeIgniter, the pros and cons of CSS grids in Bootstrap, icon font resources for responsive web design, and tips for using CORS with REST APIs.</itunes:subtitle>
+            <itunes:summary>Jonathan and Kelli talk about using DataMapper with CodeIgniter, the pros and cons of CSS grids in Bootstrap, icon font resources for responsive web design, and tips for using CORS with REST APIs.</itunes:summary>
+            <itunes:keywords>web, mobile, html5, rest, json</itunes:keywords>
+            <itunes:image href="http://nitch.cc/img/512x512.png"/>
+            <media:content url="https://s3.amazonaws.com/nitch/Episode_32_Echo_Chamber_of_Misinformation.mp3" fileSize="64172851" type="audio/mpeg"/>
+            <itunes:explicit>no</itunes:explicit>
+        </item>
+        <item>
+            <title>Episode 33: Piemaster</title>
+            <link>http://nitch.cc/podcast/episode-33-piemaster</link>
+            <guid>http://nitch.cc/podcast/episode-33-piemaster</guid>
+            <pubDate>Fri, 23 Nov 2012 14:00:00 GMT</pubDate>
+            <author>Nitch</author>
+            <description>Jonathan and Kelli talk about Kelli's first impressions of cross-platform mobile framework PhoneGap.</description>
+            <enclosure url="https://s3.amazonaws.com/nitch/Episode_33_Piemaster.mp3" length="64172851" type="audio/mpeg"/>
+            <content:encoded>Jonathan and Kelli talk about Kelli's first impressions of cross-platform mobile framework PhoneGap.</content:encoded>
+            <itunes:author>Nitch</itunes:author>
+            <itunes:duration>1:08:19</itunes:duration>
+            <itunes:subtitle>Jonathan and Kelli talk about Kelli's first impressions of cross-platform mobile framework PhoneGap.</itunes:subtitle>
+            <itunes:summary>Jonathan and Kelli talk about Kelli's first impressions of cross-platform mobile framework PhoneGap.</itunes:summary>
+            <itunes:keywords>web, mobile, html5, rest, json</itunes:keywords>
+            <itunes:image href="http://nitch.cc/img/512x512.png"/>
+            <media:content url="https://s3.amazonaws.com/nitch/Episode_33_Piemaster.mp3" fileSize="64172851" type="audio/mpeg"/>
+            <itunes:explicit>no</itunes:explicit>
+        </item>
+        <item>
+            <title>Episode 34: The Wacky Flag</title>
+            <link>http://nitch.cc/podcast/episode-34-the-wacky-flag</link>
+            <guid>http://nitch.cc/podcast/episode-34-the-wacky-flag</guid>
+            <pubDate>Fri, 30 Nov 2012 14:00:00 GMT</pubDate>
+            <author>Nitch</author>
+            <description>Jonathan and Kelli talk about Web SQL Database, storing images as base64, and error handling considerations for REST APIs.</description>
+            <enclosure url="https://s3.amazonaws.com/nitch/Episode_34_The_Wacky_Flag.mp3" length="64172851" type="audio/mpeg"/>
+            <content:encoded>Jonathan and Kelli talk about Web SQL Database, storing images as base64, and error handling considerations for REST APIs.</content:encoded>
+            <itunes:author>Nitch</itunes:author>
+            <itunes:duration>54:32</itunes:duration>
+            <itunes:subtitle>Jonathan and Kelli talk about Web SQL Database, storing images as base64, and error handling considerations for REST APIs.</itunes:subtitle>
+            <itunes:summary>Jonathan and Kelli talk about Web SQL Database, storing images as base64, and error handling considerations for REST APIs.</itunes:summary>
+            <itunes:keywords>web, mobile, html5, rest, json</itunes:keywords>
+            <itunes:image href="http://nitch.cc/img/512x512.png"/>
+            <media:content url="https://s3.amazonaws.com/nitch/Episode_34_The_Wacky_Flag.mp3" fileSize="64172851" type="audio/mpeg"/>
+            <itunes:explicit>no</itunes:explicit>
+        </item>
+        <item>
+            <title>Episode 35: Once More With Feeling</title>
+            <link>http://nitch.cc/podcast/episode-35-once-more-with-feeling</link>
+            <guid>http://nitch.cc/podcast/episode-35-once-more-with-feeling</guid>
+            <pubDate>Fri, 07 Dec 2012 14:00:00 GMT</pubDate>
+            <author>Nitch</author>
+            <description>Jonathan and Kelli discuss media queries on Retina Macs, overflow scrolling on touchscreen devices, and lessons learned from a spaghetti code weekend with PHP.</description>
+            <enclosure url="https://s3.amazonaws.com/nitch/Episode_35_Once_More_With_Feeling.mp3" length="64172851" type="audio/mpeg"/>
+            <content:encoded>Jonathan and Kelli discuss media queries on Retina Macs, overflow scrolling on touchscreen devices, and lessons learned from a spaghetti code weekend with PHP.</content:encoded>
+            <itunes:author>Nitch</itunes:author>
+            <itunes:duration>1:00:02</itunes:duration>
+            <itunes:subtitle>Jonathan and Kelli discuss media queries on Retina Macs, overflow scrolling on touchscreen devices, and lessons learned from a spaghetti code weekend with PHP.</itunes:subtitle>
+            <itunes:summary>Jonathan and Kelli discuss media queries on Retina Macs, overflow scrolling on touchscreen devices, and lessons learned from a spaghetti code weekend with PHP.</itunes:summary>
+            <itunes:keywords>web, mobile, html5, rest, json</itunes:keywords>
+            <itunes:image href="http://nitch.cc/img/512x512.png"/>
+            <media:content url="https://s3.amazonaws.com/nitch/Episode_35_Once_More_With_Feeling.mp3" fileSize="64172851" type="audio/mpeg"/>
+            <itunes:explicit>no</itunes:explicit>
+        </item>
+        <item>
+            <title>Episode 36: Syntastical Sugar</title>
+            <link>http://nitch.cc/podcast/episode-36-syntastical-sugar</link>
+            <guid>http://nitch.cc/podcast/episode-36-syntastical-sugar</guid>
+            <pubDate>Fri, 14 Dec 2012 14:00:00 GMT</pubDate>
+            <author>Nitch</author>
+            <description>Jonathan and Kelli talk about cross-browser location hash inconsistencies, thoughts on CoffeeScript, and the genius of NPR's "Create Once, Publish Everywhere" platform.</description>
+            <enclosure url="https://s3.amazonaws.com/nitch/Episode_36_Syntastical_Sugar.mp3" length="64172851" type="audio/mpeg"/>
+            <content:encoded>Jonathan and Kelli talk about cross-browser location hash inconsistencies, thoughts on CoffeeScript, and the genius of NPR's "Create Once, Publish Everywhere" platform.</content:encoded>
+            <itunes:author>Nitch</itunes:author>
+            <itunes:duration>1:00:02</itunes:duration>
+            <itunes:subtitle>Jonathan and Kelli talk about cross-browser location hash inconsistencies, thoughts on CoffeeScript, and the genius of NPR's "Create Once, Publish Everywhere" platform.</itunes:subtitle>
+            <itunes:summary>Jonathan and Kelli talk about cross-browser location hash inconsistencies, thoughts on CoffeeScript, and the genius of NPR's "Create Once, Publish Everywhere" platform.</itunes:summary>
+            <itunes:keywords>web, mobile, html5, rest, json</itunes:keywords>
+            <itunes:image href="http://nitch.cc/img/512x512.png"/>
+            <media:content url="https://s3.amazonaws.com/nitch/Episode_36_Syntastical_Sugar.mp3" fileSize="64172851" type="audio/mpeg"/>
+            <itunes:explicit>no</itunes:explicit>
+        </item>
+        <item>
+            <title>Episode 37: Slow Headbutt</title>
+            <link>http://nitch.cc/podcast/episode-37-slow-headbutt</link>
+            <guid>http://nitch.cc/podcast/episode-37-slow-headbutt</guid>
+            <pubDate>Fri, 21 Dec 2012 14:00:00 GMT</pubDate>
+            <author>Nitch</author>
+            <description>Jonathan and Kelli talk about Safari rendering bugs, more location hash gotchas, and a rundown of dev tools including knockout.js, markup.js, Yeoman, and Reflector.</description>
+            <enclosure url="https://s3.amazonaws.com/nitch/Episode_37_Slow_Headbutt.mp3" length="64172851" type="audio/mpeg"/>
+            <content:encoded>Jonathan and Kelli talk about Safari rendering bugs, more location hash gotchas, and a rundown of dev tools including knockout.js, markup.js, Yeoman, and Reflector.</content:encoded>
+            <itunes:author>Nitch</itunes:author>
+            <itunes:duration>49:45</itunes:duration>
+            <itunes:subtitle>Jonathan and Kelli talk about Safari rendering bugs, more location hash gotchas, and a rundown of dev tools including knockout.js, markup.js, Yeoman, and Reflector.</itunes:subtitle>
+            <itunes:summary>Jonathan and Kelli talk about Safari rendering bugs, more location hash gotchas, and a rundown of dev tools including knockout.js, markup.js, Yeoman, and Reflector.</itunes:summary>
+            <itunes:keywords>web, mobile, html5, rest, json</itunes:keywords>
+            <itunes:image href="http://nitch.cc/img/512x512.png"/>
+            <media:content url="https://s3.amazonaws.com/nitch/Episode_37_Slow_Headbutt.mp3" fileSize="64172851" type="audio/mpeg"/>
+            <itunes:explicit>no</itunes:explicit>
+        </item>
+        <item>
+            <title>Episode 38: BRB... Bedroom On Fire</title>
+            <link>http://nitch.cc/podcast/episode-38-brb-bedroom-on-fire</link>
+            <guid>http://nitch.cc/podcast/episode-38-brb-bedroom-on-fire</guid>
+            <pubDate>Fri, 04 Jan 2013 14:00:00 GMT</pubDate>
+            <author>Nitch</author>
+            <description>Jonathan and Kelli talk about trouble with really big buttons, SMS apps for Kenyan farmers, and how to send API requests to a lamp.</description>
+            <enclosure url="https://s3.amazonaws.com/nitch/Episode_38_BRB_Bedroom_On_Fire.mp3" length="64172851" type="audio/mpeg"/>
+            <content:encoded>Jonathan and Kelli talk about trouble with really big buttons, SMS apps for Kenyan farmers, and how to send API requests to a lamp.</content:encoded>
+            <itunes:author>Nitch</itunes:author>
+            <itunes:duration>55:28</itunes:duration>
+            <itunes:subtitle>Jonathan and Kelli talk about trouble with really big buttons, SMS apps for Kenyan farmers, and how to send API requests to a lamp.</itunes:subtitle>
+            <itunes:summary>Jonathan and Kelli talk about trouble with really big buttons, SMS apps for Kenyan farmers, and how to send API requests to a lamp.</itunes:summary>
+            <itunes:keywords>web, mobile, html5, rest, json</itunes:keywords>
+            <itunes:image href="http://nitch.cc/img/512x512.png"/>
+            <media:content url="https://s3.amazonaws.com/nitch/Episode_38_BRB_Bedroom_On_Fire.mp3" fileSize="64172851" type="audio/mpeg"/>
+            <itunes:explicit>no</itunes:explicit>
+        </item>
+        <item>
+            <title>Episode 39: Ramblecast (You've Been Warned)</title>
+            <link>http://nitch.cc/podcast/episode-39-ramblecast-you-have-been-warned</link>
+            <guid>http://nitch.cc/podcast/episode-39-ramblecast-you-have-been-warned</guid>
+            <pubDate>Fri, 11 Jan 2013 14:00:00 GMT</pubDate>
+            <author>Nitch</author>
+            <description>Jonathan and Kelli prognosticate endlessly about the future of computing, the effects of wireless connectivity on society, and what we can do now to prepare.</description>
+            <enclosure url="https://s3.amazonaws.com/nitch/Episode_39_Ramblecast_You_Have_Been_Warned.mp3" length="64172851" type="audio/mpeg"/>
+            <content:encoded>Jonathan and Kelli prognosticate endlessly about the future of computing, the effects of wireless connectivity on society, and what we can do now to prepare.</content:encoded>
+            <itunes:author>Nitch</itunes:author>
+            <itunes:duration>1:12:57</itunes:duration>
+            <itunes:subtitle>Jonathan and Kelli prognosticate endlessly about the future of computing, the effects of wireless connectivity on society, and what we can do now to prepare.</itunes:subtitle>
+            <itunes:summary>Jonathan and Kelli prognosticate endlessly about the future of computing, the effects of wireless connectivity on society, and what we can do now to prepare.</itunes:summary>
+            <itunes:keywords>web, mobile, html5, rest, json</itunes:keywords>
+            <itunes:image href="http://nitch.cc/img/512x512.png"/>
+            <media:content url="https://s3.amazonaws.com/nitch/Episode_39_Ramblecast_You_Have_Been_Warned.mp3" fileSize="64172851" type="audio/mpeg"/>
+            <itunes:explicit>no</itunes:explicit>
+        </item>
+        <item>
+            <title>Episode 40: All We're Missing Is Everything Else</title>
+            <link>http://nitch.cc/podcast/episode-40-all-we-are-missing-is-everything-else</link>
+            <guid>http://nitch.cc/podcast/episode-40-all-we-are-missing-is-everything-else</guid>
+            <pubDate>Fri, 18 Jan 2013 14:00:00 GMT</pubDate>
+            <author>Nitch</author>
+            <description>Jonathan and Kelli talk about the pros and cons of Bootstrap, learning to live with Objective-C, and new developments in lamp programming (and we don't mean Linux).</description>
+            <enclosure url="https://s3.amazonaws.com/nitch/Episode_40_All_We_Are_Missing_Is_Everything_Else.mp3" length="64172851" type="audio/mpeg"/>
+            <content:encoded>Jonathan and Kelli talk about the pros and cons of Bootstrap, learning to live with Objective-C, and new developments in lamp programming (and we don't mean Linux).</content:encoded>
+            <itunes:author>Nitch</itunes:author>
+            <itunes:duration>1:08:55</itunes:duration>
+            <itunes:subtitle>Jonathan and Kelli talk about the pros and cons of Bootstrap, learning to live with Objective-C, and new developments in lamp programming (and we don't mean Linux).</itunes:subtitle>
+            <itunes:summary>Jonathan and Kelli talk about the pros and cons of Bootstrap, learning to live with Objective-C, and new developments in lamp programming (and we don't mean Linux).</itunes:summary>
+            <itunes:keywords>web, mobile, html5, rest, json</itunes:keywords>
+            <itunes:image href="http://nitch.cc/img/512x512.png"/>
+            <media:content url="https://s3.amazonaws.com/nitch/Episode_40_All_We_Are_Missing_Is_Everything_Else.mp3" fileSize="64172851" type="audio/mpeg"/>
+            <itunes:explicit>no</itunes:explicit>
+        </item>
+        <item>
+            <title>Episode 41: Heavy Semicolon</title>
+            <link>http://nitch.cc/podcast/episode-41-heavy-semicolon</link>
+            <guid>http://nitch.cc/podcast/episode-41-heavy-semicolon</guid>
+            <pubDate>Fri, 25 Jan 2013 14:00:00 GMT</pubDate>
+            <author>Nitch</author>
+            <description>Jonathan and Kelli talk about enhancing site performance with Varnish, simplifying web development workflow with Sprockets, and legally binding responsive web design.</description>
+            <enclosure url="https://s3.amazonaws.com/nitch/Episode_41_Heavy_Semicolon.mp3" length="64172851" type="audio/mpeg"/>
+            <content:encoded>Jonathan and Kelli talk about enhancing site performance with Varnish, simplifying web development workflow with Sprockets, and legally binding responsive web design.</content:encoded>
+            <itunes:author>Nitch</itunes:author>
+            <itunes:duration>47:40</itunes:duration>
+            <itunes:subtitle>Jonathan and Kelli talk about enhancing site performance with Varnish, simplifying web development workflow with Sprockets, and legally binding responsive web design.</itunes:subtitle>
+            <itunes:summary>Jonathan and Kelli talk about enhancing site performance with Varnish, simplifying web development workflow with Sprockets, and legally binding responsive web design.</itunes:summary>
+            <itunes:keywords>web, mobile, html5, rest, json</itunes:keywords>
+            <itunes:image href="http://nitch.cc/img/512x512.png"/>
+            <media:content url="https://s3.amazonaws.com/nitch/Episode_41_Heavy_Semicolon.mp3" fileSize="64172851" type="audio/mpeg"/>
+            <itunes:explicit>no</itunes:explicit>
+        </item>
+        <item>
+            <title>Episode 42: Jackbooks</title>
+            <link>http://nitch.cc/podcast/episode-42-jackbooks</link>
+            <guid>http://nitch.cc/podcast/episode-42-jackbooks</guid>
+            <pubDate>Fri, 01 Feb 2013 14:00:00 GMT</pubDate>
+            <author>Nitch</author>
+            <description>Jonathan and Kelli talk about gotchas with CORS headers in Rails apps, the definition of "Mobile First", and a process for Responsive Web Design.</description>
+            <enclosure url="https://s3.amazonaws.com/nitch/Episode_42_Jackbooks.mp3" length="64172851" type="audio/mpeg"/>
+            <content:encoded>Jonathan and Kelli talk about gotchas with CORS headers in Rails apps, the definition of "Mobile First", and a process for Responsive Web Design.</content:encoded>
+            <itunes:author>Nitch</itunes:author>
+            <itunes:duration>47:40</itunes:duration>
+            <itunes:subtitle>Jonathan and Kelli talk about gotchas with CORS headers in Rails apps, the definition of "Mobile First", and a process for Responsive Web Design.</itunes:subtitle>
+            <itunes:summary>Jonathan and Kelli talk about gotchas with CORS headers in Rails apps, the definition of "Mobile First", and a process for Responsive Web Design.</itunes:summary>
+            <itunes:keywords>web, mobile, html5, rest, json</itunes:keywords>
+            <itunes:image href="http://nitch.cc/img/512x512.png"/>
+            <media:content url="https://s3.amazonaws.com/nitch/Episode_42_Jackbooks.mp3" fileSize="64172851" type="audio/mpeg"/>
+            <itunes:explicit>no</itunes:explicit>
+        </item>
+        <item>
+            <title>Episode 43: Spaghetti Frames</title>
+            <link>http://nitch.cc/podcast/episode-43-spaghetti-frames</link>
+            <guid>http://nitch.cc/podcast/episode-43-spaghetti-frames</guid>
+            <pubDate>Fri, 08 Feb 2013 14:00:00 GMT</pubDate>
+            <author>Nitch</author>
+            <description>Jonathan and Kelli talk about getting clever with Amazon's Elastic Block Store, redefining wireframes in the context of responsive web design, and our growing obsession with Jackbooks. </description>
+            <enclosure url="https://s3.amazonaws.com/nitch/Episode_43_Spaghetti_Frames.mp3" length="64172851" type="audio/mpeg"/>
+            <content:encoded>Jonathan and Kelli talk about getting clever with Amazon's Elastic Block Store, redefining wireframes in the context of responsive web design, and our growing obsession with Jackbooks. </content:encoded>
+            <itunes:author>Nitch</itunes:author>
+            <itunes:duration>55:28</itunes:duration>
+            <itunes:subtitle>Jonathan and Kelli talk about getting clever with Amazon's Elastic Block Store, redefining wireframes in the context of responsive web design, and our growing obsession with Jackbooks. </itunes:subtitle>
+            <itunes:summary>Jonathan and Kelli talk about getting clever with Amazon's Elastic Block Store, redefining wireframes in the context of responsive web design, and our growing obsession with Jackbooks. </itunes:summary>
+            <itunes:keywords>web, mobile, html5, rest, json</itunes:keywords>
+            <itunes:image href="http://nitch.cc/img/512x512.png"/>
+            <media:content url="https://s3.amazonaws.com/nitch/Episode_43_Spaghetti_Frames.mp3" fileSize="64172851" type="audio/mpeg"/>
+            <itunes:explicit>no</itunes:explicit>
+        </item>
+        <item>
+            <title>Episode 44: Shut Up Shot Clock</title>
+            <link>http://nitch.cc/podcast/episode-44-shut-up-shot-clock</link>
+            <guid>http://nitch.cc/podcast/episode-44-shut-up-shot-clock</guid>
+            <pubDate>Fri, 15 Feb 2013 14:00:00 GMT</pubDate>
+            <author>Nitch</author>
+            <description>Jonathan and Kelli talk about our defaults when starting a new project - tools, technology, language, structure, and more.</description>
+            <enclosure url="https://s3.amazonaws.com/nitch/Episode_44_Shut_Up_Shot_Clock.mp3" length="64172851" type="audio/mpeg"/>
+            <content:encoded>Jonathan and Kelli talk about our defaults when starting a new project - tools, technology, language, structure, and more.</content:encoded>
+            <itunes:author>Nitch</itunes:author>
+            <itunes:duration>1:05:25</itunes:duration>
+            <itunes:subtitle>Jonathan and Kelli talk about our defaults when starting a new project - tools, technology, language, structure, and more.</itunes:subtitle>
+            <itunes:summary>Jonathan and Kelli talk about our defaults when starting a new project - tools, technology, language, structure, and more.</itunes:summary>
+            <itunes:keywords>web, mobile, html5, rest, json</itunes:keywords>
+            <itunes:image href="http://nitch.cc/img/512x512.png"/>
+            <media:content url="https://s3.amazonaws.com/nitch/Episode_44_Shut_Up_Shot_Clock.mp3" fileSize="64172851" type="audio/mpeg"/>
+            <itunes:explicit>no</itunes:explicit>
+        </item>
+        <item>
+            <title>Episode 45: SASS Mafia</title>
+            <link>http://nitch.cc/podcast/episode-45-sass-mafia</link>
+            <guid>http://nitch.cc/podcast/episode-45-sass-mafia</guid>
+            <pubDate>Fri, 22 Feb 2013 14:00:00 GMT</pubDate>
+            <author>Nitch</author>
+            <description>Jonathan and Kelli talk about onclick conflicts between jQuery and Google Analytics, our development setup for Responsive Web Design, and why SASS is stupid. Kidding! Sheesh... lighten up :)</description>
+            <enclosure url="https://s3.amazonaws.com/nitch/Episode_45_SASS_Mafia.mp3" length="64172851" type="audio/mpeg"/>
+            <content:encoded>Jonathan and Kelli talk about onclick conflicts between jQuery and Google Analytics, our development setup for Responsive Web Design, and why SASS is stupid. Kidding! Sheesh... lighten up :)</content:encoded>
+            <itunes:author>Nitch</itunes:author>
+            <itunes:duration>1:04:07</itunes:duration>
+            <itunes:subtitle>Jonathan and Kelli talk about onclick conflicts between jQuery and Google Analytics, our development setup for Responsive Web Design, and why SASS is stupid. Kidding! Sheesh... lighten up :)</itunes:subtitle>
+            <itunes:summary>Jonathan and Kelli talk about onclick conflicts between jQuery and Google Analytics, our development setup for Responsive Web Design, and why SASS is stupid. Kidding! Sheesh... lighten up :)</itunes:summary>
+            <itunes:keywords>web, mobile, html5, rest, json</itunes:keywords>
+            <itunes:image href="http://nitch.cc/img/512x512.png"/>
+            <media:content url="https://s3.amazonaws.com/nitch/Episode_45_SASS_Mafia.mp3" fileSize="64172851" type="audio/mpeg"/>
+            <itunes:explicit>no</itunes:explicit>
+        </item>
+        <item>
+            <title>Episode 46: Rear View Hat</title>
+            <link>http://nitch.cc/podcast/episode-46-rear-view-hat</link>
+            <guid>http://nitch.cc/podcast/episode-46-rear-view-hat</guid>
+            <pubDate>Fri, 01 Mar 2013 14:00:00 GMT</pubDate>
+            <author>Nitch</author>
+            <description>Jonathan and Kelli prove that APIs are totally awesome, get into trouble with mobile first responsive design, and experiement with the next revolutionary mobile technology.</description>
+            <enclosure url="https://s3.amazonaws.com/nitch/Episode_46_Rear_View_Hat.mp3" length="64172851" type="audio/mpeg"/>
+            <content:encoded>Jonathan and Kelli prove that APIs are totally awesome, get into trouble with mobile first responsive design, and experiement with the next revolutionary mobile technology.</content:encoded>
+            <itunes:author>Nitch</itunes:author>
+            <itunes:duration>55:15</itunes:duration>
+            <itunes:subtitle>Jonathan and Kelli prove that APIs are totally awesome, get into trouble with mobile first responsive design, and experiement with the next revolutionary mobile technology.</itunes:subtitle>
+            <itunes:summary>Jonathan and Kelli prove that APIs are totally awesome, get into trouble with mobile first responsive design, and experiement with the next revolutionary mobile technology.</itunes:summary>
+            <itunes:keywords>web, mobile, html5, rest, json</itunes:keywords>
+            <itunes:image href="http://nitch.cc/img/512x512.png"/>
+            <media:content url="https://s3.amazonaws.com/nitch/Episode_46_Rear_View_Hat.mp3" fileSize="64172851" type="audio/mpeg"/>
+            <itunes:explicit>no</itunes:explicit>
+        </item>
+        <item>
+            <title>Episode 47: Digesting the Koolaid</title>
+            <link>http://nitch.cc/podcast/episode-47-digesting-the-koolaid</link>
+            <guid>http://nitch.cc/podcast/episode-47-digesting-the-koolaid</guid>
+            <pubDate>Fri, 08 Mar 2013 14:00:00 GMT</pubDate>
+            <author>Nitch</author>
+            <description>Jonathan and Kelli talk about Lawnchair performance tips, simplfying your CSS with CSS Simple, and preparing for the zombie apocalypse of devices, part 2.</description>
+            <enclosure url="https://s3.amazonaws.com/nitch/Episode_46_Rear_View_Hat.mp3" length="64172851" type="audio/mpeg"/>
+            <content:encoded>Jonathan and Kelli talk about Lawnchair performance tips, simplfying your CSS with CSS Simple, and preparing for the zombie apocalypse of devices, part 2.</content:encoded>
+            <itunes:author>Nitch</itunes:author>
+            <itunes:duration>1:09:52</itunes:duration>
+            <itunes:subtitle>Jonathan and Kelli talk about Lawnchair performance tips, simplfying your CSS with CSS Simple, and preparing for the zombie apocalypse of devices, part 2.</itunes:subtitle>
+            <itunes:summary>Jonathan and Kelli talk about Lawnchair performance tips, simplfying your CSS with CSS Simple, and preparing for the zombie apocalypse of devices, part 2.</itunes:summary>
+            <itunes:keywords>web, mobile, html5, rest, json</itunes:keywords>
+            <itunes:image href="http://nitch.cc/img/512x512.png"/>
+            <media:content url="https://s3.amazonaws.com/nitch/Episode_47_Digesting_the_Koolaid.mp3" fileSize="54566344" type="audio/mpeg"/>
+            <itunes:explicit>no</itunes:explicit>
+        </item>
+    </channel>
+</rss>
