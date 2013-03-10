@@ -1,4 +1,4 @@
-nitch
+Nitch
 =====
 
 Source code for the nitch.cc website.
