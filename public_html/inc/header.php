@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
     <head>
+        <meta charset='utf-8' />
         <title>Nitch - Making apps that run everywhere</title>
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <link rel="alternate" type="application/rss+xml" title="Nitch Podcast" href="http://nitch.cc/itunes.rss" />
@@ -14,8 +15,8 @@
         <link rel="apple-touch-icon" sizes="72x72" href="/img/72x72.png" />
         <link rel="apple-touch-icon" sizes="114x114" href="/img/114x114.png" />
         <link rel="apple-touch-icon" sizes="128x128" href="/img/128x128.png" />
-        <link rel="stylesheet" href="http://nitch.cc/css/screen.css" type="text/css" media="screen" title="no title" charset="utf-8" />
-        <link href='http://fonts.googleapis.com/css?family=Days+One' rel='stylesheet' type='text/css' />
+        <link rel="stylesheet" href="/css/screen.css" type="text/css" media="screen" title="no title" charset="utf-8" />
+        <!-- <link href='http://fonts.googleapis.com/css?family=Days+One' rel='stylesheet' type='text/css' /> -->
         <script type="text/javascript">
 
           var _gaq = _gaq || [];
