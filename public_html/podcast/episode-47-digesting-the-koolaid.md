@@ -41,5 +41,3 @@ Jonathan and Kelli talk about Lawnchair performance tips, simplfying your CSS wi
 * Digesting the Koolaid
 * Getting iWatch For Free
 * Social Nose Picking
-
-:)
