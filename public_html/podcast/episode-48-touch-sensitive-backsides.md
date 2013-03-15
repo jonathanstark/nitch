@@ -11,7 +11,7 @@ Jonathan and Kelli talk about WebHook gotchas, reconsidering SMS, and touch sens
 	<source src="https://s3.amazonaws.com/nitch/Episode_48_Touch_Sensitive_Backsides.ogg" type="audio/ogg" />
 </audio>
 
-[Download ({{FILE_SIZE}} MB)](https://s3.amazonaws.com/nitch/Episode_48_Touch_Sensitive_Backsides.mp3 "Episode 48: Touch Sensitive Backsides")
+[Download (53.1 MB)](https://s3.amazonaws.com/nitch/Episode_48_Touch_Sensitive_Backsides.mp3 "Episode 48: Touch Sensitive Backsides")
 
 ## Related Links
 
