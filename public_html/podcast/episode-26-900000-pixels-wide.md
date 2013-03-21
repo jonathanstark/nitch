@@ -4,7 +4,7 @@ October 5, 2012
 
 Running time: 1:20:10
 
-Jonathan and Kelli talk about audio augmented reality, mobile sticker shock, bitching on (and about) Twitter, and the upside of getting hacked. 
+Jonathan and Kelli talk about audio augmented reality, mobile sticker shock, bitching on (and about) Twitter, and the upside of getting hacked.
 
 <audio preload="auto" controls>
 	<source src="https://s3.amazonaws.com/nitch/Episode_26_900000_Pixels_Wide.mp3" type="audio/mpeg" />
@@ -45,6 +45,8 @@ Jonathan and Kelli talk about audio augmented reality, mobile sticker shock, bit
 * Why are browser defaults so ugly?
 * Decoration vs design
 * TextMate vs Sublime Text 2
+
+![On Fire](/podcast/imgs/26.png)
 
 ## Titles We Considered
 

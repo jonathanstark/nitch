@@ -29,6 +29,8 @@ Jonathan and Kelli talk about onclick conflicts between jQuery and Google Analyt
 * [RSpec](http://rspec.info/ "RSpec.info: home")
 * [Capybara Testing](https://github.com/jnicklas/capybara "jnicklas/capybara · GitHub")
 
+![On Fire](/podcast/imgs/45.png)
+
 ## Titles We Considered
 
 * Dangerzone in Cooperville

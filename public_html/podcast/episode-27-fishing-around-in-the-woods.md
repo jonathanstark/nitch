@@ -4,7 +4,7 @@ October 12, 2012
 
 Running time: 1:15:11
 
-Jonathan and Kelli talk about one million things, including: what the DocBook XML grammar has in common with Beats by Dr. Dre. Yep... seriously. 
+Jonathan and Kelli talk about one million things, including: what the DocBook XML grammar has in common with Beats by Dr. Dre. Yep... seriously.
 
 <audio preload="auto" controls>
 	<source src="https://s3.amazonaws.com/nitch/Episode_27_Fishing_Around_In_The_Woods.mp3" type="audio/mpeg" />
@@ -28,6 +28,8 @@ Jonathan and Kelli talk about one million things, including: what the DocBook XM
 * [Sir Patrick Stewart](http://en.wikipedia.org/wiki/Patrick_Stewart "Patrick Stewart - Wikipedia, the free encyclopedia")
 * [Three Things First](http://www.slideshare.net/jonathanstark/three-things-first "Three Things First")
 * [Beats by Dr. Dre](http://www.beatsbydre.com/ "Beatsbydre.com - Official Site for Beats by Dr. Dre Headphones, Earphones, Speakers and Beats Audio")
+
+![On Fire](/podcast/imgs/27.png)
 
 ## Titles We Considered
 

@@ -26,7 +26,9 @@ Jonathan and Kelli talk about enhancing site performance with Varnish, simplifyi
 * [Yeoman](http://yeoman.io/)
 * [Jet Brains](http://www.jetbrains.com/)
 * [WebStorm](http://www.jetbrains.com/webstorm/)
-  
+
+![On Fire](/podcast/imgs/41.png)
+
 ## Titles We Considered
 
 * Sleep Coding
