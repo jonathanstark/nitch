@@ -35,4 +35,4 @@ Jonathan and Kelli talk about onclick conflicts between jQuery and Google Analyt
 * SASS Mafia
 * Branch Happy
 
-![cartoon](/podcast/imgs/45.png)
+![cartoon](/toons/45.png)

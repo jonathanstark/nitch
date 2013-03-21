@@ -36,4 +36,4 @@ Jonathan and Kelli talk about enhancing site performance with Varnish, simplifyi
 * #RWD #FTW
 * Heavy Semicolon
 
-![cartoon](/podcast/imgs/41.png)
+![cartoon](/toons/41.png)

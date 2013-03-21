@@ -40,4 +40,4 @@ Jonathan and Kelli talk about trouble with really big buttons, SMS apps for Keny
 * BRB... Bedroom On Fire
 * Step 3: Put Pants On
 
-![cartoon](/podcast/imgs/38.png)
+![cartoon](/toons/38.png)

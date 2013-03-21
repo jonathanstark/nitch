@@ -38,4 +38,4 @@ Jonathan and Kelli talk about one million things, including: what the DocBook XM
 * Accidental Markdown
 * Ear Cooties
 
-![cartoon](/podcast/imgs/27.png)
+![cartoon](/toons/27.png)

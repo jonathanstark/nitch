@@ -52,4 +52,4 @@ Jonathan and Kelli talk about audio augmented reality, mobile sticker shock, bit
 * Million Pixel Grid
 * Virus Diet
 
-![cartoon](/podcast/imgs/26.png)
+![cartoon](/toons/26.png)
