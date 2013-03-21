@@ -27,8 +27,6 @@ Jonathan and Kelli talk about enhancing site performance with Varnish, simplifyi
 * [Jet Brains](http://www.jetbrains.com/)
 * [WebStorm](http://www.jetbrains.com/webstorm/)
 
-![On Fire](/podcast/imgs/41.png)
-
 ## Titles We Considered
 
 * Sleep Coding
@@ -37,3 +35,5 @@ Jonathan and Kelli talk about enhancing site performance with Varnish, simplifyi
 * Legally Binding Responsive Web Design
 * #RWD #FTW
 * Heavy Semicolon
+
+![cartoon](/podcast/imgs/41.png)

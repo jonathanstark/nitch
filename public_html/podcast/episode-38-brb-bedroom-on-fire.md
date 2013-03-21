@@ -27,8 +27,6 @@ Jonathan and Kelli talk about trouble with really big buttons, SMS apps for Keny
 * [Refreshable Braille Display](http://en.wikipedia.org/wiki/Refreshable_braille_display)
 * [Google Glasses](http://bit.ly/WiiXIR)
 
-![On Fire](/podcast/imgs/38.png)
-
 # Titles We Considered
 
 * Spanish Fly Bug
@@ -41,3 +39,5 @@ Jonathan and Kelli talk about trouble with really big buttons, SMS apps for Keny
 * The Doorbell Is The Weak Link
 * BRB... Bedroom On Fire
 * Step 3: Put Pants On
+
+![cartoon](/podcast/imgs/38.png)

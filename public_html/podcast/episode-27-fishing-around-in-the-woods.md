@@ -29,8 +29,6 @@ Jonathan and Kelli talk about one million things, including: what the DocBook XM
 * [Three Things First](http://www.slideshare.net/jonathanstark/three-things-first "Three Things First")
 * [Beats by Dr. Dre](http://www.beatsbydre.com/ "Beatsbydre.com - Official Site for Beats by Dr. Dre Headphones, Earphones, Speakers and Beats Audio")
 
-![On Fire](/podcast/imgs/27.png)
-
 ## Titles We Considered
 
 * I Love Index Cards
@@ -39,3 +37,5 @@ Jonathan and Kelli talk about one million things, including: what the DocBook XM
 * Giant Dome
 * Accidental Markdown
 * Ear Cooties
+
+![cartoon](/podcast/imgs/27.png)

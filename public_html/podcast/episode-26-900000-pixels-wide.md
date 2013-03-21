@@ -46,10 +46,10 @@ Jonathan and Kelli talk about audio augmented reality, mobile sticker shock, bit
 * Decoration vs design
 * TextMate vs Sublime Text 2
 
-![On Fire](/podcast/imgs/26.png)
-
 ## Titles We Considered
 
 * 900,000 Pixels Wide
 * Million Pixel Grid
 * Virus Diet
+
+![cartoon](/podcast/imgs/26.png)
