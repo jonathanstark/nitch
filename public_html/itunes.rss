@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" media="screen" href="/~d/styles/rss2enclosuresfull.xsl"?>
 <?xml-stylesheet type="text/css" media="screen" href="http://feeds.feedburner.com/~d/styles/itemcontent.css"?>
-<rss 
-xmlns:dc="http://purl.org/dc/elements/1.1/" 
-xmlns:sy="http://purl.org/rss/1.0/modules/syndication/" 
-xmlns:admin="http://webns.net/mvcb/" 
-xmlns:atom="http://www.w3.org/2005/Atom/" 
-xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" 
-xmlns:content="http://purl.org/rss/1.0/modules/content/" 
-xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" 
-xmlns:media="http://search.yahoo.com/mrss/" 
-xmlns:feedburner="http://rssnamespace.org/feedburner/ext/1.0" 
+<rss
+xmlns:dc="http://purl.org/dc/elements/1.1/"
+xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+xmlns:admin="http://webns.net/mvcb/"
+xmlns:atom="http://www.w3.org/2005/Atom/"
+xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+xmlns:content="http://purl.org/rss/1.0/modules/content/"
+xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd"
+xmlns:media="http://search.yahoo.com/mrss/"
+xmlns:feedburner="http://rssnamespace.org/feedburner/ext/1.0"
 version="2.0">
     <channel>
         <title>The Nitch Podcast</title>
@@ -903,6 +903,24 @@ version="2.0">
             <itunes:keywords>web, mobile, html5, rest, json</itunes:keywords>
             <itunes:image href="http://nitch.cc/img/512x512.png"/>
             <media:content url="https://s3.amazonaws.com/nitch/Episode_48_Touch_Sensitive_Backsides.mp3" fileSize="54566344" type="audio/mpeg"/>
+            <itunes:explicit>no</itunes:explicit>
+        </item>
+        <item>
+            <title>Episode 49: Bathroom Warming Party</title>
+            <link>http://nitch.cc/podcast/episode-49-bathroom-warming-party</link>
+            <guid>http://nitch.cc/podcast/episode-49-bathroom-warming-party</guid>
+            <pubDate>Fri, 22 Mar 2013 14:00:00 GMT</pubDate>
+            <author>Nitch</author>
+            <description>Jonathan and Kelli talk about maintaining context in small screen apps, reconsidering jQuery for mobile projects, and preparing your content for the zombie apocalypse of smartwatches.</description>
+            <enclosure url="https://s3.amazonaws.com/nitch/Episode_49_Bathroom_Warming_Party.mp3" length="64172851" type="audio/mpeg"/>
+            <content:encoded>Jonathan and Kelli talk about maintaining context in small screen apps, reconsidering jQuery for mobile projects, and preparing your content for the zombie apocalypse of smartwatches.</content:encoded>
+            <itunes:author>Nitch</itunes:author>
+            <itunes:duration>1:08:01</itunes:duration>
+            <itunes:subtitle>Jonathan and Kelli talk about maintaining context in small screen apps, reconsidering jQuery for mobile projects, and preparing your content for the zombie apocalypse of smartwatches.</itunes:subtitle>
+            <itunes:summary>Jonathan and Kelli talk about maintaining context in small screen apps, reconsidering jQuery for mobile projects, and preparing your content for the zombie apocalypse of smartwatches.</itunes:summary>
+            <itunes:keywords>web, mobile, html5, rest, json</itunes:keywords>
+            <itunes:image href="http://nitch.cc/img/512x512.png"/>
+            <media:content url="https://s3.amazonaws.com/nitch/Episode_49_Bathroom_Warming_Party.mp3" fileSize="54566344" type="audio/mpeg"/>
             <itunes:explicit>no</itunes:explicit>
         </item>
     </channel>
