@@ -923,5 +923,23 @@ version="2.0">
             <media:content url="https://s3.amazonaws.com/nitch/Episode_49_Bathroom_Warming_Party.mp3" fileSize="54566344" type="audio/mpeg"/>
             <itunes:explicit>no</itunes:explicit>
         </item>
+        <item>
+            <title>Episode 50: Up Since '72</title>
+            <link>http://nitch.cc/podcast/episode-50-up-since-72</link>
+            <guid>http://nitch.cc/podcast/episode-50-up-since-72</guid>
+            <pubDate>Fri, 29 Mar 2013 14:00:00 GMT</pubDate>
+            <author>Nitch</author>
+            <description>Jonathan and Kelli talk about drag and drop on touchscreen devices and opting out of responsive web design.</description>
+            <enclosure url="https://s3.amazonaws.com/nitch/Episode_50_Up_Since_72.mp3" length="64172851" type="audio/mpeg"/>
+            <content:encoded>Jonathan and Kelli talk about drag and drop on touchscreen devices and opting out of responsive web design.</content:encoded>
+            <itunes:author>Nitch</itunes:author>
+            <itunes:duration>28:10</itunes:duration>
+            <itunes:subtitle>Jonathan and Kelli talk about drag and drop on touchscreen devices and opting out of responsive web design.</itunes:subtitle>
+            <itunes:summary>Jonathan and Kelli talk about drag and drop on touchscreen devices and opting out of responsive web design.</itunes:summary>
+            <itunes:keywords>web, mobile, html5, rest, json</itunes:keywords>
+            <itunes:image href="http://nitch.cc/img/512x512.png"/>
+            <media:content url="https://s3.amazonaws.com/nitch/Episode_50_Up_Since_72.mp3" fileSize="54566344" type="audio/mpeg"/>
+            <itunes:explicit>no</itunes:explicit>
+        </item>
     </channel>
 </rss>
