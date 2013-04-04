@@ -941,5 +941,24 @@ version="2.0">
             <media:content url="https://s3.amazonaws.com/nitch/Episode_50_Up_Since_72.mp3" fileSize="54566344" type="audio/mpeg"/>
             <itunes:explicit>no</itunes:explicit>
         </item>
+        <item>
+            <title>Episode 51: BBQ Chicken Disease</title>
+            <link>http://nitch.cc/podcast/episode-51-bbq-chicken-disease</link>
+            <guid>http://nitch.cc/podcast/episode-51-bbq-chicken-disease</guid>
+            <pubDate>Fri, 05 Apr 2013 14:00:00 GMT</pubDate>
+            <author>Nitch</author>
+            <description>Jonathan and Kelli talk about Amazon Web Services - EC2, RDS, CloudWatch, and our new personal favorite, Simple Notification Service.</description>
+            <enclosure url="https://s3.amazonaws.com/nitch/Episode_51_BBQ_Chicken_Disease.mp3" length="64172851" type="audio/mpeg"/>
+            <content:encoded>Jonathan and Kelli talk about Amazon Web Services - EC2, RDS, CloudWatch, and our new personal favorite, Simple Notification Service.</content:encoded>
+            <itunes:author>Nitch</itunes:author>
+            <itunes:duration>38:46</itunes:duration>
+            <itunes:subtitle>Jonathan and Kelli talk about Amazon Web Services - EC2, RDS, CloudWatch, and our new personal favorite, Simple Notification Service.</itunes:subtitle>
+            <itunes:summary>Jonathan and Kelli talk about Amazon Web Services - EC2, RDS, CloudWatch, and our new personal favorite, Simple Notification Service.</itunes:summary>
+            <itunes:keywords>web, mobile, html5, rest, json</itunes:keywords>
+            <itunes:image href="http://nitch.cc/img/512x512.png"/>
+            <media:content url="https://s3.amazonaws.com/nitch/Episode_51_BBQ_Chicken_Disease.mp3" fileSize="54566344" type="audio/mpeg"/>
+            <itunes:explicit>no</itunes:explicit>
+        </item>
+
     </channel>
 </rss>
