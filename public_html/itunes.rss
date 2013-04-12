@@ -959,6 +959,23 @@ version="2.0">
             <media:content url="https://s3.amazonaws.com/nitch/Episode_51_BBQ_Chicken_Disease.mp3" fileSize="54566344" type="audio/mpeg"/>
             <itunes:explicit>no</itunes:explicit>
         </item>
-
+        <item>
+            <title>Episode 52: Punching Kittens with Ethan Marcotte</title>
+            <link>http://nitch.cc/podcast/episode-52-punching-kittens-with-ethan-marcotte</link>
+            <guid>http://nitch.cc/podcast/episode-52-punching-kittens-with-ethan-marcotte</guid>
+            <pubDate>Fri, 12 Apr 2013 14:00:00 GMT</pubDate>
+            <author>Nitch</author>
+            <description>Jonathan and Kelli welcome special guest Ethan Marcotte to discuss some of the non-technical challenges of Responsive Web Design: unresponsive ad units, browsing the web on game consoles, getting client sign-off without Photoshop comps, and much more.</description>
+            <enclosure url="https://s3.amazonaws.com/nitch/Episode_52_Punching_Kittens_with_Ethan_Marcotte.mp3" length="64172851" type="audio/mpeg"/>
+            <content:encoded>Jonathan and Kelli welcome special guest Ethan Marcotte to discuss some of the non-technical challenges of Responsive Web Design: unresponsive ad units, browsing the web on game consoles, getting client sign-off without Photoshop comps, and much more.</content:encoded>
+            <itunes:author>Nitch</itunes:author>
+            <itunes:duration>43:16</itunes:duration>
+            <itunes:subtitle>Jonathan and Kelli welcome special guest Ethan Marcotte to discuss some of the non-technical challenges of Responsive Web Design: unresponsive ad units, browsing the web on game consoles, getting client sign-off without Photoshop comps, and much more.</itunes:subtitle>
+            <itunes:summary>Jonathan and Kelli welcome special guest Ethan Marcotte to discuss some of the non-technical challenges of Responsive Web Design: unresponsive ad units, browsing the web on game consoles, getting client sign-off without Photoshop comps, and much more.</itunes:summary>
+            <itunes:keywords>web, mobile, html5, rest, json</itunes:keywords>
+            <itunes:image href="http://nitch.cc/img/512x512.png"/>
+            <media:content url="https://s3.amazonaws.com/nitch/Episode_52_Punching_Kittens_with_Ethan_Marcotte.mp3" fileSize="54566344" type="audio/mpeg"/>
+            <itunes:explicit>no</itunes:explicit>
+        </item>
     </channel>
 </rss>
