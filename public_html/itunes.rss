@@ -977,5 +977,23 @@ version="2.0">
             <media:content url="https://s3.amazonaws.com/nitch/Episode_52_Punching_Kittens_with_Ethan_Marcotte.mp3" fileSize="54566344" type="audio/mpeg"/>
             <itunes:explicit>no</itunes:explicit>
         </item>
+        <item>
+            <title>Episode 53: Fluffdates</title>
+            <link>http://nitch.cc/podcast/episode-53-fluffdates</link>
+            <guid>http://nitch.cc/podcast/episode-53-fluffdates</guid>
+            <pubDate>Fri, 19 Apr 2013 14:00:00 GMT</pubDate>
+            <author>Nitch</author>
+            <description>Jonathan and Kelli sit back and say "I told you so" for 30 minutes as they talk about Glassware, the Mirror API, and improved methods for the distribution of cat photos with Google Glass.</description>
+            <enclosure url="https://s3.amazonaws.com/nitch/Episode_53_Fluffdates.mp3" length="64172851" type="audio/mpeg"/>
+            <content:encoded>Jonathan and Kelli sit back and say "I told you so" for 30 minutes as they talk about Glassware, the Mirror API, and improved methods for the distribution of cat photos with Google Glass.</content:encoded>
+            <itunes:author>Nitch</itunes:author>
+            <itunes:duration>33:30</itunes:duration>
+            <itunes:subtitle>Jonathan and Kelli sit back and say "I told you so" for 30 minutes as they talk about Glassware, the Mirror API, and improved methods for the distribution of cat photos with Google Glass.</itunes:subtitle>
+            <itunes:summary>Jonathan and Kelli sit back and say "I told you so" for 30 minutes as they talk about Glassware, the Mirror API, and improved methods for the distribution of cat photos with Google Glass.</itunes:summary>
+            <itunes:keywords>web, mobile, html5, rest, json</itunes:keywords>
+            <itunes:image href="http://nitch.cc/img/512x512.png"/>
+            <media:content url="https://s3.amazonaws.com/nitch/Episode_53_Fluffdates.mp3" fileSize="54566344" type="audio/mpeg"/>
+            <itunes:explicit>no</itunes:explicit>
+        </item>
     </channel>
 </rss>
