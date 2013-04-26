@@ -995,5 +995,23 @@ version="2.0">
             <media:content url="https://s3.amazonaws.com/nitch/Episode_53_Fluffdates.mp3" fileSize="54566344" type="audio/mpeg"/>
             <itunes:explicit>no</itunes:explicit>
         </item>
+        <item>
+            <title>Episode 54: The Royal You</title>
+            <link>http://nitch.cc/podcast/episode-54-the-royal-you</link>
+            <guid>http://nitch.cc/podcast/episode-54-the-royal-you</guid>
+            <pubDate>Fri, 26 Apr 2013 14:00:00 GMT</pubDate>
+            <author>Nitch</author>
+            <description>Jonathan and Kelli talk about jQuery vs. Zepto... and other pointless debates.</description>
+            <enclosure url="https://s3.amazonaws.com/nitch/Episode_54_The_Royal_You.mp3" length="64172851" type="audio/mpeg"/>
+            <content:encoded>Jonathan and Kelli talk about jQuery vs. Zepto... and other pointless debates.</content:encoded>
+            <itunes:author>Nitch</itunes:author>
+            <itunes:duration>33:30</itunes:duration>
+            <itunes:subtitle>Jonathan and Kelli talk about jQuery vs. Zepto... and other pointless debates.</itunes:subtitle>
+            <itunes:summary>Jonathan and Kelli talk about jQuery vs. Zepto... and other pointless debates.</itunes:summary>
+            <itunes:keywords>web, mobile, html5, rest, json</itunes:keywords>
+            <itunes:image href="http://nitch.cc/img/512x512.png"/>
+            <media:content url="https://s3.amazonaws.com/nitch/Episode_54_The_Royal_You.mp3" fileSize="54566344" type="audio/mpeg"/>
+            <itunes:explicit>no</itunes:explicit>
+        </item>
     </channel>
 </rss>
