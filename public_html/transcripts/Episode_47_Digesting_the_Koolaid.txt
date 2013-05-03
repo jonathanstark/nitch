@@ -1,0 +1,782 @@
+Episode 47 – Digesting the Koolaid
+---------------------
+
+<u>Jonathan Stark:</u> 	Hello and welcome to the <b>Nitch Podcast</b> for Friday, March 8th, H… Cause it’s a new data week, H. There is a very real danger that I am going to fall asleep in all this so… Alright, let’s do it again. 
+
+>>Hello and welcome to the <b>Nitch Podcast</b> for Friday, March 8th, 2013. I am Jonathan Stark.
+
+<u>Kelli Shaver:</u>		And I am Kelli Shaver.
+
+<u>Jonathan Stark:</u> 	And were here to talk about building apps that run everywhere. This week, Lawnchair performance tips, simplifying your CSS with CSS Simple, and preparing for the zombie apocalypse of devices, part 2, the return of the son of the Zombie Apocalypse. Wow.
+
+<u>Kelli Shaver:</u>		Wake up!
+
+<u>Jonathan Stark:</u> 	This is going to be a long show.
+
+<u>Kelli Shaver:</u>		Yes.
+
+<u>Jonathan Stark:</u> 	So dear listener, it is approaching midnight as we record this.
+
+<u>Kelli Shaver:</u>		Yes, it’s an hour and hour away from Thursday and it’s just about to start to get really busy for me this week.
+
+<u>Jonathan Stark:</u> 	Yes, same here. Work and home and broadcasting from a very comfy chair I have to say, extremely comfortable chair but the house was just like, work started on Monday. We finally settled with the Insurance Company so we had a house fire the day after Christmas and was it? It’s March 6th, were recording this on March 6th. So it’s like 2 full months of mess around with how much the settlement should be with the Insurance Company and so finally it happened on Friday like, *“here’s the number that anyone can live with.”* And so the contract was like, *“okay, we’ll be there Monday.”* I’ve got pictures, I’ve got starting posting pictures but like today, they took everything out of our Son’s room and say, *“here’s what will we do, to get everything out of the son’s room, were going to refurnish the furnish in there and we’ll put everything back and we’ll move everything out of the entire first floor and we’ll jam it in there up to the ceiling and…”* So there, Cooper and 2 dogs were all basically living in the dining room.
+
+<u>Kelli Shaver:</u>		Yes, when we had our floors redone last spring, I mean it was the same. Cause we had a very open floor plan so the kitchen, dining room, living room, it’s all open and we had it all torn up at once so we were all just kind of living out of my office.
+
+<u>Jonathan Stark:</u> 	Yes, just huddled looking at each other.
+
+<u>Kelli Shaver:</u>		Yes. We had like the couch in here and another bed in here. Everything just piled into the office and we just kind of climb on top of the stack of furniture and sit around and watch movies on the iMac.
+
+<u>Jonathan Stark:</u> 	Yes, exactly. So Erica’s Mom, we did come to the rescue and she’s basically swooped in to Cooper tonight because it really reeks in here. There is like all sorts of things going on, cause they’re refurnishing the floor, then there’s a fire—I don’t know if you’re ever, I mean you set your room on fire. But when the insurance company is involved, they insist that you seal any wood with this milky goo that they spray on it.
+
+<u>Kelli Shaver:</u>		Yes.
+
+<u>Jonathan Stark:</u> 	And it stinks so they sent it with this other smells. It’s kind of like hard to describe but it’s sort of in a sort of strawberry urinal cake flavour.
+
+<u>Kelli Shaver:</u>		Oh yes. Instead of just using an odor eliminator, they just try and cover it up with a different odor so you get both.
+
+<u>Jonathan Stark:</u> 	You just end up with both smells.
+
+<u>Kelli Shaver:</u>		Yes.
+
+<u>Jonathan Stark:</u> 	And it’s like the first one, the bad one is strong so they you know, at least, but I am extremely happy. I cannot tell you how I am extremely happy with it. All the sudden, progress has been made and the place is going to be like new floors and new office but they are going to do the ceiling tomorrow in my office so I am very excited.
+
+<u>Kelli Shaver:</u>		Yes, I am looking forward to see it. Actually I don’t want to commit to anything yet but I maybe make a trip up there sometime in May to providence.
+
+<u>Jonathan Stark:</u> 	Cool. Yes, you probably keep me posted. You can come and see—if we’re not done by then I’ll be dead so…
+
+<u>Kelli Shaver:</u>		I could even come see the new floors that come in the funeral.
+
+<u>Jonathan Stark:</u> 	Yes, either way it could become so convenient. Exactly. Wow, yes so we should probably jump into it before I pass out. So let’s start with housekeeping and a couple of things there. First is, I got a dump of transcripts. Nine or ten of the episodes have been transcribed by our trustee transcriber and I am kind of struggling on what to do with them. I had her do it in Markdown. So the first we got was like in a Word basically and so I said, *“oh in the future, could you do it in a sort of Markdown syntax.”* And they are, so I could just paste them into the sort of bottom of the episode that they applied to it and it makes a lot of sense.
+
+<u>Kelli Shaver:</u>		Yes.
+
+<u>Jonathan Stark:</u> 	From like an SCS standpoint and everything in there but they are super long. I know which is to be expected but then I guess I should not worry about it but there is super duper long and the other thing is their like they are almost too verbatim, almost. So there are like corrections that need to be made but they are so long and there’s no way like I can’t imagine if we are ever able to reasonably correct them so I am trying to—I wonder if there is a clever way that we could like have the dear listener submit corrections to the transcriber who can then fix them. Or we could did somehow like, if we turn them into Google Docs made better than a doc in the page. I don’t know if there is any clever ideas out there but…
+
+<u>Kelli Shaver:</u>		You can put them in a Wiki.
+
+<u>Jonathan Stark:</u> 	Yes, I don’t want it to be just a static thing that we paste in there and forget about it essentially and turns into something for SEO. You know what I mean? I wish it would be a little bit more readable. So I don’t know. Any advice that we have about that?
+
+<u>Kelli Shaver:</u>		We’ll make an API!
+
+<u>Jonathan Stark:</u> 	The data is clean. 
+
+<u>Kelli Shaver:</u>		Yes. 
+
+<u>Jonathan Stark:</u> 	So we can’t argue about that. So that’s cool. One way, I’ll probably just start off by posting them statically just to have it up there and so people can always look at it and be like, *“oh yeah,”* or either be like, *“no, you are making a lot more than fine.”* Okay, so that is one piece of the housekeeping. Other piece of housekeeping is that, episode 50 is rapidly approaching. This is 47 so basically we got 3 weeks to come up with a plan of what to do and I’ve had a couple of, with just a few people have sort of chimed in saying that they really love the idea of a live episode so we’ll probably do that. I am thinking of probably do like a Google Hangout cause it seems like pretty awesome. I don’t know if there’s a limit of the number of people like can be in a Hangout.
+
+<u>Kelli Shaver:</u>		I’ve never done one.	
+
+<u>Jonathan Stark:</u> 	Yes, they are pretty awesome. So I am feeling like that would be the way to go or something like that. I’ve messed around just in TV and I mean, it is more of a video thing but so maybe a little more recent step. But the big thing is, regardless of the technology, we have to pick a time to do it. And I’ve been like—you know, you don’t have access to the site and I have done zero analytics next to no analytics on how much traffic we get or when get it or when people listen the show, we have no clue so it could be then it would be good to do it. At 6PM Eastern, it could be that there is not good time, it could be that it is noon on Friday; I have no idea. So if anybody has an opinion about that, you might as well speak up because whatever you say would probably do. So what do you say we talk about building apps then? Run everywhere?
+
+<u>Kelli Shaver:</u>		Okay, we can do that.
+
+<u>Jonathan Stark:</u> 	Cool, so bug report. I am intrigued by your summary of the bug report. You said that you had a bug that had to do with LawnChair.js which is a client side persistence abstraction library and localStorage in particular which is one of the adaptors that you uses.
+
+<u>Kelli Shaver:</u>		Yes, and I am not so much sure if it’s just a bug or maybe just a limitation of all the browser and the JavaScript engine in general. But were kind of using it in sort of an unusual context and we don’t actually have any client side persistence other than like an authentication token.
+
+<u>Jonathan Stark:</u> 	So essentially you’re like, *“we can do cookies but better.”*
+
+<u>Kelli Shaver:</u>		Yes, basically. And so basically what were doing was, we were pulling in about 1500 records then there is, I mean, small records like 1000 or less than 1000 each so I am not talking about a huge amount of data in terms of size but there was a large number of them. So were pulling them in and then I was just putting it in the localStorage just to have them there to access them because LawnChair is a good query interface were for working on that data. And whenever I would load up all the records when launching the app, the browser would hang and it would just take forever to load them but once I stopped using localStorage and just told LawnChair like, *“well okay, just keep it in the memory,”* like it was almost instantaneous. So apparently, writing to localStorage was really consuming a lot of resources.
+
+<u>Jonathan Stark:</u> 	Okay, Christian Heilmann he’s Firefox … Opera? Firefox? I am trying to remember.
+
+<u>Kelli Shaver:</u>		Name sounds familiar but I am not sure where I’ve heard it.	
+
+<u>Jonathan Stark:</u> 	Yes, I have to look that up. Sorry Christian. But he posted something a little while back about the sort of, *LocalStorage must die, don’t use localStorage* type of thing and I was like, *“Dude, you’re high! LocalStorage is the best thing ever.”* And he raised an issue which is a valid point but one that I never encountered and sounds like maybe you’re encountering it which is that, it’s not a synchronous that which contributes to its simplicity but it’s blocking so you can have situations where more than one process is trying to access localStorage and just completely locks up your browser. 
+
+<u>Kelli Shaver:</u>		Yes, that may have been my issue that I was running into there and actually one of the solutions I considered for solving it was *you should break things up into 3 or 4 different areas and then use web workers to do it that way.* But I didn’t get forward into it to test that implementation because I just thought, *“Well what the heck, I will just change it to keeping everything in memory and see if it makes sense. I don’t need persistence to see if it makes a difference.”* And it did, so I left all that.
+
+<u>Jonathan Stark:</u> 	Interesting. So the pattern—I would love to take a look on that by the way and see if I can reproduce it. I don’t know if this is the pattern that you are using but the pattern that I typically use with localStorage is that during the operation of the app, so like in normal operations: so a person visits the page, their dorking around. After they initially visit the page, I keep everything in memory as well. So basically somebody comes to the page and I say, *“Hey! Is there any applications state or any other data stored in localStorage?”* And if there is, and I retrieve it and stick in memory and from there on out, I just manipulate it and access it in memory.
+
+<u>Kelli Shaver:</u>		Yes, I feel like that is the definite way to go.
+
+<u>Jonathan Stark:</u> 	Yes.
+
+<u>Kelli Shaver:</u>		The solution for me was getting it into localStorage to begin with.
+
+<u>Jonathan Stark:</u> 	That is really weird. Were you in a loop or something? 
+
+<u>Kelli Shaver:</u>		Yes, I was like iterating through a JSON file of about 1500 objects that were sometimes nested there for deep.
+
+<u>Jonathan Stark:</u> 	And you were writing in the loop or were you… Why wouldn’t you just stringify it and save it to localStorage?
+
+<u>Kelli Shaver:</u>		I don’t remember of the top of my head why I did it but I had a good reason for it.
+
+<u>Jonathan Stark:</u> 	Yes, I am sure you do.
+
+<u>Kelli Shaver:</u>		It’s been a few weeks since I set it up initially to begin with so I don’t remember what it was. One thing, I need to have very granular control over it and so it was easier just to have the individual records in localStorage. 
+
+<u>Jonathan Stark:</u> 	Is this the one were talking about were you’re considering Sequel DB? 
+
+<u>Kelli Shaver:</u>		Yes.
+
+<u>Jonathan Stark:</u> 	Yes, interesting. I am dying to take a look at this so I’d love to because I am sure that the pattern that I normally use doesn’t apply to the case that you are in so I’d been interesting to see used case where my typical, literally the pattern that I use all the time doesn’t apply cause when I am doing it, training class on this, I like to point out potential land mines as much as possible.
+
+<u>Kelli Shaver:</u>		Yes, or you may know a better way on implementing it than what am I doing and what I am doing may not be the idea the way you do it either but I am sure that the client wouldn’t mind. It’s all going to be public anyway.
+
+<u>Jonathan Stark:</u> 	Right.
+
+<u>Kelli Shaver:</u>		In the end anyway, it’s JavaScript.
+
+<u>Jonathan Stark:</u> 	Right. Tell me if someone have debugged it for free. Yes, I am super curious to look at that.
+
+<u>Kelli Shaver:</u>		Yes, I mentioned it to you to a couple of times so he would not be surprised.
+
+<u>Jonathan Stark:</u> 	Alright, cool. So I’ve got a bug report that is maybe a little bit more of a funny story than anything useful. But as long time listener would know, I’ve been working on this Objective-C like a pure native iPad application that originally was going to be a PhoneGap app but it turned out that the video interactions that we needed to do were too sophisticated to do a PhoneGap. You can get the frame rate that you wanted, couldn’t get the interface we wanted. So I decided, I will just bite the bullet and do the thing native which is cool but it’s also frustrating because it’s not my favourite thing to learn. Not a big fan of Coco, not a big fan of Objective-C. So the other night, I was like alright there is a lot of camera interaction in this application, you’re recording videos and I had to change a list. Imagine there is this like list view of videos and you tap on one and you want to listen to it and so the list view, got all this videos and I am like a sort of a newbie IOS programmer and like, *“Okay I got all this videos, do I have to make like thumbnails?”* You know what I mean? Like do I have to? 
+
+<u>Kelli Shaver:</u>		Yes.
+
+<u>Jonathan Stark:</u> 	Like outside of the app, it seems like the kind of thing that IOS would be able to do to like take a video and just make a thumbnail out of it somehow.
+
+<u>Kelli Shaver:</u>		Right. Grab a TFrame.
+
+<u>Jonathan Stark:</u> 	Yes, something right. And sure enough, I Googled around and of course Stack Overflow has like a couple of different ways to do it and so I dorked around with it and I find a way that seems to kind of elegant and bam! It works. And it’s like, it’s great. You can say, whatever, you can get a time stamp and say I want to… But it said just like Zero, just came from the very first frame of the thing.
+
+<u>Kelli Shaver:</u>		Yes.
+
+<u>Jonathan Stark:</u> 	So the images started showing up, so it’s sweet. I am going like, *“I am done with my tasks the day, I am going to send it to the client,”* and while I was recording the video of it cause usually I was recording a video like in the middle of the night, I record a video of the changes and send them along with the new application so you can play with it in the morning. And as I am doing the video, I tapped on one of the links to navigate to the detail view of the video and the app crashes. I was like, oh God! Like the error messages are utterly useless. So I am like, great. I am ready to send it, I am done, I am going to bed, I am exhausted, and then I see this bug, and it’s not just a little bug cause the app is just completely crashing. So obviously, I am like ready. Wasn’t like I am going to smash my keyboard and it’s like, what? What should I smash my keyboard on?
+<u>Kelli Shaver:</u>		Yes.
+
+<u>Jonathan Stark:</u> 	Seriously, I was having like visions. So I am like, *“Look at this error.”*The only English part, the only readable piece of the error is that I’ve got an invalid array off. I am trying to access an element of the array that does not exist and I am like, *“How is my array getting? I am adding thumbnails and somehow it’s like am I adding the thumbnails like removing elements from the array like I am popping out the elements out of the array or something?”*
+
+<u>Kelli Shaver:</u>		Am I actually overwriting something?
+
+<u>Jonathan Stark:</u> 	Right. Like, what did I do? I am like flipped back to the older version of the code, that is crashing the two and I swear this used to work. So finally I am stepping through the code for hours, right? And finally I realized that the array that we are talking about is not the data array, it’s called the Capture Device Array. I am like, capture device, what the hell is that? Oh, the camera. I was debugging it and the simulator which has no camera.
+
+<u>Kelli Shaver:</u>		Oh my God.
+
+<u>Jonathan Stark:</u> 	So the last time I was debugging it, I was plugged into my actual iPad which has a camera. Since the simulator has no cameras, the array of capture devices was empty.
+
+<u>Kelli Shaver:</u>		I think the simulator would be in the camera.
+
+<u>Jonathan Stark:</u> 	Yes, you would think.
+
+<u>Kelli Shaver:</u>		It could use your web camera or something.
+
+<u>Jonathan Stark:</u> 	But you know what’s worst? It’s that I knew about this bug and it’s not really a bug but I knew about it because it happened to me a couple of weeks ago.
+
+<u>Kelli Shaver:</u>		Oh, I hate those.
+
+<u>Jonathan Stark:</u> 	Oh my God, I was like so happy that I figured it out but wasn’t that happiness?
+
+<u>Kelli Shaver:</u>		Yes.
+
+<u>Jonathan Stark:</u> 	But Oh my God, I would never forget that one again.
+
+<u>Kelli Shaver:</u>		I am  really surprised that the simulator doesn’t simulate the camera.
+
+<u>Jonathan Stark:</u> 	Specially considering that the computer has a camera.
+
+<u>Kelli Shaver:</u>		Yes. 
+
+<u>Jonathan Stark:</u> 	Fan simulator.
+
+<u>Kelli Shaver:</u>		Yes.
+
+<u>Jonathan Stark:</u> 	So shall we? I don’t think there is a good segue from IOS Simulator Camera bugs to…
+
+<u>Kelli Shaver:</u>		Other stuffs?
+
+<u>Jonathan Stark:</u> 	Simplifying CSS.
+
+<u>Kelli Shaver:</u>		Probably.
+
+<u>Jonathan Stark:</u> 	So let’s just… Maybe we could start with this CSS simple.
+
+<u>Kelli Shaver:</u>		Maybe some kind of sound effect like…
+
+<u>Jonathan Stark:</u> 	I could make a sound effect but it wouldn’t be the kind of thing you do on polite company.
+
+<u>Kelli Shaver:</u>		Wow, this is really hard to start up; this conversation without having some kind of lead into it.
+
+<u>Jonathan Stark:</u> 	Yes, so let me give you a lead into. I’ll give you the teaser so.
+
+<u>Kelli Shaver:</u>		Okay.
+
+<u>Jonathan Stark:</u> 	So Kelli sent me an email the other day dear listener, with a link to a basically small project that is called CSS Simple. I am like, *“What’s this?”* And my initial take on it, and then you can sort of correct me where I am wrong, was that it was almost like a CSS Reset but instead of being a CSS Reset, it’s kind of like a baseline mobile first response to design for like typography and colors and like individual element treatments but no layout junk; no grids, none of that junk.
+
+<u>Kelli Shaver:</u>		Yes.
+
+<u>Jonathan Stark:</u> 	Is that like fairly an accurate representation?
+
+<u>Kelli Shaver:</u>		Yes, no layout and no JavaScript; just CSS.
+
+<u>Jonathan Stark:</u> 	Right. What’s the inspiration to do that in the first place?
+
+<u>Kelli Shaver:</u>		The inspiration to do that was there are a lot of individual sort of component and widgets in bootstrap that I like but I agree of what you said a few weeks ago , the more I use it, the more frustrating it becomes because CSS grids feel like the do tables for layout.
+
+<u>Jonathan Stark:</u> 	Yes.
+
+<u>Kelli Shaver:</u>		It really does. And in a lot of cases, it’s not mobile first and it’s not needed in a lot of cases and I am getting more and more to the client where I am not using jQuery all the time on every project and I don’t want jQuery on every project. So I just built this little CSS library that has some default typography and various different page elements but no layout or JavaScript.
+
+<u>Jonathan Stark:</u> 	I scanned to it pretty quick like you did a whole bunch of inputs, you had different kinds of air messages, you had different kinds of like required field airs that were right in line. There were bunch of really good stuff but it was all atomic. 
+
+<u>Kelli Shaver:</u>		Yes.
+
+<u>Jonathan Stark:</u> 	There is no layout, it was all just very atomic little bits that you could sort of like the smaller legos, no big legos.
+
+<u>Kelli Shaver:</u>		Yes, just the 1X2 blocks.
+
+<u>Jonathan Stark:</u> 	Right. So men, I am going to tell you that I love that because I am kind of a purist when it comes to projects and the one I am starting off with scratch. Every time I uses like HTML5 Boilerplate or Modernizr, I just gave up on that stuff because I end up like it gets you really far in the first and you end up stripping all out. 
+
+<u>Kelli Shaver:</u>		Yes.
+
+<u>Jonathan Stark:</u> 	The process of stripping it out is really frustrating and it’s definitely difficult. So if you take up this additive approach, it’s takes you a little bit longer to get something to a point where you can like show it to someone or it feels like it’s starting to come together but it’s not that long. And you end up only with what you need.
+
+<u>Kelli Shaver:</u>		Only with what you need, yes.
+
+<u>Jonathan Stark:</u> 	Yes, but it does have that extra frustrating piece where you just feel like, *“Oh My God, I’ve written this debug routine like a hundred times. I am always writing this same exact button treatment in the CSS.”*
+
+<u>Kelli Shaver:</u>		Yes.
+
+<u>Jonathan Stark:</u> 	But I’ve never taken a time to actually abstract those things into a little library and sure enough, you did the CSS part. I’ll probably do the JavaScript part.
+
+<u>Kelli Shaver:</u>		Yes, I  did it. There you go, we’ll team up.
+
+<u>Jonathan Stark:</u> 	Yes.
+
+<u>Kelli Shaver:</u>		I started up last night and did some more work on the day to day because had kind of a slow day and right now with WebKit only because of some of the form styling; they almost work in Firefox. To be honest, I have not tested it in all like IE but the form styling is almost working in Firefox but not quite; there is a couple of little things I still need to work on there. To be honest, I am not entirely sure that I care. Part of what I wanted is built this specifically for quickly prototyping mobile apps on like PhoneGap type stuff.
+
+<u>Jonathan Stark:</u> 	Yes.
+
+<u>Kelli Shaver:</u>		Right, I am not too concerned if it doesn’t land outside the WebKit but I’d like to have it at least compatible with Firefox and like maybe IE9+, so now it’s usable and everything else. It’s not quite done yet but it’s pretty close.
+
+<u>Jonathan Stark:</u> 	Cool. It’s really cool. It’s like when I just look at it, I am like it’s about the size that I would expect. Like a lot of times, you look at it and you are like, *“You need a PHD to read this thing.”* It’s just too complicated. Like I understand that it’s a software even if it’s like Markup or CSS, I understand that complexities is something that has to exist but I don’t want to take something that it’s too complex to understand and just jam into a project.
+
+<u>Kelli Shaver:</u>		Right.
+
+<u>Jonathan Stark:</u> 	At a layer that I have to mess with. So like, I don’t mind that the complexity of HTTP is hidden from me because…
+
+<u>Kelli Shaver:</u>		Right, you don’t have anything to do with it.
+
+<u>Jonathan Stark:</u> 	Yes, I am not playing at that level. I am like, I am not in that area. Like TCP/IP doesn’t matter, I don’t care. Like the DNS system, I don’t care how it works.
+
+<u>Kelli Shaver:</u>		Yes.
+
+<u>Jonathan Stark:</u> 	Cause I don’t play at that level but I do have to play at the CSS level so if there is a stuff going on in there that is going to take me even 4 hours to figure out then I could spend that 4 hours creating something from scratch additively that I know inside out.
+
+<u>Kelli Shaver:</u>		Right.
+
+<u>Jonathan Stark:</u> 	What do you gain?
+
+<u>Kelli Shaver:</u>		Yes. Unless it’s something you are going to end up reusing on every project which I guess a lot of people do but I don’t do, I am a minimal stuff. Like I only have what I need.
+
+<u>Jonathan Stark:</u> 	Right.
+
+<u>Kelli Shaver:</u>		And not have a bunch of extra bullet plate sitting around there and taking up space that is not needed.
+
+<u>Jonathan Stark:</u> 	The speed, it also translates the same speed.
+
+<u>Kelli Shaver:</u>		Yes. 
+
+<u>Jonathan Stark:</u> 	The faster stuff is; the number 1 feature of a site or an app is speed. Cause if you have crazy fast speed, users would forgive a lot of ills because they can explore your interface more because there is no penalty for exploring. It doesn’t take forever for you to every single screen to load.
+
+<u>Kelli Shaver:</u>		Yes.
+
+<u>Jonathan Stark:</u> 	You take a hook around, it’s just so fast fast fast. And every byte matters, especially on mobile, especially on a 3G or an edge connection for crying out loud.
+
+<u>Kelli Shaver:</u>		Yes. I’ll just check, this is 20K.
+
+<u>Jonathan Stark:</u> 	The CSS Simple?
+
+<u>Kelli Shaver:</u>		Yes.
+
+<u>Jonathan Stark:</u> 	That’s too big. I am surprised, it’s 20K from looking at it.
+
+<u>Kelli Shaver:</u>		It has a couple of graphics that are embedded at the CSS Data. URLs, their tiny graphics but that’s probably making the size up.
+
+<u>Jonathan Stark:</u> 	Yes.
+
+<u>Kelli Shaver:</u>		But I did that just for portability mostly.
+
+<u>Jonathan Stark:</u> 	Right. Now, that all makes sense. You got to put that size really if you have that images elsewhere anyway so…
+
+<u>Kelli Shaver:</u>		Right. Couple of images for some form notes.
+
+<u>Jonathan Stark:</u> 	Yes. Well cool, we’ll link to it at the initial notes so people should check it out and even if you don’t use it as is you can always fork it and you can always just pick out the pieces that you find useful.
+
+<u>Kelli Shaver:</u>		Yes, it’s a very modular sort of design. A lot of things are separated out in their own SASS files and everything is very well-organized I think so…
+
+<u>Jonathan Stark:</u> 	Cool. So now that we are done with the focus topic, let’s get into a futuristic exploration of becoming zombie apocalypse Part 2.
+
+<u>Kelli Shaver:</u>		Yes.
+
+<u>Jonathan Stark:</u> 	So the iPhone came out in like early 2007, I think it was. And I don’t know what it actually was really but I think it was in 2007.
+
+<u>Kelli Shaver:</u>		I think it was later that year.
+
+<u>Jonathan Stark:</u> 	Yes. And it was obviously a runaway hit and it completely destroyed Nokia and Blackberry. And then Android quickly like barely ramped up fast enough to be viable but then has now like totally out paced in terms of unit installations IOS but there’s been notion of this zombie apocalypse of electronics which right now we think of as modern Smart Phones particularly Android but also you got all this sort of wannabes. You got all this sort of whole bunch of Blackberrys that you still have to worry about. You got Windows phone, couple of versions of that in the wild, all different sizes, all different screen densities, all different capabilities, different number of cameras, battery life; all these things are different.
+
+<u>Kelli Shaver:</u>		Yes, and get outside of the US and some places against—they used to have a lot of feature phones.
+
+<u>Jonathan Stark:</u> 	Oh yes, I heard that we just crossed 50% Smart Phone adoption in the US so of people who have a phone, a cell phone, we just have like 51% having Smart Phone now. And the US I think is leading the percentages on that one. So there is country that is like way better, there’s huge growth potential are still for Smart Phones. Since this devices have really good browsers this days, this is an issue for web designers and developers of course because it’s like well people are on my web site now and they’ve got this tiny little screen compared to a desktop and it’s got touch events which is different and because of these Touch events, people are like interacting with it with their fingers which means there is of much different mode of interaction from using an abstracted mouse pointer type device.
+
+<u>Kelli Shaver:</u>		I am hovering it over a menu.
+
+<u>Jonathan Stark:</u> 	Yes, there is also like if you’re navigation or if your controls are on the top of the screen, your hand is blocking the content and there is all this differences. We’ve got things like orientation events, you got things like panting and pinching and other gestures and you got GPS. There is just so many differences and things to worry about.
+
+<u>Kelli Shaver:</u>		Like lighting conditions?
+
+<u>Jonathan Stark:</u> 	Oh men, yes. It’s just goes on, it’s just weird context. Someone is like inline at your store while they’re on your website so what does that mean?
+
+<u>Kelli Shaver:</u>		Yes, we could consider least contaxen.
+
+<u>Jonathan Stark:</u> 	Conti?
+
+<u>Kelli Shaver:</u>		Conti, yes.
+
+<u>Jonathan Stark:</u> 	Contaxen… So the point is though, everybody had exploded. Like if you build websites or you work on websites, you run websites, your head was like, *“Oh, you thought you had a bad in the browser worst in the desktop.”* That was a joke compared to this.
+
+<u>Kelli Shaver:</u>		Yes.
+
+<u>Jonathan Stark:</u> 	That was like, *“Please, that was a country club.”*
+
+<u>Kelli Shaver:</u>		Can we just go back to just having the things work in IE and leave it alone?
+
+<u>Jonathan Stark:</u> 	Right, turn this around with like the Android browser on 2.1.
+
+<u>Kelli Shaver:</u>		Yes, or making something work on your Kindle.
+
+<u>Jonathan Stark:</u> 	Sure, yes exactly.
+
+<u>Kelli Shaver:</u>		E-reader.
+
+<u>Jonathan Stark:</u> 	Yes, the Kindle E-Reader right.
+
+<u>Kelli Shaver:</u>		Yes. 
+
+<u>Jonathan Stark:</u> 	So we know that and this devices are under things and techniques have started to crop up. Responsive web design probably being the most prominent to deal with this is in a way that makes sense and the overall concept is like, *“Okay, we have been developing device specific sites all along without realizing it. We’ve been building desktop sites,”* and now it’s like, *“Oh, iPhone. Now we get an iPhone site. So let’s do that.”* And I was kind of like, *“Oh geez, now I am maintaining 2 sites. Now I am updating contents at two places and these things. Let’s make one site that is going to look for both of them.”* And then enter responsive web design and I am caught on like on like Wildfire because people are already feeling that pain in maintaining two different sites and it just doesn’t scale. Certainly if they thought that they could manage one that iPad came out and then became pop and then it was like, *“For sure okay, I cannot keep up with this.”* And then, 7inch tablets and so we felt like, *“Wow! This is really hard! This is way worst than the worst browser and we just have to deal with desktop screens that all have the same resolution more or less.”*
+
+<u>Kelli Shaver:</u>		It’s going to make worst.
+
+<u>Jonathan Stark:</u> 	Yes so all along, you make just tons of people but apparently not enough people, not lots of people, that all talking how you know, don’t build a mobile site. Responsive web design is not about building a mobile site, responsive web design is about building an accessible site. It goes back to the things that we are always talking about like Smart Content is just clean, has metadata, it’s not device specific, it’s not layout specific and have APIs and when you have a designing experience, start small.
+
+<u>Kelli Shaver:</u>		Like resolution dependent breakpoints or silly.
+
+<u>Jonathan Stark:</u> 	Yes. I love the Stephen Hay quotes where he’s like: Don’t have like iPad breakpoints, it’s like make your window narrow and make it bigger until it looks like crap, put it in a breakpoint.
+
+<u>Kelli Shaver:</u>		A meta-breakpoint, yes.
+
+<u>Jonathan Stark:</u> 	Like your window bigger till it looks like crap. Cause you’re dealing with like Lime low. It’s a simple issue of Lime low.
+
+<u>Kelli Shaver:</u>		Yes, pretty much.
+
+<u>Jonathan Stark:</u> 	Right. You either need to add columns or make your text bigger.
+
+<u>Kelli Shaver:</u>		Right.
+
+<u>Jonathan Stark:</u> 	So all this is like, but still people are still sort of digesting the Koolaid. People are drunk to Koolaid but there is digesting it. 
+
+<u>Kelli Shaver:</u>		Yes.
+
+<u>Jonathan Stark:</u> 	As you know, I have been dealing with large organizations that have approached me by saying, *“We want a responsive website, that’s what we want.”* And I am like, *“Okay, here’s how you do it.”* And they are like, *“Oooh, we don’t want to do it like that, we want to do it like that, we just want the end-product. ”* 
+
+<u>Kelli Shaver:</u>		When we say we want a responsive website, we mean we want to look good on an iPad or iPhone desktop and we don’t care about anything else.
+
+<u>Jonathan Stark:</u> 	Yes, and the process of design approvals will be exactly the same as it ever was.
+
+<u>Kelli Shaver:</u>		Yes, just like these 3 breakpoints and that will be our responsive web design and will sign off on the layouts.
+
+<u>Jonathan Stark:</u> 	Yes. Sign off from like signing off on a printed piece of paper layout. They are like, *“I still need that.”* It’s alright, I understand. It’s a psychology thing but that’s okay. But the point being and it’s been like 2007, what it is now? 2013, Good God!
+
+<u>Kelli Shaver:</u>		6 years. Coming up on 6 years.
+
+<u>Jonathan Stark:</u> 	Yes. And only now are people are starting to like kind of embrace the concept and they are still doing it wrong but at least they realize that it’s unsustainable because there’s 3 major device buckets right now. You got desktop/laptop, you’ve got Tablets and you’ve got Phones. There are equips like Gray Area like where does the phone stop and the Tablet stop but that is fine. 
+
+<u>Kelli Shaver:</u>		Like whatever.
+
+<u>Jonathan Stark:</u> 	Yes. But guess what?
+
+<u>Kelli Shaver:</u>		That is going to change!
+
+<u>Jonathan Stark:</u> 	That is going to change this year.
+
+<u>Kelli Shaver:</u>		Yes and I feel like we are going to get to the point very quickly here and it’s like within the next few months, if we haven’t already where, what’s going to hold us back the most is not hardware limitations but attitudes and how we build things.
+
+<u>Jonathan Stark:</u> 	Totally agree. The technology is advancing way faster than the sort of mindset exchanging. Yes. So this year, there are 2 products that is just going to blow everybody’s minds; at least 4, I can think of 4 that are going to completely mess with every web developer and every web designer out there. First one is <b>Google Glass</b> that is going to—first one I am going to say is I think it’s going to be wildly popular.
+
+<u>Kelli Shaver:</u>		I think so too.
+
+<u>Jonathan Stark:</u> 	It is going to allow us to be connected in that—I would estimate that at about half year day is taking up with activities that prevent you from being connected to the internet. If you’re like me, believe the people want to be connected more than less then that means that there is a ton of time everyday when you are disconnected and you don’t like it. So something that fills that gap I think is going to be very popular, I think it’ll going to be Google Glass. It might not be Google Glass but it would be something.
+
+<u>Kelli Shaver:</u>		Yes, I can tell you right now that the instant Google Glass is available for pre-order, I am going to get at least one.
+
+<u>Jonathan Stark:</u> 	Oh yes. The first person I see with in on the street, I am going to stop them and make them let me try it on.
+
+<u>Kelli Shaver:</u>		Yes.
+
+<u>Jonathan Stark:</u> 	I mean, I will be like I am not going to stop following you until you let me put those on. There is a lot of people saying like, what’s it’s going to be like talking to someone who might be video taping you? All that stuff is real and that will be something that we just work through but it’s kind of like saying like John Gruber said, *“I hope that restaurants ban them, like God. That is just so silly.”*
+
+<u>Kelli Shaver:</u>		Yes.
+
+<u>Jonathan Stark:</u> 	It just struck me. If you feel like that like you should also probably everyone to ban Smart Phones or cell phones in general so I don’t know, whatever. But Cooper or like little kids aren’t going to think like that. They will not even know that there is a difference. They are like, *“Oh, I am more connected, cool. I can watch Curious George. Wow, I mean watch me talking to you and riding my bicycle.”*
+
+<u>Kelli Shaver:</u>		Yes.
+
+<u>Jonathan Stark:</u> 	Sweet.
+
+<u>Kelli Shaver:</u>		I have so very interesting ideas for Used Cases for Google Glass that I think could be significantly like they could be a major impact.
+
+<u>Jonathan Stark:</u> 	Wow. They are asking for essays.
+
+<u>Kelli Shaver:</u>		Oh really?
+
+<u>Jonathan Stark:</u> 	Yes. 
+
+<u>Kelli Shaver:</u>		I should totally write one.
+
+<u>Jonathan Stark:</u> 	Yes, you should.  I am sure you can Google for it. I didn’t see the actual link but I heard on Twitter that they were soliciting. The developer program is limited and they were like basically if you write like what you do then why you want early access, if you have a good reason then you are more likely to get them.
+
+<u>Kelli Shaver:</u>		Yes.
+
+<u>Jonathan Stark:</u> 	So I think heard about it on Twitter but there I’ve seen few articles about it from like The Verge or...
+
+<u>Kelli Shaver:</u>		Is that recently?
+
+<u>Jonathan Stark:</u> 	Yes, or maybe like 2 weeks ago.
+
+<u>Kelli Shaver:</u>		I’ll put a look into it
+
+<u>Jonathan Stark:</u> 	Yes, check it out. It’s not just Google Glass though, I have suspected that Apple is going to do something Siri that is… I was wondering if EarPods would turn into like a connective device. So like there’s new headphones that came about the iPhone 5.
+
+<u>Kelli Shaver:</u>		They are talking about 20 minutes about the headphones.
+
+<u>Jonathan Stark:</u> 	Yes, at the iPhone announcement though. The iPhone launch that we have been waiting for 2 freaking years for and maybe because iPhone 5 is kind of overwhelming, maybe they want to talk about the headphones so much or something, I don’t know.
+
+<u>Kelli Shaver:</u>		Yes, I don’t know.
+
+<u>Jonathan Stark:</u> 	But they are like, *“And we call them, (dramatic pause) EarPods.”* Didn’t they have a name before? They’re just EarBugs, right?
+
+<u>Kelli Shaver:</u>		They are just EarBugs.
+
+<u>Jonathan Stark:</u> 	Yes, just a headphone. And then like a light bulb went on I was like, *“Oh, they are going to productize that.”* Cause it would make sense, the name would make sense if you stored music on them.
+
+<u>Kelli Shaver:</u>		Yes, like this is going to be the new iPad Nano.
+
+<u>Jonathan Stark:</u> 	Yes, and we just base the new thing here. No wire, or maybe no wire to your other ear and like that, that’s it.
+
+<u>Kelli Shaver:</u>		Yes.
+
+<u>Jonathan Stark:</u> 	So I was like, yes, but then if you add Siri and Wi-Fi or Siri and 3G or 4G, that would be super crazy like you can do some wacky stuff with that. And so I was thinking about that and the problem with that is it doesn’t seem very Apple-y to me because it seems a little too geeky for Apple. But the rumour mail is really circulating around this that Apple is going to release an iWatch this year. That, I think and I believe that probably that will happen for a couple of reasons, one is that they are going to get to need another wearable market because wearables are going to be the revolution. That is going to be stuff to make Smart Phones look stupid.
+
+<u>Kelli Shaver:</u>		Yes, they are going to need to compete with glass.
+
+<u>Jonathan Stark:</u> 	Right. And I think there are other things too like FitBit and UpBand.
+
+<u>Kelli Shaver:</u>		Yes, right.
+
+<u>Jonathan Stark:</u> 	Those companies are not going to sit still. They are going to keep on innovating on top of these of these wearable devices. And Apple needs to be there because wearables is here already with lifestyle stuff and health and fitness and it’s just going to get more sophisticated.
+
+<u>Kelli Shaver:</u>		Yes, iWatch feels very Apple-y.
+
+<u>Jonathan Stark:</u> 	Yes.
+
+<u>Kelli Shaver:</u>		Cause they can be very elegantly designed.
+
+<u>Jonathan Stark:</u> 	Yes, it could be precious.
+
+<u>Kelli Shaver:</u>		Right.
+
+<u>Jonathan Stark:</u> 	Yes, something that you jammed your ears will never going to be cool enough for them. So the watch, if I think about it if you got like now for all those customers that I said, *“Hey! I know you don’t think you know you’re probably right, your site visitors are not going to browsing your website on a Kindle E-reader.”* You are probably right.
+
+<u>Kelli Shaver:</u>		Cause they are going to be browsing from the Watch.
+
+<u>Jonathan Stark:</u> 	But guess what? Right. If the site works on a Kindle1 which is an extremely resource constrained browsing device and a new device comes along, it is much sexier like an Apple iWatch but is extremely resource constrained. Guess what? You don’t have to make a W. Site.
+
+<u>Kelli Shaver:</u>		Yes.
+
+<u>Jonathan Stark:</u> 	We need a Watch site. We need a Tablet site. We need a mobile site. We need a desktop site. We need a Google Glass site. When does it end I ask you. 
+
+<u>Kelli Shaver:</u>		Yes. It ends when you get to the point when you say, *“Ugh, screw up. I am just going to write an API.”*
+
+<u>Jonathan Stark:</u> 	Yes, right. Screw this. So I think that even the most callus marketing professional who only cared about IOS basically have their will broken when Apple released the Mini and they’re like, *“Men,  I fought the fight for the iPad site after I fought the site for the iPhone site and now I got to fight the fight for the mini site? I am not going to win.”*
+
+<u>Kelli Shaver:</u>		Yes.
+
+<u>Jonathan Stark:</u> 	And then when the Watch come out, forget about it. 
+
+<u>Kelli Shaver:</u>		Forget it.
+
+<u>Jonathan Stark:</u> 	Yes, now you’ve got 4 magical devices that are radically different size, radically form different factor and probably the Watch…I wonder if it would be touch screen. It probably will just for the sexiness factor but I’ll bet you that interaction is going to be and hopefully won’t be just glorified notification center, that would be ridiculous.
+
+<u>Kelli Shaver:</u>		Yes. I am hoping it’s not. I am hoping it’s more than that.
+
+<u>Jonathan Stark:</u> 	Yes, that would just be absurd because they’re going to have charge like a $150 for it so you can’t have just like, *“Oh look, stock prices.”*
+
+<u>Kelli Shaver:</u>		Yes like, *“Oh look! It’s pushing you things that just showed up on your phone in your pocket.”*
+
+<u>Jonathan Stark:</u> 	Right. Obviously we’ll see what it is but content is obviously going to be on it. There’s going to be content on it. Is it going to be e-ink? Is it going to be touch screen? Who knows? But I promise you, any of those customers that listen to me and have their site working on a Kindle1 are not going to be caught short when the iWatch comes up.
+
+<u>Kelli Shaver:</u>		They can work with the iWatch if they want.
+
+<u>Jonathan Stark:</u> 	Exactly. You get it for free.
+
+<u>Kelli Shaver:</u>		So what are the other 2 devices?
+
+<u>Jonathan Stark:</u> 	So yes. These are input devices and I think this is actually kind of a big deal. Again I will put myself out of the limb and say that 2014 is going to be the year when touch list gesture interfaces reach the tipping point. So more than 10% of people are like want them, have them. There are two products that you can pre-order now and I’ve pre-ordered both and are supposed to be released this year. One is called the Leap Motion Controller.
+
+<u>Kelli Shaver:</u>		Yes.
+
+<u>Jonathan Stark:</u> 	Yes, it’s kind of like, connect like Microsoft X-box like but it’s a little unit about the size of I don’t know, like a Match Box Car.
+
+<u>Kelli Shaver:</u>		Yes.
+
+<u>Jonathan Stark:</u> 	Then you plug it in just like a track pad and it has like—if the videos are accurate, it has ungodly accurate understanding of your hand in 3D space. It’s just amazing. It’s going to spawn a whole new, if it works as advertise, it’s going to be spawning a whole new class of applications that deal with 3D space interactions.
+
+<u>Kelli Shaver:</u>		See, I have mixed feelings about gesture, like touch list gesture control outside of the gaming context. I feel it’s tiring to have around in front off…
+
+<u>Jonathan Stark:</u> 	Yes, I don’t see there’s a primary input. Right, it’s for the Kitchen computer.
+
+<u>Kelli Shaver:</u>		Yes, it’s not for something that you would want to sit in and work out for a long period of time. Like you don’t want to sit there and turn 3D models in the air with your hands.
+
+<u>Jonathan Stark:</u> 	Yes.
+
+<u>Kelli Shaver:</u>		Although it would be cool to be able to.
+
+<u>Jonathan Stark:</u> 	I totally agree with that. So it kind of reminds me of like the new Windows8 convertible machines or like the Chrome book pixel where it’s a laptop basically or it’s a desktop basically. By the way, it’s also touch screen.
+
+<u>Kelli Shaver:</u>		Yes.
+
+<u>Jonathan Stark:</u> 	So this new Leap Motion thing right now it’s a peripheral but you better believe that they are going to license it and it’s going to be built in into stuff so that we can just seamlessly transition in between touch gestures, mouse, keyboard, touch less depending whether or not we have jelly on our fingers. 
+
+<u>Kelli Shaver:</u>		Yes, when you touch this right now.
+
+<u>Jonathan Stark:</u> 	Right.
+
+<u>Kelli Shaver:</u>		I am eating cheese curl, cheese pop.
+
+<u>Jonathan Stark:</u> 	Right. There’s tons of things like operating rooms; there are plenty of situation that I am in, special cases that are not normal sit down coding.
+
+<u>Kelli Shaver:</u>		Every day, right.
+
+<u>Jonathan Stark:</u> 	Right. But I’ll absolutely, this thing is going on the computer on our kitchen and it’s going to be perfect. Like Cooper’s iPad is disgusting, it’s so gross.
+
+<u>Kelli Shaver:</u>		Like Keira’s iPod touch, she gave it to me. Give me your iPad touch, I haven’t installed updates on it and then wow, she gave it to me and I plugged it in and update the applications. When she was 10 years old, almost 11, she’s really responsible with her stuff but it’s like there was this film.
+
+<u>Jonathan Stark:</u> 	Its gross.
+
+<u>Kelli Shaver:</u>		Yes.
+
+<u>Jonathan Stark:</u> 	Touch screens have some drawbacks.
+
+<u>Kelli Shaver:</u>		Yes. If I had to describe children in one word, I think that word would be sticky.
+
+<u>Jonathan Stark:</u> 	Yes, that’s for sure. So that little device, the Leap Motion Device, I can’t remember how much it was but I remember thinking it was reasonably priced. 
+
+<u>Kelli Shaver:</u>		I remember looking at it a long time ago when they were doing sign up for developer preview and I was thinking about trying to sign up for that but then I just never got around to it. Yes, it seems to me like the price was reasonable.
+
+<u>Jonathan Stark:</u> 	I feel like it’s like 99? $69? It’s totally reasonable.
+
+<u>Kelli Shaver:</u>		Yes. $69? I’ll buy 2.
+
+<u>Jonathan Stark:</u> 	Yes, right. So there is like a magic mouse is that much.
+
+<u>Kelli Shaver:</u>		Yes, I can imagine magic mouse and a magic touch pad.
+
+<u>Jonathan Stark:</u> 	I spent $48 on 2 charging cables for my iPhone 5.
+
+<u>Kelli Shaver:</u>		My keyboard is $50.
+
+<u>Jonathan Stark:</u> 	Yes. So anyway, I guarantee you this thing is going to be a thing. But it is like you point out, it is going to be like, not everyone is going to need it, it’s going to be common place. And we’ll start to develop a vocabulary of touchless 3D gestures. So like clenching hand into a fist and pulling it back is going to mean zoom or something like there’s going to become this language of interacting with like websites in a way that is totally unprecedented. 
+
+<u>Kelli Shaver:</u>		Wonder if you’ll be able to define your own gestures.
+
+<u>Jonathan Stark:</u> 	My assumption is that you will or…
+
+<u>Kelli Shaver:</u>		I would think at some point.
+
+<u>Jonathan Stark:</u> 	Right, actually I thought you are going to say something else. So my understanding as a developer is you can create an application that understands different gestures. So that is one thing. The other thing is, what I thought you are going to say is that you can define your own or you can specify your own actions for a gesture. So I am assuming it’s going to recognize a default set of like in a waves or swipes and grabs and pinches and stuff. Then you can go into your settings and say, *“Okay, that means go back and in my browser history that means forward.”*
+
+<u>Kelli Shaver:</u>		Yes. I wish it would be thinking more like can you just record like a pick your nose gesture or something?
+
+<u>Jonathan Stark:</u> 	That would be so awesome. I mean if you can record gestures, I don’t know about picking your nose.
+
+<u>Kelli Shaver:</u>		Yes.
+
+<u>Jonathan Stark:</u> 	You know what they say, you can pick your friends and you can pick your nose but you can’t pick your friends nose.
+
+<u>Kelli Shaver:</u>		You can if it’s a really good friend but we’ll not go there.
+
+<u>Jonathan Stark:</u> 	Maybe this is like a new social media thing where you can do like remote nose picking.
+
+<u>Kelli Shaver:</u>		Like pick your friend’s nose. It’s what you build in a social network like this.
+
+<u>Jonathan Stark:</u> 	Oh, God. I hope there is not a Porn site for that. So okay, leap motion. That is a peripheral for your computer. Now but the thing about it is it’s not wearable, it’s like it’s going to be on your desktop like a track pad or mouse. So there is another thing called <b>Myo</b> which in an arm band that you put in your forearm and you wear it and its wireless. I am assuming its Bluetooth but I don’t know that for a fact but it measures the muscle contractions in your arm and you can record your own gestures. So as you do things with your hand, it makes very specific electrical responses inside of your arm that the band can understand and then you can say, *“Okay, if I do X with my hand I want Y to happen on the computer that I am paired with.”*
+
+<u>Kelli Shaver:</u>		Yes.
+
+<u>Jonathan Stark:</u> 	And it’s wearable and its again, if the videos are not vapour-ware, it’s really accurate and very cool.
+
+<u>Kelli Shaver:</u>		Like they measure resistance?
+
+<u>Jonathan Stark:</u> 	I think it said it is measuring the electrical impulses not the actual pressure.
+
+<u>Kelli Shaver:</u>		Yes, it has to measure on the electrical resistance.
+
+<u>Jonathan Stark:</u> 	Oh, electrical resistance. I don’t know, I don’t know how it works but I do know that it looks cool. And I do know that I will be wearing one all the time.
+
+<u>Kelli Shaver:</u>		Awesome. If you can combine that with your Google Glasses.
+
+<u>Jonathan Stark:</u> 	Yes seriously or my iWatch.
+
+<u>Kelli Shaver:</u>		Yes.
+
+<u>Jonathan Stark:</u> 	So these are about $150 and you can set them up to do all sorts of different things. It’ll be very interesting to see how flexible it is for an average user compared to being a developer in actually running apps that are understanding the input. But the point is, at the end of the day, like what is this mean for like responsive design. What does this mean for handling touch events or hover events?
+
+<u>Kelli Shaver:</u>		Yes, that is just a band that can measure like muscle contraction in your arm or glasses that contract eye movements; something like that. That’s a huge breakthrough in terms of accessibility as well.
+
+<u>Jonathan Stark:</u> 	Oh yes. As I was researching this, I came across a thing called the Foot mouse. Have you seen this?
+
+<u>Kelli Shaver:</u>		I am assuming it’s a mouse you control with your foot.
+
+<u>Jonathan Stark:</u> 	Yes, it is. It is cleverly named I think.
+
+<u>Kelli Shaver:</u>		Yes. 
+
+<u>Jonathan Stark:</u> 	There was no commercial product but I’ve seen a couple of different DIY projects that were pretty simple to put together and actually be good looking. It’s a huge accessibility wand, like what do you do if you have no hands or no arms? 
+
+<u>Kelli Shaver:</u>		I need a foot mouse so I don’t have to stop using the keyboard.
+
+<u>Jonathan Stark:</u> 	Yes. A video that I watched, the guy was not impaired. He is just sick of taking his hands off the keyboard.
+
+<u>Kelli Shaver:</u>		Yes.
+
+<u>Jonathan Stark:</u> 	So he’s like at the computer like he’s like playing a Pipe Organ. It’s pretty sweet but anyway I mean, we can talk about this one. There is a bunch of other ones too. One that I saw recently it’s like a phone with touch screen on the front and the back. So it’s like now when you are running a native application, you have to like worry about as I so eloquently described earlier in the podcast three hours ago, that some devices don’t have a camera and some do. And some have 2 cameras, and what’s going to happen when some have 2 touch screens?
+
+<u>Kelli Shaver:</u>		Maybe it already exist, isn’t there also a talk of phone around now about a phone that is touch screen on one side and EE display on the other?
+
+<u>Jonathan Stark:</u> 	I hadn’t seen that one. I don’t know, probably.
+
+<u>Kelli Shaver:</u>		I think the idea is to be able to use it on the bright sunlight.
+
+<u>Jonathan Stark:</u> 	Yes, that makes sense. They are also like to conserve battery when you really...
+
+<u>Kelli Shaver:</u>		Yes, conserve battery and yes.
+
+<u>Jonathan Stark:</u> 	Everything out there. I saw a clear the other day. It’s like totally transparent. You just see the Sim card and the battery and there is like completely clear screen. And I think that one is touch screen on both sides and its like, *“Alright, what does your website look like from the back?”*
+
+<u>Kelli Shaver:</u>		Yes, it’s like what is the backside of my website? Look at the back of my website.  You get like where all the things are overlapping. It’s really messy back there.
+
+<u>Jonathan Stark:</u> 	In this jeans, does this phone website make my ass look fat?
+
+<u>Kelli Shaver:</u>		Yes, oh look! There are some icons back there that I can use. Piled in the corner. If I could setup a website for a double screen, I would totally do that and the back would be a huge mess. 
+
+<u>Jonathan Stark:</u> 	Looked like the underside of a carpet.
+
+<u>Kelli Shaver:</u>		Yes.
+
+<u>Jonathan Stark:</u> 	So you think people want to design it? Of course they will. They are going to be designing the back of their web pages to look like something.
+
+<u>Kelli Shaver:</u>		Yes.
+
+<u>Jonathan Stark:</u> 	It’s not going to be just backward text, no one wants that. Like I said, I could talk about this for days but the thing is you like you ain’t seen nothing yet so if you’re holding off on taking the plunge with responsive web design or cleaning your CMS or building APIs, you better get on it.
+
+<u>Kelli Shaver:</u>		Yes, like do it quick or by the end of the year you are going to be hurting.
+
+ L<u>Jonathan Stark:</u> 	Yes, it’s just getting weird. It’s totally getting sci-fi. I mean, we are completely in sci-fi land.
+
+<u>Kelli Shaver:</u>		Yes, I want to see.. and this one of my thoughts for glass is I want to see the digital guide dog.
+
+<u>Jonathan Stark:</u> 	Yes, I love this idea. Like, watch out!
+
+<u>Kelli Shaver:</u>		Yes. I mean like Google Drive has cars and they have Google Glass, they could totally do this. This device for visually impaired people that says, it does not only have GPS included but you have approach curb, there’s a curb there that says there is no car coming, it’s safe to cross now. I feel like that it could totally get that.
+
+<u>Jonathan Stark:</u> 	Yes, it’s all a question of miniaturizing it. The technology existed but you can’t make it small enough.
+
+<u>Kelli Shaver:</u>		I kind of feel like Google Glass could be the solution to that.
+
+<u>Jonathan Stark:</u> 	Yes. Everybody who thinks that, it’s going to be too socially awkward to wear them whether they were geeky, I don’t know what their thinking. It’s like it’s going to be popular if it works like it’s supposed to; it’s going to be big.
+
+<u>Kelli Shaver:</u>		Yes. If it makes my life easier, I don’t care how it looks.
+
+<u>Jonathan Stark:</u> 	Yes.
+
+<u>Kelli Shaver:</u>		Like I told you last week, I walked around with like a small telescope strapped to my head.
+
+<u>Jonathan Stark:</u> 	Right.
+
+<u>Kelli Shaver:</u>		So you know, whatever. If people don’t like the way I look, they don’t have to look to me.
+
+<u>Jonathan Stark:</u> 	Yes, that is not my problem.
+
+<u>Kelli Shaver:</u>		Yes.
+
+<u>Jonathan Stark:</u> 	I talked about last week about the homemade Google Glass, right?
+
+<u>Kelli Shaver:</u>		Yes. I saw the picture.
+
+<u>Jonathan Stark:</u> 	I had it on my head the other day and Cooper saw me. He just started like smiling like huge like, *“Dad! What is that?”*
+
+<u>Kelli Shaver:</u>		Yes.
+
+<u>Jonathan Stark:</u> 	And I said that it’s a hat phone.
+
+<u>Kelli Shaver:</u>		Like it’s the future.
+
+<u>Jonathan Stark:</u> 	Yes, I said, *“it’s a hat phone”*. He goes, *“You’re crazy!”* I was like, *“You’re right about that.”*
+
+<u>Kelli Shaver:</u>		Give it another 8 months kid.
+
+<u>Jonathan Stark:</u> 	Yes. So I’ll tell you though, the hat phone, it’s really a lot harder to come up with something. It’s just some stupid limitations that make it not that useful.
+
+<u>Kelli Shaver:</u>		It’s like the phone with mirror takes the hat.
+
+<u>Jonathan Stark:</u> 	Yes, it’s shocking. But like the simple things like the home Google Glass… Right now I got an iPod attached to it and it’s in landscape mode but the home screen won’t go landscape on an iPod touch.
+
+<u>Kelli Shaver:</u>		Yes.
+
+<u>Jonathan Stark:</u> 	So just stupid stuff like that makes it really irritating but in other things like the way I got the wires attached into its sleep button in it and stuff like that.
+
+<u>Kelli Shaver:</u>		You can’t put it on without ridiculing you.
+
+<u>Jonathan Stark:</u> 	There’s that. And the mirror is so far away from y eye that I am like banging on stuff.  Then it bends the wire then I am like even sillier. Did you see the jerk? Steven Martin.
+
+<u>Kelli Shaver:</u>		Is it a movie? No I haven’t.
+
+<u>Jonathan Stark:</u> 	Oh My God. So the major theme of the movie is the Optigrab. He invents this like attachment of a pair of glasses and I feel like I’ve got the Optigrab on. Anyway, Google and it’s wires.
+
+<u>Kelli Shaver:</u>		I used to wear a wide broom hat sometimes so I wouldn’t walk off to think, I’d get a warning before I get to whack on to something.
+
+<u>Jonathan Stark:</u> 	That’s pragmatic. 
+
+<u>Kelli Shaver:</u>		Yes.
+
+<u>Jonathan Stark:</u> 	Anyway, I don’t want to talk about it but we would talk with it on another show. I basically listened to a video podcast and if something interesting was happening, I could look up and just glancing slightly and see what was going on and go back to what I was doing and just continue listening without watching and like continue to the dishes or whatever it was. 
+
+<u>Kelli Shaver:</u>		Yes.
+
+<u>Jonathan Stark:</u> 	I think it’s going to be very popular.
+
+<u>Kelli Shaver:</u>		Yes, I think so too. And I definitely want one. And by it you mean Google Glass not your home made mirror hat contraction.
+
+<u>Jonathan Stark:</u> 	I’d be pretty surprised if I didn’t end up sued nine ways from Monday if nobody ever put it against on this thing because it’s like very sharp exposed glass edges and I am sure I am giving myself all sorts of brain cancer.
+
+<u>Kelli Shaver:</u>		Wires, yes.
+
+<u>Jonathan Stark:</u> 	So yes, probably don’t want to get. That one is not probably going to end up in Kick Starter.
+
+<u>Kelli Shaver:</u>		Probably not.
+
+<u>Jonathan Stark:</u> 	So what do you say? Do you want to end the longest show ever or?
+
+<u>Kelli Shaver:</u>		We probably should, it’s tomorrow.
+
+<u>Jonathan Stark:</u> 	Yes, were up in an hour and a half so which I think is a record.
+
+<u>Kelli Shaver:</u>		Yes, I think so too.
+
+<u>Jonathan Stark:</u> 	This might require some serious editing. So dear listener  that is our show for this week. I am Jonathan Stark. 
+
+<u>Kelli Shaver:</u>		And I am Kelli Shaver.
+
+<u>Jonathan Stark:</u> 	And we hope you join us again next week for the <b>Nitch Podcast</b>. See you later!
+
+<u>Kelli Shaver:</u>		Night. Wait, it won’t be night anymore.
+
+<u>Jonathan Stark:</u> 	Yes, morning! Afternoon!
+
+<u>Kelli Shaver:</u>		Bye.
+
+<u>Jonathan Stark:</u> 	See yah.
+		

@@ -1,0 +1,765 @@
+Episode 44 – Shut Up Shot Clock
+-----------------------------------------
+
+<u>Jonathan Stark:</u> 	Hello and welcome to the <b>Nitch Podcast</b> for Friday February 15th, 2013. I am Jonathan Stark.
+
+<u>Kelli Shaver:</u> 		And I’m Kelli Shaver.
+
+<u>Jonathan Stark:</u> 	And we are here to talk about building apps that run everywhere. This week, we discussed our defaults for starting a new project—tools, technology, language structure and more. Please stay tuned, the <b>Nitch Podcast</b> is next.
+
+Hello!
+
+<u>Kelli Shaver:</u>		Hello!
+
+<u>Jonathan Stark:</u> 	I was find it until two seconds ago when I started sneezing. Now I am like a runny mess.
+
+<u>Kelli Shaver:</u>		Yes, I had the cat come up on my desk earlier and it settled down right in front of my monitor. And I am always fond of doing that and I am just kind of, eyes all watery and itchy.
+
+<u>Jonathan Stark:</u> 	Yes, so dear listeners stand back from the headphones so you don’t catch anything.
+
+<u>Kelli Shaver:</u>		Yes, run your virus scan.
+
+<u>Jonathan Stark:</u> 	Exactly. Well if it sounds like it’s raining in the background, that’s because there is a foot of snow melting off my roof. It’s actually gorgeous though but it sounds like a downpour.
+
+<u>Kelli Shaver:</u>		All the water ran off?
+
+<u>Jonathan Stark:</u> 	Yes. And we have twin four year olds running around with Cooper downstairs. Hopefully that won’t be too kink in the background.
+
+<u>Kelli Shaver:</u>		Are you back upstairs?
+
+<u>Jonathan Stark:</u> 	Yes, I am back upstairs. The basement was like standing inside of a kick drum, hit them off like a roof concert.
+
+<u>Kelli Shaver:</u>		Going to have to get some sound proofing installation back in down there before you can move back in the making.
+
+<u>Jonathan Stark:</u> 	Yes, big time. So what’s going on there?
+
+<u>Kelli Shaver:</u>		Not a lot. I’ve got several things to do later today and running some scripts on some big data for another project I am working on and that’s about it.
+
+<u>Jonathan Stark:</u> 	Day on the life.
+
+<u>Kelli Shaver:</u>		Yes.
+
+<u>Jonathan Stark:</u> 	Well cool, this week we thought it would be cool to talk about our defaults and this kind of occurred to me the other day when I was trying to characterize some advice I was giving to someone. I am quick to say that every application is different and you can’t as much off a fan, an advocate of HTML and web apps and hybrid apps. As much of a proponent of those things as I am, I recognized that you can’t build everything that way. Sometimes, there are apps that call of stuff that is just going to be really hard to do like that; it was not going to be easy. I am like, there is all these things that I feel like are good rules of thumb or guidelines or something like that; I wasn’t sure what to call them. Then I realized there, they are like my defaults so these are my defaults for every new project that comes in—my particular set of defaults are quite a few. I am kind of like talk out of them under of certain circumstances.
+
+<u>Kelli Shaver:</u>		Yes.
+
+<u>Jonathan Stark:</u> 	That seem like a default to me so I thought it would be fun to explore what each of our different defaults were for a new project.
+
+<u>Kelli Shaver:</u>		Yes, I have the same thing when it comes to developing projects and I have been actually re-examining some of those lately tools that might become interesting to get into.
+
+<u>Jonathan Stark:</u> 	Cool. Maybe I could kick it off and you can think of maybe a specific project to know what your defaults were. My defaults maybe a little bit more advisee, I suppose. Definitely the big one is when a new project comes in. Generally, it’s always mobile related and my initial default is to try and do it as a web app so the client will be like, *“You know these are the business goals, these are the features that were imagining in the application and these are what the users expectation are going to be etcetera etcetera.”* My default is that, we’ll do it as a mobile web app because it has tons of advantages that we talk about all the time. But just quickly you’ve got the easiest possible distribution method to share link to people. You don’t have to worry about content restrictions, and then in the app stores you don’t have to worry about submission processes, you don’t have to worry about the late updates, cross platform, you don’t have t worry about revenue sharing. It is just on and on and on. But there are obviously drawbacks using the web like you can’t access the camera very easily, you can’t access the contacts on the phone, you can’t access the file systems, these sorts of things. So if there is something about the feature set of the application that requires something like that, then I’ll say, *“Okay, my default is not going to work in this keys so I will move up to the next default which will be like a hybrid application and go to the same process.”* Like if there is a certain requirement that the application for example needs to do augmented reality or it needs to be a really high performance immersive first person shooter or something. These would be a nightmare to do the HTML and so I am going to move off of that default and move up to, *“Okay we need to a native app so we need to pick what platforms are we going to target because you can’t really do native cross platform development for mobile.”*
+
+<u>Kelli Shaver:</u>		Yes, not without a lot of time and money investment. You are basically building two apps.
+
+<u>Jonathan Stark:</u> 	Right.
+
+<u>Kelli Shaver:</u>		At least.
+
+<u>Jonathan Stark:</u> 	And it could be that that is the cheaper option because it could be something that would be so incredibly hard to do with HTML. Let say that it would be just as hard.
+
+<u>Kelli Shaver:</u>		Yes.
+
+<u>Jonathan Stark:</u> 	There are other things that can make me go with the native application if it’s just a prototype and you’re just going to do the prototype in just a single platform or something like that. There is a whole bunch of reasons why I would say recommend a native application but it’s not my default. So another one came up the other day too which was when starting a new web project. So if you are doing a web app or a website, generally regardless of the initial request—I mean even if somebody contact me about doing a desktop site, I would just automatically do it mobile first even though that wasn’t the request because it’s not really any extra work and you get mobile for free if you do it like that. So my default for any web developing project would definitely be to approach it from a mobile first and use responsive web design and only move off of that and do something like a server site user agent sniffing and rendering different templates or something like that if there was some special case.
+
+<u>Kelli Shaver:</u>		Yes. I feel the same way. I pretty much take a mobile first approach to things whenever I can because you hear people say that would going to be more work and extra money. We don’t want to spend and that kind of thing but I actually find that really if you go mobile first, it ends up saving your time. I find a developer process as much quicker and I like the work flow better. It feels like a lot cleaner to me.
+
+<u>Jonathan Stark:</u> 	Somehow it’s bizarre but without exception, every mobile first responsive website I’ve worked on, for some reason the code is way cleaner and it’s hard—I don’t know, it’s weird. It shouldn’t necessarily be like that but it keeps on happening like that. I don’t know if my style of coding has changed or what but since you have to be pickier about the source sort of HTML, for some reason it just feels so organized. So definitely I default to that. I will offer one copy of that though which is if you do work on a mobile first design with a client, you can have a hard time getting their head around it. They will be like, *“Why will we be looking at the mobile view or…”* Sometimes I only worry about the desktop view, that is what they care about because they haven’t done the cooling down at mobile yet but you need to show them the mobile one to get the decisions about what’s the most important piece of content on this page, what should be at the top and in that informs your bigger design. And it’s really useful but it can be a little bit of hand holding exercise to be able to be like, *“We are not working on a mobile site or working on a website and it’s going to look good small, it’s going to look big. When it’s small, you want to know how things are organized and I will open up the window and that will look big. See how you want things to be organized there.”* But when you got to the exercise of the small with, it’s much easier to do with the big one.
+
+<u>Kelli Shaver:</u>		Yes, I’ve had that experience to with client in the past and it’s going well. I don’t see the point of this or what’s this accomplishing by doing this for instance and just a little bit of hand holding and you stick it out. You go to the process with them and then inevitably, every time they come back and go, *“Oh! That’s why we did it this way! That’s a really good idea! It worked out well.”*
+
+<u>Jonathan Stark:</u> 	Yes, the light bulb goes on.
+
+<u>Kelli Shaver:</u>		Yes, the light bulb goes on or something like that.
+
+<u>Jonathan Stark:</u> 	Yes, and you can sit there all day long and say, *“This means you won’t have to maintain 2 or 3 sites, this is going to be better for SEO ya ya ya but it doesn’t sink it until I see it.”* It seems that way, it doesn’t sink till they see the first one.
+
+<u>Kelli Shaver:</u>		Yes, we’re talking about some very abstract concepts so it just kind of normal I think if you’re not used to thinking in that mindset to do actually something more concrete that you can look at and grab onto usually.
+
+<u>Jonathan Stark:</u> 	Sure. And the fact that you are not giving them like comps, aesthetic comps designed off and say, *“Okay go on the basement and start coding it.”*
+
+<u>Kelli Shaver:</u>		Yes.
+
+<u>Jonathan Stark:</u> 	It’s more like you do design reviews weekly or so and say. *“Alright, were not here for an approval or a sign off. I am here for you to tell me if I am still going to the right direction or not.”*
+
+<u>Kelli Shaver:</u>		Yes.
+
+<u>Jonathan Stark:</u> 	That’s a very big culture shift for people. They want to make notes on the printouts and send you the notes. So that’s a little tricky of course with the responsive.
+
+<u>Kelli Shaver:</u>		Spaghetti Frames.	
+
+<u>Jonathan Stark:</u> 	Spaghetti frames makes that difficult of course. So we should go back, I have a couple of other ones. Do you have any on top of your mind that we could alternate so it’s not just me yammering on?
+
+<u>Kelli Shaver:</u>		With you yammering on and then I will come in with a little bit at the end.
+
+<u>Jonathan Stark:</u> 	Like usual. You got to cut me off or something, once I get going, there’s no stopping me.
+
+<u>Kelli Shaver:</u>		I will get an Air Horn or something.
+
+<u>Jonathan Stark:</u> 	You should have a Shot Clock.
+
+<u>Kelli Shaver:</u>		Yes.
+
+<u>Jonathan Stark:</u> 	Like ten minute come down, *“Okay, shut up.”*
+
+<u>Kelli Shaver:</u>		Warning, I’m expired in 30 seconds.
+
+<u>Jonathan Stark:</u> 	3, 2,… anyway…
+
+<u>Kelli Shaver:</u>		Yes, I primarily deal with web apps. I do a little bit of hybrid apps but I am primarily doing with web apps. I have some sort of default assumptions that I make whenever I get to started building one and I could talk about those if you like..
+
+<u>Jonathan Stark:</u> 	Yes.
+
+<u>Kelli Shaver:</u>		First of all, I pretty much assume everything is going to have an API and it’s going to be API driven and I will be building web client’s on top of that API.
+
+<u>Jonathan Stark:</u> 	Yes, I agree.
+
+<u>Kelli Shaver:</u>		I have a few instances where each is not practical to do that or the used case of the application is so narrow that an API does not make sense. For instance, happy docs, well I can see API making sense for happy docs but mobile for happy docs does not really make sense.
+
+<u>Jonathan Stark:</u> 	Yes, it was hard to imagine meaningful way to represent big nested JSON data on a mobile phone, someday we’ll figure that out.
+
+<u>Kelli Shaver:</u>		Yes, someday. I will make a more graphical representation of it. Yes, I pretty much assume were going to be API first, were going to be building HTML JavaScript, CSS clients that are going to sit there and talk to that API. When it comes down to building API itself, my go-to language is Ruby Doc.
+
+<u>Jonathan Stark:</u> 	Yes.
+
+<u>Kelli Shaver:</u>		I am kind of back and forth on this one when I go to couple of different ways. If I am just building an API, I still tend to lean more towards to Sinatra with active record and the rebel gem not to be confused with our little chat app that we did with rebel a while back. But it’s a Ruby Gem for JSON rendering.
+
+<u>Jonathan Stark:</u> 	Gotcha.
+
+<u>Kelli Shaver:</u>		JSON on HTML. So I still kind of default to Sinatra if were looking at just having the API layer. Now if we need to build the API and then for some reason we also have to have a demand interface or something integrated with that’s not a separate client then I tend to go more toward Rails.
+
+<u>Jonathan Stark:</u> 	Yes, that makes sense. It’s reasonable to you know, because Rails has a lot of—I don’t know, it feels sort of silly to say that it has a lot of overheads. It’s like a big foot print because I used to feel that way about something like Zen framework is like this colossal framework and I used to care about that a lot more when I wasn’t doing much some framework development. And now, I feel like my—I don’t really do any sort of side programming anymore but I feel like I’ve got a little more lenient about what I care about. I basically don’t care about the server anymore. I am like, *“Oh yeah, whatever works on the used parts. I didn’t want to go to the server.”* But yes, I definitely recognize that feeling. It’s like you want to use the leanest thing you can because the more code that is there, the more potential you have to debug. 
+
+<u>Kelli Shaver:</u>		Yes. I mean, also we have the benefit of you can take a Sinatra app and you can put it inside a Rails app if you need to so there is always that option too and just do your API in Sinatra. But I feel like it gives a little more—it’s a little easier just to build that to your API in something like that. And then I have a couple of different approaches I take to developing on the client’s side as well. For a long time, I pretty much assume something like an NBC structure to the application and for the longest time whenever I was doing CSS, my default go to the sort of the CSS bulleted that I had build up over a while and I actually released it in Pope. And I still use that a lot but for the longest time, for CSS, I was using less and now I am starting to switch to SASS more so over less. 
+
+<u>Jonathan Stark:</u> 	Really? Is there a particular reason you can articulate or is it just you kind of like the syntax better?
+
+<u>Kelli Shaver:</u>		Yes, there is a couple of things. First and foremost, they are both pretty much capable of doing the things that I want to do but I am doing a lot more Rails development, SASS is a little bit easier to work within Rails than less so I just pretty much switch everything to SASS so I am not switching back and forth within the two.
+
+<u>Jonathan Stark:</u> 	Gotcha.
+
+<u>Kelli Shaver:</u>		Also, it’s a little bit easier to do with various mix sounds in my library and compass and things like that. It’s a little bit easier to—little more available there to extend SASS with. Lately, I’ve been using Burban instead of Compass.
+
+<u>Jonathan Stark:</u> 	What’s that?
+
+<u>Kelli Shaver:</u>		It’s another SASS framework, like a little bit of it that I would heard from.
+
+<u>Jonathan Stark:</u> 	The name sounds familiar, you probably mentioned it before but I don’t remember the details. At first when you said you are using Burban for development I was like, *“Oh that explains your sleeping schedule.”*
+
+<u>Kelli Shaver:</u>		Some thought block.
+
+<u>Jonathan Stark:</u> 	Oh right, yes.
+
+<u>Kelli Shaver:</u>		It’s not much alternative to Compass.
+
+<u>Jonathan Stark:</u> 	Gotcha.
+
+<u>Kelli Shaver:</u>		And I do find it a little leaner. Compass can have a lot of—Compass is big.
+
+<u>Jonathan Stark:</u> 	I honestly don’t know and don’t  understand what the relationship between SASS and Compass is. I am assuming that SASS is a syntax and Compass is the compiler part.
+
+<u>Kelli Shaver:</u>		SASS is the syntax and Compass is just the collection of libraries that you  can then pull and extend. SASS for instance where Compass is mixed in for all the vendor prefixed CSS3 stuff and that kind of thing.
+
+<u>Jonathan Stark:</u> 	Side note, did you hear the Opera is going to swap out from Presto to WebKit?
+
+<u>Kelli Shaver:</u>		Yes.
+
+<u>Jonathan Stark:</u> 	So we don’t need those anymore any way.
+
+<u>Kelli Shaver:</u>		Yes, like can we just drop the WebKit prefix and just get WebKit to adopt the standard now? Cause it’s not what we needed.
+
+<u>Jonathan Stark:</u> 	Yes, I actually heard that Chrome has switched over to Presto so we’re still stuck. In related news…
+
+<u>Kelli Shaver:</u>		Wouldn’t that be funny?
+
+<u>Jonathan Stark:</u> 	So cool.
+
+<u>Kelli Shaver:</u>		In related news, 9 developers jumped off of tall buildings!
+
+<u>Jonathan Stark:</u> 	Oh God. A sort of big curiosity for me and I think I know the answer but what you’re defaults are for the actual infrastructure for hosting this kind of stuff? And what your defaults are there and what might make you move away from your defaults?
+
+<u>Kelli Shaver:</u>		Yes, my defaults there is ADBS easy to and and I have been using RDS for databases and for a lot of apps that still find but I am really starting to be annoyed by the fact that RDS does not support Postgres.app
+	
+<u>Jonathan Stark:</u> 	Oh really?
+
+<u>Kelli Shaver:</u>		I am actually liking Postgres.app more and more.
+
+<u>Jonathan Stark:</u> 	Yes, back in the day all of my DBA—all of my over, not idealistic, over my like data real friends sort of like Postgres. Postgres.app is the database you use if you care about your data. My SQL is what you use when you don’t but I have no idea what the differences are lately. So what is the kind of thing that you would want to use Postgres.app for that would be difficult or impossible in My SQL?
+
+<u>Kelli Shaver:</u>		Okay. For instance one of the apps that I am working on right now and I can’t tell you a whole lot about the interworkings with this because I did not code it but I did. But Postgres.app has been much easier to implement, we had some pretty much advanced searching on the database and there has been a lot more built in Postgres.app to make that easier and more efficient.
+
+<u>Jonathan Stark:</u> 	That is a no-brainer.
+
+<u>Kelli Shaver:</u>		Yes. I feel like Postgres.app probably scales a whole lot better too.
+
+<u>Jonathan Stark:</u> 	Really?
+
+<u>Kelli Shaver:</u>		I don’t have a lot of numbers to back that up but just talking to people who know about more things than I do.
+
+<u>Jonathan Stark:</u> 	I remember having a conversation with a developer who had, it is more of a data warehouse application than a web application. He was crunching like massive amounts of transaction information from I think it was a utility like a gas company and every night he had to generate this reports. It was like he would import millions and millions of records every night and we were having a similar conversation. He was saying like, he would start the next one before the last one finish. *“This is My SQL because in Postgres.app, there is something about… ”* there is some kind of optimization and he could use stored procedures that somehow—I don’t know what he did but it had something like stored procedure; I remember hearing stored procedures. There is something that he could do to crunch the data that he could not just do with My SQL. I can imagine that, it seems hard to—I mean My SQL is so well known for its speed and sort of web scale nature. I always pictured Postgres.app in general as the slower one but it seems like the slower robust one.
+
+<u>Kelli Shaver:</u>		Yes, Postgres.app is way more strict with regards to enforcing for a key relationships.
+
+<u>Jonathan Stark:</u> 	Yes, that makes sense.
+
+<u>Kelli Shaver:</u>		So there could be potentially a big speed improvement that way. A lot of that, I guess, probably comes back to good database design but Postgres.app is a lot more than My SQL does.
+
+<u>Jonathan Stark:</u> 	Right, yes. That fits with my impression but I haven’t used either of them really. I mean My SQL is the one I’ve been using when I use one but I really—it’s become kind of a black box to me because pretty much everything to me is like an API call.
+
+<u>Kelli Shaver:</u>		Yes, Postgres.app is like a bit of learning tool compared to My SQL as far as administering the database but I really like it personally and I do wish RDS instances supported Postgres.app. For most apps, My SQL is fine and in those cases then I will go to RDS instance but I am getting to the point where if I had something that is going to benefit from Postgres.app database, my default there would just be to setup a second east to instance and install Postgres.app on that.
+
+<u>Jonathan Stark:</u> 	Wow.
+
+<u>Kelli Shaver:</u>		I do like the database and the app being separate instances.
+
+<u>Jonathan Stark:</u> 	Yes. I don’t know if I would call that a default but I am starting to get there like I feel like, *”Why not do that?”* It’s allows you to do, I don’t know. It feels like you have so much more flexibility you could spend up a new app server and migrate.
+
+<u>Kelli Shaver:</u>		Yes, you could scale them eventually.
+
+<u>Jonathan Stark:</u> 	Yes. So by the way, RDS multi easy deployments price dropped today.
+
+<u>Kelli Shaver:</u>		Yes.
+
+<u>Jonathan Stark:</u> 	Shocking, those guys are nailing it.
+
+<u>Kelli Shaver:</u>		Yes, every time I get an email from Amazon about AWS (Amazon Web Services) services it’s always, *“Here’s a new thing we have and our price dropped on our other stuff.”*
+
+<u>Jonathan Stark:</u> 	Right, it’s crazy. They’re definitely owning the space. I agree, I think my default for sure is easy to. S-III is a no-brainer.
+
+<u>Kelli Shaver:</u>		Yes.
+
+<u>Jonathan Stark:</u> 	It’s like super easy to work with, it’s super fast, I mean it’s just so great. RDS for me would be something that I sometimes use. I don’t necessarily default to it because as cheap as it is, it’s still a little pricy.
+
+<u>Kelli Shaver:</u>		Yes, If I do something like a small personal project, I am not going to fool with it.
+
+<u>Jonathan Stark:</u> 	Exactly. 
+
+<u>Kelli Shaver:</u>		But for most client projects that I worked on are big enough, they benefit from having the RDS instance.
+
+<u>Jonathan Stark:</u> 	Yes, and a few of it kind of like redundant. If you want to kind of like live fail over. You are like, *“There is no decision.”*
+
+<u>Kelli Shaver:</u>		Yes, the automated not be backups and…
+
+<u>Jonathan Stark:</u> 	Right. So yes, excellent. What else do we have? What are the other defaults that we think of? I know, I can think of one when I am working on—I was having a conversation yesterday with a developer working together on some Spaghetti Frames and were starting to put some interaction in and adding JavaScript. So I guess there are two things about that that I can think of really useful to developers, it’s probably not everyone ‘s default but I’ve been doing this for like my entire web career so maybe 10 or  12 years. I always startup the same way which is when I sit down to author page, I startup with the HTML, just nude HTML. And I set it up so that it looks like what the page should look like with no CSS and no JavaScript.
+
+<u>Kelli Shaver:</u>		Yes, I do the same thing.
+
+<u>Jonathan Stark:</u> 	Yes, cool. So you get this semantic kind of like page representation of the information and it doesn’t always makes sense because like Availio. The whole page is an input box where it doesn’t matter where you put it.
+
+<u>Kelli Shaver:</u>		Yes.
+
+<u>Jonathan Stark:</u> 	But if you have any kind of content in your application or even if it’s like a login screen with instructions or that sort of thing, I feel fairly strongly that if CSS doesn’t load, you should be able to use the page.
+
+<u>Kelli Shaver:</u>		Yes.
+
+<u>Jonathan Stark:</u> 	And once I have that, the way I want it and it looks good then I start to layer my CSS to try in mimic the design that I usually get from someone else. So when someone else gives me a design, I try and like a wire frame or something or I try to make the HTML do what they wanted to do or look like what they wanted to look like. Or sometimes, trying to like compromises cause you just get ridiculous with the CSS. But to me, that is kind of a red flag that the design is not right.
+
+<u>Kelli Shaver:</u>		Right.
+
+<u>Jonathan Stark:</u> 	Because they’ve got something positioned in the page in the position of high importance when it should be low or vice-versa. I do that, I layer my CSS and with the CSS I always start with colors and typography first—I should not say always, I have been doing that last year too and I am very happy on the way it works. So at that point, you basically have your Spaghetti Frames then you can start layering in JavaScript. So this leads to another default which is that I start with the assumption that I am not going to include any JavaScript libraries. And basically anything that goes into that page whether it’s in the meta tags of the HTML or if it’s a library that I include has to make a case for itself because I think the biggest feature of any site or any web app is speed.
+
+<u>Kelli Shaver:</u>		Yes.
+
+<u>Jonathan Stark:</u> 	And the faster it is, it cures a lot of ills if your site is really fast because there is no like barrier to entry for experimentation so like if it takes milliseconds to navigate from page to page, people would explore the interface more because there is less to lose time lies. So I don’t know, obviously they studies and studies about how the effective bounce rates and engagement in a website if it’s slower or if it’s fast. And Google and Yahoo have done studies where even 500 milliseconds will have a dramatic impact on your engagement and in fact even if you have to fix the problem, the negative effects remain for weeks. So it’s critical for everything to be super fast so I don’t include things unless I am absolutely positive that there’s a good reason. Even if a lot of developers get some of this things like Yeoman or Initializr, it’s like by default jQuery is included. And then a lot of them by default, modernizers are included and you just go to any webpage and view source. There will be half a dozen or more script included at the top. Tons of jQuery UI and all this stuff and if you’re using it, great; if you’re using tons of calendar picker and whatever then great but a lot of times, that is not the case. A lot of times, people are just using jQuery for the selective engine or…
+
+<u>Kelli Shaver:</u>		Or maybe they have one component that jQuery UI happens to have.
+
+<u>Jonathan Stark:</u> 	Yes and it’s like, my advice is change the design so you don’t have to do that because if it’s going to impact speed because I’d rather not a less cool counter but I’d rather have an alternate input method with a wicked fast site in the problems of my state.
+
+<u>Kelli Shaver:</u>		Yes, we had come up on that the other day, on a project actually were looking at—the project specifically has a mobile site and various reasons for that. Specifically has a mobile site and the vast majority of the traffic of that site which is in mobile is going to be webKit and now we were, especially when Opera is switching. And we were talking about other instances where we need to choose a date for something and the discussion came up. *“Well, do we have a Javascript  date picker to this?”* And certainly go, *“You know, to save overhead why don’t we just use HTML file date input? WebKit is going to give you the date picker by default.”* 
+
+<u>Jonathan Stark:</u> 	Right.
+
+<u>Kelli Shaver:</u>		Vast majority of our traffic is webKit so we’ll just go with that.
+
+<u>Jonathan Stark:</u> 	Yes, exactly. If that makes anybody arch an eyebrow, I do the same thing but my default is at the site worked without JavaScript.
+
+<u>Kelli Shaver:</u>		Yes.
+
+<u>Jonathan Stark:</u> 	That is one I do have to break with some irregularity at least a little but at the last three really big projects I’ve worked on, all work with JavaScript turned off. That includes an image gallery. So if you have JavaScript and you have touch, you could have this sort of interactive touch based swipe carousel. But if you don’t have JavaScript and you don’t have touch, it also works but just in a different way. For me, like you just said put the calendar widget in there with one word, not a whole JavaScript library and a huge CSS file. You just change text to date and some places you get a calendar picker and elsewhere, they have to type in a date. In both cases, so maybe that is kind of bummer to guy on the blackberry cause he has a type and a date but overall, he only now has to wait under a second for each page to load instead of 10 seconds for each page to load.
+
+<u>Kelli Shaver:</u>		Yes, right. And if you want it to do this sort of User Agent stepping and deliver a JavaScript alternative for browsers that don’t natively support that, it’s always an option. But my thinking is if you can save something on the overhead and hit the significant 95% plus on the market, by just changing input type date then that is what you should do.
+
+<u>Jonathan Stark:</u> 	Yes, everything is a trade off and the sort of dirty little secret is if you’re doing client work, no one cares about Blackberry anyway so they are not going to test on it.
+
+<u>Kelli Shaver:</u>		Poor Blackberry. 	
+
+<u>Jonathan Stark:</u> 	I know. I feel bad for them but come on! I’ve been testing on Blackberry, I do. I am working on a responsive design right now that I tested it on a Kindle E-reader last night. No CSS, no JavaScript, it displays and the site works.
+
+<u>Kelli Shaver:</u>		Nice.
+
+<u>Jonathan Stark:</u> 	Yes, That’s tight.
+
+<u>Kelli Shaver:</u>		Yes.
+
+<u>Jonathan Stark:</u> 	And then you are layering your CSS and that works elsewhere. You are layering your JavaScript and now it’s like super sweet so I guess that is another default, it’s always progressive enhancement and not graceful degradation.
+
+<u>Kelli Shaver:</u>		Yes, always progressive enhancement. Start small and build up.
+
+<u>Jonathan Stark:</u> 	Yes.
+
+<u>Kelli Shaver:</u>		It’s the same reason you start with an API.
+
+<u>Jonathan Stark:</u> 	Right, yes. And sometimes it means, going to back to the design and be like, *“Look, this thing is going to be costly in terms of page load to implement and development time to implement this. There are some other way that we could get around this, the date picker for example is perfect.  Because the jQuery, well you like date picker probably a pretty good cross platform and the the greater browser support is pretty good.”*
+
+<u>Kelli Shaver:</u>		It is but you also have to load all the jQuery UI and all of its CSS. 
+
+<u>Jonathan Stark:</u> 	Yes, so was that like? A 100K, 150K, 200K..
+
+<u>Kelli Shaver:</u>		Yes, I am sure there are probably smaller jQuery date pickers out there and just a date picker but still.
+
+<u>Jonathan Stark:</u> 	Right, and even you are like, *“Okay I am going to do like a progressive enhancement with some JavaScript for a widget, I might not go with jQuery.”* I am like say, rolling your date pickers probably a little bit of a crazy person thing to do but there are probably some small that went out there and I have not done this yet.
+		
+<u>Kelli Shaver:</u>		That is not jQuery.
+
+<u>Jonathan Stark:</u> 	Yes, yes. It’s just exactly what you need so I think every character that is in your HTML, CSS or JavaScript has to make keys itself just for being there.
+
+<u>Kelli Shaver:</u>		Yes. I am kind of falling in love with jQuery. I still use it a lot but it’s not my default anymore.
+
+<u>Jonathan Stark:</u> 	Right, I never use it with somebody unless it’s already on the site. If the site is already going to have it there, then I am going to use it.
+
+<u>Kelli Shaver:</u>		Yes. Speaking of JavaScript libraries, I do have a couple of defaults for JavaScript libraries when I do need them.
+
+<u>Jonathan Stark:</u> 	Yes.
+
+<u>Kelli Shaver:</u>		And that’s Hammer.js for touch events.
+
+<u>Jonathan Stark:</u> 	Yes.
+
+<u>Kelli Shaver:</u>		Since you introduced me into it.
+
+<u>Jonathan Stark:</u> 	So funny.
+
+<u>Kelli Shaver:</u>		It is, and it’s extremely easy to work with.
+
+<u>Jonathan Stark:</u> 	And small too.
+
+<u>Kelli Shaver:</u>		And very small, yes. And then after you introduced me into it, my first experience using it was, *“Ohh! This is definitely going to be in my toolset more often and that is a Lawnchair.js.”* 
+
+<u>Jonathan Stark:</u> 	Yes. So Lawnchair.js for people who don’t know is an abstraction layer for client side persistence and it was created by Brian Rew from the phone gap project and it gives you a unified API for storing data locally in a device. It has like almost 8 to 10 different underlying storage mechanism that it supports so it’s super sweet but I haven’t—I’ve only played with it, you actually used it so obviously you like it.
+
+<u>Kelli Shaver:</u>		Yes. I like it a lot. I find it to be very easy to use and yes, I like the consistency like we can switch storage engines if we want to and there is no problem. I like the API from the API, very friendly to use and it’s been really interesting to use it in conjunction with Knockout. It’s been really interesting experience in a good way. Yes I know we have debated some things about how Knockout works in previous episodes, binding events directly to HTML and things like that but I am finding—I am really liking the combination of Knockout.js and Lawnchair.js.
+
+<u>Jonathan Stark:</u> 	Cool. Again, Lawnchair.js is really small.
+
+<u>Kelli Shaver:</u>		Yes.
+
+<u>Jonathan Stark:</u> 	I am more likely to work with includes of small average because a lot of times, they are pretty much what I would write anyway.
+
+<u>Kelli Shaver:</u>		I like the do one thing well mentality of a lot of small libraries and in the end, before something goes in reproduction it’s all going to get compressed and concatenated and bundled together into one file anyway. So then, I could have 10 small libraries that totals up to like maybe 20K of code and I am not making 10 request to the server to fetch them up.
+
+<u>Jonathan Stark:</u> 	Alright. Yes, lately I’ve been—so that makes to two things for when I do includes JavaScript, I do it programmatically so that if the page isn’t going to either the environment doesn’t support JavaScript execution or I want to prevent or basically abort JavaScript execution then I can do that. So instead of doing like a script include, I’ll do like a little bit of script tag at the bottom of the body that says like, *“Here’s the list of my script.”* It’s kind of like required JS which is like—Just like 3 winds of code which is create script element, set the source and append it to the body. And if you don’t have JavaScript, that won’t happen so you save the HTTP request and however many K that the JavaScript is. And it also solves the problem on devices where the JavaScript support is sort of crappy and so you’re like, *“This will do.”* I like to release stuff that always works so when I showed it to the client, I want it to always work. I don’t want it to be like, *“Oh! This button doesn’t work or this is not working so don’t look at that.”* I want everything on the screen to pretty much do what it is suppose to do. And if you start off with the approach of like the site should work without JavaScript then you can say—then you include your JavaScript then you may find like tons of bugs on Blackberry something to shut it off. People are like, *“Oh, I am on Blackberry. I am not going to include the JavaScript yet because it is not debugged.”*
+
+<u>Kelli Shaver:</u>		Right, and they can use the non- JavaScript version until things are working.
+
+<u>Jonathan Stark:</u> 	Yes, or maybe they will never get it working. Maybe they do feature detection and I say, *“Oh, if I don’t have—if the CSS doesn’t support transforms then I am not going to include JavaScript because the only reason I’ve got the JavaScript is to do like to change class names to create page animations or something.”*
+
+<u>Kelli Shaver:</u>		Right.
+
+<u>Jonathan Stark:</u> 	So the only I guess the kind of thing I would say there is you have to be careful when you’re programmatically adding script tags because the way the blocking works is different.
+
+<u>Kelli Shaver:</u>		Yes.
+
+<u>Jonathan Stark:</u> 	So they don’t necessarily load one after the other like the second one could load first so if you programmatically include jQuery and then you include your own file after that that depends on jQuery, jQuery may not be downloading by the time the second file executes so you have to be careful about that.
+
+<u>Kelli Shaver:</u>		Yes, I think we talked about that once before and there’s  fairly commonly used solution to that problem but I don’t remember on the top of my head what it is.
+
+<u>Jonathan Stark:</u> 	Yes, well there are 2 things that I do. One is that, I suppose the right thing to do would be concatenate the files and then you will only have one request anyway.
+
+<u>Kelli Shaver:</u>		Yes.	
+
+<u>Jonathan Stark:</u> 	The other, in development; that is out of lane so what I generally do in development is you can listen—so I have like a tiny little append script for function, it’s like 3 lines long. Then I’d load the first one and I listen for the onload event of the first script and then when the onload fires, that means that it’s finished, then I call the script again with each script files so basically it was a recursive function where I was passing a list, takes one off the stack then does the next one with the last one loaded.
+
+<u>Kelli Shaver:</u>		Yes, passing the list in the order that you want things started unless in the onload event.
+
+<u>Jonathan Stark:</u> 	Yes.
+
+<u>Kelli Shaver:</u>		Yes.
+
+<u>Jonathan Stark:</u> 	So I should post that down actually. Ha?
+
+<u>Kelli Shaver:</u>		That is what is was, that is what I was trying to remember.
+
+<u>Jonathan Stark:</u> 	Yes, it’s a little tiny script. The other thing that you can do is just document, right? You just have a script tag that says, *“Document right,”* and then like the script tag. But then it’s not as—because you can do it like that but I am not sure how the—I did not test into that one, I am not sure in what way would it behave and how you would programmatically decide whether or not to do the document right. I guess it would be the same, I should play with that.
+
+<u>Kelli Shaver:</u>		Seems to me like I ran into problems turned into that one in the past.
+
+<u>Jonathan Stark:</u> 	Yes, it seems like it would be easy and work as if it was authored into the page but it does not seem to do that.
+
+<u>Kelli Shaver:</u>		No it doesn’t.
+
+<u>Jonathan Stark:</u> 	So I will post a little snippet of that little somewhere in that script loader code cause its basically what requires JS but required JS is very different thing. It’s like dependencies and making sure that you’ve got everything you need and the order that you needed and it’s like again, it’s too big for me.
+
+<u>Kelli Shaver:</u>		Yes.
+
+<u>Jonathan Stark:</u> 	On the average project, it’s probably good for a huge project.
+
+<u>Kelli Shaver:</u>		Yes.
+
+<u>Jonathan Stark:</u> 	So let’s see, any other? What about default tools? What are your default tools these days for building?
+
+<u>Kelli Shaver:</u>		My default tools these days are Sublime Text 2, my editor tools.
+
+<u>Jonathan Stark:</u> 	Same here.
+
+<u>Kelli Shaver:</u>		It has been for a while. And I still use CodeKit a lot but I am finding that I am using it less than I used to simply because I am doing more Rails work and so I just use it with Rails access management to handle all of the compilation and concatenation and everything.
+
+<u>Jonathan Stark:</u> 	Cool.
+
+<u>Kelli Shaver:</u>		For any non-Rails project, CodeKit is still my go to for linking and compiling and concatenating files.
+
+<u>Jonathan Stark:</u> 	Cool. Yes, I played with that and I liked it but it’s not in my work flow. I would not use it in my work flow even though I think it’s cool.
+
+<u>Kelli Shaver:</u>		Yes. I just pretty much leave it running all the time and it sits there in the back and it does it thing. There is all kinds of command line tools out there now that will do the same thing, it’s Yeoman in some place and any similar.
+
+<u>Jonathan Stark:</u> 	Yes, I’ve been playing with that more and more. I have a feeling if I am going to get into that kind of a work flow, it’s going to be Yeoman ‘cause I am just a bigger fan of the command line. It’s only a subtle difference but to me, I like it better.
+
+<u>Kelli Shaver:</u>		Yes, well not me. I generally prefer the command line for most things too but now I am getting to the point where a large percentage on the work I do is Rails. It’s kind of becoming a non-issue so I am probably going to stick with CodeKit for the other things.
+
+<u>Jonathan Stark:</u> 	Right.
+
+<u>Kelli Shaver:</u>		Cause it works well and I like it, and the Sequel Pro?
+
+<u>Jonathan Stark:</u> 	Oh, yes.
+
+<u>Kelli Shaver:</u>		From what I do need My SQL.
+
+<u>Jonathan Stark:</u> 	Absolutely, yes that is a great tip everybody. That is a great program.
+
+<u>Kelli Shaver:</u>		Yes, it is. I really wish it supported Postgres like if they had a kick starter for the money to develop a Postgres version of Sequel Pro, I would sit there and do many all day long.
+
+<u>Jonathan Stark:</u> 	Well ,yes.
+
+<u>Kelli Shaver:</u>		I feel like half a day. Not with a lot of money but yes, it’s a great program. 
+
+<u>Jonathan Stark:</u> 	Yes.
+
+<u>Kelli Shaver:</u>		The new icon makes me hungry though.
+
+<u>Jonathan Stark:</u> 	I did not notice, I don’t use it.
+
+<u>Kelli Shaver:</u>		Oh yes, the sensitive version came up; the new icon is, a server icon but it looks like a stack of pancakes that is coming with butter and syrup and it’s on a plate.
+
+<u>Jonathan Stark:</u> 	It is a great program.
+
+<u>Kelli Shaver:</u>		It is.
+
+<u>Jonathan Stark:</u> 	When I am building an API, last time I build an API I used that extensively and just loved it after years and years of using PHP MyAdmin.
+
+<u>Kelli Shaver:</u>		Yes.
+
+<u>Jonathan Stark:</u> 	Even in my Sequel work bench tools, it’s way better. And before I forget, the other thing is when I am working on an API, it’s a GraphicalHTTPClient, it think it’s the name of it.
+
+<u>Kelli Shaver:</u>		Yes.	
+
+<u>Jonathan Stark:</u> 	Which gives you a really easy way to send…
+
+<u>Kelli Shaver:</u>		It’s like a [Gooey for curl ] 4659.
+
+<u>Jonathan Stark:</u> 	Yes, exactly. It’s nice. It could be better but it’s the best one that I have seen. I wish it was smarter about remembering like you give it a URL and you have an endpoint and you pick a verb and it dropped down and you can go back to endpoints that you’ve called before but it doesn’t save like the entire request. I find myself, I keep on doing like 3 request repeatedly, it’s like I’ll do a post/point then I will delete and done testing basically the creb functions.
+
+<u>Kelli Shaver:</u>		Yes.
+
+<u>Jonathan Stark:</u> 	But every time you have to change the URL and then one of them dropped down and change the verb and then send it different request body for the… It was like, I wish it would remember the entire call instead of having these 3 disconnective things. So that would be a nice improvement but it’s really easy to add headers and since we are almost always have an authentication header, it’s really easy to tag loose in the session and just keep on.
+
+<u>Kelli Shaver:</u>		Yes. I like it a lot, I use it for different purpose.
+
+<u>Jonathan Stark:</u> 	It just occurred to me as I was ragging on the tool I was recommending, that you can open multiple windows so what I could do is just have 3 windows open and have the…
+
+<u>Kelli Shaver:</u>		Have the different request in each one window.	
+
+<u>Jonathan Stark:</u> 	Yes. That will go well.
+
+<u>Kelli Shaver:</u>		Yes, I did not think of that.
+
+<u>Jonathan Stark:</u> 	Yes, cool. So there you have it, it’s perfect now.
+
+<u>Kelli Shaver:</u>		There you go.
+
+<u>Jonathan Stark:</u> 	So GraphicalHTTPClient is very helpful when you work in APIs?
+
+<u>Kelli Shaver:</u>		Yes. And these are request in Mac Apps.
+
+<u>Jonathan Stark:</u> 	Oh yes, that mean default Mac.
+
+<u>Kelli Shaver:</u>		Yes, default. Default. Mac.
+
+<u>Jonathan Stark:</u> 	The biggest default. Yes.
+
+<u>Kelli Shaver:</u>		Yes. Just the other big part of my work flow these days is Vagrant.
+
+<u>Jonathan Stark:</u> 	Really? Wow!
+
+<u>Kelli Shaver:</u>		Yes, I find myself setting up a lot of small ritual machines for wishing on small things to sort of clutter in my local environment.
+
+<u>Jonathan Stark:</u> 	Cool.
+
+<u>Kelli Shaver:</u>		Oh! Heroku released a Postgres.app.
+
+<u>Jonathan Stark:</u> 	Postgres.app?
+
+<u>Kelli Shaver:</u>		Yes. I mean it’s Postgres.app. It’s just an all at one Postgres server install for OSX.
+
+<u>Jonathan Stark:</u> 	Oh, like Map?
+
+<u>Kelli Shaver:</u>		Yes, it’s a lot easier than trying to install Postgres natively resolved doing it by hand cause that gets kind of tricky because there is actually is a Postgres.app install in OSX and OSX uses it for managing, these things. So you try and install another one on top of that, you can run into like a conflicts and things of that nature. So just being able to download this app in Heroku and run it and have a running Postgres server each contest against as… it’s very handy.
+
+<u>Jonathan Stark:</u> 	Yes, definitely that is awesome. That is a good tip. For the Postgres listener out there.
+
+<u>Kelli Shaver:</u>		Then I just use PG Admin 3 for managing that because I don’t have a Sequel Pro equivalent.	
+
+<u>Jonathan Stark:</u> 	Gotcha, so the Postgres.app is the server only.
+
+<u>Kelli Shaver:</u>		Yes, it’s the server.
+
+<u>Jonathan Stark:</u> 	I see. Okay, well I guess Map is the same way. Map, it has phpMyAdmin with it but… yes, that makes sense.
+
+<u>Kelli Shaver:</u>		Yes.
+
+<u>Jonathan Stark:</u> 	Excellent. So I am trying to think, what other tools—I mean I am like a default tool chrome browser for web development.
+
+<u>Kelli Shaver:</u>		Yes, I recently switched from FireFox to Chrome.
+
+<u>Jonathan Stark:</u> 	The developer tools are just off the chain.
+
+<u>Kelli Shaver:</u>		Yes.
+
+<u>Jonathan Stark:</u> 	It’s almost an IDE for crying out loud.
+
+<u>Kelli Shaver:</u>		Yes, that brings us into augmenting to ask you. In FireFox, there is a window all for plug-in where you can go to a webpage and you can write quick on the page and it brings you in the context menu. There is an option in there under the web developer that’s allows you to view generated source. And what it does, it does give you the page source code including anything that was programmatically generated. I was just wondering, do you know of a Chrome equivalent to that? Like in view sourcing in Chrome but it doesn’t give me anything that was generated by the browser at the page header.
+
+<u>Jonathan Stark:</u> 	It will, the developer tools. So there are two views, there is the view source which is the command option U and it just gives you the right HTML.
+
+<u>Kelli Shaver:</u>		That is what I have been using.
+
+<u>Jonathan Stark:</u> 	Yes, command option I gives you a live view of the Dom in the elements tab.
+
+<u>Kelli Shaver:</u>		Oh nice.
+
+<u>Jonathan Stark:</u> 	And not only is a live view but it’s interactive. And not only that, but you can set breakpoints and say something like, *“if this particular element or any of its children get modified, I want you to get and pause the script execution so I can inspect the local variables and current scope.”*
+
+<u>Kelli Shaver:</u>		That is much better.
+
+<u>Jonathan Stark:</u> 	It’s ridiculously powerful. I mean it got step-by-step JavaScript debugger for crying out loud.
+
+<u>Kelli Shaver:</u>		Yes.
+
+<u>Jonathan Stark:</u> 	So if you open up the Dev tools, there are bunch of tabs across the top. I tend to dock my tools to the right so that I can squish the window down nice and small.
+
+<u>Kelli Shaver:</u>		Very handy for that.
+
+<u>Jonathan Stark:</u> 	Yes. And a lot of browsers won’t let you go be down to mobile phone size with their windows so this allows you to go down as small as you want. There are just a ton of stuffs. I mean, the audits, the tab; you can reload the page and the audit tab will like give you advice on how to configure your server so your page will load a lot faster. Resources tab gives you access to obviously all the HTML CSS and JavaScript on the page or any frames but also web database and XDB, localStorage, cookies app cache; all that stuff.
+
+<u>Kelli Shaver:</u>		Yes, I love being able to access app cache and localStorage.
+
+<u>Jonathan Stark:</u> 	A new thing, and I am not sure; I think it’s in Chrome Canary which is… but I don’t think it’s in the public Chrome but if you’re working on a set of files that are local on your machine, you could actually make changes in the sources tab. You can edit CSS in the sources tab and it actually save and it saves to your disk.
+
+<u>Kelli Shaver:</u>		Oh wow.
+
+<u>Jonathan Stark:</u> 	So you don’t have to leave Chrome.
+
+<u>Kelli Shaver:</u>		That’s nice.
+
+<u>Jonathan Stark:</u> 	It is.
+
+<u>Kelli Shaver:</u>		Yes, for quick edits.
+
+<u>Jonathan Stark:</u> 	Yes.
+
+<u>Kelli Shaver:</u>		Like I don’t think I am not going to author my whole page in Chrome developer tools but probably which is debugging CSS or something.
+
+<u>Jonathan Stark:</u> 	Yes, exactly. So what will happen is I’ll go in the element’s tab, select the node and then what that does on the third, on the left panel you got—I’ve got like the page and in the middle panel, I’ve got the DOM Tree. So like the node and the DOM Tree, then all the styles show on the right then you could click on like a whip and just use the arrow keys to nudge it up and down either by integers or by intensive tense.
+
+<u>Kelli Shaver:</u>		Level whatever.
+
+<u>Jonathan Stark:</u> 	Yes level whatever. Intensive unit. And you sort of nudge it in the place and hit save and you’re done. So it’s amazing for that, it has a little pretty print button from metafied JavaScript that you can explode it and then put break points in the exploded version instead of like having a break point on the single line that is 2000 characters long.
+
+<u>Kelli Shaver:</u>		Yes. It’ll all run into one, no kidding.
+
+<u>Jonathan Stark:</u> 	Thanks.
+
+<u>Kelli Shaver:</u>		That’s another thing that hurts me, about My SQL; their error reporting.
+
+<u>Jonathan Stark:</u> 	Oh really.
+
+<u>Kelli Shaver:</u>		Yes, like you get an error unexpected such and such near—you will see like a syntax error near and it has like the entire query.
+
+<u>Jonathan Stark:</u> 	Yes.
+
+<u>Kelli Shaver:</u>		Or it’ll have part of the query but the actual error would be nowhere near that.
+
+<u>Jonathan Stark:</u> 	Yes, that has been my experience as well. It’s like, something’s wrong! Thanks!
+
+<u>Kelli Shaver:</u>		Yes, I am going to pretend to tell you where it is but I really don’t know.
+
+<u>Jonathan Stark:</u> 	Cool. Yes, so default browser for development is definitely Chrome. Default text header for me is sublime text too. I still use textmate for writing, like writing a book. But sublime text has definitely become my code editor for sure.
+
+<u>Kelli Shaver:</u>		Yes, I just use word for writing. I like writing.
+
+<u>Jonathan Stark:</u> 	Really? Wow.
+
+<u>Kelli Shaver:</u>		Yes, sometimes I do it with Google Docs. It depends on something I feel like I am going to need to access something other than my computer.
+
+<u>Jonathan Stark:</u> 	Alright. I have repeatedly, for couple of months, had to email people to say, *“Sorry I don’t have office. Could you resend that in another format?”*
+
+<u>Kelli Shaver:</u>		I make them send it as PDF or RTF file something like that.
+
+<u>Jonathan Stark:</u> 	Yes.
+
+<u>Kelli Shaver:</u>		But I tend to, I don’t know, maybe it’s just a habit. Maybe there are other options out there but I tend to just open Microsoft Word when I am writing.
+
+<u>Jonathan Stark:</u> 	Yes, I do everything in Markdown but I do admit that it’s pain in the butt to send it to somebody who doesn’t… I am like, *“Okay, how do you convert it to RTF easily?”*
+
+<u>Kelli Shaver:</u>	Oh yes. If I am sending a file to you, I mean I’ll just open my editor and my Markdown file.	
+
+<u>Jonathan Stark:</u> 	Right.
+
+<u>Kelli Shaver:</u>		But I mean, if I am writing a fiction or what sometimes and yes. If I am writing a story or an article or something like that.
+
+<u>Jonathan Stark:</u> 	Yes, I am actually writing a book in Markdown and I wrote a little—I think I wrote it. I don’t know if I wrote it, right? Got it from somewhere…
+
+<u>Kelli Shaver:</u>		I don’t know, i think I ordered it up. But I am going to take credit for it and say.
+
+<u>Jonathan Stark:</u> 	Not the book. I am writing the book in Markdown and I have a plug-in for textmate that converts mark down to Doc book which the format is XML format which is the book should be written in.
+
+<u>Kelli Shaver:</u>		Yes.
+
+<u>Jonathan Stark:</u> 	Which is like, *“Oh, God send.”*Because Doc book is super awesome but you don’t want to write in it.
+
+<u>Kelli Shaver:</u>		That’s what I’ve heard.
+
+<u>Jonathan Stark:</u> 	Yes, it’s got like approximately 1 billion tags.
+
+<u>Kelli Shaver:</u>		Yes.
+
+<u>Jonathan Stark:</u> 	There is something like a different dozen kinds of list which makes sense but…
+
+<u>Kelli Shaver:</u>		Yes.		
+
+<u>Jonathan Stark:</u> 	I am only using one kind so… Geez! What else? I don’t really. I pretty much use the text editor in Chrome like all day long.
+
+<u>Kelli Shaver:</u>		Yes, I don’t know, Git?
+
+<u>Jonathan Stark:</u> 	Oh yes, Git. Absolutely default.
+
+<u>Kelli Shaver:</u>		Git.
+
+<u>Jonathan Stark:</u> 	Git, I love it.
+
+<u>Kelli Shaver:</u>		Let’s see, Git, Vagrant, Sublime, CodeKit, Chrome. I use Forklift when I use FTP.
+
+<u>Jonathan Stark:</u> 	Oh yes. I remember I almost went off to transmit because there is some kind of bug where it doesn’t work with Text Me anymore but I don’t use Textmate anymore so it’s fine.
+
+<u>Kelli Shaver:</u>		Yes. 
+
+<u>Jonathan Stark:</u> 	Yes, I don’t know. That is pretty much. In terms of default, that’s like my day. I use Acorn for image editing.
+
+<u>Kelli Shaver:</u>		I use Photoshop.
+
+<u>Jonathan Stark:</u> 	Wow.
+
+<u>Kelli Shaver:</u>		Or Java illustrator.
+
+<u>Jonathan Stark:</u> 	Yes, I haven’t got that kind of cash.
+
+<u>Kelli Shaver:</u>		Yes, I got them for myself when I graduated in college and I just kept up with the updates. It’s much more affordable if you get the update over the price itself.
+
+<u>Jonathan Stark:</u> 	Oh, that’s cool. Yes, you are way more into that stuff long ago.
+
+<u>Kelli Shaver:</u>		I spent like $1500 when I graduated in college to get Adobe Creative Suite. And then it was just well, more affordable to upgrade.
+
+<u>Jonathan Stark:</u> 	Right. Now that you mentioned it, I got a free version of I think CS5 when I spoke a t a Dobie Max and they are like, *“we can either pay you or give you this $5000 software package.”* And I am like, *“Whoa.”* And Erica wanted it so I was like, *“Alright.”* Yes. But it is just, come on, they have that cloud thing now which looks interesting.
+
+<u>Kelli Shaver:</u>		Yes, but still $40 a month is still a lot.
+
+<u>Jonathan Stark:</u> 	I thought there was a $20 tier?
+
+<u>Kelli Shaver:</u>		Yes, for students.
+
+<u>Jonathan Stark:</u> 	Oh.
+
+<u>Kelli Shaver:</u>		It’s the educational pressing.
+
+<u>Jonathan Stark:</u> 	Yes, the only reason I’ve looked at it and this is another default is that from mobile testing when you are doing a responsive site and you want to test it into lots of different devices at the same time.
+
+<u>Kelli Shaver:</u>		Agent Spec.
+
+<u>Jonathan Stark:</u> 	Agent spec is the way to go. And they do have a free version so you can play with it and get addicted to it but it is only one device at a time which is still kind of cool but it’s not nearly as cool as when you do have like a 7inch tablet, a 10inch tablet or like coupleof different phones.
+
+<u>Kelli Shaver:</u>		Yes, I have like 8 devices that I test on.
+
+<u>Jonathan Stark:</u> 	Right.
+
+<u>Kelli Shaver:</u>		And I know you probably did more than that.
+
+<u>Jonathan Stark:</u> 	Yes. I do like one from each… I started doing one from each bucket so I have kind of a crap phone which is my Blackberry 9700 which is funny because it is actually pretty good. It’s an old one though. It’s like 10 years old but still it’s like that’s the worst one I tested on E-readers, A kindle 2, the Blackberry, the Kindle Fire; not the HD but it’s still the original Kindle Fire in a 7inch touch screen and iPad Retina, iPad 3 and iPhone and an Android phone and a Windows phone.
+
+<u>Kelli Shaver:</u>		Yes, I test Android phone, Nexus 7, iPad, iPhone and yes, just like a dumb phone.
+
+<u>Jonathan Stark:</u> 	Yes.
+
+<u>Kelli Shaver:</u>		Got something like LG or something.
+
+<u>Jonathan Stark:</u> 	Oh that is an interesting thought, like very old, like motor older racer that is a super popular flip phone.
+
+<u>Kelli Shaver:</u>		Yes.
+
+<u>Jonathan Stark:</u> 	That would be wacky.
+
+<u>Kelli Shaver:</u>		Yes. I’ve been thinking like getting a Windows phone, I don’t have one so I am tempted to get one. Interesting.
+
+<u>Jonathan Stark:</u> 	I am telling you, I’ve been taking this Lumia 920 with me everywhere I go. It’s really nice. I still find it awkward to use a hand phone which is really that in the fact that there are some apps missing on it that I wish they have like dropbox for example.
+
+<u>Kelli Shaver:</u>		Yes.
+
+<u>Jonathan Stark:</u> 	But the awkwardness is somewhat overcome by the fact that it’s such a great phone. LTE is wicked fast, the connections wherever I go have been pretty good which was not the case last year and the web browser is pretty good and the screen is gorgeous, the whole thing is gorgeous, the operating system is completely sexy so I keep bringing it with me.
+
+<u>Kelli Shaver:</u>		Yes, it’s like Windows has turned mobile or less.
+
+<u>Jonathan Stark:</u> 	They are in the race if you ask me but…
+
+<u>Kelli Shaver:</u>		Yes, were are going to have a bond of two phones coming out soon.
+
+<u>Jonathan Stark:</u> 	Yes, and Firefox too.
+
+<u>Kelli Shaver:</u>		Yes.
+
+<u>Jonathan Stark:</u> 	Very cool.
+
+<u>Kelli Shaver:</u>		I’ve been tempted to get a Chromebook just for giggles.
+
+<u>Jonathan Stark:</u> 	That’s my downstairs computer now that I am not in my office all the time. The OS is great, the problem with me is that the hardware is a little bit substandard.
+
+<u>Kelli Shaver:</u>		Yes, it’s like I have absolutely no use for it. I am just curious to experience the OS.
+
+<u>Jonathan Stark:</u> 	Yes, I mean if you’ve got Chrome the browser, that’s it. At first it was literally the full version screen of Chrome always, there is no desktop, there is nothing. It was like a new tab view was your desktop and they find like either got around to creating a desktop or gave in to that concept and you can have actually multiple windows open at the same time now which is… I mean you can have tabs multiple but you couldn’t have two windows open next to each other.
+
+<u>Kelli Shaver:</u>		Right.
+
+<u>Jonathan Stark:</u> 	There are used case for that. Sometimes you want Windows open and there’s like a dock now with your apps and stuff. I would not go out and buy one because  it’s basically Chrome browser and then the only other thing you can do is like command option tee and get like a some very simple shell and it does literally like nothing but SHH and XM. So basically it’s a way to get on to another machine. 
+
+<u>Kelli Shaver:</u>		Get on to another Server Site that you can access your files but you don’t have room to store in the Chrome book.
+
+<u>Jonathan Stark:</u> 	Work with Google Drive, you don’t need the Chrome book.
+
+<u>Kelli Shaver:</u>		Yes, if you want to pay for Google Drive.
+
+<u>Jonathan Stark:</u> 	Is it paid? Am I paying for this?
+
+<u>Kelli Shaver:</u>		I think it comes free for a while and there’s probably a free tier.
+
+<u>Jonathan Stark:</u> 	I might be getting it, I pay for Google apps in general so I am probably getting a free on that.
+
+<u>Kelli Shaver:</u>		Probably so, yes. I had something else but I lost it.
+
+<u>Jonathan Stark:</u> 	You can edit it in the show notes. This is the time to wrap around, we are an hour I think.
+
+<u>Kelli Shaver:</u>		I think so too.
+
+<u>Jonathan Stark:</u> 	Alright, dear listener. That is our show for this week, I am Jonathan Stark.
+
+<u>Kelli Shaver:</u>		And I am Kelli Shaver.
+
+<u>Jonathan Stark:</u> 	And we hope you join us again next week for the <b>Nitch Podcast</b>. Bye.
+
+<u>Kelli Shaver:</u>		See you.
+
