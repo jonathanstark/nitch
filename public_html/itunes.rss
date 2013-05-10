@@ -1031,5 +1031,23 @@ version="2.0">
             <media:content url="https://s3.amazonaws.com/nitch/Episode_55_Nerds_in_Grass_Skirts.mp3" fileSize="54566344" type="audio/mpeg"/>
             <itunes:explicit>no</itunes:explicit>
         </item>
+        <item>
+            <title>Episode 56: Eighteen Hours Since Last Twisted Ankle</title>
+            <link>http://nitch.cc/podcast/episode-56-eighteen-hours-since-last-twisted-ankle</link>
+            <guid>http://nitch.cc/podcast/episode-56-eighteen-hours-since-last-twisted-ankle</guid>
+            <pubDate>Fri, 10 May 2013 14:00:00 GMT</pubDate>
+            <author>Nitch</author>
+            <description>Jonathan and Kelli talk about how to quote a project for a client who needs an app that can run everywhere.</description>
+            <enclosure url="https://s3.amazonaws.com/nitch/Episode_56_Eighteen_Hours_Since_Last_Twisted_Ankle.mp3" length="64172851" type="audio/mpeg"/>
+            <content:encoded>Jonathan and Kelli talk about how to quote a project for a client who needs an app that can run everywhere.</content:encoded>
+            <itunes:author>Nitch</itunes:author>
+            <itunes:duration>33:16</itunes:duration>
+            <itunes:subtitle>Jonathan and Kelli talk about how to quote a project for a client who needs an app that can run everywhere.</itunes:subtitle>
+            <itunes:summary>Jonathan and Kelli talk about how to quote a project for a client who needs an app that can run everywhere.</itunes:summary>
+            <itunes:keywords>web, mobile, html5, rest, json</itunes:keywords>
+            <itunes:image href="http://nitch.cc/img/512x512.png"/>
+            <media:content url="https://s3.amazonaws.com/nitch/Episode_56_Eighteen_Hours_Since_Last_Twisted_Ankle.mp3" fileSize="54566344" type="audio/mpeg"/>
+            <itunes:explicit>no</itunes:explicit>
+        </item>
     </channel>
 </rss>
