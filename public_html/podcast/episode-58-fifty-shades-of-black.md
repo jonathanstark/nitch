@@ -22,7 +22,7 @@ Jonathan and Kelli talk about the upcoming screencast episode, performance probl
 * [jQuery](http://jquery.com/ "jQuery")
 * [Nexus 4](http://www.google.com/nexus/4/ "Nexus 4 - Google")
 * [Google Now](http://www.google.com/landing/now/ "Google")
-* [xkcd: Insight](http://xkcd.com/ "xkcd: Insight")
+* [xkcd: Insight](http://xkcd.com/1215 "xkcd: Insight")
 * [Recon Jet](http://jet.reconinstruments.com/ "")
 * [UP by Jawbone](https://jawbone.com/up "UP by Jawbone | Know yourself. Live better.")
 * [Philips Hue](http://www.meethue.com/ "Philips hue")
