@@ -1077,7 +1077,7 @@ version="2.0">
             <enclosure url="https://s3.amazonaws.com/nitch/Episode_58_Fifty_Shades_of_Black.mp3" length="64172851" type="audio/mpeg"/>
             <content:encoded>Jonathan and Kelli talk about the upcoming screencast episode, performance problems with KnockoutJS, and the massive implications of Google's recent announcements at the IO conference.</content:encoded>
             <itunes:author>Nitch</itunes:author>
-            <itunes:duration>1:09:24</itunes:duration>
+            <itunes:duration>1:09:23</itunes:duration>
             <itunes:subtitle>Jonathan and Kelli talk about the upcoming screencast episode, performance problems with KnockoutJS, and the massive implications of Google's recent announcements at the IO conference.</itunes:subtitle>
             <itunes:summary>Jonathan and Kelli talk about the upcoming screencast episode, performance problems with KnockoutJS, and the massive implications of Google's recent announcements at the IO conference.</itunes:summary>
             <itunes:keywords>web, mobile, html5, rest, json</itunes:keywords>

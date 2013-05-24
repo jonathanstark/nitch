@@ -2,7 +2,7 @@ Episode 58: Fifty Shades of Black
 ====
 May 24, 2013
 
-Running time: 1:09:24
+Running time: 1:09:23
 
 Jonathan and Kelli talk about the upcoming screencast episode, performance problems with KnockoutJS, and the massive implications of Google's recent announcements at the IO conference.
 
