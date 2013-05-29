@@ -38,10 +38,6 @@ Jonathan and Kelli talk about experimentation with the Lua programming language 
 
 ## Transcript
 
-
-
-
-
 Jonathan Stark: Hello, and welcome to the Nitch podcast for Friday, May 3rd, 2013. I'm Jonathan Stark.
 
 Kelli Shaver: I'm Kelli Shaver.
