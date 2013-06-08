@@ -1103,5 +1103,23 @@ version="2.0">
             <media:content url="https://s3.amazonaws.com/nitch/Episode_59_Moonburn.mp3" fileSize="54566344" type="audio/mpeg"/>
             <itunes:explicit>no</itunes:explicit>
         </item>
+        <item>
+            <title>Episode 60: Numerosity</title>
+            <link>http://nitch.cc/podcast/episode-60-numerosity</link>
+            <guid>http://nitch.cc/podcast/episode-60-numerosity</guid>
+            <pubDate>Fri, 07 Jun 2013 14:00:00 GMT</pubDate>
+            <author>Nitch</author>
+            <description>Kelli builds a rest api with ruby on rails, Jonathan asks stupid questions while she does it, and we post video of the whole shebang for you to enjoy in your copious free time.</description>
+            <enclosure url="https://s3.amazonaws.com/nitch/Episode_60_Numerosity.mp3" length="64172851" type="audio/mpeg"/>
+            <content:encoded>Kelli builds a rest api with ruby on rails, Jonathan asks stupid questions while she does it, and we post video of the whole shebang for you to enjoy in your copious free time.</content:encoded>
+            <itunes:author>Nitch</itunes:author>
+            <itunes:duration>4:45</itunes:duration>
+            <itunes:subtitle>Kelli builds a rest api with ruby on rails, Jonathan asks stupid questions while she does it, and we post video of the whole shebang for you to enjoy in your copious free time.</itunes:subtitle>
+            <itunes:summary>Kelli builds a rest api with ruby on rails, Jonathan asks stupid questions while she does it, and we post video of the whole shebang for you to enjoy in your copious free time.</itunes:summary>
+            <itunes:keywords>web, mobile, html5, rest, json</itunes:keywords>
+            <itunes:image href="http://nitch.cc/img/512x512.png"/>
+            <media:content url="https://s3.amazonaws.com/nitch/Episode_60_Numerosity.mp3" fileSize="54566344" type="audio/mpeg"/>
+            <itunes:explicit>no</itunes:explicit>
+        </item>
     </channel>
 </rss>
