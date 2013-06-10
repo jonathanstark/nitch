@@ -13,7 +13,7 @@ Kelli builds a rest api with ruby on rails, Jonathan asks stupid questions while
 
 <iframe width="560" height="315" src="http://www.youtube.com/embed/YyTprB0bHMc" frameborder="0" allowfullscreen></iframe>
 
-[Download (3.8 MB)](https://s3.amazonaws.com/nitch/Episode_60_Numerosity.mp3 "Episode 60: Numerosity")
+[Download (59.4 MB)](https://s3.amazonaws.com/nitch/Episode_60_Numerosity.mp3 "Episode 60: Numerosity")
 
 ## Related Links
 
