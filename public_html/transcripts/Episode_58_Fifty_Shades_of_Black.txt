@@ -1,0 +1,791 @@
+Jonathan: Hello and welcome to The Niche Podcast for Friday, May 24th, 2013. I'm Jonathan Stark.
+
+Kelli: And I'm Kelli Shaver.
+
+Jonathan: We're here to talk about building apps that run everywhere.
+
+This week we talk about our upcoming screencast episode, performance problems with knockout JS, and the massive implications of Google's recent announcements at the I/O conference. Please stay tuned; The Niche Podcast is next.
+
+That's weird. [laughs]
+
+Kelli: I know!
+
+Jonathan: I feel so naked!
+
+[laughter]
+
+Jonathan: What's going on? You've got a vacation coming up.
+
+Kelli: I've got a mini-vacation coming up, and I'm sitting here, got a big pile of presents to wrap.
+
+Jonathan: Is this a big visiting-Canadian-family trip, or is it just you guys?
+
+Kelli: No, that's in August. This is just...we're doing Kyra's birthday party this weekend, and we're just going away for a couple...
+
+Jonathan: Is this a big visiting Canadian family trip? Is it just you guys?
+
+Kelli: No. No, that's in August. We're doing Keira's birthday party this weekend, then we're just going away for a couple of days.
+
+Jonathan: Oh. OK.
+
+Kelli: Just the three of us.
+
+Jonathan. Yeah. I thought it was just an immediate family thing. Otherwise I would have expected an invitation. [laughs]
+
+Kelli: Yeah, otherwise. You're coming to the Rockies with us aren't you? [laughs]
+
+Jonathan: Oh yeah. Got so much free time right now.
+
+Kelli: Yeah. [laughs]
+
+Jonathan: Let's see. Where should we start? I guess we should start with house-keeping.
+
+Kelli: That would be good.
+
+Jonathan: Just a couple things. Simple. I don't know if you've noticed, dear listener,or Kelli, I've been slowly posting transcripts to the episodes. I don't know about you, but I don't really expect people to read the transcripts.
+
+It makes it really, really easy to search for old episodes, where you maybe remember some particular comment or something, and you have no idea. This happens to me frequently. Where I'm...
+
+Kelli: [laughs] I do that all the time.
+
+Jonathan: I can specifically remember a conversation. There's zero chance of knowing what episode it was in. Transcripts are really more about indexing the episodes than actually creating blog posts for people to read, but you could certainly do that as well. Cool.
+
+Then the other thing with house-keeping is plans for the screen-cast episode. We've been talking about it a little bit logistically how we're going to do it. We're thinking we'll set it up for episode 60. That's coming up fast. This is, I think, 58.
+
+Kelli: Yeah. That will give us a little more time to get things set up technically.
+
+Jonathan: Right. So, dear listener, you still have time to give us feedback about, if you think it'd be a good idea. What you would like format-wise. Kelli, tell me what you think. I've done pair programming in the past. It's super amazing training experience for the person who's the weaker developer.
+
+One possible approach would be for us to do a screen-share of me. Then you basically tell me how to do what it is that we're planning to do. I don't think that will actually work for this. That's a great way to train people.
+
+If you manage developers or if you work with another developer, and maybe you're strong at something and the other one's strong at something else, it's the most unbelievably productive training experience.
+
+To have the weaker person at the keyboard, and the other person talking them through how to do something. Within an hour or two, the person at the keyboard will be 10 times better at whatever the thing is. It's a little bit tooth-pulling.
+
+Kelli: Tedious.
+
+Jonathan. It's a little tedious, right. At the end of the day you end up with a much better trained developer. It's not really what we're shooting for here. So I don't think a peer pair programming thing is the best approach.
+
+Probably it would make more sense, and this is what we talked about first, for Kelli to sort of go through the process of building a Rails API. Which is what we're talking about. Setting up an API with Rails. Then me kind of peanut-gallery heckling you as you go.
+
+[laughter]
+
+Jonathan: Wait a second, how do you set up your dev environment? What was that thing you just ran? What was that thing you just skipped over? Kind of just sort of keep you honest as you go through it.
+
+I think it'll go a lot faster. Be a lot more fun for both of us, and probably from the listener's standpoint a nice balance of speed and education. It would probably me more educational if we did it the other way, but it would be so painful, for everybody involved.
+
+Kelli: It would take a long time to get through.
+
+Jonathan: Yeah. It would be brutal.
+
+Kelli: Yeah. It would be.
+
+Jonathan: Dear listener, please send your thoughts on the subject to us through "The Nitch" website, or on Twitter. Best way to get in touch with us. Cool. So is that that?
+
+Kelli: I think so.
+
+Jonathan. That's house-keeping. Bug report.
+
+Jonathan: Best way to get in touch with us. Cool. So is that that?
+
+Kelli: I think so.
+
+Jonathan: Alright. So that's house-keeping. Bug report. We're talking about Angular a little bit this week, and that caused you to mention to me that you've been having some trouble with Knockout.
+
+Kelli: Yeah. I just kind of hit a wall with Knockout, in terms of performance.
+
+Jonathan: That's such a bummer.
+
+Kelli: Yeah. I'm still using it. What I ended up doing is, Knockout can have several different types of bindings. It can bind to various DOM interactions, or it can bind to changes in variables.
+
+Basically I'm still using Knockout to monitor some of my variables and update the DOM accordingly when those are changed by other bits of JavaScript. All of the interactions I had in there for tap, and swipe, and scroll, and all that stuff, I kind of removed the Knockout bindings. I'm doing all of that with jQuery now.
+
+Jonathan: God, that's frustrating.
+
+Kelli: It was all just too much. The app is a lot bigger now than it was when I started with it. It's grown quite a bit. When the app was small, it was great. When you're talking about rendering a couple of hundred items on a page, as opposed to 20, I was just hitting some performance issues. I did some googling.
+
+Of course you try and find a couple of ways to fix it. I found a few articles. People doing various things, but overall it seems like performance is the big downside to Knockout, which was really kind of disappointing.
+
+Jonathan: That's the thing with frameworks, right. Especially front-end web frameworks.
+
+Kelli: Yeah. If you were doing something small, it'd be great.
+
+Jonathan: Yeah, but if you're doing something small you probably don't need it. It's so frustrating. Did you feel like you looked into it enough to say that it wasn't the way you set it up? There was really no way to do it with Knockout, because of the nature of the app?
+
+Or is it possible that it's not some intrinsic limitation? Were there tons of people being like, "Knockout performance stinks if the DOM gets over some size," or?
+
+Kelli: Yeah. I found several different articles. People had various different performance issues with Knockout. Some of it I was able to sort of restructure the way I was doing things, and make improvements. The main issue I ran into is just when the size of the DOM reaches a certain point performance was not good.
+
+Jonathan: When you have a bug report it's awesome to be like, "Then I checked this box, and everything was fixed." This isn't one of those bug reports. I had a similar issue, that I have not resolved yet, with working on an image gallery. A carousel that swipes back and forth. It uses CSS transitions to create an animation effect.
+
+It needs to work on touch devices and desktop devices. It works great on the desktop, but on touch it's bizarrely laggy. You do the swipe, and there's this long delay. Two second delay. Then the animation happens perfectly, but two seconds late. It's not good.
+
+Here I'm kind of trying to defend Knockout a little bit, because there's just a lot going on with front-end stuff. There's no framework. I didn't use any framework. I wrote a couple hundred lines of JavaScript to make this work. It works great when the DOM is small, then when the DOM is big it's basically unusable.
+
+I was tearing apart things to see if I could isolate the issue, because it was really weird. The page is wicked long. It's super long. It's basically the home page for a big, huge blog that has 10 pounds of crap jammed in a five pound bag. There's way to much stuff going on.
+
+So I was like, "Oh, it's the DOM. There's just too much in the DOM." I chopped the page down to basically just the carousel. Worked like a charm. So now I got to figure out what the cut-off is, where the DOM becomes unusually sized.
+
+In the process of doing that I removed the overall CSS file for the page, and just left in the CSS for the carousel. As I added back in the HTML the DOM got bigger, and bigger, and bigger. The performance issue never came back.
+
+Kelli: Interesting.
+
+Jonathan: The I started looking at the CSS, which I didn't write. There's tons of really advanced CSS selectors in the CSS. There's also a ton of notoriously processor intensive CSS rules.
+
+Things like opacity, or round corners, box shadow. Anything that forces the browser to composite multiple layers, and calculate a color value for a particular pixel, alpha channels in RGBA, any of that stuff it just piles up. Gradients, that's another thing. Creating images on the fly. All that stuff is CSS.
+
+When you combine a large DOM with the more processor intensive CSS, all of the sudden the browser chokes. The solution is like your solution. There's no way to check a box to fix it. You either have to remove stuff from the DOM, or somehow make your page smaller.
+
+Or see if you can find some kind of particular egregious performance hog, like sibling selectors or descendent selectors, or the other stuff I listed off. CSS has gotten so powerful, but you can really shoot yourself in the foot with it these days.
+
+Kelli: That's interesting, and I may have to go back and examine what I was doing there. I may be blaming Knockout for the performance when the DOM got large. It might not all be Knockout.
+
+It might just be that the real-time rendering of the DOM that Knockout was doing, combined with the CSS, was causing my issue there. What I ended up doing, is I ended up removing a lot of DOM alums that were getting rendered automatically initially. Then just kind of creating them on the fly as they were needed.
+
+Jonathan: Yeah, when you mentioned lots of items, hundreds of items in a list. I don't know really anything about Knockout except for what it is. I do know that just when you're doing regular JavaScript programming, if you have arbitrary length lists like that, attaching event listeners to the individual items is death.
+
+The way to do it is to attach listeners to the container of the items, and listen for the events. Wait for them to bubble up. You really have one listener for any number, a thousand items. Then figure out which item it was by inspecting the event from the parent element.
+
+Kelli: That could easily have been a contributing factor too, because Knockout is going to bind those events to each item. They say you have a tap item bounce in a list element, it's going to bind it to each list item that it renders.
+
+Jonathan: I would be surprised if it was sophisticated enough to -- not -- do that. You know?
+
+Kelli: I just don't think it's the way it's designed.
+
+Jonathan: Right. Event delegation is a key performance tuning approach.
+
+Kelli: Yeah. Whereas that's exactly the approach I'm taking when I switched everything to jQuery.
+
+Jonathan: Yeah, you just list. Very common for me to attack all of my listeners to the body, basically. When an event bubbles up, just be like, "Oh a tap happened. What did it happen on?" I just have all my listeners attacked to one place. For me, it makes it really easy to maintain the code. There's just one place to look for all of the interactions.
+
+You don't have these listeners littered all over the DOM. Sometimes you have to do it, because it's tough to figure out what actually got interacted with. It gets complicated. That's not even what we're going to talk about today. Google I/O is last week.
+
+There are just so many announcements that have a clear and imminent impact on the future of computing, that it just can't be ignored. A few different things came out of it. There were tons of announcements.
+
+Some sexy things with maps, and with auto awesome for your images. Emailing money. You can send money via Gmail. There's all kinds of sort of end-user product features that were announced.
+
+Kelli: The money sending could actually have a huge impact.
+
+Jonathan: Yeah, it's basically PayPal. Google is directly attacking PayPal with that. It's a huge, big deal. For sure. Stuff like that is definitely game-changing for different industries. Their music. They basically announced a Spotify competitor. All that stuff is sort of end-user product type stuff.
+
+The things that really blew my mind were more around the kind of new ways to interact with a computing device. Which are revolutionary as far as I'm concerned. There were three in particular that I thought were worth mentioning. Google Glass, of course. Some announcements around that.
+
+Then there's Google Voice Search on the desktop. I don't know if I've been running a developer version of Chrome, but I've had this for a long time. They've added something called hot words. Which is safe for work, believe it or not. A lot of people are sorting of ragging on this as being gimmicky, but I want to talk about that.
+
+The last one is Google Now. I've been using an iPhone as my main phone for a while. Before that it was a Nexus One. I really liked Android. I was running 2.3. It was OK. Then I switched back to iPhone for some reason I can't remember. Oh, for international. When I was traveling internationally, iPhone was better.
+
+Finally, I got rid of the iPhone. I got a Nexus 4 on AT&T, so I can travel with it. This thing is life-alteringly awesome.
+
+Jonathan: Nationally, the iPhone was better. Finally, I got rid of the iPhone and I got a Nexus 4 on AT&T so I can travel with it. This thing is like, life-alteringly awesome.
+
+Kelli: Really?
+
+Jonathan: Oh my God. Big difference from the last time I was using an Android as my main phone, because now we're up to, what's it Jelly Bean 4.2?
+
+Kelli: Yeah.
+
+Jonathan: Now it has Google Now, and the whole entire user interface is super polished now, very, very nice. You can get to everything from anywhere. I feel like I have super powers when I'm using this phone.
+
+Kelli: Yeah, I really like the latest version of Android. I was telling you earlier I was looking at updating Android on one of my phones for my dad to use, and as I was doing that this evening, I was messing around with it, I was like, "Oh, I kinda like this better than my iPhone."
+
+Jonathan: Oh yeah. I mean, it is like...
+
+Kelli: I lost my ability to speak.
+
+[laughter]
+
+Kelli: I have it on my Nexus 7 tablet, and I use the tablet all the time. I guess I just never thought of it in the phone context.
+
+Jonathan: Yeah.
+
+Kelli: Because I've been using the iPhone for so long.
+
+Jonathan: Yeah. So, getting ahead of ourselves a little bit. The point is that I've been using Google Now, finally. I've been reading about Google Now, I tried Google Now on the iPhone.
+
+Seemed cool, but I wasn't using it on a daily basis, and now that I am it's spooky how good it is.
+
+Kelli: Really?
+
+Jonathan: To the point where I've been creeped out on two occasions. For real. It is super helpful, but then it gets to the point where it's so helpful you're like, "Whoa, how did you know?"
+
+Kelli: When Google Now pops up and says Cooper needs a diaper change.
+
+Jonathan: Yeah, it might as well. It's only slightly less radical than that. If it said duck, that would be a little weirder.
+
+It's one of those things where it was something so useful that it overruled the spookiness. I was like, "Wow, that was spooky, but damn am I glad it just did that." We'll get to that too, but...
+
+Kelli: Yeah, I think I had that happen once. I had the Nexus 7 in the car with me, and we were travelling. Of course, the version I had was WiFi only. Back when I bought it WiFi only was all they had.
+
+I pulled it up, and I accidentally opened Google Now because you swipe up from the bottom and Google Now comes up. I accidentally did that, and it's like "You're 7.38 miles from home."
+
+I never told you where home was. You have no Internet connection. And yet, you're very accurate. What's going on here?
+
+Jonathan: Yeah, it's super crazy.
+
+Kelli: Yeah.
+
+Jonathan: I guess we can sort of attack this from any direction. Since we're talking about Now, we might as well keep on that one.
+
+The thing about Google, Google is collecting information from so many places in everyone's lives now that it takes it to this new level. It's almost like it's more than the sum of the parts.
+
+I'm guessing, from the example you just gave, I'm guessing that your WiFi was on, and even though it wasn't connected to anything they were using probably Skyhook or something similar.
+
+Or the street view car's WiFi information to triangulate where you were based on open WiFi where you were. Or even closed WiFi where you were.
+
+You take that, it doesn't have GPS, but it can figure out where you are based on some other way. It just finds a way to figure out a piece of information.
+
+With me it was similar. We were leaving the house. We were planning to go to this garden center, and I literally open up the phone to search for directions. I open up the phone and the map was right there.
+
+I've literally never searched...I most have searched for it before, maybe. I got chills, actually. I said to Erica, "It knows where we're going!"
+
+Think about, you're leaving your house, all the places you go in a given day or a given month. How could it possibly have guessed that we were going to that store right then?
+
+Kelli: Yeah.
+
+Jonathan: It could have given me directions to a million places. So we're thinking. She's like, "Did you put it in your calendar?" Because I use Google for everything.
+
+Kelli: Yeah.
+
+Jonathan: "Did you put it in your calendar?" I checked, no. Did we email about it? I'm sure it's reading Gmail.
+
+They have openly said it's reading your Gmail to look for things like flight announcements for upcoming trips that you have and stuff like that. Maybe I Googled for the place, but how would they know to give me that piece of information on that particular day, before I'd even gone far enough to indicate that I was headed in that direction.
+
+Kelli: Yeah.
+
+Jonathan: I couldn't figure it out. I don't know. I use Gtalk, we could have texted, "What are we doing this weekend?"
+
+It could be something as simple as, "What are we doing this weekend?" and her texting back, "Oh, we should go to..." Actually, I'm sure we did have that exchange over Gtalk, which is super abstract.
+
+Kelli: Yeah, it is. It is.
+
+Jonathan: But meanwhile, Google's like, "Oh, these two people indicated that they're going to a particular place at a particular time." As creepy as it was...
+
+Kelli: It's really useful.
+
+Jonathan: It was exactly what I wanted. It predicted why I was opening my phone. Before I even got in there I already had the information I needed, without having to do anything.
+
+Kelli: That's both creepy and awesome.
+
+Jonathan: Yeah. There's people flipping out. There's always people flipping out about privacy and stuff.
+
+I think at the end of the day, if services are giving you enough value from the visibility that you grant to your data, then people are going to be cool with it.
+
+Kelli: Yeah.
+
+Jonathan: AT&T knows everything about every phone call. They know who I call. It's not like no one has this information. People have it, they just don't generally act on it in a way that's so visible to you.
+
+Kelli: Yeah, your phone company's known who you call and how long you talk to them for forever.
+
+Jonathan: Yeah, since phones were invented.
+
+Kelli: Right.
+
+Jonathan: So to tie this into the theme of the show, so building apps that run everywhere. One of the big things about thinking about developing stuff for the future and taking mobile first approaches, API first approaches, smart content, all of this stuff, is that the interaction that I had with the phone, there wasn't one really.
+
+Kelli: Yeah.
+
+Jonathan: I just opened it. It'd be easy to imagine...there was no input on my part at that time. I gave it input in the past, apparently.
+
+[laughter]
+
+Jonathan: And it remembered that it was going to remind me something in the future. But there was no actual input at that time of the interaction on my part at all. No keyboard, no voice, no nothing.
+
+Kelli: I'll have to know if I get some reminders or any kind of map or anything next week about our little mini-vacation, because I got email confirmations on hotel rooms and what have you, a couple days ago.
+
+Jonathan: You're an iPhone person, but do you use Google Now on the iPhone?
+
+Kelli: No, I do not, but I do have it on the Nexus 7.
+
+Jonathan: Gotcha. You can put it on the iPhone. Some people say it's even better on the iPhone for some things like check-ins and stuff.
+
+If you get the Google Search app, it's got Google Now built into it. I've looked at it before and I'm like, "This is so boring. Wow, my weather's here. I can get the weather 100 ways on this phone." Like, who cares?
+
+It's not until you st art really using it. Now it's the first thing I do when I pick up the phone. I just swoop, swipe up, get Google Now. I've already, within a couple of weeks, I've come to expect that it's going to tell me a bunch of things that...
+
+Kelli: That you're going to want to know.
+
+Jonathan: Right. I don't even know what I want to know, but I'm sure when I open up Google Now, it's going to have a bunch of stuff that I'm like, "Oh yeah, that's what I wish I knew!"
+
+[laughter]
+
+Jonathan: How far am I from home? What's the weather? What's going on around me? What are events happening near me?
+
+Kelli: Does it tell you what Erica's cooking for dinner?
+
+Jonathan: I wouldn't be surprised if...
+
+Kelli: I feel like it could.
+
+Jonathan: Yeah.
+
+Kelli: If she was Googling recipes.
+
+Jonathan: Right! That's an interesting thing, which is, is it just pulling information from my stream or from other people who are also..
+
+Kelli: That it knows you're...yeah.
+
+Jonathan: That I'm associated, that I email with. I'm sure it is. I mean Google, through Gmail, has to have almost as big a social network, a social graph, as Facebook.
+
+Kelli: If not bigger.
+
+Jonathan: Yeah, if not bigger.
+
+Kelli: That's an interesting thought.
+
+Jonathan: Yeah, it's not like, there's no interface for it really.
+
+Kelli: No, but I'm sure they have all that data behind the scenes.
+
+Jonathan: Sure, yeah, absolutely. It's obvious that they do because they've got that Important flag in Gmail, the Priority Inbox. It's crazy.
+
+A lot of people said this Google I/O, the announcements they had at this Google I/O, it was clear that we ain't seen nothing yet. They're just getting started.
+
+It's like the pieces are falling together, where they can create artificial intelligence, basically. Because they've got so much knowledge.
+
+Kelli: Yeah, they've got so much data.
+
+Jonathan: The plan of Google Now, for people who build apps, is to think about if you look at what Google Now is doing, it's being super clever about gathering input without you actually feeling like you're...It's so polar opposite of filling out a form.
+
+[laughter]
+
+Jonathan: Or even filling out a search request. It's just capturing information that's just falling off you.
+
+Kelli: Yeah.
+
+Jonathan: I think that is a trend. That is an important direction. It's important when you're developing applications to not constantly be assaulting the user for information.
+
+Just be like, "Figure it out dude. I'm giving you all kinds of signals, just figure it out." Or at least the ones that you can.
+
+Kelli: Yeah, it just kind of sits quietly in the background and listens.
+
+Jonathan: Yeah. You know when you call a customer service line, and they make you type in your credit card number, and then you get someone on the phone and then they ask you your credit card number?
+
+It's like the opposite of that. If I ever asked you for something, you're a computer, don't forget it. [laughs]
+
+Kelli: Right.
+
+Jonathan: So, I think...that's one thing is that be super, super smart about capturing and making the best possible use of any input that you can to make things easier for the user...or the person using your service.
+
+The other thing is Google, now, from an output standpoint, is very, very interesting. It's got this card-based metaphor and each other cards, sort of, fall into a category. There's map cards, and there's flight card, and there's all these different data-card formats. And, it translates really well to a small phone screen.
+
+Kelli: Or a pair of Google glasses.
+
+Jonathan: Yes, nice segway, hey. Google glasses works perfectly as a card-based interface through Google Glass. Because it's just this...if you think about the hardware of Google Glass, it's super sophisticated. It's like really cool, look at this little prism, you can see this tiny little screen. You've got this touch arm on the right hand...touch sensitive right arm on the glasses.
+
+There's no good way to type, you know. It's kind of a terrible input gathering device if you're going to force the user to constantly be inputting stuff. Like, you couldn't type an SMS. That would be...
+
+Kelli: Right. Yeah. Even the video I watched of the touch...the little touch interface, it seemed like it would get really annoying to me.
+
+Jonathan: Yeah. I mean, it's a big question. But, if you think about the future that Google is trying to create where, "You don't have to actually give us any explicit input. You can just live your life. We will capture information that's falling off of you and then tell you what you probably needed...probably would have searched for if you could type on these glasses."
+
+You know? It's really compelling. So, the glasses...so a lot of people are talking about the Glass. They're saying, "It would totally be overwhelming if I was getting on my FaceBook notifications or if I had this long list of cards," like you're saying, "and I had to swipe through them and swipe through them and all I'm getting is just getting annoyed and this is distracting."
+
+That's a thing that you hear about it a lot. Another thing, of course, that people say to knock it is that, "It's too geeky. You look like the Borg. People are going to be called you a 'glasshole' for wearing them into the bathroom." The social implications of having a camera at your face.
+
+Kelli: Right.
+
+Jonathan: I know you and I both don't give a crap about that but...
+
+Kelli: Right.
+
+Jonathan: I'm sure some people do in terms of just being embarrassed to...that it looks weird.
+
+People don't even want to wear regular glasses because they feel like they either don't look good or they're uncomfortable in their head. So, why would you want to wear Google Glass?
+
+Kelli: Yeah. My head already looks messed up.
+
+[laughter]
+
+Jonathan: I don't really give a crap. I think what's going to happen is, if you look much at a lot of these reaction videos, the thing that I always notice is that when they take them...like Robert Scoble letting people use his pair, or I watched All About Android podcast and a couple of people had them and they let one of the other hosts try them on.
+
+There's two things that kind of happen, when people just try them on for a couple minutes, they're like, "Wow, this is so cool." Then they get bored of it really fast. But then they talk them off, they're like, "I feel naked without that. Like, I feel like I'm missing something." I think that last thing is going to be the thing that people are like, "I don't care if I look stupid with these things on because I feel like an idiot when I take them off."
+
+Kelli: Right.
+
+Jonathan: "I feel like I'm out of touch with my world. I'm disconnected."
+
+Anyways, again, I guess to pull it back, the point is, for building apps to run everywhere, we always talk about building for the most constrained...you know, start small, build for the most constrained environment first. It's tuff to think of an environment that's more constrained than Google Glass because you can't render much, there's almost no user input. You just have to be wicked smart on the server side.
+
+Kelli: Yeah. I think the idea of paying attention to as much user input as you can to, sort of, create those types of responses and information, that's... So, the user is...or the person...
+
+[laughter]
+
+Kelli: The wearer is providing information constantly without having to actively input it.
+
+Jonathan: Right.
+
+Kelli: Maybe you can only do that to an limited extent if you're not Google, but...
+
+Jonathan: Yeah, but you better damn well use whatever you can. It's the same...this is advice we've been giving just with mobile phones, which seems so...which may seem so dated. They're starting to seem dated already.
+
+Kelli: It is.
+
+Jonathan: If you have a mobile website, or even a website at all...if you have a website at all and I visit it on my phone because I'm looking for your closest retail location and you make me type in my zip code, it's like pathetic. Why would I have to type in my zip code, especially...
+
+People might, you know, a retailer, Staples, might think, "Oh well, it's so easy to type in your zip code." Not if you're traveling and you don't know what your zip code is where you are and you want to find the closest Staples. My browser on desktop and virtually in like 90 percent of all smart phones in the market, ...
+
+Kelli: Knows where you are.
+
+Jonathan: ...knows exactly where I am. It's like five lines of Java Script to make it work. Just don't make me tell you where I am.
+
+It's the same principle. The smart phone is, in my opinion, 10 times more powerful than a laptop when you consider all the sensors. It's just crawling with sensors.
+
+Kelli: It is.
+
+Jonathan: You know, a laptop has got a keyboard, it's got a big hard drive, and it's whatever. It doesn't matter to me. The phone is way more powerful because it has...it's so much smarter.
+
+I think something like Google Glass, or if Glass doesn't catch on, whatever it is. Like Recon announced these Jet glasses that are very, very similar in concept but aim specifically at athletes and have much richer user interface in the screen, apps you can build for it.
+
+This is going to happen. People are going to be wearing these things. There's a lot of etiquette stuff, glassholes... I think that's all silly. We already have so much etiquette around stuff like this that it's...I feel like it's going to be a no-brainer because...
+
+Kelli: Yeah.
+
+Jonathan: You walk into a store...if you walk into a place with sunglasses on, you don't general stand there and talk to someone with your sunglasses on unless you're a d-bag.
+
+Kelli: Right, because it's rude.
+
+Jonathan: It's rude. You just put them on your head. I won't even go up to a cashier, generally...almost never, will I go up to a cashier and order a coffee or something with my headphones in.
+
+Kelli: Right.
+
+Jonathan: Even if they're off because it gives the impression that you're not paying attention to them.
+
+Kelli: Right.
+
+Jonathan: I don't know. I just think all of the social implications are ridiculous.
+
+Kelli: I know. I do, a lot of times, have people come up...well, not so much now because I'm down there as often. But, when I was working down at the computer store more, and Richard still has it happen a lot, people come up...they'll come up to pick-up their computer or to pay or something while they're on their cell phone.
+
+Jonathan: Oh, yeah.
+
+Kelli: It's like, it's a tiny, tiny store. If you're in there, chances are, at that particular moment, you're the only person in there, other than one of us.
+
+Jonathan: Right. Yeah. I'm not saying there won't be people who won't be rude. But, I'm saying that there will be very...it'll be...it's like one of those things that will work itself out automatically. There are already tons of social mores that are very, very close to this. It'll just be a non-issue.
+
+Kelli: I mean, some of them...if you wanted to be a jerk about it, you could pull out your smartphone and snap pictures in a bathroom...
+
+Jonathan: Yeah...
+
+Kelli: ...or video.
+
+Jonathan: Every time...literally, every time I go into the locker room at the gym, I have my phone out because I'm using it. I'm about to go on the stair master or the treadmill or something. Everybody in there has their phone out.
+
+I mean, granted there is already...people have already hacked the Glass software so that you can wink to take a picture. So, it's a lot...you know, it would be a pretty obvious, in a locker room, if I was taking pictures of you with my cell phone. It would be a lot less obvious if I could just blink at my headset camera to take a picture.
+
+But, it's just a complete non-issue if you ask me. It will become an automatic etiquette. Like, when I first started going to Starbucks a lot and the shared work environment started to pick up and the local Starbucks was just packed with regulars who were there every single day on their laptops all day, an etiquette grew up around using the plugs and what tables you sat at and where you put your plug in.
+
+And, if you would use...it was a total no-no to use both sockets in an outlet. You would never do that. That would be so rude. You're sitting at a table where there's a limited number of electrical outlets and to plug in your phone and your computer to charge and the wall would be like, "You're a jerk."
+
+Kelli: You don't do that.
+
+Jonathan: Yeah. It's like taking up two seats on a train. All that stuff if just going to completely be a non-issue.
+
+Meanwhile, Congress is already calling...Senators are already calling for regulations around Glass for privacy. The thing's not even out yet. It's ridiculous. It's totally ridiculous.
+
+Anyway, the thing with Glass that relates to the broadcast...
+
+[laughter]
+
+Jonathan: ...is, I guess the two things. One is that it's super, incredibly smart about collecting input without bothering you. And, it's also super good at giving you context sensitive output...it's basically Google now on your face.
+
+Kelli: Right.
+
+Jonathan: That is super relevant. It's what you would have searched for anyway. It's just formatted perfectly for the situation, so just very relevant. And, it's not overly...you can't...if you're programming for Glass, you can't be obsessed with layout. You know what I mean?
+
+Like, the projects that I've been working on, the mobile-web related...customers are obsessed with, what I consider to be, relatively silly layout intricacies which... I shouldn't say that...they're not sill. They're not silly. They're polishing up this interface but it's silly when you consider that, they're making massive blunders in other areas and putting all of their focus on...
+
+Kelli: Misplaced priorities?
+
+Jonathan: Yes. That's exactly what it is. It's like, "These buttons, the black's a little too dark. Could you lighten up the..." It's like, "Are you kidding me? You're pages are taking 15 seconds to load and you're worried about the shad of grey..."
+
+Kelli: The shade of black, yeah.
+
+Jonathan: "...on a button. You have major problems here." The entire 20 people...the room full of 20 people representing the department of the client are debating what shade of black the buttons should be.
+
+It's like, "You guys, you don't even have high-res images for your feature articles and I'm building you a slide show." And, you're like, "Don't make the slide show too big on the desktop, because the images aren't good quality." "Well, the problem is...get better images."
+
+It's just crazy. It's crazy. So, yeah. I think polish is great and obsessing over layout is a fine thing to do but you need to keep in perspective of the bigger picture.
+
+Kelli: Yeah. It shouldn't be done in place of things like improving performance and improving usability.
+
+Jonathan: Content.
+
+Kelli: Yeah. Content.
+
+Jonathan: Anyway, the other thing that I think is really important to understand and believe is that wearable computing is here, now, and it's going to get more popular, not less.
+
+Kelli: Yes. I definitely agree with that.
+
+Jonathan: Yeah. So, if your whole strategy is based around a 320-pixel-wide mobile-phone screen, you're doing it wrong. It's like, that's what we did with the desktop, we should've learned our lesson on the desktop. The whole computing landscape is exploding into a million little bits of specialty devices.
+
+There's going to be all these different kind of wearables for athletes and for traveling sales...outside sales people and business travelers and moms. There's going to be a million different devices, a million different form factors and input and output mechanisms.
+
+If you spend too much time optimizing for a particular one, you're going to be sorry.
+
+Kelli: Yeah. You're missing out on a lot of opportunity there. That time and energy could be spent making it more...more around everywhere-ish.
+
+Jonathan: More smart toaster-y.
+
+Kelli: Yeah.
+
+Jonathan: Yeah. And then a side...that's probably plenty on Google Glass.
+
+So something very interesting happened tonight, as a matter of fact, that is related to one of the other announcements which was the Google voice search on the desktop. There's this new thing that they're calling "hot wording" or "hot words" where...it's similar to if you've seen videos for Google Glass, people say, "OK, Glass, that a picture," or "OK, Glass, do this," or "OK, Glass, do that." The voice input.
+
+That is enabled, supposedly, I couldn't get it to work, but supposedly enabled in the current version of Chrome Desktop, Version 27.
+
+Kelli: Really?
+
+Jonathan: Yeah. You can say, "OK, Google," and it will start listening to you and you just say a search and it does it and reads it back to you. If you go to Google.com right now, you'll see a microphone in the search field and that's been there for awhile.
+
+Kelli: Yes.
+
+Jonathan: But, supposedly, it appears not the be active, at least for me, yet. Supposedly, once you do that, and grant access to it, to give it that access to your microphone, you don't have to click the button anymore. You can just say, "OK, Google, search for pizza restaurants near me." A lot of people, including me initially, were like, "Why would I voice search on my laptop when I've got this perfectly good keyboard right here."
+
+I'm like, "Oh, it's kind of gimmick-y but it's cool that they can do it. Great, until tonight when I was testing the OK, Google feature. You know, the microphone has been there forever and I never use it. But, I was trying to get the OK, Google feature working. So, I'm sitting at the counter and Cooper is sitting next to me. For the dear listeners, our Cooper is three and doesn't know how to read or write but he does know how to talk.
+
+As soon as he saw that, it was like...he took to it like fish to water. He was like, "Search for garbage truck pictures." Bang! A list of garbage trucks comes up. Click, right into the one that he wanted.
+
+Kelli: Nice.
+
+Jonathan: I was like, "Oh, wow." All of a sudden, a laptop, which the primary input mechanisms are abstract, away from the content, where you've got keyboard and mouse that you move something over hear to move something over there. You know what I mean? It's very unintuitive to people who haven't grown up with it. You just look around, there's kid everywhere using touch screens that are faced very easily because it's such a natural human thing, to just directly interact with some virtual object.
+
+All of a sudden, I was like, "Whoa! A whole generation of kids who don't yet know how to read or write, are going to start off with, even on laptop computers, by talking to them, which is...like all of a sudden this thousand dollar piece of equipment that was utterly useless to him five minutes ago, now, became completely usable for the stuff that he wants to do.
+
+Kelli: That's really cool.
+
+Jonathan: Yeah. I was like...it was like a revelation. I was like, "Holy crap."
+
+If you think about it, anybody...I don't know what the percentage of the planet is illiterate. But, all of a sudden, those people can use Google for video and image search.
+
+Kelli: Yeah. So can all the quadriplegics.
+
+Jonathan: That too. I mean, it's rad. It's totally rad. It's freaking Star Treck. "Computer, calculate..." You know what I mean?
+
+Kelli: Yeah. Google's next phone that their going to put out is going to made of transparent aluminum.
+
+Kelli: [laughs] Want. It's going to be...the thing is, the device...the computer...I heard someone talk about, "Google's making..." They said something about the computer. They were talking about advances to the computer and they meant the computer in your lap. But, Google's not thinking of it like that and neither are we. I know I'm not.
+
+That's not the computer. The computer is the entire Internet. And the interface into that computer, the one giant computer, is going to take a billion little forms. Because the connection is what is important, not the shade of black on the button on a particular user interface, on a particular device. That's just absurd at this point.
+
+So, it...man, ...
+
+Jonathan: Connection is what is important. Not the shade of black on the button. On a particular user interface. On a particular device. That's just absurd at this point. We've talked about this forever and ever, about how there's just oodles and oodles of new input and output scenarios cropping up.
+
+This voice search on the desktop is a great one, because it's not immediately apparent why it would be useful at all. To the bulk of the population it's totally useless. There is a significant percentage of the population who it is game changing for.
+
+I think that we're just going to see more and more of these little, you almost want to call them vertical specific or subject matter specific I/O...approaches? I don't even know what to call it. There's going to be, for every different situation...
+
+Kelli: There'll be a different input method.
+
+Jonathan: Yeah. It'll be so cheap to come up with a very custom way to interact with the big computer, the one gigantic computer, that it'll be worth doing it. A small optim-...Spend a couple of bucks for some chips, and maybe cobble together 100 bucks' worth of parts into something that's highly specific to...skiers, or whatever. Bang, all of a sudden you have a product. You throw it on Kickstarter, and you get funding, and you just do it. You know? It's completely radical.
+
+So, for people who are building apps, which are kind of windows into content and services, now is the chance to get your infrastructure squared away. Get your content all cleaned up, so it can show up in a Google Glass, or a Google Now card, or it can show up on a 30-inch cinema display equally well, and people can interact with it on any kind of device, from the command line, or from a native app, or from JavaScript, or from anywhere -- basically anything that supports HTTP communications or network communications.
+
+If you, dear listener, are not working on this now, someone's going to eat...
+
+Kelli: You're going to miss out.
+
+Jonathan: Yeah.
+
+Kelli: You're going to miss out.
+
+Jonathan: If you, dear listener, are not working on this now, someone's going to eat...
+
+Kelli: You're going to miss out.
+
+Jonathan: Yeah.
+
+Kelli: You're going to miss out. There'll still be a long time and a lot of cases where rendering HTML is going to be the main thing to do, and exceedingly important, and probably the main way you get your information across to your customers, or people reading your blog, that kind of thing. But there's so many other different avenues cropping up. There's more and more every day. You're going to miss out on a lot.
+
+Jonathan: Yeah. The thing is, now is the time to start this initiative. So if you're a CIO listening to this...I talk to people all the time, and they're just like...like I said, I won't re-hash. They're just holding this in the boat. They're making the same mistake all over again; which is, they're making device-specific websites, for example.
+
+Now, mobile phones have opened up the door to, "Oh my God, we made a mistake with all these 960-pixel-wide fixed-width websites." So marketing departments and IT departments have freed up budget to re-tool, hopefully to re-tool for mobile, but in a lot of cases what they're doing is just building a free-standing mobile website.
+
+Tablets are becoming extremely popular, and the fastest-growing consumer electronics device in history is the iPad, and it's growing way faster adoption-wise than the iPhone ever did. This is your chance to not miss the boat. You know what I mean?
+
+Kelli: Yeah.
+
+Jonathan: You probably have budget. You probably understand the motivation. But the tablets and the phones are just the first, the leading edge. It's like the warning shot. I always say it's the warning shot in the wireless revolution. It's not about mobile. It's not about smartphone revolution. It's this overall concept of wireless in general is what's really going to drive the change for the next 10 years.
+
+Kelli: Right. I mean, just look at what we've got now. You've got lights, and we've got wristbands, and there's glasses coming out, and watches, and I've got things that clip on my shoe, and you know...
+
+Jonathan: Yeah. It's real. It's here. People have been talking...
+
+Kelli: You've got now. I mean, you've got lights, and you've got wristbands, and there's glasses coming out, and watches. I've got things that clip on my shoe, and you know.
+
+Jonathan: Yeah. Yeah, it's real, it's here. People have been talking about it and talking about, you know Internet of things.
+
+I've been hearing Internet of things for at least five, ten years. Probably five to seven years I've been hearing Internet of things. It's in my house now.
+
+Kelli: Right.
+
+Jonathan: It doesn't seem like it is. It seems like I have an UP band, and it seems like I have some fancy light bulbs, and it seems like I have this fancy remote control for the TV.
+
+But these things are all connected to the Internet. It's not just fancy lights anymore. It's not just a gadget, it is an extension of the one giant computer, and it's a big, big deal.
+
+[laughter]
+
+Jonathan: I say all the time to provoke conversation, I say it's going to change every aspect of society. I think this sounds maybe less crazy than it did when I first started saying it, but it's going to redefine what it means to be human.
+
+Because all sorts of things that you and I grew up, they'll be considered normal, and that was that there were tons of very powerful social mores around. Like cheating on a test is the one I always think of.
+
+Cheating on a test was bad, that was bad, that was like stealing. That's really bad. But in the future, everything's going to be like cheating on a test.
+
+What would possibly be the point of memorizing something that you could easily access from a chip that's on your glasses? What would be the point?
+
+It's like when you, like advanced physics students are allowed to have calculators, you know? Because the point isn't can you do the math at that point, the point is can you achieve some goal. It's almost like, sort of, what is it, what is it Harrison Bergeron, it's like why handicap students by forcing them to disconnect from this primary source of information.
+
+I'm kind of going off in the weeds here but, the concept is let the computers do the stuff that computers are awesome at, and test the kids on stuff that only humans are good.
+
+Kelli: Right, right. On the one hand, there's this part of me that says oh, giving someone access to all this information, then they're never going to learn it because they'll just look it up.
+
+But the more information you have access to, the more other stuff you can learn. The more stuff you're exposed to, the more creative thinking and innovative thinking you can do. [laughs]
+
+Jonathan: Yeah. Basically, the product of human beings is going to be creativity and love. All these really squishy, specifically human things. Compassion. Stuff that you can't humor.
+
+It basically all boils down to creativity, and humans will always be a step ahead of the computers because you won't be able to program stuff until...like the stuff that gets programmed is the stuff that you just figured out, you know what I mean?
+
+There'll always be this leading edge of stuff only humans can do, and then they'll program it into the computers. Then the computers can do that and we can focus on something else that only we can do. You know?
+
+So what you said before about, they'll never learn this stuff, what does it mean to know something? I don't know your phone number, but I have instantaneous access to it, right? So what's the difference? I know how to get your phone number if I need it in less than a second. Does that mean I don't know it?
+
+Kelli: No, it means you have access to it. You know how to organize the information where you can get to it when you need it.
+
+Jonathan: Yeah. I think it's fair to say it is literally true that we are outsourcing pieces of our brain to the Internet. I think it's literally true. Not in a physical sense, but in a literal sense, where huge pieces of my business, for example, I don't have stored in my head. They're all online. If I lost access to my Gmail history, for example...
+
+Kelli: Yeah, I would be hurting.
+
+Jonathan: I'd be hurting.It's less bad than it would have been in the past.
+
+And things like Dropbox, Dropbox would potentially save my bacon like crazy, because it's the perfect kind of no-brainer redundant storage that is perfect. I could drop my laptop under a bus. Dropbox could go out of business, but it would still be locally on five machines in my house.
+
+There's just so much. It's just so huge that we can't even...We are living through a time that is radical. So, ladies and gentleman, the point of the episode is that Google is well aware of this, and has been planning this from the very beginning.
+
+I would say with the announcements from Google I/O, and the stuff that they are making work at scale in real-time, they are the, like Facebook's a joke. People will like, you know, "Facebook is eating Google's lunch," no.
+
+Kelli: No.
+
+Jonathan: No. Google has got such a lead on everybody. I mean, somebody, I saw a quote that Google, with the announcement at I/O, Google has established itself as the most important company on the planet, and I don't think that's an exaggeration.
+
+Kelli: I feel like the big ones are not, when it comes to the game changers and the companies that are going to make the really big difference in the Internet and in computing and the way we do everything, to me Facebook isn't even on that list.
+
+Jonathan: Yeah.
+
+Kelli: That list to me is, in order that list is Google and then Amazon.
+
+Jonathan: Yep, totally. Apple's not even on the list.
+
+Kelli: No.
+
+Jonathan: They make phones.
+
+Kelli: They make nice hardware.
+
+Jonathan: That's it. Yeah, I mean like, Google, Amazon. Totally agree. And there'd be some payments one. There has to be a payments one. There has to be a payments one on there, it'd be like PayPal or Square.
+
+Kelli: I think Stripe.
+
+Jonathan: Stripe, yeah. We're talking pure tech tech, like we normally talk, but if we're talking everything, bio is freaking me out. The bio stuff and the robotics stuff is super, super scary.
+
+That stuff freaks me out. But if you're just talking pure bits, pure computer software people, yeah, absolutely agree. Google and Amazon are owning it.
+
+Kelli: Yeah. It's funny, I actually realized the other day, a very large percentage of the money I spend online goes to Amazon.
+
+Jonathan: Oh yeah, please. If something's not on Amazon, it doesn't exist to me. It doesn't exist. I don't need it that bad.
+
+I'm not going to enter my...I saw these gorgeous travel bags today. They were a little bit pricey, but I travel enough that I was like man, those would be a pleasure to own and use. And I was like, they're not on Amazon?
+
+I was clicking around. You buy them from this Japanese site. I was like, "Give me a break! I'm not going to type, I'm not going to pull out my credit card. I don't need it that bad."
+
+I saw a statistic the other day that 98% of shopping carts on mobile are abandoned.
+
+Kelli: Wow. That's really high.
+
+Jonathan: 98. It could hardly be higher. [laughs]
+
+Kelli: Yeah.
+
+Jonathan: The opportunity, I don't know how we got onto this, but the opportunity in mobile for eCommerce is jaw-dropping.
+
+Kelli: Yeah. If you can do one-click.
+
+Jonathan: Yeah. If you could figure out, if you can smooth your checkout process at all, there's so much upside. Just start taking PayPal for Christ's sakes. Get over the...
+
+Kelli: Or Amazon payments.
+
+Jonathan: Yeah, any of them. Yeah, the new Google Wallet announcements, there's all sorts of stuff happening here. Get over the "Why should I pay PayPal 2%?"
+
+It's because you're losing 98% of your sales on mobile. Whether it's PayPal or Stripe or something else, just figure it out. That's just like throwing away money. "Could we change the color of this button, make it a little blacker?"
+
+Kelli: Yeah.
+
+Jonathan: "It doesn't pop, it needs to pop." [laughs]
+
+Kelli: "It's only 16 pixels at the bottom of the page. There should be 24."
+
+Jonathan: [laughs]
+
+Kelli: Actual conversation I had before.
+
+Jonathan: I saw a, what the heck was it? I think was Priceline? It was one of those. I don't know if we talked about this. They removed a single field from their checkout form, an optional field for company name. They removed that single field, and it increased their sales overnight by $6 million.
+
+Kelli: Wow!
+
+Jonathan: Because they were looking at abandoned carts, and they noticed that people were typing first name, last name, and then they'd start typing whatever the next field was into the company name field by accident. And then they'd keep going all the way down the form, and then realize they were off by one the whole way.
+
+Kelli: Right, and then they just wouldn't fix it because they typed it all on the phone.
+
+Jonathan: They'd be so pissed. They'd just leave. They literally just removed an optional field, and it was, I think it was $6 million overnight that they got in not lost sales.Then they were like, "Is there anywhere else we can remove something?" So they went through, and they identified 60 places in the checkout process where they could remove optional things.
+
+Kelli: Wow!
+
+Jonathan: 60. I mean, think about a typical airline checkout. It's right up there with the worst of the checkout processes.
+
+Kelli: Credit card, please give us your ID information, do you want a hotel, do you want a rental car?
+
+Jonathan: Known traveler number.
+
+Kelli: Do you want a hotel and a rental car? How about some coupons for, yeah.
+
+Jonathan. And on and on and on and on.
+
+Kelli: It's like registering a domain with Go Daddy.
+
+Jonathan: {laughs] Yeah, with less underwear. The funny thing is, all that stuff's on there, ostensibly, to make them money. They're like, "Oh, we've got all these extra things on here."
+
+Kelli: Up-sells, yeah.
+
+Jonathan: Yeah, up-sells, right. It's like, yeah, but you're losing your main sale because of it.
+
+Kelli: Right.
+
+Jonathan: To me it's just old school thinking. Whatever. We're way, way off track.
+
+Kelli: [laughs] Way off track, and we're at an hour and a half. Have fun editing.
+
+Jonathan: Yeah, exactly. All right dear listener, I think we've punished you enough for one week.
+
+[laughter]
+
+Jonathan: ...way off track.
+
+[laughter]
+
+Kelli: Way off track in an hour and a half.
+
+Jonathan: Yeah.
+
+Kelli: Have fun editing.
+
+Jonathan: Yeah, exactly. Alright dear listener, I think we punished you enough for one week.
+
+[laughter]
+
+Jonathan: That's our show for this week.I'm Jonathan Stark.
+
+Kelli: And I'm Kelli Shaver.
+
+Jonathan: And we hope you join us again next week for the next podcast. Bye.
+
+Kelli: Bye.
