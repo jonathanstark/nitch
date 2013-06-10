@@ -1113,7 +1113,7 @@ version="2.0">
             <enclosure url="https://s3.amazonaws.com/nitch/Episode_60_Numerosity.mp3" length="64172851" type="audio/mpeg"/>
             <content:encoded>Kelli builds a rest api with ruby on rails, Jonathan asks stupid questions while she does it, and we post video of the whole shebang for you to enjoy in your copious free time.</content:encoded>
             <itunes:author>Nitch</itunes:author>
-            <itunes:duration>4:45</itunes:duration>
+            <itunes:duration>1:05:49</itunes:duration>
             <itunes:subtitle>Kelli builds a rest api with ruby on rails, Jonathan asks stupid questions while she does it, and we post video of the whole shebang for you to enjoy in your copious free time.</itunes:subtitle>
             <itunes:summary>Kelli builds a rest api with ruby on rails, Jonathan asks stupid questions while she does it, and we post video of the whole shebang for you to enjoy in your copious free time.</itunes:summary>
             <itunes:keywords>web, mobile, html5, rest, json</itunes:keywords>
