@@ -1139,5 +1139,23 @@ version="2.0">
             <media:content url="https://s3.amazonaws.com/nitch/Episode_61_Expecting_Ernestina.mp3" fileSize="54566344" type="audio/mpeg"/>
             <itunes:explicit>no</itunes:explicit>
         </item>
+        <item>
+            <title>Episode 62: Love Me Some Curlies</title>
+            <link>http://nitch.cc/podcast/episode-62-love-me-some-curlies</link>
+            <guid>http://nitch.cc/podcast/episode-62-love-me-some-curlies</guid>
+            <pubDate>Fri, 21 Jun 2013 14:00:00 GMT</pubDate>
+            <author>Nitch</author>
+            <description>Jonathan and Kelli continue with part 3 of their screencast on how to build a REST API with Ruby on Rails. Please visit http://nitch.cc and look for Episode 62 if you'd like to view the video.</description>
+            <enclosure url="https://s3.amazonaws.com/nitch/Episode_62_Love_Me_Some_Curlies.mp3" length="64172851" type="audio/mpeg"/>
+            <content:encoded>Jonathan and Kelli continue with part 3 of their screencast on how to build a REST API with Ruby on Rails. Please visit http://nitch.cc and look for Episode 62 if you'd like to view the video.</content:encoded>
+            <itunes:author>Nitch</itunes:author>
+            <itunes:duration>50:11</itunes:duration>
+            <itunes:subtitle>Jonathan and Kelli continue with part 3 of their screencast on how to build a REST API with Ruby on Rails. Please visit http://nitch.cc and look for Episode 62 if you'd like to view the video.</itunes:subtitle>
+            <itunes:summary>Jonathan and Kelli continue with part 3 of their screencast on how to build a REST API with Ruby on Rails. Please visit http://nitch.cc and look for Episode 62 if you'd like to view the video.</itunes:summary>
+            <itunes:keywords>web, mobile, html5, rest, json</itunes:keywords>
+            <itunes:image href="http://nitch.cc/img/512x512.png"/>
+            <media:content url="https://s3.amazonaws.com/nitch/Episode_62_Love_Me_Some_Curlies.mp3" fileSize="54566344" type="audio/mpeg"/>
+            <itunes:explicit>no</itunes:explicit>
+        </item>
     </channel>
 </rss>
