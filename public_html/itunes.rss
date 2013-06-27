@@ -1157,5 +1157,23 @@ version="2.0">
             <media:content url="https://s3.amazonaws.com/nitch/Episode_62_Love_Me_Some_Curlies.mp3" fileSize="54566344" type="audio/mpeg"/>
             <itunes:explicit>no</itunes:explicit>
         </item>
+        <item>
+            <title>Episode 63: Disco Mode</title>
+            <link>http://nitch.cc/podcast/episode-63-disco-mode</link>
+            <guid>http://nitch.cc/podcast/episode-63-disco-mode</guid>
+            <pubDate>Fri, 28 Jun 2013 14:00:00 GMT</pubDate>
+            <author>Nitch</author>
+            <description>Jonathan and Kelli talk about responsive design, progressive enhancement, and development tools in the context of a big huge site redesign.</description>
+            <enclosure url="https://s3.amazonaws.com/nitch/Episode_63_Disco_Mode.mp3" length="64172851" type="audio/mpeg"/>
+            <content:encoded>Jonathan and Kelli talk about responsive design, progressive enhancement, and development tools in the context of a big huge site redesign.</content:encoded>
+            <itunes:author>Nitch</itunes:author>
+            <itunes:duration>42:45</itunes:duration>
+            <itunes:subtitle>Jonathan and Kelli talk about responsive design, progressive enhancement, and development tools in the context of a big huge site redesign.</itunes:subtitle>
+            <itunes:summary>Jonathan and Kelli talk about responsive design, progressive enhancement, and development tools in the context of a big huge site redesign.</itunes:summary>
+            <itunes:keywords>web, mobile, html5, rest, json</itunes:keywords>
+            <itunes:image href="http://nitch.cc/img/512x512.png"/>
+            <media:content url="https://s3.amazonaws.com/nitch/Episode_63_Disco_Mode.mp3" fileSize="54566344" type="audio/mpeg"/>
+            <itunes:explicit>no</itunes:explicit>
+        </item>
     </channel>
 </rss>
