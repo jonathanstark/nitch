@@ -1193,5 +1193,23 @@ version="2.0">
             <media:content url="https://s3.amazonaws.com/nitch/Episode_64_Cat_Number_One.mp3" fileSize="54566344" type="audio/mpeg"/>
             <itunes:explicit>no</itunes:explicit>
         </item>
+        <item>
+            <title>Episode 65: Bumpin’ Colons</title>
+            <link>http://nitch.cc/podcast/episode-65-bumpin-colons</link>
+            <guid>http://nitch.cc/podcast/episode-65-bumpin-colons</guid>
+            <pubDate>Fri, 12 Jul 2013 14:00:00 GMT</pubDate>
+            <author>Nitch</author>
+            <description>Jonathan and Kelli continue with the fourth and final installment of their screencast on how to build a REST API with Ruby on Rails.</description>
+            <enclosure url="https://s3.amazonaws.com/nitch/Episode_65_Bumpin_Colons.mp3" length="64172851" type="audio/mpeg"/>
+            <content:encoded>Jonathan and Kelli continue with the fourth and final installment of their screencast on how to build a REST API with Ruby on Rails.</content:encoded>
+            <itunes:author>Nitch</itunes:author>
+            <itunes:duration>1:01:40</itunes:duration>
+            <itunes:subtitle>Jonathan and Kelli continue with the fourth and final installment of their screencast on how to build a REST API with Ruby on Rails.</itunes:subtitle>
+            <itunes:summary>Jonathan and Kelli continue with the fourth and final installment of their screencast on how to build a REST API with Ruby on Rails.</itunes:summary>
+            <itunes:keywords>web, mobile, html5, rest, json</itunes:keywords>
+            <itunes:image href="http://nitch.cc/img/512x512.png"/>
+            <media:content url="https://s3.amazonaws.com/nitch/Episode_65_Bumpin_Colons.mp3" fileSize="54566344" type="audio/mpeg"/>
+            <itunes:explicit>no</itunes:explicit>
+        </item>
     </channel>
 </rss>
