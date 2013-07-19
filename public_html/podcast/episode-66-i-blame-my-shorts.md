@@ -16,7 +16,7 @@ Jonathan and Kelli talk about function hoisting in Firefox, a fun new side proje
 ## Related Links
 
 * [Firefox doesn’t hoist function declarations in blocks](http://bit.ly/16JOPf1)
-* [Ocutec](http://www.ocutec.com/ "Welcome to Ocutec | Home")
+* [Ocutech](http://www.ocutech.com/ "Bioptic Low Vision Aids for the Visually Impaired")
 * [Glassholes](http://flip.it/mDO7n "Glassholes")
 * [Metawatch](http://www.metawatch.org/ "MetaWatch Developers - Home")
 * [COPA](https://en.wikipedia.org/wiki/Child_Online_Protection_Act "Child Online Protection Act - Wikipedia, the free encyclopedia")
