@@ -1229,5 +1229,23 @@ version="2.0">
             <media:content url="https://s3.amazonaws.com/nitch/Episode_66_I_Blame_My_Shorts.mp3" fileSize="54566344" type="audio/mpeg"/>
             <itunes:explicit>no</itunes:explicit>
         </item>
+        <item>
+            <title>Episode 67: Django Curious</title>
+            <link>http://nitch.cc/podcast/episode-67-django-curious</link>
+            <guid>http://nitch.cc/podcast/episode-67-django-curious</guid>
+            <pubDate>Fri, 26 Jul 2013 14:00:00 GMT</pubDate>
+            <author>Nitch</author>
+            <description>Kelli helps Jonathan finally - FINALLY! - make the switch from PHP to Rails.</description>
+            <enclosure url="https://s3.amazonaws.com/nitch/Episode_67_Django_Curious.mp3" length="64172851" type="audio/mpeg"/>
+            <content:encoded>Kelli helps Jonathan finally - FINALLY! - make the switch from PHP to Rails.</content:encoded>
+            <itunes:author>Nitch</itunes:author>
+            <itunes:duration>41:43</itunes:duration>
+            <itunes:subtitle>Kelli helps Jonathan finally - FINALLY! - make the switch from PHP to Rails.</itunes:subtitle>
+            <itunes:summary>Kelli helps Jonathan finally - FINALLY! - make the switch from PHP to Rails.</itunes:summary>
+            <itunes:keywords>web, mobile, html5, rest, json</itunes:keywords>
+            <itunes:image href="http://nitch.cc/img/512x512.png"/>
+            <media:content url="https://s3.amazonaws.com/nitch/Episode_67_Django_Curious.mp3" fileSize="54566344" type="audio/mpeg"/>
+            <itunes:explicit>no</itunes:explicit>
+        </item>
     </channel>
 </rss>
