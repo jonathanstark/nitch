@@ -1265,5 +1265,23 @@ version="2.0">
             <media:content url="https://s3.amazonaws.com/nitch/Episode_68_Fancy_Class.mp3" fileSize="54566344" type="audio/mpeg"/>
             <itunes:explicit>no</itunes:explicit>
         </item>
+        <item>
+            <title>Episode 69: That's A Plus</title>
+            <link>http://nitch.cc/podcast/episode-69-thats-a-plus</link>
+            <guid>http://nitch.cc/podcast/episode-69-thats-a-plus</guid>
+            <pubDate>Fri, 09 Aug 2013 14:00:00 GMT</pubDate>
+            <author>Nitch</author>
+            <description>Jonathan and Kelli talk about real live project work on apps that run cross browser, cross platform, and beyond.</description>
+            <enclosure url="https://s3.amazonaws.com/nitch/Episode_69_Thats_A_Plus.mp3" length="64172851" type="audio/mpeg"/>
+            <content:encoded>Jonathan and Kelli talk about real live project work on apps that run cross browser, cross platform, and beyond.</content:encoded>
+            <itunes:author>Nitch</itunes:author>
+            <itunes:duration>51:18</itunes:duration>
+            <itunes:subtitle>Jonathan and Kelli talk about real live project work on apps that run cross browser, cross platform, and beyond.</itunes:subtitle>
+            <itunes:summary>Jonathan and Kelli talk about real live project work on apps that run cross browser, cross platform, and beyond.</itunes:summary>
+            <itunes:keywords>web, mobile, html5, rest, json</itunes:keywords>
+            <itunes:image href="http://nitch.cc/img/512x512.png"/>
+            <media:content url="https://s3.amazonaws.com/nitch/Episode_69_Thats_A_Plus.mp3" fileSize="54566344" type="audio/mpeg"/>
+            <itunes:explicit>no</itunes:explicit>
+        </item>
     </channel>
 </rss>
