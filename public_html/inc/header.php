@@ -2,7 +2,11 @@
 <html>
     <head>
         <meta charset='utf-8' />
-        <title>Nitch - Making apps that run everywhere</title>
+        <?php if (empty($title)): ?>
+            <title>Nitch - Making apps that run everywhere</title>
+        <?php else: ?>
+            <title><?php echo $title ?></title>
+        <?php endif; ?>
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <link rel="alternate" type="application/rss+xml" title="Nitch Podcast" href="http://nitch.cc/itunes.rss" />
         <link rel="icon" type="image/png" href="/img/16x16.png" />

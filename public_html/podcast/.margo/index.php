@@ -73,6 +73,8 @@ if ($filename==NULL) {
     if (!file_exists($filename)) {
         $html = Markdown(file_get_contents($margo->{'404_template_file'})); // Not allowed to start identifier with bare integer :|
     } else {
+        $lines = file($filename);
+        $title = trim($lines[0]) . ' - The Nitch Podcast';
         $html = Markdown(file_get_contents($filename));
     }
     include $margo->post_template_file;
