@@ -1319,5 +1319,23 @@ version="2.0">
             <media:content url="https://s3.amazonaws.com/nitch/Episode_71_For_the_Meeple_By_the_Meeple.mp3" fileSize="54566344" type="audio/mpeg"/>
             <itunes:explicit>no</itunes:explicit>
         </item>
+        <item>
+            <title>Episode 72: Code Brown</title>
+            <link>http://nitch.cc/podcast/episode-72-code-brown</link>
+            <guid>http://nitch.cc/podcast/episode-72-code-brown</guid>
+            <pubDate>Fri, 30 Aug 2013 14:00:00 GMT</pubDate>
+            <author>Nitch</author>
+            <description>Jonathan and Kelli talk reach into the topic grab bag and pull out programmable lightbulbs, embracing constraints, prototyping in PHP, benchmarking CSS, and more.</description>
+            <enclosure url="https://s3.amazonaws.com/nitch/Episode_72_Code_Brown.mp3" length="64172851" type="audio/mpeg"/>
+            <content:encoded>Jonathan and Kelli talk reach into the topic grab bag and pull out programmable lightbulbs, embracing constraints, prototyping in PHP, benchmarking CSS, and more.</content:encoded>
+            <itunes:author>Nitch</itunes:author>
+            <itunes:duration>1:04:42</itunes:duration>
+            <itunes:subtitle>Jonathan and Kelli talk reach into the topic grab bag and pull out programmable lightbulbs, embracing constraints, prototyping in PHP, benchmarking CSS, and more.</itunes:subtitle>
+            <itunes:summary>Jonathan and Kelli talk reach into the topic grab bag and pull out programmable lightbulbs, embracing constraints, prototyping in PHP, benchmarking CSS, and more.</itunes:summary>
+            <itunes:keywords>web, mobile, html5, rest, json</itunes:keywords>
+            <itunes:image href="http://nitch.cc/img/512x512.png"/>
+            <media:content url="https://s3.amazonaws.com/nitch/Episode_72_Code_Brown.mp3" fileSize="54566344" type="audio/mpeg"/>
+            <itunes:explicit>no</itunes:explicit>
+        </item>
     </channel>
 </rss>
