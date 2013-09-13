@@ -1121,5 +1121,239 @@ version="2.0">
             <media:content url="https://s3.amazonaws.com/nitch/Episode_60_Numerosity.mp3" fileSize="54566344" type="audio/mpeg"/>
             <itunes:explicit>no</itunes:explicit>
         </item>
+        <item>
+            <title>Episode 61: Expecting Ernestina</title>
+            <link>http://nitch.cc/podcast/episode-61-expecting-ernestina</link>
+            <guid>http://nitch.cc/podcast/episode-61-expecting-ernestina</guid>
+            <pubDate>Fri, 14 Jun 2013 14:00:00 GMT</pubDate>
+            <author>Nitch</author>
+            <description>Jonathan and Kelli continue their screencast on how to build a REST API with Ruby on Rails. Please visit http://nitch.cc and look for Episode 61 if you'd like to view the video.</description>
+            <enclosure url="https://s3.amazonaws.com/nitch/Episode_61_Expecting_Ernestina.mp3" length="64172851" type="audio/mpeg"/>
+            <content:encoded>Jonathan and Kelli continue their screencast on how to build a REST API with Ruby on Rails. Please visit http://nitch.cc and look for Episode 61 if you'd like to view the video.</content:encoded>
+            <itunes:author>Nitch</itunes:author>
+            <itunes:duration>1:05:49</itunes:duration>
+            <itunes:subtitle>Jonathan and Kelli continue their screencast on how to build a REST API with Ruby on Rails. Please visit http://nitch.cc and look for Episode 61 if you'd like to view the video.</itunes:subtitle>
+            <itunes:summary>Jonathan and Kelli continue their screencast on how to build a REST API with Ruby on Rails. Please visit http://nitch.cc and look for Episode 61 if you'd like to view the video.</itunes:summary>
+            <itunes:keywords>web, mobile, html5, rest, json</itunes:keywords>
+            <itunes:image href="http://nitch.cc/img/512x512.png"/>
+            <media:content url="https://s3.amazonaws.com/nitch/Episode_61_Expecting_Ernestina.mp3" fileSize="54566344" type="audio/mpeg"/>
+            <itunes:explicit>no</itunes:explicit>
+        </item>
+        <item>
+            <title>Episode 62: Love Me Some Curlies</title>
+            <link>http://nitch.cc/podcast/episode-62-love-me-some-curlies</link>
+            <guid>http://nitch.cc/podcast/episode-62-love-me-some-curlies</guid>
+            <pubDate>Fri, 21 Jun 2013 14:00:00 GMT</pubDate>
+            <author>Nitch</author>
+            <description>Jonathan and Kelli continue with part 3 of their screencast on how to build a REST API with Ruby on Rails. Please visit http://nitch.cc and look for Episode 62 if you'd like to view the video.</description>
+            <enclosure url="https://s3.amazonaws.com/nitch/Episode_62_Love_Me_Some_Curlies.mp3" length="64172851" type="audio/mpeg"/>
+            <content:encoded>Jonathan and Kelli continue with part 3 of their screencast on how to build a REST API with Ruby on Rails. Please visit http://nitch.cc and look for Episode 62 if you'd like to view the video.</content:encoded>
+            <itunes:author>Nitch</itunes:author>
+            <itunes:duration>50:11</itunes:duration>
+            <itunes:subtitle>Jonathan and Kelli continue with part 3 of their screencast on how to build a REST API with Ruby on Rails. Please visit http://nitch.cc and look for Episode 62 if you'd like to view the video.</itunes:subtitle>
+            <itunes:summary>Jonathan and Kelli continue with part 3 of their screencast on how to build a REST API with Ruby on Rails. Please visit http://nitch.cc and look for Episode 62 if you'd like to view the video.</itunes:summary>
+            <itunes:keywords>web, mobile, html5, rest, json</itunes:keywords>
+            <itunes:image href="http://nitch.cc/img/512x512.png"/>
+            <media:content url="https://s3.amazonaws.com/nitch/Episode_62_Love_Me_Some_Curlies.mp3" fileSize="54566344" type="audio/mpeg"/>
+            <itunes:explicit>no</itunes:explicit>
+        </item>
+        <item>
+            <title>Episode 63: Disco Mode</title>
+            <link>http://nitch.cc/podcast/episode-63-disco-mode</link>
+            <guid>http://nitch.cc/podcast/episode-63-disco-mode</guid>
+            <pubDate>Fri, 28 Jun 2013 14:00:00 GMT</pubDate>
+            <author>Nitch</author>
+            <description>Jonathan and Kelli talk about responsive design, progressive enhancement, and development tools in the context of a big huge site redesign.</description>
+            <enclosure url="https://s3.amazonaws.com/nitch/Episode_63_Disco_Mode.mp3" length="64172851" type="audio/mpeg"/>
+            <content:encoded>Jonathan and Kelli talk about responsive design, progressive enhancement, and development tools in the context of a big huge site redesign.</content:encoded>
+            <itunes:author>Nitch</itunes:author>
+            <itunes:duration>42:45</itunes:duration>
+            <itunes:subtitle>Jonathan and Kelli talk about responsive design, progressive enhancement, and development tools in the context of a big huge site redesign.</itunes:subtitle>
+            <itunes:summary>Jonathan and Kelli talk about responsive design, progressive enhancement, and development tools in the context of a big huge site redesign.</itunes:summary>
+            <itunes:keywords>web, mobile, html5, rest, json</itunes:keywords>
+            <itunes:image href="http://nitch.cc/img/512x512.png"/>
+            <media:content url="https://s3.amazonaws.com/nitch/Episode_63_Disco_Mode.mp3" fileSize="54566344" type="audio/mpeg"/>
+            <itunes:explicit>no</itunes:explicit>
+        </item>
+        <item>
+            <title>Episode 64: Cat Number One</title>
+            <link>http://nitch.cc/podcast/episode-64-cat-number-one</link>
+            <guid>http://nitch.cc/podcast/episode-64-cat-number-one</guid>
+            <pubDate>Fri, 05 Jul 2013 14:00:00 GMT</pubDate>
+            <author>Nitch</author>
+            <description>Jonathan and Kelli get very superstitious about Rails 4, JSON endpoints, responsive web design, and more.</description>
+            <enclosure url="https://s3.amazonaws.com/nitch/Episode_64_Cat_Number_One.mp3" length="64172851" type="audio/mpeg"/>
+            <content:encoded>Jonathan and Kelli get very superstitious about Rails 4, JSON endpoints, responsive web design, and more.</content:encoded>
+            <itunes:author>Nitch</itunes:author>
+            <itunes:duration>35:58</itunes:duration>
+            <itunes:subtitle>Jonathan and Kelli get very superstitious about Rails 4, JSON endpoints, responsive web design, and more.</itunes:subtitle>
+            <itunes:summary>Jonathan and Kelli get very superstitious about Rails 4, JSON endpoints, responsive web design, and more.</itunes:summary>
+            <itunes:keywords>web, mobile, html5, rest, json</itunes:keywords>
+            <itunes:image href="http://nitch.cc/img/512x512.png"/>
+            <media:content url="https://s3.amazonaws.com/nitch/Episode_64_Cat_Number_One.mp3" fileSize="54566344" type="audio/mpeg"/>
+            <itunes:explicit>no</itunes:explicit>
+        </item>
+        <item>
+            <title>Episode 65: Bumpin’ Colons</title>
+            <link>http://nitch.cc/podcast/episode-65-bumpin-colons</link>
+            <guid>http://nitch.cc/podcast/episode-65-bumpin-colons</guid>
+            <pubDate>Fri, 12 Jul 2013 14:00:00 GMT</pubDate>
+            <author>Nitch</author>
+            <description>Jonathan and Kelli continue with the fourth and final installment of their screencast on how to build a REST API with Ruby on Rails.</description>
+            <enclosure url="https://s3.amazonaws.com/nitch/Episode_65_Bumpin_Colons.mp3" length="64172851" type="audio/mpeg"/>
+            <content:encoded>Jonathan and Kelli continue with the fourth and final installment of their screencast on how to build a REST API with Ruby on Rails.</content:encoded>
+            <itunes:author>Nitch</itunes:author>
+            <itunes:duration>1:01:40</itunes:duration>
+            <itunes:subtitle>Jonathan and Kelli continue with the fourth and final installment of their screencast on how to build a REST API with Ruby on Rails.</itunes:subtitle>
+            <itunes:summary>Jonathan and Kelli continue with the fourth and final installment of their screencast on how to build a REST API with Ruby on Rails.</itunes:summary>
+            <itunes:keywords>web, mobile, html5, rest, json</itunes:keywords>
+            <itunes:image href="http://nitch.cc/img/512x512.png"/>
+            <media:content url="https://s3.amazonaws.com/nitch/Episode_65_Bumpin_Colons.mp3" fileSize="54566344" type="audio/mpeg"/>
+            <itunes:explicit>no</itunes:explicit>
+        </item>
+        <item>
+            <title>Episode 66: I Blame My Shorts</title>
+            <link>http://nitch.cc/podcast/episode-66-i-blame-my-shorts</link>
+            <guid>http://nitch.cc/podcast/episode-66-i-blame-my-shorts</guid>
+            <pubDate>Fri, 19 Jul 2013 14:00:00 GMT</pubDate>
+            <author>Nitch</author>
+            <description>Jonathan and Kelli talk about function hoisting in Firefox, a fun new side project, and collapsing space with smartphone cameras.</description>
+            <enclosure url="https://s3.amazonaws.com/nitch/Episode_66_I_Blame_My_Shorts.mp3" length="64172851" type="audio/mpeg"/>
+            <content:encoded>Jonathan and Kelli talk about function hoisting in Firefox, a fun new side project, and collapsing space with smartphone cameras.</content:encoded>
+            <itunes:author>Nitch</itunes:author>
+            <itunes:duration>39:54</itunes:duration>
+            <itunes:subtitle>Jonathan and Kelli talk about function hoisting in Firefox, a fun new side project, and collapsing space with smartphone cameras.</itunes:subtitle>
+            <itunes:summary>Jonathan and Kelli talk about function hoisting in Firefox, a fun new side project, and collapsing space with smartphone cameras.</itunes:summary>
+            <itunes:keywords>web, mobile, html5, rest, json</itunes:keywords>
+            <itunes:image href="http://nitch.cc/img/512x512.png"/>
+            <media:content url="https://s3.amazonaws.com/nitch/Episode_66_I_Blame_My_Shorts.mp3" fileSize="54566344" type="audio/mpeg"/>
+            <itunes:explicit>no</itunes:explicit>
+        </item>
+        <item>
+            <title>Episode 67: Django Curious</title>
+            <link>http://nitch.cc/podcast/episode-67-django-curious</link>
+            <guid>http://nitch.cc/podcast/episode-67-django-curious</guid>
+            <pubDate>Fri, 26 Jul 2013 14:00:00 GMT</pubDate>
+            <author>Nitch</author>
+            <description>Kelli helps Jonathan finally - FINALLY! - make the switch from PHP to Rails.</description>
+            <enclosure url="https://s3.amazonaws.com/nitch/Episode_67_Django_Curious.mp3" length="64172851" type="audio/mpeg"/>
+            <content:encoded>Kelli helps Jonathan finally - FINALLY! - make the switch from PHP to Rails.</content:encoded>
+            <itunes:author>Nitch</itunes:author>
+            <itunes:duration>41:43</itunes:duration>
+            <itunes:subtitle>Kelli helps Jonathan finally - FINALLY! - make the switch from PHP to Rails.</itunes:subtitle>
+            <itunes:summary>Kelli helps Jonathan finally - FINALLY! - make the switch from PHP to Rails.</itunes:summary>
+            <itunes:keywords>web, mobile, html5, rest, json</itunes:keywords>
+            <itunes:image href="http://nitch.cc/img/512x512.png"/>
+            <media:content url="https://s3.amazonaws.com/nitch/Episode_67_Django_Curious.mp3" fileSize="54566344" type="audio/mpeg"/>
+            <itunes:explicit>no</itunes:explicit>
+        </item>
+        <item>
+            <title>Episode 68: Fancy Class</title>
+            <link>http://nitch.cc/podcast/episode-68-fancy-class</link>
+            <guid>http://nitch.cc/podcast/episode-68-fancy-class</guid>
+            <pubDate>Fri, 02 Aug 2013 14:00:00 GMT</pubDate>
+            <author>Nitch</author>
+            <description>Jonathan and Kelli walk through a process for modern web development using responsive design, CSS3, and copious amounts of progressive enhancement.</description>
+            <enclosure url="https://s3.amazonaws.com/nitch/Episode_68_Fancy_Class.mp3" length="64172851" type="audio/mpeg"/>
+            <content:encoded>Jonathan and Kelli walk through a process for modern web development using responsive design, CSS3, and copious amounts of progressive enhancement.</content:encoded>
+            <itunes:author>Nitch</itunes:author>
+            <itunes:duration>48:19</itunes:duration>
+            <itunes:subtitle>Jonathan and Kelli walk through a process for modern web development using responsive design, CSS3, and copious amounts of progressive enhancement.</itunes:subtitle>
+            <itunes:summary>Jonathan and Kelli walk through a process for modern web development using responsive design, CSS3, and copious amounts of progressive enhancement.</itunes:summary>
+            <itunes:keywords>web, mobile, html5, rest, json</itunes:keywords>
+            <itunes:image href="http://nitch.cc/img/512x512.png"/>
+            <media:content url="https://s3.amazonaws.com/nitch/Episode_68_Fancy_Class.mp3" fileSize="54566344" type="audio/mpeg"/>
+            <itunes:explicit>no</itunes:explicit>
+        </item>
+        <item>
+            <title>Episode 69: That's A Plus</title>
+            <link>http://nitch.cc/podcast/episode-69-thats-a-plus</link>
+            <guid>http://nitch.cc/podcast/episode-69-thats-a-plus</guid>
+            <pubDate>Fri, 09 Aug 2013 14:00:00 GMT</pubDate>
+            <author>Nitch</author>
+            <description>Jonathan and Kelli talk about real live project work on apps that run cross browser, cross platform, and beyond.</description>
+            <enclosure url="https://s3.amazonaws.com/nitch/Episode_69_Thats_A_Plus.mp3" length="64172851" type="audio/mpeg"/>
+            <content:encoded>Jonathan and Kelli talk about real live project work on apps that run cross browser, cross platform, and beyond.</content:encoded>
+            <itunes:author>Nitch</itunes:author>
+            <itunes:duration>51:18</itunes:duration>
+            <itunes:subtitle>Jonathan and Kelli talk about real live project work on apps that run cross browser, cross platform, and beyond.</itunes:subtitle>
+            <itunes:summary>Jonathan and Kelli talk about real live project work on apps that run cross browser, cross platform, and beyond.</itunes:summary>
+            <itunes:keywords>web, mobile, html5, rest, json</itunes:keywords>
+            <itunes:image href="http://nitch.cc/img/512x512.png"/>
+            <media:content url="https://s3.amazonaws.com/nitch/Episode_69_Thats_A_Plus.mp3" fileSize="54566344" type="audio/mpeg"/>
+            <itunes:explicit>no</itunes:explicit>
+        </item>
+        <item>
+            <title>Episode 70: It Can't Be Worse Than Calgary</title>
+            <link>http://nitch.cc/podcast/episode-70-it-cant-be-worse-than-calgary</link>
+            <guid>http://nitch.cc/podcast/episode-70-it-cant-be-worse-than-calgary</guid>
+            <pubDate>Fri, 16 Aug 2013 14:00:00 GMT</pubDate>
+            <author>Nitch</author>
+            <description>Jonathan and Kelli talk about timezone bugs on Amazon S3, problems with ruby on new EC2's chipset architecture, and news about RailsForum, Pandacodium, Spoken, Inside the Brackets, and a lot more.</description>
+            <enclosure url="https://s3.amazonaws.com/nitch/Episode_70_It_Cant_Be_Worse_Than_Calgary.mp3" length="64172851" type="audio/mpeg"/>
+            <content:encoded>Jonathan and Kelli talk about timezone bugs on Amazon S3, problems with ruby on new EC2's chipset architecture, and news about RailsForum, Pandacodium, Spoken, Inside the Brackets, and a lot more.</content:encoded>
+            <itunes:author>Nitch</itunes:author>
+            <itunes:duration>58:32</itunes:duration>
+            <itunes:subtitle>Jonathan and Kelli talk about timezone bugs on Amazon S3, problems with ruby on new EC2's chipset architecture, and news about RailsForum, Pandacodium, Spoken, Inside the Brackets, and a lot more.</itunes:subtitle>
+            <itunes:summary>Jonathan and Kelli talk about timezone bugs on Amazon S3, problems with ruby on new EC2's chipset architecture, and news about RailsForum, Pandacodium, Spoken, Inside the Brackets, and a lot more.</itunes:summary>
+            <itunes:keywords>web, mobile, html5, rest, json</itunes:keywords>
+            <itunes:image href="http://nitch.cc/img/512x512.png"/>
+            <media:content url="https://s3.amazonaws.com/nitch/Episode_70_It_Cant_Be_Worse_Than_Calgary.mp3" fileSize="54566344" type="audio/mpeg"/>
+            <itunes:explicit>no</itunes:explicit>
+        </item>
+        <item>
+            <title>Episode 71: For the Meeple, By the Meeple</title>
+            <link>http://nitch.cc/podcast/episode-71-for-the-meeple-by-the-meeple</link>
+            <guid>http://nitch.cc/podcast/episode-71-for-the-meeple-by-the-meeple</guid>
+            <pubDate>Fri, 23 Aug 2013 14:00:00 GMT</pubDate>
+            <author>Nitch</author>
+            <description>Jonathan and Kelli talk about what happened during Kelli's 48 hour weekend hackathon, including first impressions of RedHat's OpenShift cloud platform, pub/sub in Ruby with Faye, and oh, so much more.</description>
+            <enclosure url="https://s3.amazonaws.com/nitch/Episode_71_For_the_Meeple_By_the_Meeple.mp3" length="64172851" type="audio/mpeg"/>
+            <content:encoded>Jonathan and Kelli talk about what happened during Kelli's 48 hour weekend hackathon, including first impressions of RedHat's OpenShift cloud platform, pub/sub in Ruby with Faye, and oh, so much more.</content:encoded>
+            <itunes:author>Nitch</itunes:author>
+            <itunes:duration>52:11</itunes:duration>
+            <itunes:subtitle>Jonathan and Kelli talk about what happened during Kelli's 48 hour weekend hackathon, including first impressions of RedHat's OpenShift cloud platform, pub/sub in Ruby with Faye, and oh, so much more.</itunes:subtitle>
+            <itunes:summary>Jonathan and Kelli talk about what happened during Kelli's 48 hour weekend hackathon, including first impressions of RedHat's OpenShift cloud platform, pub/sub in Ruby with Faye, and oh, so much more.</itunes:summary>
+            <itunes:keywords>web, mobile, html5, rest, json</itunes:keywords>
+            <itunes:image href="http://nitch.cc/img/512x512.png"/>
+            <media:content url="https://s3.amazonaws.com/nitch/Episode_71_For_the_Meeple_By_the_Meeple.mp3" fileSize="54566344" type="audio/mpeg"/>
+            <itunes:explicit>no</itunes:explicit>
+        </item>
+        <item>
+            <title>Episode 72: Code Brown</title>
+            <link>http://nitch.cc/podcast/episode-72-code-brown</link>
+            <guid>http://nitch.cc/podcast/episode-72-code-brown</guid>
+            <pubDate>Fri, 30 Aug 2013 14:00:00 GMT</pubDate>
+            <author>Nitch</author>
+            <description>Jonathan and Kelli talk reach into the topic grab bag and pull out programmable lightbulbs, embracing constraints, prototyping in PHP, benchmarking CSS, and more.</description>
+            <enclosure url="https://s3.amazonaws.com/nitch/Episode_72_Code_Brown.mp3" length="64172851" type="audio/mpeg"/>
+            <content:encoded>Jonathan and Kelli talk reach into the topic grab bag and pull out programmable lightbulbs, embracing constraints, prototyping in PHP, benchmarking CSS, and more.</content:encoded>
+            <itunes:author>Nitch</itunes:author>
+            <itunes:duration>1:04:42</itunes:duration>
+            <itunes:subtitle>Jonathan and Kelli talk reach into the topic grab bag and pull out programmable lightbulbs, embracing constraints, prototyping in PHP, benchmarking CSS, and more.</itunes:subtitle>
+            <itunes:summary>Jonathan and Kelli talk reach into the topic grab bag and pull out programmable lightbulbs, embracing constraints, prototyping in PHP, benchmarking CSS, and more.</itunes:summary>
+            <itunes:keywords>web, mobile, html5, rest, json</itunes:keywords>
+            <itunes:image href="http://nitch.cc/img/512x512.png"/>
+            <media:content url="https://s3.amazonaws.com/nitch/Episode_72_Code_Brown.mp3" fileSize="54566344" type="audio/mpeg"/>
+            <itunes:explicit>no</itunes:explicit>
+        </item>
+        <item>
+            <title>Episode 73: Tiny Tornado</title>
+            <link>http://nitch.cc/podcast/episode-73-tiny-tornado</link>
+            <guid>http://nitch.cc/podcast/episode-73-tiny-tornado</guid>
+            <pubDate>Fri, 06 Sep 2013 14:00:00 GMT</pubDate>
+            <author>Nitch</author>
+            <description>Jonathan and Kelli talk about SmartWatches: The Wimm One, MetaWatch, Pebble, and more. </description>
+            <enclosure url="https://s3.amazonaws.com/nitch/Episode_73_Tiny_Tornado.mp3" length="64172851" type="audio/mpeg"/>
+            <content:encoded>Jonathan and Kelli talk about SmartWatches: The Wimm One, MetaWatch, Pebble, and more. </content:encoded>
+            <itunes:author>Nitch</itunes:author>
+            <itunes:duration>36:28</itunes:duration>
+            <itunes:subtitle>Jonathan and Kelli talk about SmartWatches: The Wimm One, MetaWatch, Pebble, and more. </itunes:subtitle>
+            <itunes:summary>Jonathan and Kelli talk about SmartWatches: The Wimm One, MetaWatch, Pebble, and more. </itunes:summary>
+            <itunes:keywords>web, mobile, html5, rest, json</itunes:keywords>
+            <itunes:image href="http://nitch.cc/img/512x512.png"/>
+            <media:content url="https://s3.amazonaws.com/nitch/Episode_73_Tiny_Tornado.mp3" fileSize="54566344" type="audio/mpeg"/>
+            <itunes:explicit>no</itunes:explicit>
+        </item>
     </channel>
 </rss>
