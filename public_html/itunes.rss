@@ -1355,5 +1355,23 @@ version="2.0">
             <media:content url="https://s3.amazonaws.com/nitch/Episode_73_Tiny_Tornado.mp3" fileSize="54566344" type="audio/mpeg"/>
             <itunes:explicit>no</itunes:explicit>
         </item>
+        <item>
+            <title>Episode 74: Psycho Like Me</title>
+            <link>http://nitch.cc/podcast/episode-74-psycho-like-me</link>
+            <guid>http://nitch.cc/podcast/episode-74-psycho-like-me</guid>
+            <pubDate>Fri, 13 Sep 2013 14:00:00 GMT</pubDate>
+            <author>Nitch</author>
+            <description>Jonathan and Kelli talk about how the iPhone 5S announcement illustrates that future friendly thinking is more important than ever.</description>
+            <enclosure url="https://s3.amazonaws.com/nitch/Episode_74_Psycho_Like_Me.mp3" length="64172851" type="audio/mpeg"/>
+            <content:encoded>Jonathan and Kelli talk about how the iPhone 5S announcement illustrates that future friendly thinking is more important than ever.</content:encoded>
+            <itunes:author>Nitch</itunes:author>
+            <itunes:duration>27:57</itunes:duration>
+            <itunes:subtitle>Jonathan and Kelli talk about how the iPhone 5S announcement illustrates that future friendly thinking is more important than ever.</itunes:subtitle>
+            <itunes:summary>Jonathan and Kelli talk about how the iPhone 5S announcement illustrates that future friendly thinking is more important than ever.</itunes:summary>
+            <itunes:keywords>web, mobile, html5, rest, json</itunes:keywords>
+            <itunes:image href="http://nitch.cc/img/512x512.png"/>
+            <media:content url="https://s3.amazonaws.com/nitch/Episode_74_Psycho_Like_Me.mp3" fileSize="54566344" type="audio/mpeg"/>
+            <itunes:explicit>no</itunes:explicit>
+        </item>
     </channel>
 </rss>
