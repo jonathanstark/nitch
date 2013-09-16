@@ -25,7 +25,7 @@ if ($filename==NULL) {
     if($posts) {
         $html = '';
         foreach($posts as $post) {
-            $html.= '<p><a href="'.$post['url'].'">'.$post['title'].'</a> '.$post['description'].'</p>';
+            $html.= '<p class="item"><a href="'.$post['url'].'">'.$post['title'].'</a> '.$post['description'].'</p>';
         }
         include $margo->blog_template_file;
     } else {
