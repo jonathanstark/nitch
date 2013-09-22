@@ -72,18 +72,14 @@ li, p, blockquote {
     line-height: 1.75em;
 }
 a {
-    /*border-radius: 3px;
-    -o-border-radius: 3px;
-    -ms-border-radius: 3px;
-    -moz-border-radius: 3px;
-    -webkit-border-radius: 3px;*/
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
     color: #CD00CD;
     font-weight: bold;
     margin: -2px;
     padding: 2px;
     text-decoration: none;
 }
-a:hover {
+a:hover, a.active {
     background-color: #CD00CD;
     color: white;
 }
