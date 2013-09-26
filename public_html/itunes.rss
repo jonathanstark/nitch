@@ -1391,5 +1391,23 @@ version="2.0">
             <media:content url="https://s3.amazonaws.com/nitch/Episode_75_Shes_Coming_Unglued.mp3" fileSize="54566344" type="audio/mpeg"/>
             <itunes:explicit>no</itunes:explicit>
         </item>
+        <item>
+            <title>Episode 76: Tickle Class</title>
+            <link>http://nitch.cc/podcast/episode-76-tickle-class</link>
+            <guid>http://nitch.cc/podcast/episode-76-tickle-class</guid>
+            <pubDate>Fri, 27 Sep 2013 14:00:00 GMT</pubDate>
+            <author>Nitch</author>
+            <description>Jonathan and Kelli discuss perception vs reality in the context of application performance. In particular, the importance of instantaneous feedback, a simple way to remove the pesky 300ms delay in webapps on touch devices, and the real reason why jank is a bad thing.</description>
+            <enclosure url="https://s3.amazonaws.com/nitch/Episode_76_Tickle_Class.mp3" length="64172851" type="audio/mpeg"/>
+            <content:encoded>Jonathan and Kelli discuss perception vs reality in the context of application performance. In particular, the importance of instantaneous feedback, a simple way to remove the pesky 300ms delay in webapps on touch devices, and the real reason why jank is a bad thing.</content:encoded>
+            <itunes:author>Nitch</itunes:author>
+            <itunes:duration>37:52</itunes:duration>
+            <itunes:subtitle>Jonathan and Kelli discuss perception vs reality in the context of application performance. In particular, the importance of instantaneous feedback, a simple way to remove the pesky 300ms delay in webapps on touch devices, and the real reason why jank is a bad thing.</itunes:subtitle>
+            <itunes:summary>Jonathan and Kelli discuss perception vs reality in the context of application performance. In particular, the importance of instantaneous feedback, a simple way to remove the pesky 300ms delay in webapps on touch devices, and the real reason why jank is a bad thing.</itunes:summary>
+            <itunes:keywords>web, mobile, html5, rest, json</itunes:keywords>
+            <itunes:image href="http://nitch.cc/img/512x512.png"/>
+            <media:content url="https://s3.amazonaws.com/nitch/Episode_76_Tickle_Class.mp3" fileSize="54566344" type="audio/mpeg"/>
+            <itunes:explicit>no</itunes:explicit>
+        </item>
     </channel>
 </rss>
