@@ -56,12 +56,10 @@ a {
     padding: 2px;
     text-decoration: none;
 }
-a:hover,
 a.active {
     background-color: #CD00CD;
     color: white;
 }
-h1 a:hover,
 h1 a.active {
     background-color: black;
     color: #CD00CD;
@@ -148,6 +146,25 @@ article ul {
 }
 .footer {
     text-align: center;
+}
+
+/* DESKTOP ONLY */
+
+.no-touch .header a:hover {
+    color: #CD00CD;
+}
+.no-touch .header a:active {
+    color: darkmagenta;
+}
+.no-touch .section a:hover,
+.no-touch .footer a:hover {
+    background-color: #CD00CD;
+    color: white;
+}
+.no-touch .section a:active,
+.no-touch .footer a:active {
+    background-color: darkmagenta;
+    color: white;
 }
 
 /* MEDIA QUERIES */
