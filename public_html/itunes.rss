@@ -1409,5 +1409,23 @@ version="2.0">
             <media:content url="https://s3.amazonaws.com/nitch/Episode_76_Tickle_Class.mp3" fileSize="54566344" type="audio/mpeg"/>
             <itunes:explicit>no</itunes:explicit>
         </item>
+        <item>
+            <title>Episode 77: Accidental Interneting</title>
+            <link>http://nitch.cc/podcast/episode–77–accidental–interneting</link>
+            <guid>http://nitch.cc/podcast/episode–77–accidental–interneting</guid>
+            <pubDate>Fri, 03 Oct 2013 14:00:00 GMT</pubDate>
+            <author>Nitch</author>
+            <description>Jonathan and Kelli chat about the benefits of accessibility, availability, and progressive enhancement in cross-platform web projects.</description>
+            <enclosure url="https://s3.amazonaws.com/nitch/Episode_77_Accidental_Interneting.mp3" length="64172851" type="audio/mpeg"/>
+            <content:encoded>Jonathan and Kelli chat about the benefits of accessibility, availability, and progressive enhancement in cross-platform web projects.</content:encoded>
+            <itunes:author>Nitch</itunes:author>
+            <itunes:duration>44:00</itunes:duration>
+            <itunes:subtitle>Jonathan and Kelli chat about the benefits of accessibility, availability, and progressive enhancement in cross-platform web projects.</itunes:subtitle>
+            <itunes:summary>Jonathan and Kelli chat about the benefits of accessibility, availability, and progressive enhancement in cross-platform web projects.</itunes:summary>
+            <itunes:keywords>web, mobile, html5, rest, json</itunes:keywords>
+            <itunes:image href="http://nitch.cc/img/512x512.png"/>
+            <media:content url="https://s3.amazonaws.com/nitch/Episode_77_Accidental_Interneting.mp3" fileSize="54566344" type="audio/mpeg"/>
+            <itunes:explicit>no</itunes:explicit>
+        </item>
     </channel>
 </rss>
