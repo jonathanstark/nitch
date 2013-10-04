@@ -90,7 +90,7 @@ function get_all_posts() {
                 if(substr(strrchr($entry,'.'),1)==ltrim($margo->post_file_extension, '.')) {
                     $lines = file($margo->directory_of_posts.$entry);
                     $title = trim(str_replace("#", "", $lines[0]));
-                    $time = strtotime($lines[2]);
+                    $time = @strtotime($lines[2]);
                     $description = trim($lines[6]);
                     $url = trim('./' . str_replace('.md', '', $entry));
                     $files[] = array("time" => $time, "fname" => $entry, "title" => $title, "description" => $description, "url" => $url);
