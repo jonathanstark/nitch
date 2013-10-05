@@ -1,6 +1,6 @@
 Episode 77: Accidental Interneting
 ====
-October 3, 2013
+October 4, 2013
 
 Running time: 44 minutes
 
