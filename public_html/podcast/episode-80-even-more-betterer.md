@@ -47,5 +47,3 @@ Kelli’s recommendations for learning Ruby and/or Rails...
 ### BONUS!
 
 * [Rails Forum](http://railsforum.com)
-
-test3
