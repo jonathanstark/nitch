@@ -48,3 +48,5 @@ Jonathan and Kelli rant about dealing with HTML tables in responsive web design.
 * Flip-top House
 * Responsive Picnic Tables
 * Double Zebra
+
+:)
