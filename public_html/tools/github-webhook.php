@@ -2,14 +2,14 @@
 #
 # Specify a directory where both the web server process and your ssh login account have read and write access
 define('TEMP_DIRECTORY', '/tmp/');
-#
-# Did the request come from a github IP?
-if (stripos($_SERVER['REMOTE_ADDR'], '192.30.252.') === false) {
-	#
-	# Nope...
-	die('bye');
-	#
-} else {
+// #
+// # Did the request come from a github IP?
+// if (stripos($_SERVER['REMOTE_ADDR'], '192.30.252.') === false) {
+// 	#
+// 	# Nope...
+// 	die('bye');
+// 	#
+// } else {
 	#
 	# Yup, the request if from github
 	#
@@ -23,4 +23,4 @@ if (stripos($_SERVER['REMOTE_ADDR'], '192.30.252.') === false) {
 	#
 	# And now we wait... Eventually a cronjob will come looking for the temp file, do the pull, and then remove the temp file.
 	#
-}
+// }
