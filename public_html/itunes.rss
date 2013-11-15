@@ -1499,5 +1499,23 @@ version="2.0">
             <media:content url="https://s3.amazonaws.com/nitch/Episode_81_Responsive_Picnic_Tables.mp3" fileSize="54566344" type="audio/mpeg"/>
             <itunes:explicit>no</itunes:explicit>
         </item>
+        <item>
+            <title>Episode 82: Pink With a Hint of Orange</title>
+            <link>http://nitch.cc/podcast/episode-82-pink-with-a-hint-of-orange</link>
+            <guid>http://nitch.cc/podcast/episode-82-pink-with-a-hint-of-orange</guid>
+            <pubDate>Fri, 15 Nov 2013 14:00:00 GMT</pubDate>
+            <author>Nitch</author>
+            <description>Jonathan and Kelli talk about Pattern Lab, a tool for building atomic design systems created by Brad Frost and Dave Olsen.</description>
+            <enclosure url="https://s3.amazonaws.com/nitch/Episode_82_Pink_With_a_Hint_of_Orange.mp3" length="64172851" type="audio/mpeg"/>
+            <content:encoded>Jonathan and Kelli talk about Pattern Lab, a tool for building atomic design systems created by Brad Frost and Dave Olsen.</content:encoded>
+            <itunes:author>Nitch</itunes:author>
+            <itunes:duration>29:36</itunes:duration>
+            <itunes:subtitle>Jonathan and Kelli talk about Pattern Lab, a tool for building atomic design systems created by Brad Frost and Dave Olsen.</itunes:subtitle>
+            <itunes:summary>Jonathan and Kelli talk about Pattern Lab, a tool for building atomic design systems created by Brad Frost and Dave Olsen.</itunes:summary>
+            <itunes:keywords>web, mobile, html5, rest, json</itunes:keywords>
+            <itunes:image href="http://nitch.cc/img/512x512.png"/>
+            <media:content url="https://s3.amazonaws.com/nitch/Episode_82_Pink_With_a_Hint_of_Orange.mp3" fileSize="54566344" type="audio/mpeg"/>
+            <itunes:explicit>no</itunes:explicit>
+        </item>
     </channel>
 </rss>
