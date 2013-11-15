@@ -14,51 +14,28 @@ body {
     margin: 0;
     text-align: center;
 }
-body > * {
+body > .section,
+body > .footer {
     margin: 0 auto;
     padding: .75em 1em;
     text-align: left;
 }
 body > .header {
     background-color: black;
-    padding-bottom: 1em;
     text-align: center;
 }
-body > .header * {
-    margin: 0 !important;
-    padding: 0 !important;
-}
-body > .header > p {
-    color: white;
-    font-size: 80%;
-    margin: 0 auto;
-    text-shadow: #000 1px 1px 2px;
-}
-body > .header > p > a {
-    color: white;
-    font-weight: bold;
-    margin: -3px !important;
-    padding: 3px !important;
-}
-body > .header > p > a:hover {
-    color: white !important;
-}
 body > .header > h1 {
-    text-transform: lowercase;
-    margin: 0 auto;
+    margin: 0;
 }
-body > .header > h1 > a {
+h1 a {
     color: white;
     display: block;
     font-size: 300%;
     font-weight: bold;
     line-height: 1em;
-    padding: 0;
-}
-body > .header > h1 > a:hover {
-    background-color: transparent;
-    color: magenta;
-    text-shadow: none;
+    margin: 0 auto;
+    padding: 0.1em 0 0.15em 0;
+    text-transform: lowercase;
 }
 h2 {
     /*font-family: 'HelveticaNeue-Light', 'Helvetica Neue', Helvetica, Arial, sans-serif;*/
@@ -72,20 +49,20 @@ li, p, blockquote {
     line-height: 1.75em;
 }
 a {
-    /*border-radius: 3px;
-    -o-border-radius: 3px;
-    -ms-border-radius: 3px;
-    -moz-border-radius: 3px;
-    -webkit-border-radius: 3px;*/
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
     color: #CD00CD;
     font-weight: bold;
     margin: -2px;
     padding: 2px;
     text-decoration: none;
 }
-a:hover {
+a.active {
     background-color: #CD00CD;
     color: white;
+}
+h1 a.active {
+    background-color: black;
+    color: #CD00CD;
 }
 blockquote {
     background-color: darkmagenta;
@@ -150,7 +127,7 @@ article ul {
     margin: 0;
     padding: 0;
 }
-.section.podcast.description, 
+.section.podcast.description,
 .footer {
     /*-webkit-box-shadow: inset 0 0 3px rgba(0,0,0,.5);*/
     background-color: lightgray;
@@ -161,34 +138,39 @@ article ul {
     margin: 0;
     text-shadow: rgba(255,255,255,.5) 0 1px 0;
 }
-.section.podcast.index > ul {
-    list-style: none;
-    margin: 0;
-    padding: 0;
+.section.podcast.index > .item {
+    margin-bottom: 2em;
 }
-.section.podcast.index ul li a {
-    border-color: magenta;
-    border-style: dotted;
-    border-width: 0 0 1px 0;
+.section.podcast.index > .item > a {
     display: block;
-    overflow: hidden;
-    white-space: nowrap;
-    text-overflow: ellipsis;
-}
-.section.podcast.index ul li:first-child a {
-    border-top-width: 0;
-}
-.section.podcast.index ul li:last-child a {
-    border-bottom-width: 0;
 }
 .footer {
     text-align: center;
 }
 
+/* DESKTOP ONLY */
+
+.no-touch .header a:hover {
+    color: #CD00CD;
+}
+.no-touch .header a:active {
+    color: darkmagenta;
+}
+.no-touch .section a:hover,
+.no-touch .footer a:hover {
+    background-color: #CD00CD;
+    color: white;
+}
+.no-touch .section a:active,
+.no-touch .footer a:active {
+    background-color: darkmagenta;
+    color: white;
+}
+
 /* MEDIA QUERIES */
 
 @media screen and (min-width: 20em) {
-    body > .header > h1 > a {
+    h1 a {
         font-size: 375%;
     }
 }
@@ -196,10 +178,10 @@ article ul {
     body {
         font-size: 100%;
     }
-    body > * {
+    body > .section {
         padding: .75em 1.75em;
     }
-    body > .header > h1 > a {
+    h1 a {
         font-size: 450%;
     }
 }
@@ -207,7 +189,7 @@ article ul {
     body {
         font-size: 110%;
     }
-    body > * {
+    body > .section {
         padding: .75em 2.5em;
     }
 }
@@ -215,7 +197,7 @@ article ul {
     body {
         font-size: 120%;
     }
-    body > * {
+    body > .section {
         padding: .75em 3.25em;
     }
 }
@@ -223,7 +205,7 @@ article ul {
     body {
         font-size: 130%;
     }
-    body > * {
+    body > .section {
         padding: .75em 4em;
     }
 }
@@ -231,7 +213,7 @@ article ul {
     body {
         font-size: 140%;
     }
-    body > * {
+    body > .section {
         padding: .75em 4.75em;
     }
 }
@@ -239,7 +221,7 @@ article ul {
     body {
         font-size: 150%;
     }
-    body > * {
+    body > .section {
         padding: .75em 5.5em;
     }
 }
@@ -247,7 +229,7 @@ article ul {
     body {
         font-size: 160%;
     }
-    body > * {
+    body > .section {
         padding: .75em 6.25em;
     }
 }
@@ -255,7 +237,7 @@ article ul {
     body {
         font-size: 170%;
     }
-    body > * {
+    body > .section {
         padding: .75em 7em;
     }
 }
@@ -263,7 +245,7 @@ article ul {
     body {
         font-size: 180%;
     }
-    body > * {
+    body > .section {
         padding: .75em 7.75em;
     }
 }
@@ -271,7 +253,7 @@ article ul {
     body {
         font-size: 190%;
     }
-    body > * {
+    body > .section {
         padding: .75em 8.5em;
     }
 }
@@ -279,7 +261,7 @@ article ul {
     body {
         font-size: 200%;
     }
-    body > * {
+    body > .section {
         padding: .75em 9.25em;
     }
 }

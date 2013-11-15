@@ -23,11 +23,10 @@ if (empty($_GET['filename'])) {
 if ($filename==NULL) {
     $posts = get_all_posts();
     if($posts) {
-        $content = '';
+        $html = '';
         foreach($posts as $post) {
-            $content .= "* [{$post['title']}](./".str_replace($margo->post_file_extension, '', $post['fname']).") \n";
+            $html.= '<p class="item"><a href="'.$post['url'].'">'.$post['title'].'</a> '.$post['description'].'</p>';
         }
-        $html = Markdown($content);
         include $margo->blog_template_file;
     } else {
         $html = Markdown(file_get_contents($margo->{'404_template_file'}));
@@ -89,10 +88,12 @@ function get_all_posts() {
         while (false !== ($entry = readdir($handle))) {
             if (substr($entry, 0, 1) !== '_') { // Skip files that start with underscore (drafts)
                 if(substr(strrchr($entry,'.'),1)==ltrim($margo->post_file_extension, '.')) {
-                    $fcontents = file($margo->directory_of_posts.$entry);
-                    $title = str_replace("#", "", $fcontents[0]);
-                    $time = strtotime($fcontents[2]);
-                    $files[] = array("time" => $time, "fname" => $entry, "title" => $title);
+                    $lines = file($margo->directory_of_posts.$entry);
+                    $title = trim(str_replace("#", "", $lines[0]));
+                    $time = @strtotime($lines[2]);
+                    $description = trim($lines[6]);
+                    $url = trim('./' . str_replace('.md', '', $entry));
+                    $files[] = array("time" => $time, "fname" => $entry, "title" => $title, "description" => $description, "url" => $url);
                     $filetimes[] = $time;
                     $titles[] = $title;
                 }

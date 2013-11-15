@@ -1355,5 +1355,149 @@ version="2.0">
             <media:content url="https://s3.amazonaws.com/nitch/Episode_73_Tiny_Tornado.mp3" fileSize="54566344" type="audio/mpeg"/>
             <itunes:explicit>no</itunes:explicit>
         </item>
+        <item>
+            <title>Episode 74: Psycho Like Me</title>
+            <link>http://nitch.cc/podcast/episode-74-psycho-like-me</link>
+            <guid>http://nitch.cc/podcast/episode-74-psycho-like-me</guid>
+            <pubDate>Fri, 13 Sep 2013 14:00:00 GMT</pubDate>
+            <author>Nitch</author>
+            <description>Jonathan and Kelli talk about how the iPhone 5c announcement illustrates that future-friendly thinking is more important than ever.</description>
+            <enclosure url="https://s3.amazonaws.com/nitch/Episode_74_Psycho_Like_Me.mp3" length="64172851" type="audio/mpeg"/>
+            <content:encoded>Jonathan and Kelli talk about how the iPhone 5c announcement illustrates that future-friendly thinking is more important than ever.</content:encoded>
+            <itunes:author>Nitch</itunes:author>
+            <itunes:duration>27:57</itunes:duration>
+            <itunes:subtitle>Jonathan and Kelli talk about how the iPhone 5c announcement illustrates that future-friendly thinking is more important than ever.</itunes:subtitle>
+            <itunes:summary>Jonathan and Kelli talk about how the iPhone 5c announcement illustrates that future-friendly thinking is more important than ever.</itunes:summary>
+            <itunes:keywords>web, mobile, html5, rest, json</itunes:keywords>
+            <itunes:image href="http://nitch.cc/img/512x512.png"/>
+            <media:content url="https://s3.amazonaws.com/nitch/Episode_74_Psycho_Like_Me.mp3" fileSize="54566344" type="audio/mpeg"/>
+            <itunes:explicit>no</itunes:explicit>
+        </item>
+        <item>
+            <title>Episode 75: She’s Coming Unglued</title>
+            <link>http://nitch.cc/podcast/episode-75-shes-coming-unglued</link>
+            <guid>http://nitch.cc/podcast/episode-75-shes-coming-unglued</guid>
+            <pubDate>Fri, 20 Sep 2013 14:00:00 GMT</pubDate>
+            <author>Nitch</author>
+            <description>Jonathan and Kelli talk about Google’s two-factor authentication, smartwatch use cases, and a possible strategy behind Apple’s decision to release two new iPhones at the same time.</description>
+            <enclosure url="https://s3.amazonaws.com/nitch/Episode_75_Shes_Coming_Unglued.mp3" length="64172851" type="audio/mpeg"/>
+            <content:encoded>Jonathan and Kelli talk about Google’s two-factor authentication, smartwatch use cases, and a possible strategy behind Apple’s decision to release two new iPhones at the same time.</content:encoded>
+            <itunes:author>Nitch</itunes:author>
+            <itunes:duration>38:46</itunes:duration>
+            <itunes:subtitle>Jonathan and Kelli talk about Google’s two-factor authentication, smartwatch use cases, and a possible strategy behind Apple’s decision to release two new iPhones at the same time.</itunes:subtitle>
+            <itunes:summary>Jonathan and Kelli talk about Google’s two-factor authentication, smartwatch use cases, and a possible strategy behind Apple’s decision to release two new iPhones at the same time.</itunes:summary>
+            <itunes:keywords>web, mobile, html5, rest, json</itunes:keywords>
+            <itunes:image href="http://nitch.cc/img/512x512.png"/>
+            <media:content url="https://s3.amazonaws.com/nitch/Episode_75_Shes_Coming_Unglued.mp3" fileSize="54566344" type="audio/mpeg"/>
+            <itunes:explicit>no</itunes:explicit>
+        </item>
+        <item>
+            <title>Episode 76: Tickle Class</title>
+            <link>http://nitch.cc/podcast/episode-76-tickle-class</link>
+            <guid>http://nitch.cc/podcast/episode-76-tickle-class</guid>
+            <pubDate>Fri, 27 Sep 2013 14:00:00 GMT</pubDate>
+            <author>Nitch</author>
+            <description>Jonathan and Kelli discuss perception vs reality in the context of application performance. In particular, the importance of instantaneous feedback, a simple way to remove the pesky 300ms delay in webapps on touch devices, and the real reason why jank is a bad thing.</description>
+            <enclosure url="https://s3.amazonaws.com/nitch/Episode_76_Tickle_Class.mp3" length="64172851" type="audio/mpeg"/>
+            <content:encoded>Jonathan and Kelli discuss perception vs reality in the context of application performance. In particular, the importance of instantaneous feedback, a simple way to remove the pesky 300ms delay in webapps on touch devices, and the real reason why jank is a bad thing.</content:encoded>
+            <itunes:author>Nitch</itunes:author>
+            <itunes:duration>37:52</itunes:duration>
+            <itunes:subtitle>Jonathan and Kelli discuss perception vs reality in the context of application performance. In particular, the importance of instantaneous feedback, a simple way to remove the pesky 300ms delay in webapps on touch devices, and the real reason why jank is a bad thing.</itunes:subtitle>
+            <itunes:summary>Jonathan and Kelli discuss perception vs reality in the context of application performance. In particular, the importance of instantaneous feedback, a simple way to remove the pesky 300ms delay in webapps on touch devices, and the real reason why jank is a bad thing.</itunes:summary>
+            <itunes:keywords>web, mobile, html5, rest, json</itunes:keywords>
+            <itunes:image href="http://nitch.cc/img/512x512.png"/>
+            <media:content url="https://s3.amazonaws.com/nitch/Episode_76_Tickle_Class.mp3" fileSize="54566344" type="audio/mpeg"/>
+            <itunes:explicit>no</itunes:explicit>
+        </item>
+        <item>
+            <title>Episode 77: Accidental Interneting</title>
+            <link>http://nitch.cc/podcast/episode–77–accidental–interneting</link>
+            <guid>http://nitch.cc/podcast/episode–77–accidental–interneting</guid>
+            <pubDate>Fri, 04 Oct 2013 14:00:00 GMT</pubDate>
+            <author>Nitch</author>
+            <description>Jonathan and Kelli chat about the benefits of accessibility, availability, and progressive enhancement in cross-platform web projects.</description>
+            <enclosure url="https://s3.amazonaws.com/nitch/Episode_77_Accidental_Interneting.mp3" length="64172851" type="audio/mpeg"/>
+            <content:encoded>Jonathan and Kelli chat about the benefits of accessibility, availability, and progressive enhancement in cross-platform web projects.</content:encoded>
+            <itunes:author>Nitch</itunes:author>
+            <itunes:duration>44:00</itunes:duration>
+            <itunes:subtitle>Jonathan and Kelli chat about the benefits of accessibility, availability, and progressive enhancement in cross-platform web projects.</itunes:subtitle>
+            <itunes:summary>Jonathan and Kelli chat about the benefits of accessibility, availability, and progressive enhancement in cross-platform web projects.</itunes:summary>
+            <itunes:keywords>web, mobile, html5, rest, json</itunes:keywords>
+            <itunes:image href="http://nitch.cc/img/512x512.png"/>
+            <media:content url="https://s3.amazonaws.com/nitch/Episode_77_Accidental_Interneting.mp3" fileSize="54566344" type="audio/mpeg"/>
+            <itunes:explicit>no</itunes:explicit>
+        </item>
+        <item>
+            <title>Episode 78: Reedonkulous</title>
+            <link>http://nitch.cc/podcast/episode–78-reedonkulous</link>
+            <guid>http://nitch.cc/podcast/episode–78-reedonkulous</guid>
+            <pubDate>Fri, 18 Oct 2013 14:00:00 GMT</pubDate>
+            <author>Nitch</author>
+            <description>Jonathan and Kelli give a brief intro to Git, how you can use it to replace FTP in your workflow, and why you probably should.</description>
+            <enclosure url="https://s3.amazonaws.com/nitch/Episode_78_Reedonkulous.mp3" length="64172851" type="audio/mpeg"/>
+            <content:encoded>Jonathan and Kelli give a brief intro to Git, how you can use it to replace FTP in your workflow, and why you probably should.</content:encoded>
+            <itunes:author>Nitch</itunes:author>
+            <itunes:duration>17:55</itunes:duration>
+            <itunes:subtitle>Jonathan and Kelli give a brief intro to Git, how you can use it to replace FTP in your workflow, and why you probably should.</itunes:subtitle>
+            <itunes:summary>Jonathan and Kelli give a brief intro to Git, how you can use it to replace FTP in your workflow, and why you probably should.</itunes:summary>
+            <itunes:keywords>web, mobile, html5, rest, json</itunes:keywords>
+            <itunes:image href="http://nitch.cc/img/512x512.png"/>
+            <media:content url="https://s3.amazonaws.com/nitch/Episode_78_Reedonkulous.mp3" fileSize="54566344" type="audio/mpeg"/>
+            <itunes:explicit>no</itunes:explicit>
+        </item>
+        <item>
+            <title>Episode 79: Oreo Island</title>
+            <link>http://nitch.cc/podcast/episode-79-oreo-island</link>
+            <guid>http://nitch.cc/podcast/episode-79-oreo-island</guid>
+            <pubDate>Fri, 25 Oct 2013 14:00:00 GMT</pubDate>
+            <author>Nitch</author>
+            <description>Jonathan and Kelli discuss a bunch of projects that they recently launched.</description>
+            <enclosure url="https://s3.amazonaws.com/nitch/Episode_79_Oreo_Island.mp3" length="64172851" type="audio/mpeg"/>
+            <content:encoded>Jonathan and Kelli discuss a bunch of projects that they recently launched.</content:encoded>
+            <itunes:author>Nitch</itunes:author>
+            <itunes:duration>47:08</itunes:duration>
+            <itunes:subtitle>Jonathan and Kelli discuss a bunch of projects that they recently launched.</itunes:subtitle>
+            <itunes:summary>Jonathan and Kelli discuss a bunch of projects that they recently launched.</itunes:summary>
+            <itunes:keywords>web, mobile, html5, rest, json</itunes:keywords>
+            <itunes:image href="http://nitch.cc/img/512x512.png"/>
+            <media:content url="https://s3.amazonaws.com/nitch/Episode_79_Oreo_Island.mp3" fileSize="54566344" type="audio/mpeg"/>
+            <itunes:explicit>no</itunes:explicit>
+        </item>
+        <item>
+            <title>Episode 80: Even More Betterer</title>
+            <link>http://nitch.cc/podcast/episode-80-even-more-betterer</link>
+            <guid>http://nitch.cc/podcast/episode-80-even-more-betterer</guid>
+            <pubDate>Fri, 01 Nov 2013 14:00:00 GMT</pubDate>
+            <author>Nitch</author>
+            <description>Jonathan and Kelli talk about Ruby and Rails: learning resources, application considerations, and Kelli’s big win!</description>
+            <enclosure url="https://s3.amazonaws.com/nitch/Episode_80_Even_More_Betterer.mp3" length="64172851" type="audio/mpeg"/>
+            <content:encoded>Jonathan and Kelli talk about Ruby and Rails: learning resources, application considerations, and Kelli’s big win!</content:encoded>
+            <itunes:author>Nitch</itunes:author>
+            <itunes:duration>27:19</itunes:duration>
+            <itunes:subtitle>Jonathan and Kelli talk about Ruby and Rails: learning resources, application considerations, and Kelli’s big win!</itunes:subtitle>
+            <itunes:summary>Jonathan and Kelli talk about Ruby and Rails: learning resources, application considerations, and Kelli’s big win!</itunes:summary>
+            <itunes:keywords>web, mobile, html5, rest, json</itunes:keywords>
+            <itunes:image href="http://nitch.cc/img/512x512.png"/>
+            <media:content url="https://s3.amazonaws.com/nitch/Episode_80_Even_More_Betterer.mp3" fileSize="54566344" type="audio/mpeg"/>
+            <itunes:explicit>no</itunes:explicit>
+        </item>
+        <item>
+            <title>Episode 81: Responsive Picnic Tables</title>
+            <link>http://nitch.cc/podcast/episode-81-responsive-picnic-tables</link>
+            <guid>http://nitch.cc/podcast/episode-81-responsive-picnic-tables</guid>
+            <pubDate>Fri, 08 Nov 2013 14:00:00 GMT</pubDate>
+            <author>Nitch</author>
+            <description>Jonathan and Kelli rant about dealing with HTML tables in responsive web design.</description>
+            <enclosure url="https://s3.amazonaws.com/nitch/Episode_81_Responsive_Picnic_Tables.mp3" length="64172851" type="audio/mpeg"/>
+            <content:encoded>Jonathan and Kelli rant about dealing with HTML tables in responsive web design.</content:encoded>
+            <itunes:author>Nitch</itunes:author>
+            <itunes:duration>59:27</itunes:duration>
+            <itunes:subtitle>Jonathan and Kelli rant about dealing with HTML tables in responsive web design.</itunes:subtitle>
+            <itunes:summary>Jonathan and Kelli rant about dealing with HTML tables in responsive web design.</itunes:summary>
+            <itunes:keywords>web, mobile, html5, rest, json</itunes:keywords>
+            <itunes:image href="http://nitch.cc/img/512x512.png"/>
+            <media:content url="https://s3.amazonaws.com/nitch/Episode_81_Responsive_Picnic_Tables.mp3" fileSize="54566344" type="audio/mpeg"/>
+            <itunes:explicit>no</itunes:explicit>
+        </item>
     </channel>
 </rss>

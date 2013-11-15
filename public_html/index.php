@@ -8,10 +8,10 @@
 </div>
 <div class="section" id="what">
     <h2>Our Apps</h2>
-    <p>We love proof of concept demos, sample code, and browser nightlies as much as the next guy but we're always left wondering if the latest shiny object is ready for prime time.</p> 
-    <p>Whether it's offline storage, media queries, polyfills, adaptive images&mdash;or whatever else the inkernet dreams up next&mdash;we think that you need real people using your products before you can know whether a given tool, technology, pattern, or methodology is ready for prime time.</p>
+    <p>We love proof of concept demos, sample code, and browser nightlies as much as the next guy but we’re always left wondering if the latest shiny object is ready for prime time.</p>
+    <p>Whether it’s offline storage, media queries, polyfills, adaptive images&mdash;or whatever else the inkernet dreams up next&mdash;we think that you need real people using your products before you can know whether a given tool, technology, pattern, or methodology is ready for prime time.</p>
     <p><strong>Nitch puts emerging best practices to the test by using them to build real apps for actual users.</strong></p>
-<!-- 
+<!--
     <p>Here's what we've got so far:</p>
     <ul>
         <li><a rel="external" href="http://avail.io"><img src="http://avail.io/img/icon-114.png" alt="Availio" title="Availio&mdash;Mobile-friendly domain search" /></a></li>
