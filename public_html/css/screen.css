@@ -145,7 +145,7 @@ article ul {
     display: block;
 }
 .footer {
-    text-align: center;
+    text-align: center !important;
 }
 
 /* DESKTOP ONLY */
