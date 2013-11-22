@@ -2,7 +2,7 @@ Episode 82: Pink With a Hint of Orange
 ====
 November 15, 2013
 
-Running time: 59 minutes
+Running time: 29 minutes
 
 Jonathan and Kelli talk about Pattern Lab, a tool for building atomic design systems created by Brad Frost and Dave Olsen.
 
