@@ -1535,5 +1535,23 @@ version="2.0">
             <media:content url="https://s3.amazonaws.com/nitch/Episode_83_Dark_Middle.mp3" fileSize="54566344" type="audio/mpeg"/>
             <itunes:explicit>no</itunes:explicit>
         </item>
+        <item>
+            <title>Episode 84: Pizza Car</title>
+            <link>http://nitch.cc/podcast/episode-84-pizza-car</link>
+            <guid>http://nitch.cc/podcast/episode-84-pizza-car</guid>
+            <pubDate>Fri, 29 Nov 2013 14:00:00 GMT</pubDate>
+            <author>Nitch</author>
+            <description>Jonathan and Kelli discuss the highlights of “APIs: A Strategy Guide” by Daniel Jacobson.</description>
+            <enclosure url="https://s3.amazonaws.com/nitch/Episode_84_Pizza_Car.mp3" length="64172851" type="audio/mpeg"/>
+            <content:encoded>Jonathan and Kelli discuss the highlights of “APIs: A Strategy Guide” by Daniel Jacobson.</content:encoded>
+            <itunes:author>Nitch</itunes:author>
+            <itunes:duration>1:01:50</itunes:duration>
+            <itunes:subtitle>Jonathan and Kelli discuss the highlights of “APIs: A Strategy Guide” by Daniel Jacobson.</itunes:subtitle>
+            <itunes:summary>Jonathan and Kelli discuss the highlights of “APIs: A Strategy Guide” by Daniel Jacobson.</itunes:summary>
+            <itunes:keywords>web, mobile, html5, rest, json</itunes:keywords>
+            <itunes:image href="http://nitch.cc/img/512x512.png"/>
+            <media:content url="https://s3.amazonaws.com/nitch/Episode_84_Pizza_Car.mp3" fileSize="54566344" type="audio/mpeg"/>
+            <itunes:explicit>no</itunes:explicit>
+        </item>
     </channel>
 </rss>
