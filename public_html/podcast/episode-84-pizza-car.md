@@ -23,17 +23,17 @@ Jonathan and Kelli discuss the highlights of “APIs: A Strategy Guide” by Dan
 
 ## Related Links
 
-* Modernizr
-* Modernizr Server
-* James Pearce on Twitter
-* Feathers gem
-* PlaceImg gem
+* [Modernizr](http://modernizr.com/ "Modernizr: the feature detection library for HTML5/CSS3")
+* [Modernizr Server](https://github.com/jamesgpearce/modernizr-server "jamesgpearce/modernizr-server Â· GitHub")
+* [James Pearce on Twitter](https://twitter.com/JamesPearceEcho "James Pearce (JamesPearceEcho) on Twitter")
+* [Feathers gem](https://rubygems.org/gems/feathers= "Feathers gem")
+* [PlaceImg gem](https://rubygems.org/gems/placeimg "PlaceImg gem")
 * [FPO Images](http://fpoimg.com/)
-* Pattern Lab
-* COPE
-* Daniel Jacobson on Twitter
+* [Pattern Lab](http://pattern-lab.info/ "Pattern Lab | Build Atomic Design Systems")
+* [NPR COPE](http://blog.programmableweb.com/2009/10/13/cope-create-once-publish-everywhere/ "")
+* [Daniel Jacobson on Twitter](https://twitter.com/daniel_jacobson "Daniel Jacobson (daniel_jacobson) on Twitter")
 * [Hourglass API](http://hrglss.com/v1/)
-* Buffer App
+* [Buffer App](http://bufferapp.com/ "Buffer - A better way to share on social media")
 
 ## Titles We Considered
 
