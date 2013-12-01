@@ -5,6 +5,7 @@ Nitch
 
 * Keyboard shortcuts for Kilo (Mac OS and browser)
 * Follow-up with Daniel Jacobson
+* Robot & Frank
 
 ## Active Todos
 
