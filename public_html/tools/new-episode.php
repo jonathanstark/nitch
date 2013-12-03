@@ -52,6 +52,14 @@ Running time: %3$s
 $itunes_xml = simplexml_load_file('http://nitch.cc/itunes.rss');
 // print_r($itunes_xml);die;
 #
+# Calc the date of the coming friday (or todays date if it is friday)
+$this_friday = date('Y-m-d', strtotime('+'. (5 - date('N')) . ' days'));
+#
+# Calc the number of the episode based on the rss feed
+$last_title = (string)$itunes_xml->channel->item[count($itunes_xml->channel->item)-1]->title;
+preg_match('/[0-9]+/', $last_title, $matches);
+$this_episode_number = $matches[0] + 1;
+#
 # If post is set, render the templates and trigger a download
 if (isset($_POST['action'])) {
     // print_r($_POST);die;
@@ -130,14 +138,6 @@ if (isset($_POST['action'])) {
     );
     die;
 }
-#
-# Calc the date of the coming friday (or todays date if it is friday)
-$this_friday = date('Y-m-d', strtotime('+'. (5 - date('N')) . ' days'));
-#
-# Calc the number of the episode based on the rss feed
-$last_title = (string)$itunes_xml->channel->item[count($itunes_xml->channel->item)-1]->title;
-preg_match('/[0-9]+/', $last_title, $matches);
-$this_episode_number = $matches[0] + 1;
 #
 ?>
 <!doctype html>
