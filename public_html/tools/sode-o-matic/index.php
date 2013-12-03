@@ -3,7 +3,6 @@ ini_set('display_errors', true);
 #
 # Grab the xml for the live itunes rss feed
 $itunes_xml = simplexml_load_file('http://nitch.cc/itunes.rss');
-// print_r($itunes_xml);die;
 #
 # Calc the date of the coming friday (or todays date if it is friday)
 $this_friday = date('Y-m-d', strtotime('+'. (5 - date('N')) . ' days'));
@@ -25,7 +24,6 @@ if (empty($_POST['action'])) {
 $_POST['display_title'] = sprintf('Episode %s: %s', $_POST['episode_number'], $_POST['episode_name']);
 $_POST['audio_file_name'] = str_replace(' ', '_', preg_replace('/[^a-zA-Z0-9 ]+/', '', $_POST['display_title']));
 $_POST['page_name'] = strtolower(str_replace('_', '-', $_POST['audio_file_name']));
-// print_r($_POST);die;
 #
 # Loop through the itunes rss feed to make sure that this title is unique
 foreach ($itunes_xml->channel->item as $item) {
@@ -37,7 +35,6 @@ foreach ($itunes_xml->channel->item as $item) {
 #
 # Loop through related links and create, well... links
 $links = explode('*', $_POST['links']);
-// print_r($links);die;
 $_POST['links'] = '';
 foreach ($links as $link) {
     if (!empty($link)) {
@@ -49,14 +46,12 @@ foreach ($links as $link) {
         $ch = curl_init();
         curl_setopt($ch, CURLOPT_URL, $url);
         curl_setopt($ch, CURLOPT_FOLLOWLOCATION, true);
-        // curl_setopt($ch, CURLOPT_HEADER, true);
         curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
         $html = curl_exec($ch);
         if(!curl_errno($ch)) {
             $url = curl_getinfo($ch, CURLINFO_EFFECTIVE_URL);
         }
         preg_match('/<title>(.+)<\/title>/', $html, $matches);
-        // var_dump($matches);die;
         if (isset($matches[1])) {
             $title = $matches[1];
         }
