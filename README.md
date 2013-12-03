@@ -13,6 +13,7 @@ Nitch
 	* Regex to parse episode number out of old titles
 	* Regex to scrub display title into audio file name and page url
 	* Validate uniqueness of episode name
+* OOCSS vs SMACCS vs BEM and how it relates to mobile first RWD
 
 ## Active Todos
 
