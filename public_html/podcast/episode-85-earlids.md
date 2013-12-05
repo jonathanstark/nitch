@@ -22,7 +22,7 @@ Jonathan and Kelli talk about notification overload: what it is, how to deal wit
 
 ## Related Links
 
-* [Inside the Brackets](http://software.intel.com/en-us/html5-roundtable-series "HTML5 Roundtable Series | Intel® Developer Zone")
+* [Inside the Brackets](http://insidethebrackets.com/ "HTML5 Roundtable Series")
 * [Daniel Jacobson on Twitter](https://twitter.com/daniel_jacobson "Daniel Jacobson (daniel_jacobson) on Twitter")
 
 ## Titles We Considered
