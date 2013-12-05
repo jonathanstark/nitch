@@ -25,10 +25,6 @@
                 <label for="duration">Duration</label><br>
                 <input class="topcoat-text-input--large" type="text" id="duration" name="duration" value="" placeholder="e.g., 1:23:45" required>
             </div>
-            <div class="form-item" id="file_size_wrapper">
-                <label for="file_size">File Size (in megabytes)</label><br>
-                <input class="topcoat-text-input--large" type="text" id="file_size" name="file_size" value="" placeholder="e.g., 47.3" required>
-            </div>
             <div class="form-item" id="description_wrapper">
                 <label for="description">Description</label><br>
                 <textarea class="topcoat-textarea" rows="2" id="description" name="description" placeholder="e.g., Jonathan and Kelli talk about yada yada yada..." required>Jonathan and Kelli talk about </textarea>

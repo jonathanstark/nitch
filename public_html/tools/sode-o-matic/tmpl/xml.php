@@ -1,7 +1,7 @@
 <item>
     <title>%1$s</title>
-    <link>http://nitch.cc/podcast/%2$2</link>
-    <guid>http://nitch.cc/podcast/%2$2</guid>
+    <link>http://nitch.cc/podcast/%2$s</link>
+    <guid>http://nitch.cc/podcast/%2$s</guid>
     <pubDate>%3$s 14:00:00 GMT</pubDate>
     <author>Nitch</author>
     <description>%4$s</description>

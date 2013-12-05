@@ -12,16 +12,16 @@ Running time: %3$s
     Your browser does not support HTML5 audio. Please download the episode using the link below.
 </audio>
 
-[Download (%6$s MB)](https://s3.amazonaws.com/nitch/%5$s.mp3 "%1$s")
+[Download MP3](https://s3.amazonaws.com/nitch/%5$s.mp3 "%1$s")
 
 ## Housekeeping/News
 
-%7$s
+%6$s
 
 ## Related Links
 
-%8$s
+%7$s
 
 ## Titles We Considered
 
-%9$s
+%8$s

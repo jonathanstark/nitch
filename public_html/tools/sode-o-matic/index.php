@@ -87,7 +87,6 @@ printf($md_template
     , $_POST['duration']
     , $_POST['description']
     , $_POST['audio_file_name']
-    , $_POST['file_size']
     , $_POST['housekeeping']
     , $_POST['links']
     , $_POST['titles']
