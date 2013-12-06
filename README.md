@@ -16,6 +16,7 @@ Nitch
 
 ## Completed Todos
 
+* Figure out how to parse S3 logs
 * 'Sode-O-Matic: Autofill date with "this coming friday's" date
 * 'Sode-O-Matic: Autofill ep number based on rss feed
 * 'Sode-O-Matic: Validate uniqueness of episode name
