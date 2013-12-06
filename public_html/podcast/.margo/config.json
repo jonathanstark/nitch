@@ -2,7 +2,7 @@
     "blog": {
         "title":"The Nitch Podcast",
         "url":"http://nitch.cc/podcast/",
-        "description":"Making apps that run everywhere",
+        "description":"Building apps that run everywhere",
         "author": {
             "name":"Jonathan Stark, Kelli Shaver",
             "email":"hello@nitch.cc"

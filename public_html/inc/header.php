@@ -3,7 +3,7 @@
     <head>
         <meta charset='utf-8' />
         <?php if (empty($title)): ?>
-            <title>Nitch - Making apps that run everywhere</title>
+            <title>Nitch - Building apps that run everywhere</title>
         <?php else: ?>
             <title><?php echo $title ?></title>
         <?php endif; ?>

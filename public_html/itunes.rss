@@ -16,15 +16,15 @@ version="2.0">
         <title>The Nitch Podcast</title>
         <link>http://nitch.cc/podcast</link>
         <pubDate>Fri, 23 Mar 2012 14:00:00 GMT</pubDate>
-        <description>A weekly podcast about making apps that run everywhere using open web standards like HTML, CSS, JavaScript, REST, and JSON. Hosted by Jonathan Stark and Kelli Shaver.</description>
+        <description>A weekly podcast about building apps that run everywhere using open web standards like HTML, CSS, JavaScript, REST, and JSON. Hosted by Jonathan Stark and Kelli Shaver.</description>
         <language>en-us</language>
         <atom10:link xmlns:atom10="http://www.w3.org/2005/Atom" rel="self" type="application/rss+xml" href="http://feeds.feedburner.com/nitch"/>
         <feedburner:info uri="thewebahead"/>
         <atom10:link xmlns:atom10="http://www.w3.org/2005/Atom" rel="hub" href="http://pubsubhubbub.appspot.com/"/>
         <feedburner:browserFriendly/>
-        <itunes:subtitle>A weekly podcast about making apps that run everywhere using open web standards like HTML, CSS, JavaScript, REST, and JSON. Hosted by Jonathan Stark and Kelli Shaver.</itunes:subtitle>
+        <itunes:subtitle>A weekly podcast about building apps that run everywhere using open web standards like HTML, CSS, JavaScript, REST, and JSON. Hosted by Jonathan Stark and Kelli Shaver.</itunes:subtitle>
         <itunes:author>Nitch</itunes:author>
-        <itunes:summary>A weekly podcast about making apps that run everywhere using open web standards like HTML, CSS, JavaScript, REST, and JSON. Hosted by Jonathan Stark and Kelli Shaver.</itunes:summary>
+        <itunes:summary>A weekly podcast about building apps that run everywhere using open web standards like HTML, CSS, JavaScript, REST, and JSON. Hosted by Jonathan Stark and Kelli Shaver.</itunes:summary>
         <itunes:image href="http://nitch.cc/img/512x512.png"/>
         <itunes:keywords>web, mobile, html5, rest, json</itunes:keywords>
         <itunes:explicit>no</itunes:explicit>
@@ -37,7 +37,7 @@ version="2.0">
         </itunes:category>
         <media:category scheme="http://www.itunes.com/dtds/podcast-1.0.dtd">Technology/Software How-To</media:category>
         <media:credit role="author">Nitch</media:credit>
-        <media:description type="plain">A weekly podcast about making apps that run everywhere using open web standards like HTML, CSS, JavaScript, REST, and JSON. Hosted by Jonathan Stark and Kelli Shaver.</media:description>
+        <media:description type="plain">A weekly podcast about building apps that run everywhere using open web standards like HTML, CSS, JavaScript, REST, and JSON. Hosted by Jonathan Stark and Kelli Shaver.</media:description>
         <media:keywords>web, mobile, html5, rest, json</media:keywords>
         <media:rating>nonadult</media:rating>
         <media:thumbnail url="http://nitch.cc/img/512x512.png"/>
