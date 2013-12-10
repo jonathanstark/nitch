@@ -24,6 +24,8 @@ if (empty($_POST['action'])) {
 $_POST['display_title'] = sprintf('Episode %s: %s', $_POST['episode_number'], $_POST['episode_name']);
 $_POST['audio_file_name'] = str_replace(' ', '_', preg_replace('/[^a-zA-Z0-9 ]+/', '', $_POST['display_title']));
 $_POST['page_name'] = strtolower(str_replace('_', '-', $_POST['audio_file_name']));
+$_POST['description'] = 'Jonathan and Kelli talk about ' . trim($_POST['description']);
+
 #
 # Loop through the itunes rss feed to make sure that this title is unique
 foreach ($itunes_xml->channel->item as $item) {

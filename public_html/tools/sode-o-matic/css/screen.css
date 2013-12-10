@@ -17,7 +17,9 @@ body
 body,input,textarea
 {
     color:#797B7B;
-    font-family:"Helvetica-Neue",Helvetica,sans-serif
+    font-family:"Helvetica-Neue",Helvetica,sans-serif;
+    font-weight: lighter;
+    letter-spacing: .02em;
 }
 
 input,textarea
@@ -34,6 +36,10 @@ h1
 {
     font-family:'Bangers',cursive;
     margin-top:0
+}
+
+#script {
+    margin-bottom: 2em;
 }
 
 .form-item
