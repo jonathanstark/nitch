@@ -9,6 +9,7 @@ Nitch
 
 ## Active Todos
 
+* Figure out how to parse S3 logs
 * 'Sode-O-Matic: Append XML node to itunes.rss
 * 'Sode-O-Matic: Save md file to podcast directory
 * 'Sode-O-Matic: Add S3 file upload
@@ -16,7 +17,6 @@ Nitch
 
 ## Completed Todos
 
-* Figure out how to parse S3 logs
 * 'Sode-O-Matic: Autofill date with "this coming friday's" date
 * 'Sode-O-Matic: Autofill ep number based on rss feed
 * 'Sode-O-Matic: Validate uniqueness of episode name
