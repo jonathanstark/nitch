@@ -65,17 +65,12 @@ foreach ($links as $link) {
 #
 # Kill the trailing line return
 $_POST['links'] = trim($_POST['links']);
-#
-# Grab the templates
-$xml_template = file_get_contents('./tmpl/xml.php');
-$md_template = file_get_contents('./tmpl/md.php');
-#
-# Get ready to poop out some text
 header('Content-Type: text/plain');
-header('Content-Disposition: attachment; filename="'.$_POST['page_name'].'.md"');
 #
-# Render the templates
-printf($xml_template
+# Update the rss file
+$rss_xml = file_get_contents('http://nitch.cc/itunes.rss');
+$xml_template = file_get_contents('./tmpl/xml.php');
+$xml_item = sprintf($xml_template
     , $_POST['display_title']
     , $_POST['page_name']
     , date('D, d M Y', strtotime($_POST['publication_date']))
@@ -83,7 +78,12 @@ printf($xml_template
     , $_POST['audio_file_name']
     , $_POST['duration']
 );
-printf($md_template
+$data = str_replace("    </channel>", $xml_item, $rss_xml);
+file_put_contents('../../itunes.rss', $data);
+#
+# Write out the md file
+$md_template = file_get_contents('./tmpl/md.php');
+$data = sprintf($md_template
     , $_POST['display_title']
     , date('F j, Y', strtotime($_POST['publication_date']))
     , $_POST['duration']
@@ -93,5 +93,7 @@ printf($md_template
     , $_POST['links']
     , $_POST['titles']
 );
+file_put_contents('../../podcast/' . $_POST['page_name'] . '.md', $data);
 #
 # We out.
+header('Location: ./?done=1');
