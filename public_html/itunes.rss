@@ -1571,5 +1571,23 @@ version="2.0">
             <media:content url="https://s3.amazonaws.com/nitch/Episode_85_Earlids.mp3" fileSize="54566344" type="audio/mpeg"/>
             <itunes:explicit>no</itunes:explicit>
         </item>
+        <item>
+            <title>Episode 86: Eleventy One</title>
+            <link>http://nitch.cc/podcast/episode-86-eleventy-one</link>
+            <guid>http://nitch.cc/podcast/episode-86-eleventy-one</guid>
+            <pubDate>Fri, 13 Dec 2013 14:00:00 GMT</pubDate>
+            <author>Nitch</author>
+            <description>Jonathan and Kelli talk about cross-platform consistency: should your app conform to platform conventions or maintain a consistent look and feel everywhere?</description>
+            <enclosure url="https://s3.amazonaws.com/nitch/Episode_86_Eleventy_One.mp3" length="64172851" type="audio/mpeg"/>
+            <content:encoded>Jonathan and Kelli talk about cross-platform consistency: should your app conform to platform conventions or maintain a consistent look and feel everywhere?</content:encoded>
+            <itunes:author>Nitch</itunes:author>
+            <itunes:duration>1:03:06</itunes:duration>
+            <itunes:subtitle>Jonathan and Kelli talk about cross-platform consistency: should your app conform to platform conventions or maintain a consistent look and feel everywhere?</itunes:subtitle>
+            <itunes:summary>Jonathan and Kelli talk about cross-platform consistency: should your app conform to platform conventions or maintain a consistent look and feel everywhere?</itunes:summary>
+            <itunes:keywords>web, mobile, html5, rest, json</itunes:keywords>
+            <itunes:image href="http://nitch.cc/img/512x512.png"/>
+            <media:content url="https://s3.amazonaws.com/nitch/Episode_86_Eleventy_One.mp3" fileSize="54566344" type="audio/mpeg"/>
+            <itunes:explicit>no</itunes:explicit>
+        </item>
     </channel>
 </rss>
