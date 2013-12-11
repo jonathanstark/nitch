@@ -17,7 +17,7 @@
         </div>
         <form method="post" accept-charset="utf-8">
             <div class="form-item" id="description_wrapper">
-                <label for="description">Description</label><br>
+                <label for="description">Jonathan and Kelli talk about...</label><br>
                 <textarea class="topcoat-textarea" rows="2" id="description" name="description" autofocus></textarea>
             </div>
             <div class="form-item" id="housekeeping_wrapper">
@@ -32,17 +32,17 @@
                 <label for="titles">Titles</label><br>
                 <textarea class="topcoat-textarea" rows="5" id="titles" name="titles" placeholder="e.g., * Pizza Car"></textarea>
             </div>
-            <div class="form-item" id="publication_date_wrapper">
-                <label for="publication_date">Publication Date</label><br>
-                <input class="topcoat-text-input--large" type="date" id="publication_date" name="publication_date" value="<?php echo $this_friday ?>" placeholder="e.g., 2013-11-29">
+            <div class="form-item" id="episode_name_wrapper">
+                <label for="episode_name">Episode Name</label><br>
+                <input class="topcoat-text-input--large" type="text" id="episode_name" name="episode_name" value="" placeholder="e.g., Pizza Car">
             </div>
             <div class="form-item" id="episode_number_wrapper">
                 <label for="episode_number">Episode Number</label><br>
                 <input class="topcoat-text-input--large" type="text" id="episode_number" name="episode_number" value="<?php echo $this_episode_number ?>" placeholder="e.g., 84">
             </div>
-            <div class="form-item" id="episode_name_wrapper">
-                <label for="episode_name">Episode Name</label><br>
-                <input class="topcoat-text-input--large" type="text" id="episode_name" name="episode_name" value="" placeholder="e.g., Pizza Car">
+            <div class="form-item" id="publication_date_wrapper">
+                <label for="publication_date">Publication Date</label><br>
+                <input class="topcoat-text-input--large" type="date" id="publication_date" name="publication_date" value="<?php echo $this_friday ?>" placeholder="e.g., 2013-11-29">
             </div>
             <div class="form-item" id="duration_wrapper">
                 <label for="duration">Duration</label><br>
@@ -75,7 +75,7 @@
 
                 // Listen for changes
                 document.getElementById(id).addEventListener('change', function() {
-                    console.log(this.id + ': ' + this.value);
+                    // console.log(this.id + ': ' + this.value);
                     localStorage.setItem(this.id, this.value);
                 }, false);
 
