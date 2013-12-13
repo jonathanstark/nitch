@@ -29,11 +29,11 @@ Jonathan and Kelli talk about cross-platform consistency: should your app confor
 * [Smarty Ring on Indiegogo](http://www.indiegogo.com/projects/smarty-ring "Smarty Ring | Indiegogo")
 * [Kilo calorie tracker on Firefox Marketplace](https://marketplace.firefox.com/app/kilo/ "Firefox Marketplace")
 * [Knockout.js](http://knockoutjs.com/ "Knockout : Home")
-* [https://bugzilla.mozilla.org/show_bug.cgi?id=816940](https://bugzilla.mozilla.org/show_bug.cgi?id=816940)
+* [Firefox optgroup bug](https://bugzilla.mozilla.org/show_bug.cgi?id=816940)
 * [Markup.js](https://github.com/adammark/Markup.js/ "Markup.js")
 * [Mustache.js](http://mustache.github.io/ "&#123;&#123; mustache }}")
 * [Handlebars.js](http://handlebarsjs.com/ "Handlebars.js: Minimal Templating on Steroids")
-* [https://twitter.com/workjon/status/410206187125506048](https://twitter.com/workjon/status/410206187125506048)
+* [Tweet that started slap fight](https://twitter.com/workjon/status/410206187125506048)
 
 ## Titles We Considered
 
