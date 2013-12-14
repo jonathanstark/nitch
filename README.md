@@ -3,6 +3,8 @@ Nitch
 
 ## Future Topics
 
+* API first works better for SPA than for server side web apps because the web frameworks are so good
+* Dev HTTP Client is best API poking tool I've seen so far
 * Keyboard shortcuts for Kilo (Mac OS and browser)
 * Robot & Frank
 * OOCSS vs SMACCS vs BEM and how it relates to mobile first RWD
