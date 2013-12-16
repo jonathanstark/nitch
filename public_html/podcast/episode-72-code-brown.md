@@ -4,7 +4,7 @@ August 30, 2013
 
 Running time: 1:04:42
 
-Jonathan and Kelli talk reach into the topic grab bag and pull out programmable lightbulbs, embracing constraints, prototyping in PHP, benchmarking CSS, and more.
+Jonathan and Kelli reach into the topic grab bag and pull out programmable lightbulbs, embracing constraints, prototyping in PHP, benchmarking CSS, and more.
 
 <audio preload="auto" controls>
 	<source src="https://s3.amazonaws.com/nitch/Episode_72_Code_Brown.mp3" type="audio/mpeg" />
