@@ -1589,5 +1589,23 @@ version="2.0">
             <media:content url="https://s3.amazonaws.com/nitch/Episode_86_Eleventy_One.mp3" fileSize="54566344" type="audio/mpeg"/>
             <itunes:explicit>no</itunes:explicit>
         </item>
+        <item>
+            <title>Episode 87: Sleep Hockeying</title>
+            <link>http://nitch.cc/podcast/episode-87-sleep-hockeying</link>
+            <guid>http://nitch.cc/podcast/episode-87-sleep-hockeying</guid>
+            <pubDate>Fri, 20 Dec 2013 14:00:00 GMT</pubDate>
+            <author>Nitch</author>
+            <description>Jonathan and Kelli talk about the Twitter redesign, improvements to mobile browsers, math bugs in JavaScript, and more.</description>
+            <enclosure url="https://s3.amazonaws.com/nitch/Episode_87_Sleep_Hockeying.mp3" length="64172851" type="audio/mpeg"/>
+            <content:encoded>Jonathan and Kelli talk about the Twitter redesign, improvements to mobile browsers, math bugs in JavaScript, and more.</content:encoded>
+            <itunes:author>Nitch</itunes:author>
+            <itunes:duration>50:25</itunes:duration>
+            <itunes:subtitle>Jonathan and Kelli talk about the Twitter redesign, improvements to mobile browsers, math bugs in JavaScript, and more.</itunes:subtitle>
+            <itunes:summary>Jonathan and Kelli talk about the Twitter redesign, improvements to mobile browsers, math bugs in JavaScript, and more.</itunes:summary>
+            <itunes:keywords>web, mobile, html5, rest, json</itunes:keywords>
+            <itunes:image href="http://nitch.cc/img/512x512.png"/>
+            <media:content url="https://s3.amazonaws.com/nitch/Episode_87_Sleep_Hockeying.mp3" fileSize="54566344" type="audio/mpeg"/>
+            <itunes:explicit>no</itunes:explicit>
+        </item>
     </channel>
 </rss>
