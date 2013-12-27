@@ -1607,5 +1607,23 @@ version="2.0">
             <media:content url="https://s3.amazonaws.com/nitch/Episode_87_Sleep_Hockeying.mp3" fileSize="54566344" type="audio/mpeg"/>
             <itunes:explicit>no</itunes:explicit>
         </item>
+        <item>
+            <title>Episode 88: Old Waffles</title>
+            <link>http://nitch.cc/podcast/episode-88-old-waffles</link>
+            <guid>http://nitch.cc/podcast/episode-88-old-waffles</guid>
+            <pubDate>Fri, 27 Dec 2013 14:00:00 GMT</pubDate>
+            <author>Nitch</author>
+            <description>J-Bot and K-Bot revisit highlights from the previous year and beyond.</description>
+            <enclosure url="https://s3.amazonaws.com/nitch/Episode_88_Old_Waffles.mp3" length="64172851" type="audio/mpeg"/>
+            <content:encoded>J-Bot and K-Bot revisit highlights from the previous year and beyond.</content:encoded>
+            <itunes:author>Nitch</itunes:author>
+            <itunes:duration>53:39</itunes:duration>
+            <itunes:subtitle>J-Bot and K-Bot revisit highlights from the previous year and beyond.</itunes:subtitle>
+            <itunes:summary>J-Bot and K-Bot revisit highlights from the previous year and beyond.</itunes:summary>
+            <itunes:keywords>web, mobile, html5, rest, json</itunes:keywords>
+            <itunes:image href="http://nitch.cc/img/512x512.png"/>
+            <media:content url="https://s3.amazonaws.com/nitch/Episode_88_Old_Waffles.mp3" fileSize="54566344" type="audio/mpeg"/>
+            <itunes:explicit>no</itunes:explicit>
+        </item>
     </channel>
 </rss>
