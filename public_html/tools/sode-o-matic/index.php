@@ -39,7 +39,7 @@ foreach ($itunes_xml->channel->item as $item) {
 $links = explode('*', $_POST['links']);
 $_POST['links'] = '';
 foreach ($links as $link) {
-    if (!empty($link)) {
+    if (!empty($link) and !stripos($link, '](')) {
         $link = trim($link);
         $url = sprintf('http://www.google.com/search?q=%s&btnI', str_replace(' ', '+', $link));
         $title = '';
