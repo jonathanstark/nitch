@@ -39,27 +39,31 @@ foreach ($itunes_xml->channel->item as $item) {
 $links = explode('*', $_POST['links']);
 $_POST['links'] = '';
 foreach ($links as $link) {
-    if (!empty($link) and !stripos($link, '](')) {
+    if (!empty($link)) {
         $link = trim($link);
-        $url = sprintf('http://www.google.com/search?q=%s&btnI', str_replace(' ', '+', $link));
-        $title = '';
-        #
-        # Use curl to try to get the actual page info for the link
-        $ch = curl_init();
-        curl_setopt($ch, CURLOPT_URL, $url);
-        curl_setopt($ch, CURLOPT_FOLLOWLOCATION, true);
-        curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
-        $html = curl_exec($ch);
-        if(!curl_errno($ch)) {
-            $url = curl_getinfo($ch, CURLINFO_EFFECTIVE_URL);
+        if (stripos($link, '](')) {
+            $_POST['links'].= '* ' . $link . PHP_EOL;
+        } else {
+            $url = sprintf('http://www.google.com/search?q=%s&btnI', str_replace(' ', '+', $link));
+            $title = '';
+            #
+            # Use curl to try to get the actual page info for the link
+            $ch = curl_init();
+            curl_setopt($ch, CURLOPT_URL, $url);
+            curl_setopt($ch, CURLOPT_FOLLOWLOCATION, true);
+            curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
+            $html = curl_exec($ch);
+            if(!curl_errno($ch)) {
+                $url = curl_getinfo($ch, CURLINFO_EFFECTIVE_URL);
+            }
+            preg_match('/<title>(.+)<\/title>/', $html, $matches);
+            if (isset($matches[1])) {
+                $title = $matches[1];
+            }
+            #
+            # Append findings to var
+            $_POST['links'].= sprintf('* [%s](%s "%s")', $link, $url, $title) . PHP_EOL;
         }
-        preg_match('/<title>(.+)<\/title>/', $html, $matches);
-        if (isset($matches[1])) {
-            $title = $matches[1];
-        }
-        #
-        # Append findings to var
-        $_POST['links'].= sprintf('* [%s](%s "%s")', $link, $url, $title) . PHP_EOL;
     }
 }
 #
