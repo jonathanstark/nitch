@@ -68,6 +68,9 @@ foreach ($lines as $line) {
             #
             # Append findings to var
             $_POST['links'].= sprintf('* [%s](%s "%s")', $line, $url, $title) . PHP_EOL;
+            #
+            # Thottle so google doesn't freak out
+            sleep(5);
         }
     }
 }
