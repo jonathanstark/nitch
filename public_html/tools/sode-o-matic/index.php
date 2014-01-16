@@ -1,5 +1,6 @@
 <?php
 ini_set('display_errors', true);
+set_time_limit(0);
 #
 # Grab the xml for the live itunes rss feed
 $itunes_xml = simplexml_load_file('http://nitch.cc/itunes.rss');
@@ -36,15 +37,19 @@ foreach ($itunes_xml->channel->item as $item) {
 }
 #
 # Loop through related links and create, well... links
-$links = explode('*', $_POST['links']);
+$lines = explode(PHP_EOL, $_POST['links']);
+// print_r($lines);die;
 $_POST['links'] = '';
-foreach ($links as $link) {
-    if (!empty($link)) {
-        $link = trim($link);
-        if (stripos($link, '](')) {
-            $_POST['links'].= '* ' . $link . PHP_EOL;
+foreach ($lines as $line) {
+    if (substr($line, 0, 1) != '*') {
+        $_POST['links'].= $line . PHP_EOL;
+    } else {
+        if (stripos($line, '](')) {
+            $_POST['links'].= $line . PHP_EOL;
         } else {
-            $url = sprintf('http://www.google.com/search?q=%s&btnI', str_replace(' ', '+', $link));
+            $line = trim($line, '*');
+            $line = trim($line);
+            $url = sprintf('http://www.google.com/search?q=%s&btnI', str_replace(' ', '+', $line));
             $title = '';
             #
             # Use curl to try to get the actual page info for the link
@@ -62,7 +67,7 @@ foreach ($links as $link) {
             }
             #
             # Append findings to var
-            $_POST['links'].= sprintf('* [%s](%s "%s")', $link, $url, $title) . PHP_EOL;
+            $_POST['links'].= sprintf('* [%s](%s "%s")', $line, $url, $title) . PHP_EOL;
         }
     }
 }
@@ -70,6 +75,7 @@ foreach ($links as $link) {
 # Kill the trailing line return
 $_POST['links'] = trim($_POST['links']);
 header('Content-Type: text/plain');
+// echo $_POST['links'];die;
 #
 # Update the rss file
 $rss_xml = file_get_contents('http://nitch.cc/itunes.rss');
