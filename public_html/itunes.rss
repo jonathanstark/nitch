@@ -1661,5 +1661,23 @@ version="2.0">
             <media:content url="https://s3.amazonaws.com/nitch/Episode_90_Weve_Got_Gas.mp3" fileSize="54566344" type="audio/mpeg"/>
             <itunes:explicit>no</itunes:explicit>
         </item>
+        <item>
+            <title>Episode 91: Papil and Pencer</title>
+            <link>http://nitch.cc/podcast/episode-91-papil-and-pencer</link>
+            <guid>http://nitch.cc/podcast/episode-91-papil-and-pencer</guid>
+            <pubDate>Fri, 17 Jan 2014 14:00:00 GMT</pubDate>
+            <author>Nitch</author>
+            <description>Jonathan and Kelli talk about the tools we use to get our jobs done on a daily basis. Command line utilities, browser plugins, text editors, project management, and more.</description>
+            <enclosure url="https://s3.amazonaws.com/nitch/Episode_91_Papil_and_Pencer.mp3" length="64172851" type="audio/mpeg"/>
+            <content:encoded>Jonathan and Kelli talk about the tools we use to get our jobs done on a daily basis. Command line utilities, browser plugins, text editors, project management, and more.</content:encoded>
+            <itunes:author>Nitch</itunes:author>
+            <itunes:duration>1:45:22</itunes:duration>
+            <itunes:subtitle>Jonathan and Kelli talk about the tools we use to get our jobs done on a daily basis. Command line utilities, browser plugins, text editors, project management, and more.</itunes:subtitle>
+            <itunes:summary>Jonathan and Kelli talk about the tools we use to get our jobs done on a daily basis. Command line utilities, browser plugins, text editors, project management, and more.</itunes:summary>
+            <itunes:keywords>web, mobile, html5, rest, json</itunes:keywords>
+            <itunes:image href="http://nitch.cc/img/512x512.png"/>
+            <media:content url="https://s3.amazonaws.com/nitch/Episode_91_Papil_and_Pencer.mp3" fileSize="54566344" type="audio/mpeg"/>
+            <itunes:explicit>no</itunes:explicit>
+        </item>
     </channel>
 </rss>
