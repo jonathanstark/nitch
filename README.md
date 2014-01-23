@@ -8,6 +8,7 @@ Nitch
 * SizeUp.app
 * DropVox.app
 * dotfiles repo
+* mamp function
 
 ## Future Topics
 
