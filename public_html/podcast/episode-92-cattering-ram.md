@@ -21,7 +21,6 @@ Jonathan and Kelli talk about a few of our favorite APIs: Stripe, Dropbox, Githu
 * RequestBin
 * GitBox
 
-
 ## Related Links
 
 * [Kilo Calorie Tracker for Web Developers](http://getkilo.com)
@@ -30,7 +29,7 @@ Jonathan and Kelli talk about a few of our favorite APIs: Stripe, Dropbox, Githu
 * [Stripe API](https://stripe.com/docs/api "Stripe API Reference")
 * [Dropbox API](https://www.dropbox.com/developers "Dropbox - Developers")
 * [Harp.io](https://www.harp.io/ "Harp Platform ")
-* [](https://github.com/jonathanstark/margo)
+* [Margo - Simple blogging with static Markdown files](https://github.com/jonathanstark/margo)
 * [Github API](http://developer.github.com/v3/ "GitHub API v3")
 * [Twilio API](http://www.twilio.com/docs/api/rest "")
 * [DigitalOcean API](https://developers.digitalocean.com/)
