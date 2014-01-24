@@ -5,6 +5,7 @@ Nitch
 
 * MAC addresses are unique but spoofable
 * Hue bridge has an ID so we can use that on the server to save prefs (even for house guests!)
+* Android errors on initial API call
 * SizeUp.app
 * DropVox.app
 * dotfiles repo
