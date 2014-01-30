@@ -1697,5 +1697,23 @@ version="2.0">
             <media:content url="https://s3.amazonaws.com/nitch/Episode_92_Cattering_Ram.mp3" fileSize="54566344" type="audio/mpeg"/>
             <itunes:explicit>no</itunes:explicit>
         </item>
+        <item>
+            <title>Episode 93: Lightsaber Customer Service</title>
+            <link>http://nitch.cc/podcast/episode-93-lightsaber-customer-service</link>
+            <guid>http://nitch.cc/podcast/episode-93-lightsaber-customer-service</guid>
+            <pubDate>Fri, 31 Jan 2014 14:00:00 GMT</pubDate>
+            <author>Nitch</author>
+            <description>Jonathan and Kelli talk about Kelli's new Raspberry Pi: what to do with it, how to program it, and what she loves about it.</description>
+            <enclosure url="https://s3.amazonaws.com/nitch/Episode_93_Lightsaber_Customer_Service.mp3" length="64172851" type="audio/mpeg"/>
+            <content:encoded>Jonathan and Kelli talk about Kelli's new Raspberry Pi: what to do with it, how to program it, and what she loves about it.</content:encoded>
+            <itunes:author>Nitch</itunes:author>
+            <itunes:duration>1:06:54</itunes:duration>
+            <itunes:subtitle>Jonathan and Kelli talk about Kelli's new Raspberry Pi: what to do with it, how to program it, and what she loves about it.</itunes:subtitle>
+            <itunes:summary>Jonathan and Kelli talk about Kelli's new Raspberry Pi: what to do with it, how to program it, and what she loves about it.</itunes:summary>
+            <itunes:keywords>web, mobile, html5, rest, json</itunes:keywords>
+            <itunes:image href="http://nitch.cc/img/512x512.png"/>
+            <media:content url="https://s3.amazonaws.com/nitch/Episode_93_Lightsaber_Customer_Service.mp3" fileSize="54566344" type="audio/mpeg"/>
+            <itunes:explicit>no</itunes:explicit>
+        </item>
     </channel>
 </rss>
