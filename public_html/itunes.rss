@@ -1715,5 +1715,23 @@ version="2.0">
             <media:content url="https://s3.amazonaws.com/nitch/Episode_93_Lightsaber_Customer_Service.mp3" fileSize="54566344" type="audio/mpeg"/>
             <itunes:explicit>no</itunes:explicit>
         </item>
+        <item>
+            <title>Episode 94: Function Frog</title>
+            <link>http://nitch.cc/podcast/episode-94-function-frog</link>
+            <guid>http://nitch.cc/podcast/episode-94-function-frog</guid>
+            <pubDate>Fri, 07 Feb 2014 14:00:00 GMT</pubDate>
+            <author>Nitch</author>
+            <description>Jonathan and Kelli talk about a slew of geeky books we've read lately: security, astronauts, innovation, cyberwar, and more. Think of it as recommended reading for nerds.</description>
+            <enclosure url="https://s3.amazonaws.com/nitch/Episode_94_Function_Frog.mp3" length="64172851" type="audio/mpeg"/>
+            <content:encoded>Jonathan and Kelli talk about a slew of geeky books we've read lately: security, astronauts, innovation, cyberwar, and more. Think of it as recommended reading for nerds.</content:encoded>
+            <itunes:author>Nitch</itunes:author>
+            <itunes:duration>57:02</itunes:duration>
+            <itunes:subtitle>Jonathan and Kelli talk about a slew of geeky books we've read lately: security, astronauts, innovation, cyberwar, and more. Think of it as recommended reading for nerds.</itunes:subtitle>
+            <itunes:summary>Jonathan and Kelli talk about a slew of geeky books we've read lately: security, astronauts, innovation, cyberwar, and more. Think of it as recommended reading for nerds.</itunes:summary>
+            <itunes:keywords>web, mobile, html5, rest, json</itunes:keywords>
+            <itunes:image href="http://nitch.cc/img/512x512.png"/>
+            <media:content url="https://s3.amazonaws.com/nitch/Episode_94_Function_Frog.mp3" fileSize="54566344" type="audio/mpeg"/>
+            <itunes:explicit>no</itunes:explicit>
+        </item>
     </channel>
 </rss>
