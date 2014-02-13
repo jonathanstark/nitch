@@ -1733,5 +1733,23 @@ version="2.0">
             <media:content url="https://s3.amazonaws.com/nitch/Episode_94_Function_Frog.mp3" fileSize="54566344" type="audio/mpeg"/>
             <itunes:explicit>no</itunes:explicit>
         </item>
+        <item>
+            <title>Episode 95: Banana Piano</title>
+            <link>http://nitch.cc/podcast/episode-95-banana-piano</link>
+            <guid>http://nitch.cc/podcast/episode-95-banana-piano</guid>
+            <pubDate>Fri, 14 Feb 2014 14:00:00 GMT</pubDate>
+            <author>Nitch</author>
+            <description>Jonathan and Kelli talk about the relative merits of CSS grid systems and JavaScript libraries.</description>
+            <enclosure url="https://s3.amazonaws.com/nitch/Episode_95_Banana_Piano.mp3" length="64172851" type="audio/mpeg"/>
+            <content:encoded>Jonathan and Kelli talk about the relative merits of CSS grid systems and JavaScript libraries.</content:encoded>
+            <itunes:author>Nitch</itunes:author>
+            <itunes:duration>46:16</itunes:duration>
+            <itunes:subtitle>Jonathan and Kelli talk about the relative merits of CSS grid systems and JavaScript libraries.</itunes:subtitle>
+            <itunes:summary>Jonathan and Kelli talk about the relative merits of CSS grid systems and JavaScript libraries.</itunes:summary>
+            <itunes:keywords>web, mobile, html5, rest, json</itunes:keywords>
+            <itunes:image href="http://nitch.cc/img/512x512.png"/>
+            <media:content url="https://s3.amazonaws.com/nitch/Episode_95_Banana_Piano.mp3" fileSize="54566344" type="audio/mpeg"/>
+            <itunes:explicit>no</itunes:explicit>
+        </item>
     </channel>
 </rss>
