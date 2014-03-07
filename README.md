@@ -3,11 +3,12 @@ Nitch
 
 ## Housekeeping
 
+* Zapier pronunciation
+* Nitch soundbites
+* Google results for "nitch" are dirty
+
 ## Future Topics
 
-* First Impressions of Google Glass
-* Zapier
-* Choir.io
 * API first works better for SPA than for server side web apps because the web frameworks are so good
 * Keyboard shortcuts for Kilo (Mac OS and browser)
 * Robot & Frank
