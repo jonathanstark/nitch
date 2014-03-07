@@ -1787,5 +1787,23 @@ version="2.0">
             <media:content url="https://s3.amazonaws.com/nitch/Episode_97_Dogs_With_No_Noses.mp3" fileSize="54566344" type="audio/mpeg"/>
             <itunes:explicit>no</itunes:explicit>
         </item>
+        <item>
+            <title>Episode 98: Pee Rink</title>
+            <link>http://nitch.cc/podcast/episode-98-pee-rink</link>
+            <guid>http://nitch.cc/podcast/episode-98-pee-rink</guid>
+            <pubDate>Fri, 07 Mar 2014 14:00:00 GMT</pubDate>
+            <author>Nitch</author>
+            <description>Jonathan and Kelli talk about first impressions of Google Glass, DIY SaaS integration with Zapier, and zoning out to the sounds of Github.</description>
+            <enclosure url="https://s3.amazonaws.com/nitch/Episode_98_Pee_Rink.mp3" length="64172851" type="audio/mpeg"/>
+            <content:encoded>Jonathan and Kelli talk about first impressions of Google Glass, DIY SaaS integration with Zapier, and zoning out to the sounds of Github.</content:encoded>
+            <itunes:author>Nitch</itunes:author>
+            <itunes:duration>1:07:08</itunes:duration>
+            <itunes:subtitle>Jonathan and Kelli talk about first impressions of Google Glass, DIY SaaS integration with Zapier, and zoning out to the sounds of Github.</itunes:subtitle>
+            <itunes:summary>Jonathan and Kelli talk about first impressions of Google Glass, DIY SaaS integration with Zapier, and zoning out to the sounds of Github.</itunes:summary>
+            <itunes:keywords>web, mobile, html5, rest, json</itunes:keywords>
+            <itunes:image href="http://nitch.cc/img/512x512.png"/>
+            <media:content url="https://s3.amazonaws.com/nitch/Episode_98_Pee_Rink.mp3" fileSize="54566344" type="audio/mpeg"/>
+            <itunes:explicit>no</itunes:explicit>
+        </item>
     </channel>
 </rss>
