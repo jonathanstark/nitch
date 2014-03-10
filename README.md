@@ -6,6 +6,7 @@ Nitch
 * Zapier pronunciation
 * Nitch soundbites
 * Google results for "nitch" are dirty
+* Marvel adds sound to comic books
 
 ## Future Topics
 
