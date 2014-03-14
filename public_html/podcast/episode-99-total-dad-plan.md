@@ -21,7 +21,6 @@ Jonathan and Kelli talk about preaching to the choir(.io), web apps for watches,
 * Marvel adds sound to comic books
 * Blog post about scoping CSS/JS
 
-
 ## Related Links
 
 * [Nitch Sticker Art](http://i.imgur.com/xjEMaB7.png)
