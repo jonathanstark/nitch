@@ -1805,5 +1805,23 @@ version="2.0">
             <media:content url="https://s3.amazonaws.com/nitch/Episode_98_Pee_Rink.mp3" fileSize="54566344" type="audio/mpeg"/>
             <itunes:explicit>no</itunes:explicit>
         </item>
+        <item>
+            <title>Episode 99: Total Dad Plan</title>
+            <link>http://nitch.cc/podcast/episode-99-total-dad-plan</link>
+            <guid>http://nitch.cc/podcast/episode-99-total-dad-plan</guid>
+            <pubDate>Fri, 14 Mar 2014 14:00:00 GMT</pubDate>
+            <author>Nitch</author>
+            <description>Jonathan and Kelli talk about preaching to the choir(.io), web apps for watches, and a second look at smart glasses.</description>
+            <enclosure url="https://s3.amazonaws.com/nitch/Episode_99_Total_Dad_Plan.mp3" length="64172851" type="audio/mpeg"/>
+            <content:encoded>Jonathan and Kelli talk about preaching to the choir(.io), web apps for watches, and a second look at smart glasses.</content:encoded>
+            <itunes:author>Nitch</itunes:author>
+            <itunes:duration>1:10:11</itunes:duration>
+            <itunes:subtitle>Jonathan and Kelli talk about preaching to the choir(.io), web apps for watches, and a second look at smart glasses.</itunes:subtitle>
+            <itunes:summary>Jonathan and Kelli talk about preaching to the choir(.io), web apps for watches, and a second look at smart glasses.</itunes:summary>
+            <itunes:keywords>web, mobile, html5, rest, json</itunes:keywords>
+            <itunes:image href="http://nitch.cc/img/512x512.png"/>
+            <media:content url="https://s3.amazonaws.com/nitch/Episode_99_Total_Dad_Plan.mp3" fileSize="54566344" type="audio/mpeg"/>
+            <itunes:explicit>no</itunes:explicit>
+        </item>
     </channel>
 </rss>
