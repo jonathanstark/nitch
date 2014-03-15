@@ -16,3 +16,12 @@
 	    </script>
     </body>
 </html>
+<?php
+shell_exec(sprintf(
+    '%s -d label="%s" -d sound="%s" -d text="%s" > /dev/null 2>&1 &'
+    , 'curl http://api.choir.io/5f34bc2d08def819'
+    , 'Nitch Pageview'
+    , 'submarine/sons'
+    , $_SERVER['REMOTE_ADDR'] . ' -> ' . $_SERVER['HTTP_REFERER'] . ' -> ' . $_SERVER['REQUEST_URI']
+));
+?>
