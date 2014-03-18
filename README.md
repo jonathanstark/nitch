@@ -3,13 +3,9 @@ Nitch
 
 ## Housekeeping
 
-* Zapier pronunciation
-* Nitch soundbites
-* Google results for "nitch" are dirty
-* Marvel adds sound to comic books
-
 ## Future Topics
 
+* http://www.bostonmagazine.com/news/blog/2014/03/17/sesame-ring-mbta-pass/
 * API first works better for SPA than for server side web apps because the web frameworks are so good
 * Keyboard shortcuts for Kilo (Mac OS and browser)
 * Robot & Frank
