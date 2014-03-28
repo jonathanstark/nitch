@@ -1841,5 +1841,23 @@ version="2.0">
             <media:content url="https://s3.amazonaws.com/nitch/Episode_100_Save_15_On_Your_CSS.mp3" fileSize="54566344" type="audio/mpeg"/>
             <itunes:explicit>no</itunes:explicit>
         </item>
+        <item>
+            <title>Episode 101: Extended Faceplant</title>
+            <link>http://nitch.cc/podcast/episode-101-extended-faceplant</link>
+            <guid>http://nitch.cc/podcast/episode-101-extended-faceplant</guid>
+            <pubDate>Fri, 28 Mar 2014 14:00:00 GMT</pubDate>
+            <author>Nitch</author>
+            <description>Jonathan and Kelli talk about tools, tools, and more tools: Grunt, Atom, Dropzone, Popcorn, and oh... so much more.</description>
+            <enclosure url="https://s3.amazonaws.com/nitch/Episode_101_Extended_Faceplant.mp3" length="64172851" type="audio/mpeg"/>
+            <content:encoded>Jonathan and Kelli talk about tools, tools, and more tools: Grunt, Atom, Dropzone, Popcorn, and oh... so much more.</content:encoded>
+            <itunes:author>Nitch</itunes:author>
+            <itunes:duration>54:28</itunes:duration>
+            <itunes:subtitle>Jonathan and Kelli talk about tools, tools, and more tools: Grunt, Atom, Dropzone, Popcorn, and oh... so much more.</itunes:subtitle>
+            <itunes:summary>Jonathan and Kelli talk about tools, tools, and more tools: Grunt, Atom, Dropzone, Popcorn, and oh... so much more.</itunes:summary>
+            <itunes:keywords>web, mobile, html5, rest, json</itunes:keywords>
+            <itunes:image href="http://nitch.cc/img/512x512.png"/>
+            <media:content url="https://s3.amazonaws.com/nitch/Episode_101_Extended_Faceplant.mp3" fileSize="54566344" type="audio/mpeg"/>
+            <itunes:explicit>no</itunes:explicit>
+        </item>
     </channel>
 </rss>
