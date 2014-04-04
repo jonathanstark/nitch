@@ -3,9 +3,6 @@ Nitch
 
 ## Housekeeping
 
-* Keira's track career
-* Sticker pics showing up online
-
 ## Future Topics
 
 * http://www.bostonmagazine.com/news/blog/2014/03/17/sesame-ring-mbta-pass/

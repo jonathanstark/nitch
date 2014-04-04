@@ -1859,5 +1859,23 @@ version="2.0">
             <media:content url="https://s3.amazonaws.com/nitch/Episode_101_Extended_Faceplant.mp3" fileSize="54566344" type="audio/mpeg"/>
             <itunes:explicit>no</itunes:explicit>
         </item>
+        <item>
+            <title>Episode 102: Jumpoline</title>
+            <link>http://nitch.cc/podcast/episode-102-jumpoline</link>
+            <guid>http://nitch.cc/podcast/episode-102-jumpoline</guid>
+            <pubDate>Fri, 04 Apr 2014 14:00:00 GMT</pubDate>
+            <author>Nitch</author>
+            <description>Jonathan and Kelli talk about big text on little screens. The Spritz SDK gets us thinking that reading a book on your watch might make sense after all.</description>
+            <enclosure url="https://s3.amazonaws.com/nitch/Episode_102_Jumpoline.mp3" length="64172851" type="audio/mpeg"/>
+            <content:encoded>Jonathan and Kelli talk about big text on little screens. The Spritz SDK gets us thinking that reading a book on your watch might make sense after all.</content:encoded>
+            <itunes:author>Nitch</itunes:author>
+            <itunes:duration>46:58</itunes:duration>
+            <itunes:subtitle>Jonathan and Kelli talk about big text on little screens. The Spritz SDK gets us thinking that reading a book on your watch might make sense after all.</itunes:subtitle>
+            <itunes:summary>Jonathan and Kelli talk about big text on little screens. The Spritz SDK gets us thinking that reading a book on your watch might make sense after all.</itunes:summary>
+            <itunes:keywords>web, mobile, html5, rest, json</itunes:keywords>
+            <itunes:image href="http://nitch.cc/img/512x512.png"/>
+            <media:content url="https://s3.amazonaws.com/nitch/Episode_102_Jumpoline.mp3" fileSize="54566344" type="audio/mpeg"/>
+            <itunes:explicit>no</itunes:explicit>
+        </item>
     </channel>
 </rss>
