@@ -34,7 +34,7 @@ Jonathan and Kelli talk about queuing long requests with Sidekiq, monitoring ser
 
 ## Titles We Considered
 
-* They Have The Same Head!
+* You Have The Same Head!
 * Creeper Anatomy
 * What’s Wrong With Bodywash?
 * Too Geeky For Github
