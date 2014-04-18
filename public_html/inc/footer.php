@@ -22,6 +22,6 @@ shell_exec(sprintf(
     , 'curl http://api.choir.io/5f34bc2d08def819'
     , 'Nitch Pageview'
     , 'submarine/sons'
-    , $_SERVER['REMOTE_ADDR'] . ' -> ' . $_SERVER['HTTP_REFERER'] . ' -> ' . $_SERVER['REQUEST_URI']
+    , 'Nitch' . ' -> ' . $_SERVER['REMOTE_ADDR'] . ' -> ' . $_SERVER['HTTP_REFERER'] . ' -> ' . $_SERVER['REQUEST_URI']
 ));
 ?>
