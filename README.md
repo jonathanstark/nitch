@@ -3,6 +3,9 @@ Nitch
 
 ## Housekeeping
 
+* wurfl.io
+* WHICHBrowser
+
 ## Future Topics
 
 * Jeff Hawkins on the future of computing (real time data passing through a membrane vs store everything and crunch later)
