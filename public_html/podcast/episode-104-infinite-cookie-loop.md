@@ -24,7 +24,7 @@ Jonathan and Kelli talk about cross-platform perfection: what to do when media q
 * [Nitch sticker pics](https://twitter.com/nitchapps/media)
 * [Cross-Platform Perfection: What To Do When Media Queries Aren’t Enough](http://www.oreilly.com/pub/e/3027)
 * [Modernizr](http://modernizr.com/)
-* [Cubiq’s Att to Home plugin](http://cubiq.org/add-to-home-screen)
+* [Cubiq’s Add to Home plugin](http://cubiq.org/add-to-home-screen)
 * [WURFL](http://wurfl.io)
 * [Modernizr on the server](http://tripleodeon.com/2010/10/modernizr-on-the-server-side/)
 * [James Pearce on Twitter](https://twitter.com/jamespearce)
