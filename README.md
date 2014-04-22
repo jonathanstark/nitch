@@ -5,6 +5,7 @@ Nitch
 
 * wurfl.io
 * WHICHBrowser
+* 7 5 star ratings in itunes!
 
 ## Future Topics
 
