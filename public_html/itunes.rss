@@ -1913,5 +1913,23 @@ version="2.0">
             <media:content url="https://s3.amazonaws.com/nitch/Episode_104_Infinite_Cookie_Loop.mp3" fileSize="54566344" type="audio/mpeg"/>
             <itunes:explicit>no</itunes:explicit>
         </item>
+        <item>
+            <title>Episode 105: A Slapfight Among Gentlemen</title>
+            <link>http://nitch.cc/podcast/episode-105-a-slapfight-among-gentlemen</link>
+            <guid>http://nitch.cc/podcast/episode-105-a-slapfight-among-gentlemen</guid>
+            <pubDate>Fri, 25 Apr 2014 14:00:00 GMT</pubDate>
+            <author>Nitch</author>
+            <description>Jonathan and Kelli talk about exploding apps, deconstructing smartphones, and why social networking on a watch is a good idea.</description>
+            <enclosure url="https://s3.amazonaws.com/nitch/Episode_105_A_Slapfight_Among_Gentlemen.mp3" length="64172851" type="audio/mpeg"/>
+            <content:encoded>Jonathan and Kelli talk about exploding apps, deconstructing smartphones, and why social networking on a watch is a good idea.</content:encoded>
+            <itunes:author>Nitch</itunes:author>
+            <itunes:duration>52:36</itunes:duration>
+            <itunes:subtitle>Jonathan and Kelli talk about exploding apps, deconstructing smartphones, and why social networking on a watch is a good idea.</itunes:subtitle>
+            <itunes:summary>Jonathan and Kelli talk about exploding apps, deconstructing smartphones, and why social networking on a watch is a good idea.</itunes:summary>
+            <itunes:keywords>web, mobile, html5, rest, json</itunes:keywords>
+            <itunes:image href="http://nitch.cc/img/512x512.png"/>
+            <media:content url="https://s3.amazonaws.com/nitch/Episode_105_A_Slapfight_Among_Gentlemen.mp3" fileSize="54566344" type="audio/mpeg"/>
+            <itunes:explicit>no</itunes:explicit>
+        </item>
     </channel>
 </rss>
