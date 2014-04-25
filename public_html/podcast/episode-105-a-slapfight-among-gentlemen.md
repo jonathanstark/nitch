@@ -30,7 +30,7 @@ Jonathan and Kelli talk about exploding apps, deconstructing smartphones, and wh
 * [Detector](http://detector.dmolsen.com/)
 * [WhatBrowser](http://whatbrowser.org/)
 * [WhichBrowser](http://whichbrowser.net/)
-* [Kilo CLI on Github](http://www.google.com/search?q=Kilo+CLI+on+Github&btnI "Kilo CLI on Github - Google Search")
+* [Kilo CLI on Github](https://github.com/jonathanstark/kilo-cli)
 * [Spritz Inc](http://www.spritzinc.com/ "Spritz")
 * [Player.fm for Android](https://play.google.com/store/apps/details?id=fm.player "")
 * [Jonathan Stark and Charles Arthur Debate the Usefulness of Pebble](http://jonathanstark.com/blog/jonathan-stark-and-charles-arthur-debate-the-usefulness-of-pebble)
