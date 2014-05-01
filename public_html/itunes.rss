@@ -1931,5 +1931,23 @@ version="2.0">
             <media:content url="https://s3.amazonaws.com/nitch/Episode_105_A_Slapfight_Among_Gentlemen.mp3" fileSize="54566344" type="audio/mpeg"/>
             <itunes:explicit>no</itunes:explicit>
         </item>
+        <item>
+            <title>Episode 106: Headless Parakeet</title>
+            <link>http://nitch.cc/podcast/episode-106-headless-parakeet</link>
+            <guid>http://nitch.cc/podcast/episode-106-headless-parakeet</guid>
+            <pubDate>Fri, 02 May 2014 14:00:00 GMT</pubDate>
+            <author>Nitch</author>
+            <description>Jonathan and Kelli brainstorm the underlying principles of designing in the browser in hopes of spawning a thousand baby Pattern Labs.</description>
+            <enclosure url="https://s3.amazonaws.com/nitch/Episode_106_Headless_Parakeet.mp3" length="64172851" type="audio/mpeg"/>
+            <content:encoded>Jonathan and Kelli brainstorm the underlying principles of designing in the browser in hopes of spawning a thousand baby Pattern Labs.</content:encoded>
+            <itunes:author>Nitch</itunes:author>
+            <itunes:duration>1:01:46</itunes:duration>
+            <itunes:subtitle>Jonathan and Kelli brainstorm the underlying principles of designing in the browser in hopes of spawning a thousand baby Pattern Labs.</itunes:subtitle>
+            <itunes:summary>Jonathan and Kelli brainstorm the underlying principles of designing in the browser in hopes of spawning a thousand baby Pattern Labs.</itunes:summary>
+            <itunes:keywords>web, mobile, html5, rest, json</itunes:keywords>
+            <itunes:image href="http://nitch.cc/img/512x512.png"/>
+            <media:content url="https://s3.amazonaws.com/nitch/Episode_106_Headless_Parakeet.mp3" fileSize="54566344" type="audio/mpeg"/>
+            <itunes:explicit>no</itunes:explicit>
+        </item>
     </channel>
 </rss>
