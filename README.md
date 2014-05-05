@@ -3,6 +3,8 @@ Nitch
 
 ## Housekeeping
 
+* msp redirects and fb sharing
+
 ## Future Topics
 
 * http://www.bostonmagazine.com/news/blog/2014/03/17/sesame-ring-mbta-pass/
