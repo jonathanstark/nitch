@@ -19,7 +19,7 @@ if (empty($_POST['action'])) {
     die;
 }
 #
-# POST must be set, so prepare to render the templates and trigger a download
+# POST must be set, so prepare to render the templates
 #
 # Calc some values
 $_POST['display_title'] = sprintf('Episode %s: %s', $_POST['episode_number'], $_POST['episode_name']);
@@ -108,5 +108,5 @@ $data = sprintf($md_template
 );
 file_put_contents('../../podcast/' . $_POST['page_name'] . '.md', $data);
 #
-# We out.
-header('Location: ./?done=1');
+# We out... redirect to the podcast
+header('Location: /podcast/');

@@ -1841,5 +1841,113 @@ version="2.0">
             <media:content url="https://s3.amazonaws.com/nitch/Episode_100_Save_15_On_Your_CSS.mp3" fileSize="54566344" type="audio/mpeg"/>
             <itunes:explicit>no</itunes:explicit>
         </item>
+        <item>
+            <title>Episode 101: Extended Faceplant</title>
+            <link>http://nitch.cc/podcast/episode-101-extended-faceplant</link>
+            <guid>http://nitch.cc/podcast/episode-101-extended-faceplant</guid>
+            <pubDate>Fri, 28 Mar 2014 14:00:00 GMT</pubDate>
+            <author>Nitch</author>
+            <description>Jonathan and Kelli talk about tools, tools, and more tools: Grunt, Atom, Dropzone, Popcorn, and oh... so much more.</description>
+            <enclosure url="https://s3.amazonaws.com/nitch/Episode_101_Extended_Faceplant.mp3" length="64172851" type="audio/mpeg"/>
+            <content:encoded>Jonathan and Kelli talk about tools, tools, and more tools: Grunt, Atom, Dropzone, Popcorn, and oh... so much more.</content:encoded>
+            <itunes:author>Nitch</itunes:author>
+            <itunes:duration>54:28</itunes:duration>
+            <itunes:subtitle>Jonathan and Kelli talk about tools, tools, and more tools: Grunt, Atom, Dropzone, Popcorn, and oh... so much more.</itunes:subtitle>
+            <itunes:summary>Jonathan and Kelli talk about tools, tools, and more tools: Grunt, Atom, Dropzone, Popcorn, and oh... so much more.</itunes:summary>
+            <itunes:keywords>web, mobile, html5, rest, json</itunes:keywords>
+            <itunes:image href="http://nitch.cc/img/512x512.png"/>
+            <media:content url="https://s3.amazonaws.com/nitch/Episode_101_Extended_Faceplant.mp3" fileSize="54566344" type="audio/mpeg"/>
+            <itunes:explicit>no</itunes:explicit>
+        </item>
+        <item>
+            <title>Episode 102: Jumpoline</title>
+            <link>http://nitch.cc/podcast/episode-102-jumpoline</link>
+            <guid>http://nitch.cc/podcast/episode-102-jumpoline</guid>
+            <pubDate>Fri, 04 Apr 2014 14:00:00 GMT</pubDate>
+            <author>Nitch</author>
+            <description>Jonathan and Kelli talk about big text on little screens. The Spritz SDK gets us thinking that reading a book on your watch might make sense after all.</description>
+            <enclosure url="https://s3.amazonaws.com/nitch/Episode_102_Jumpoline.mp3" length="64172851" type="audio/mpeg"/>
+            <content:encoded>Jonathan and Kelli talk about big text on little screens. The Spritz SDK gets us thinking that reading a book on your watch might make sense after all.</content:encoded>
+            <itunes:author>Nitch</itunes:author>
+            <itunes:duration>46:58</itunes:duration>
+            <itunes:subtitle>Jonathan and Kelli talk about big text on little screens. The Spritz SDK gets us thinking that reading a book on your watch might make sense after all.</itunes:subtitle>
+            <itunes:summary>Jonathan and Kelli talk about big text on little screens. The Spritz SDK gets us thinking that reading a book on your watch might make sense after all.</itunes:summary>
+            <itunes:keywords>web, mobile, html5, rest, json</itunes:keywords>
+            <itunes:image href="http://nitch.cc/img/512x512.png"/>
+            <media:content url="https://s3.amazonaws.com/nitch/Episode_102_Jumpoline.mp3" fileSize="54566344" type="audio/mpeg"/>
+            <itunes:explicit>no</itunes:explicit>
+        </item>
+        <item>
+            <title>Episode 103: Kings Of Remoktyo</title>
+            <link>http://nitch.cc/podcast/episode-103-kings-of-remoktyo</link>
+            <guid>http://nitch.cc/podcast/episode-103-kings-of-remoktyo</guid>
+            <pubDate>Fri, 11 Apr 2014 14:00:00 GMT</pubDate>
+            <author>Nitch</author>
+            <description>Jonathan and Kelli talk about queuing long requests with Sidekiq, monitoring servers with Monit, and playing cards over the internet with RDS.</description>
+            <enclosure url="https://s3.amazonaws.com/nitch/Episode_103_Kings_Of_Remoktyo.mp3" length="64172851" type="audio/mpeg"/>
+            <content:encoded>Jonathan and Kelli talk about queuing long requests with Sidekiq, monitoring servers with Monit, and playing cards over the internet with RDS.</content:encoded>
+            <itunes:author>Nitch</itunes:author>
+            <itunes:duration>40:27</itunes:duration>
+            <itunes:subtitle>Jonathan and Kelli talk about queuing long requests with Sidekiq, monitoring servers with Monit, and playing cards over the internet with RDS.</itunes:subtitle>
+            <itunes:summary>Jonathan and Kelli talk about queuing long requests with Sidekiq, monitoring servers with Monit, and playing cards over the internet with RDS.</itunes:summary>
+            <itunes:keywords>web, mobile, html5, rest, json</itunes:keywords>
+            <itunes:image href="http://nitch.cc/img/512x512.png"/>
+            <media:content url="https://s3.amazonaws.com/nitch/Episode_103_Kings_Of_Remoktyo.mp3" fileSize="54566344" type="audio/mpeg"/>
+            <itunes:explicit>no</itunes:explicit>
+        </item>
+        <item>
+            <title>Episode 104: Infinite Cookie Loop</title>
+            <link>http://nitch.cc/podcast/episode-104-infinite-cookie-loop</link>
+            <guid>http://nitch.cc/podcast/episode-104-infinite-cookie-loop</guid>
+            <pubDate>Fri, 18 Apr 2014 14:00:00 GMT</pubDate>
+            <author>Nitch</author>
+            <description>Jonathan and Kelli talk about cross-platform perfection: what to do when media queries are not enough.</description>
+            <enclosure url="https://s3.amazonaws.com/nitch/Episode_104_Infinite_Cookie_Loop.mp3" length="64172851" type="audio/mpeg"/>
+            <content:encoded>Jonathan and Kelli talk about cross-platform perfection: what to do when media queries are not enough.</content:encoded>
+            <itunes:author>Nitch</itunes:author>
+            <itunes:duration>43:07</itunes:duration>
+            <itunes:subtitle>Jonathan and Kelli talk about cross-platform perfection: what to do when media queries are not enough.</itunes:subtitle>
+            <itunes:summary>Jonathan and Kelli talk about cross-platform perfection: what to do when media queries are not enough.</itunes:summary>
+            <itunes:keywords>web, mobile, html5, rest, json</itunes:keywords>
+            <itunes:image href="http://nitch.cc/img/512x512.png"/>
+            <media:content url="https://s3.amazonaws.com/nitch/Episode_104_Infinite_Cookie_Loop.mp3" fileSize="54566344" type="audio/mpeg"/>
+            <itunes:explicit>no</itunes:explicit>
+        </item>
+        <item>
+            <title>Episode 105: A Slapfight Among Gentlemen</title>
+            <link>http://nitch.cc/podcast/episode-105-a-slapfight-among-gentlemen</link>
+            <guid>http://nitch.cc/podcast/episode-105-a-slapfight-among-gentlemen</guid>
+            <pubDate>Fri, 25 Apr 2014 14:00:00 GMT</pubDate>
+            <author>Nitch</author>
+            <description>Jonathan and Kelli talk about exploding apps, deconstructing smartphones, and why social networking on a watch is a good idea.</description>
+            <enclosure url="https://s3.amazonaws.com/nitch/Episode_105_A_Slapfight_Among_Gentlemen.mp3" length="64172851" type="audio/mpeg"/>
+            <content:encoded>Jonathan and Kelli talk about exploding apps, deconstructing smartphones, and why social networking on a watch is a good idea.</content:encoded>
+            <itunes:author>Nitch</itunes:author>
+            <itunes:duration>52:36</itunes:duration>
+            <itunes:subtitle>Jonathan and Kelli talk about exploding apps, deconstructing smartphones, and why social networking on a watch is a good idea.</itunes:subtitle>
+            <itunes:summary>Jonathan and Kelli talk about exploding apps, deconstructing smartphones, and why social networking on a watch is a good idea.</itunes:summary>
+            <itunes:keywords>web, mobile, html5, rest, json</itunes:keywords>
+            <itunes:image href="http://nitch.cc/img/512x512.png"/>
+            <media:content url="https://s3.amazonaws.com/nitch/Episode_105_A_Slapfight_Among_Gentlemen.mp3" fileSize="54566344" type="audio/mpeg"/>
+            <itunes:explicit>no</itunes:explicit>
+        </item>
+        <item>
+            <title>Episode 106: Headless Parakeet</title>
+            <link>http://nitch.cc/podcast/episode-106-headless-parakeet</link>
+            <guid>http://nitch.cc/podcast/episode-106-headless-parakeet</guid>
+            <pubDate>Fri, 02 May 2014 14:00:00 GMT</pubDate>
+            <author>Nitch</author>
+            <description>Jonathan and Kelli brainstorm the underlying principles of designing in the browser in hopes of spawning a thousand baby Pattern Labs.</description>
+            <enclosure url="https://s3.amazonaws.com/nitch/Episode_106_Headless_Parakeet.mp3" length="64172851" type="audio/mpeg"/>
+            <content:encoded>Jonathan and Kelli brainstorm the underlying principles of designing in the browser in hopes of spawning a thousand baby Pattern Labs.</content:encoded>
+            <itunes:author>Nitch</itunes:author>
+            <itunes:duration>1:01:46</itunes:duration>
+            <itunes:subtitle>Jonathan and Kelli brainstorm the underlying principles of designing in the browser in hopes of spawning a thousand baby Pattern Labs.</itunes:subtitle>
+            <itunes:summary>Jonathan and Kelli brainstorm the underlying principles of designing in the browser in hopes of spawning a thousand baby Pattern Labs.</itunes:summary>
+            <itunes:keywords>web, mobile, html5, rest, json</itunes:keywords>
+            <itunes:image href="http://nitch.cc/img/512x512.png"/>
+            <media:content url="https://s3.amazonaws.com/nitch/Episode_106_Headless_Parakeet.mp3" fileSize="54566344" type="audio/mpeg"/>
+            <itunes:explicit>no</itunes:explicit>
+        </item>
     </channel>
 </rss>
