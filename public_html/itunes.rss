@@ -1949,5 +1949,23 @@ version="2.0">
             <media:content url="https://s3.amazonaws.com/nitch/Episode_106_Headless_Parakeet.mp3" fileSize="54566344" type="audio/mpeg"/>
             <itunes:explicit>no</itunes:explicit>
         </item>
+        <item>
+            <title>Episode 107: Mmmm… Giant Cookie</title>
+            <link>http://nitch.cc/podcast/episode-107-mmmm-giant-cookie</link>
+            <guid>http://nitch.cc/podcast/episode-107-mmmm-giant-cookie</guid>
+            <pubDate>Fri, 09 May 2014 14:00:00 GMT</pubDate>
+            <author>Nitch</author>
+            <description>Jonathan and Kelli talk about artifact conf recap, building static sites with assemble.io, and gotchas with msp.</description>
+            <enclosure url="https://s3.amazonaws.com/nitch/Episode_107_Mmmm_Giant_Cookie.mp3" length="64172851" type="audio/mpeg"/>
+            <content:encoded>Jonathan and Kelli talk about artifact conf recap, building static sites with assemble.io, and gotchas with msp.</content:encoded>
+            <itunes:author>Nitch</itunes:author>
+            <itunes:duration>40:08</itunes:duration>
+            <itunes:subtitle>Jonathan and Kelli talk about artifact conf recap, building static sites with assemble.io, and gotchas with msp.</itunes:subtitle>
+            <itunes:summary>Jonathan and Kelli talk about artifact conf recap, building static sites with assemble.io, and gotchas with msp.</itunes:summary>
+            <itunes:keywords>web, mobile, html5, rest, json</itunes:keywords>
+            <itunes:image href="http://nitch.cc/img/512x512.png"/>
+            <media:content url="https://s3.amazonaws.com/nitch/Episode_107_Mmmm_Giant_Cookie.mp3" fileSize="54566344" type="audio/mpeg"/>
+            <itunes:explicit>no</itunes:explicit>
+        </item>
     </channel>
 </rss>
