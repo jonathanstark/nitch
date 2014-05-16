@@ -1967,5 +1967,23 @@ version="2.0">
             <media:content url="https://s3.amazonaws.com/nitch/Episode_107_Mmmm_Giant_Cookie.mp3" fileSize="54566344" type="audio/mpeg"/>
             <itunes:explicit>no</itunes:explicit>
         </item>
+        <item>
+            <title>Episode 108: Me And My Antler</title>
+            <link>http://nitch.cc/podcast/episode-108-me-and-my-antler</link>
+            <guid>http://nitch.cc/podcast/episode-108-me-and-my-antler</guid>
+            <pubDate>Fri, 16 May 2014 14:00:00 GMT</pubDate>
+            <author>Nitch</author>
+            <description>Jonathan and Kelli talk about extending the functionality of your Rails application with engines - but not before we waffle around with housekeeping for about a half an hour.</description>
+            <enclosure url="https://s3.amazonaws.com/nitch/Episode_108_Me_And_My_Antler.mp3" length="64172851" type="audio/mpeg"/>
+            <content:encoded>Jonathan and Kelli talk about extending the functionality of your Rails application with engines - but not before we waffle around with housekeeping for about a half an hour.</content:encoded>
+            <itunes:author>Nitch</itunes:author>
+            <itunes:duration>53:16</itunes:duration>
+            <itunes:subtitle>Jonathan and Kelli talk about extending the functionality of your Rails application with engines - but not before we waffle around with housekeeping for about a half an hour.</itunes:subtitle>
+            <itunes:summary>Jonathan and Kelli talk about extending the functionality of your Rails application with engines - but not before we waffle around with housekeeping for about a half an hour.</itunes:summary>
+            <itunes:keywords>web, mobile, html5, rest, json</itunes:keywords>
+            <itunes:image href="http://nitch.cc/img/512x512.png"/>
+            <media:content url="https://s3.amazonaws.com/nitch/Episode_108_Me_And_My_Antler.mp3" fileSize="54566344" type="audio/mpeg"/>
+            <itunes:explicit>no</itunes:explicit>
+        </item>
     </channel>
 </rss>
