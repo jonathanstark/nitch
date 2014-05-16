@@ -27,7 +27,7 @@ Jonathan and Kelli talk about extending the functionality of your Rails applicat
 * [Trader Joes](http://www.traderjoes.com/ "Trader Joe's")
 * [Two-Buck Chuck](http://en.wikipedia.org/wiki/Charles_Shaw_wine "Charles Shaw wine - Wikipedia, the free encyclopedia")
 * [http://timeinc.com](http://www.timeinc.com/ "timeinc.com")
-* [http://stickyalbums.com/new](http://www.google.com/search?q=http://stickyalbums.com/new&btnI "http://stickyalbums.com/new - Google Search")
+* [http://stickyalbums.com/new](http://stickyalbums.com/new "http://stickyalbums.com/new")
 * [http://getkilo.com](http://getkilo.com/login "Kilo is a refreshingly simple calorie tracker for people who have lots of devices.")
 * [Josh Clark](http://globalmoxie.com/index.shtml "Global Moxie :: Mobile Design Strategy and User Experience")
 * [Brad Frost](http://bradfrostweb.com/ "  Brad Frost Web |  Web Design, Speaking, Consulting, Music and Art")
