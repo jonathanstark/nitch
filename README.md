@@ -7,6 +7,7 @@ Nitch
 
 ## Future Topics
 
+* https://www.destroyallsoftware.com/talks/the-birth-and-death-of-javascript
 * Jeff Hawkins on the future of computing (real time data passing through a membrane vs store everything and crunch later)
 * http://www.bostonmagazine.com/news/blog/2014/03/17/sesame-ring-mbta-pass/
 * API first works better for SPA than for server side web apps because the web frameworks are so good
