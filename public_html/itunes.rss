@@ -1985,5 +1985,23 @@ version="2.0">
             <media:content url="https://s3.amazonaws.com/nitch/Episode_108_Me_And_My_Antler.mp3" fileSize="54566344" type="audio/mpeg"/>
             <itunes:explicit>no</itunes:explicit>
         </item>
+        <item>
+            <title>Episode 109: Dog Job</title>
+            <link>http://nitch.cc/podcast/episode-109-dog-job</link>
+            <guid>http://nitch.cc/podcast/episode-109-dog-job</guid>
+            <pubDate>Fri, 23 May 2014 14:00:00 GMT</pubDate>
+            <author>Nitch</author>
+            <description>Jonathan and Kelli talk about programming a stateless SMS app with Twilio, managing web app releases with Capistrano, and dreading our children’s entry into teenhood.</description>
+            <enclosure url="https://s3.amazonaws.com/nitch/Episode_109_Dog_Job.mp3" length="64172851" type="audio/mpeg"/>
+            <content:encoded>Jonathan and Kelli talk about programming a stateless SMS app with Twilio, managing web app releases with Capistrano, and dreading our children’s entry into teenhood.</content:encoded>
+            <itunes:author>Nitch</itunes:author>
+            <itunes:duration>32:39</itunes:duration>
+            <itunes:subtitle>Jonathan and Kelli talk about programming a stateless SMS app with Twilio, managing web app releases with Capistrano, and dreading our children’s entry into teenhood.</itunes:subtitle>
+            <itunes:summary>Jonathan and Kelli talk about programming a stateless SMS app with Twilio, managing web app releases with Capistrano, and dreading our children’s entry into teenhood.</itunes:summary>
+            <itunes:keywords>web, mobile, html5, rest, json</itunes:keywords>
+            <itunes:image href="http://nitch.cc/img/512x512.png"/>
+            <media:content url="https://s3.amazonaws.com/nitch/Episode_109_Dog_Job.mp3" fileSize="54566344" type="audio/mpeg"/>
+            <itunes:explicit>no</itunes:explicit>
+        </item>
     </channel>
 </rss>
