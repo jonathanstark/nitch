@@ -3,7 +3,9 @@ Nitch
 
 ## Housekeeping
 
-* msp redirects and fb sharing
+* Orde advice about logic branching
+* FastActive update
+* Podcast was late last week 
 
 ## Future Topics
 
