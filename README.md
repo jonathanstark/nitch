@@ -3,9 +3,13 @@ Nitch
 
 ## Housekeeping
 
+* Podcast was late last week
 * Orde advice about logic branching
 * FastActive update
-* Podcast was late last week 
+
+## Bug Report
+
+* IP proxy stuff
 
 ## Future Topics
 
