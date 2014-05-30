@@ -2003,5 +2003,23 @@ version="2.0">
             <media:content url="https://s3.amazonaws.com/nitch/Episode_109_Dog_Job.mp3" fileSize="54566344" type="audio/mpeg"/>
             <itunes:explicit>no</itunes:explicit>
         </item>
+        <item>
+            <title>Episode 110: Eyebrow Buttons</title>
+            <link>http://nitch.cc/podcast/episode-110-eyebrow-buttons</link>
+            <guid>http://nitch.cc/podcast/episode-110-eyebrow-buttons</guid>
+            <pubDate>Fri, 30 May 2014 14:00:00 GMT</pubDate>
+            <author>Nitch</author>
+            <description>Jonathan and Kelli talk about updates to FastActive, gotchas with mod proxy, configuring virtual machines with Vagrant, and oh. So much more...</description>
+            <enclosure url="https://s3.amazonaws.com/nitch/Episode_110_Eyebrow_Buttons.mp3" length="64172851" type="audio/mpeg"/>
+            <content:encoded>Jonathan and Kelli talk about updates to FastActive, gotchas with mod proxy, configuring virtual machines with Vagrant, and oh. So much more...</content:encoded>
+            <itunes:author>Nitch</itunes:author>
+            <itunes:duration>1:37:54</itunes:duration>
+            <itunes:subtitle>Jonathan and Kelli talk about updates to FastActive, gotchas with mod proxy, configuring virtual machines with Vagrant, and oh. So much more...</itunes:subtitle>
+            <itunes:summary>Jonathan and Kelli talk about updates to FastActive, gotchas with mod proxy, configuring virtual machines with Vagrant, and oh. So much more...</itunes:summary>
+            <itunes:keywords>web, mobile, html5, rest, json</itunes:keywords>
+            <itunes:image href="http://nitch.cc/img/512x512.png"/>
+            <media:content url="https://s3.amazonaws.com/nitch/Episode_110_Eyebrow_Buttons.mp3" fileSize="54566344" type="audio/mpeg"/>
+            <itunes:explicit>no</itunes:explicit>
+        </item>
     </channel>
 </rss>
