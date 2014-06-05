@@ -3,13 +3,10 @@ Nitch
 
 ## Housekeeping
 
-* Podcast was late last week
-* Orde advice about logic branching
-* FastActive update
+* Describe Ionic Framework
+* Uber/Aros deal is NYC only
 
 ## Bug Report
-
-* IP proxy stuff
 
 ## Future Topics
 
