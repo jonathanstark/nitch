@@ -12,12 +12,12 @@
             <h3 id="display_name_preview">Episode XX: Foo Bar Baz!</h3>
             <p id="audio_filename_preview">Episode_XX_Foo_Bar_Baz.mp3</p>
             <p>Hello! And welcome to the Nitch Podcast for <?php echo date('l, F jS, Y', strtotime($this_friday)) ?>. I'm JS (I'm KS) and we're here to talk about building apps that run everywhere using open web standards like HTML, CSS, JavaScript, REST, and JSON.</p>
-            <p>This week! We discuss <span id="description_preview"></span></p>
+            <p>This week! We <span id="description_preview"></span></p>
             <p>Please stay tuned, the Nitch Podcast is next...</p>
         </div>
         <form method="post" accept-charset="utf-8">
             <div class="form-item" id="description_wrapper">
-                <label for="description">Jonathan and Kelli talk about...</label><br>
+                <label for="description">Jonathan and Kelli...</label><br>
                 <textarea class="topcoat-textarea" rows="2" id="description" name="description" autofocus></textarea>
             </div>
             <div class="form-item" id="housekeeping_wrapper">
