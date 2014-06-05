@@ -2021,5 +2021,23 @@ version="2.0">
             <media:content url="https://s3.amazonaws.com/nitch/Episode_110_Eyebrow_Buttons.mp3" fileSize="54566344" type="audio/mpeg"/>
             <itunes:explicit>no</itunes:explicit>
         </item>
+        <item>
+            <title>Episode 111: Crawling Out Of The Backend</title>
+            <link>http://nitch.cc/podcast/episode-111-crawling-out-of-the-backend</link>
+            <guid>http://nitch.cc/podcast/episode-111-crawling-out-of-the-backend</guid>
+            <pubDate>Fri, 06 Jun 2014 14:00:00 GMT</pubDate>
+            <author>Nitch</author>
+            <description>Jonathan and Kelli try - and probably fail miserably - to answer a Dear Listener’s question about the pros and cons of various frontend JavaScripts frameworks.</description>
+            <enclosure url="https://s3.amazonaws.com/nitch/Episode_111_Crawling_Out_Of_The_Backend.mp3" length="64172851" type="audio/mpeg"/>
+            <content:encoded>Jonathan and Kelli try - and probably fail miserably - to answer a Dear Listener’s question about the pros and cons of various frontend JavaScripts frameworks.</content:encoded>
+            <itunes:author>Nitch</itunes:author>
+            <itunes:duration>1:07:08</itunes:duration>
+            <itunes:subtitle>Jonathan and Kelli try - and probably fail miserably - to answer a Dear Listener’s question about the pros and cons of various frontend JavaScripts frameworks.</itunes:subtitle>
+            <itunes:summary>Jonathan and Kelli try - and probably fail miserably - to answer a Dear Listener’s question about the pros and cons of various frontend JavaScripts frameworks.</itunes:summary>
+            <itunes:keywords>web, mobile, html5, rest, json</itunes:keywords>
+            <itunes:image href="http://nitch.cc/img/512x512.png"/>
+            <media:content url="https://s3.amazonaws.com/nitch/Episode_111_Crawling_Out_Of_The_Backend.mp3" fileSize="54566344" type="audio/mpeg"/>
+            <itunes:explicit>no</itunes:explicit>
+        </item>
     </channel>
 </rss>
