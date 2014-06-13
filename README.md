@@ -3,14 +3,6 @@ Nitch
 
 ## Housekeeping
 
-* Describe Ionic Framework
-* Uber/Aros deal is NYC only
-* Hiku
-* Kilo for Pebble
-* Narrative Clip
-
-## Bug Report
-
 ## Future Topics
 
 * https://www.destroyallsoftware.com/talks/the-birth-and-death-of-javascript
