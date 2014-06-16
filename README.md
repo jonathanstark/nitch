@@ -3,6 +3,12 @@ Nitch
 
 ## Housekeeping
 
+* Narrative gets more and more disappointing (uploads from small puter trapped in app)
+
+## Bug Report
+
+* App cache + view updates in sticky
+
 ## Future Topics
 
 * https://www.destroyallsoftware.com/talks/the-birth-and-death-of-javascript
