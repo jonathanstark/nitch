@@ -3,6 +3,8 @@ Nitch
 
 ## Housekeeping
 
+* Slapfight on Twitter about Fire Phone
+
 ## Bug Report
 
 * App cache + view updates in sticky
