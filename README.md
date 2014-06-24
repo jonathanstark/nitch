@@ -4,6 +4,10 @@ Nitch
 ## Housekeeping
 
 * Slapfight on Twitter about Fire Phone
+* Tweetstorm about Activite
+* LIFX / Nest integration
+* Hue lux and kinetic switch
+* hiku / evernote / rtm integration
 
 ## Bug Report
 
