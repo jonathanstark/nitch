@@ -5,7 +5,7 @@ Nitch
 
 * Slapfight on Twitter about Fire Phone
 * Tweetstorm about Activite
-* LIFX / Nest integration
+* Nest integration https://nest.com/works-with-nest/
 * Hue lux and kinetic switch
 * hiku / evernote / rtm integration
 
