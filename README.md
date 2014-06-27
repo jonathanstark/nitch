@@ -3,17 +3,21 @@ Nitch
 
 ## Housekeeping
 
+* Sound last week
+* Nitch featured at Google IO on Android Wear smartwatch
 * Slapfight on Twitter about Fire Phone
 * Tweetstorm about Activite
-* Nest integration https://nest.com/works-with-nest/
+* Nest/LIFX integration https://nest.com/works-with-nest/
 * Hue lux and kinetic switch
-* hiku / evernote / rtm integration
+* hiku / evernote / rtm integration / private beta api
+* zenclock.co
 
 ## Bug Report
 
 * App cache + view updates in sticky
+* javascript date object in New Food form in Kilo
 
-## Future Topics
+## Feature Topic Ideas
 
 * Web app vs native wrapper
     * Doesn't open a new window every time
@@ -28,6 +32,7 @@ Nitch
     * Splash screen w/o homescreen install
 * https://www.destroyallsoftware.com/talks/the-birth-and-death-of-javascript
 * Jeff Hawkins on the future of computing (real time data passing through a membrane vs store everything and crunch later)
+* Martin Cooper on the death of general purpose wireless devices
 * http://www.bostonmagazine.com/news/blog/2014/03/17/sesame-ring-mbta-pass/
 * API first works better for SPA than for server side web apps because the web frameworks are so good
 * Keyboard shortcuts for Kilo (Mac OS and browser)
