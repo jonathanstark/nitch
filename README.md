@@ -1,6 +1,9 @@
 Nitch
 =====
 
+* Nest API
+* Hiku API
+
 ## Housekeeping
 
 * Sound last week
