@@ -3,6 +3,7 @@ Nitch
 
 * Nest API
 * Hiku API
+* Cooper air playing YouTube 
 
 ## Housekeeping
 
