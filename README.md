@@ -1,9 +1,21 @@
 Nitch
 =====
 
+* Web app vs native wrapper for IDENTICAL APP
+    * Familiar app distribution methods (and potential payment model)
+    * Doesn't open a new window every time
+    * More screen real estate
+    * Can hide status bar on iOS
+    * Splash screen w/o homescreen install
+    * Available in the app switcher
+    * Launch with Siri/Google Now
+    * User can't inadvertently clear local data
+    * Can enforce orientation
+    * More reliable sleep/resume
+
 * Nest API
 * Hiku API
-* Cooper air playing YouTube 
+* Cooper air playing YouTube
 
 ## Housekeeping
 
@@ -23,17 +35,6 @@ Nitch
 
 ## Feature Topic Ideas
 
-* Web app vs native wrapper
-    * Doesn't open a new window every time
-    * Available in the app switcher
-    * Launch with Siri/Google Now
-    * User can't inadvertently clear local data
-    * Can enforce orientation
-    * More reliable sleep/resume
-    * More screen real estate
-    * Can hide status bar on iOS
-    * Familiar app distribution methods
-    * Splash screen w/o homescreen install
 * https://www.destroyallsoftware.com/talks/the-birth-and-death-of-javascript
 * Jeff Hawkins on the future of computing (real time data passing through a membrane vs store everything and crunch later)
 * Martin Cooper on the death of general purpose wireless devices
