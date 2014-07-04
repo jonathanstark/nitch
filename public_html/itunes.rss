@@ -2093,5 +2093,23 @@ version="2.0">
             <media:content url="https://s3.amazonaws.com/nitch/Episode_114_Slightly_Jaundiced_At_Best.mp3" fileSize="54566344" type="audio/mpeg"/>
             <itunes:explicit>no</itunes:explicit>
         </item>
+        <item>
+            <title>Episode 115: Lick Here</title>
+            <link>http://nitch.cc/podcast/episode-115-lick-here</link>
+            <guid>http://nitch.cc/podcast/episode-115-lick-here</guid>
+            <pubDate>Fri, 04 Jul 2014 14:00:00 GMT</pubDate>
+            <author>Nitch</author>
+            <description>Jonathan and Kelli list the top ten reasons why you should wrap your web app in PhoneGap.</description>
+            <enclosure url="https://s3.amazonaws.com/nitch/Episode_115_Lick_Here.mp3" length="64172851" type="audio/mpeg"/>
+            <content:encoded>Jonathan and Kelli list the top ten reasons why you should wrap your web app in PhoneGap.</content:encoded>
+            <itunes:author>Nitch</itunes:author>
+            <itunes:duration>1:31:04</itunes:duration>
+            <itunes:subtitle>Jonathan and Kelli list the top ten reasons why you should wrap your web app in PhoneGap.</itunes:subtitle>
+            <itunes:summary>Jonathan and Kelli list the top ten reasons why you should wrap your web app in PhoneGap.</itunes:summary>
+            <itunes:keywords>web, mobile, html5, rest, json</itunes:keywords>
+            <itunes:image href="http://nitch.cc/img/512x512.png"/>
+            <media:content url="https://s3.amazonaws.com/nitch/Episode_115_Lick_Here.mp3" fileSize="54566344" type="audio/mpeg"/>
+            <itunes:explicit>no</itunes:explicit>
+        </item>
     </channel>
 </rss>
