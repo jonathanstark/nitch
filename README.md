@@ -1,32 +1,13 @@
 Nitch
 =====
 
-* Web app vs native wrapper for IDENTICAL APP
-    * Familiar app distribution methods (and potential payment model)
-    * Doesn't open a new window every time
-    * More screen real estate
-    * Can hide status bar on iOS
-    * Splash screen w/o homescreen install
-    * Available in the app switcher
-    * Launch with Siri/Google Now
-    * User can't inadvertently clear local data
-    * Can enforce orientation
-    * More reliable sleep/resume
-
-* Nest API
-* Hiku API
-* Cooper air playing YouTube
+* Battery life vs charge time
+* iWatch API vs device
+* The watch market is nothing like the phone market
 
 ## Housekeeping
 
-* Sound last week
-* Nitch featured at Google IO on Android Wear smartwatch
-* Slapfight on Twitter about Fire Phone
-* Tweetstorm about Activite
-* Nest/LIFX integration https://nest.com/works-with-nest/
-* Hue lux and kinetic switch
-* hiku / evernote / rtm integration / private beta api
-* zenclock.co
+* OMG Lynx browser!
 
 ## Bug Report
 
