@@ -9,6 +9,8 @@ Nitch
 
 ## Bug Report
 
+* page permanently cached if iframe appcache hack is used after normal way
+
 ## Feature Topic Ideas
 
 * Sticky Albums publication process
