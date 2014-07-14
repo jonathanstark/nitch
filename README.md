@@ -3,7 +3,9 @@ Nitch
 
 ## Housekeeping
 
-* Firefox OS apps on Android do required FF be installed
+* Firefox OS apps on Android do require FF be installed
+* You can now send your Android screen to chromecast
+* Building Apps that Run Everywhere video available on YT
 
 ## Tools
 
