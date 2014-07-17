@@ -3,11 +3,7 @@ Nitch
 
 ## Housekeeping
 
-* Firefox OS apps on Android do require FF be installed
-* You can now send your Android screen to chromecast
-* Building Apps that Run Everywhere video available on YT
-
-## Tools
+* HooToo
 
 ## Bug Report
 
@@ -18,9 +14,6 @@ Nitch
 * Sticky Albums publication process
     * cached json
     * Sidekiq
-* Battery life vs charge time
-* iWatch API vs device
-* The watch market is nothing like the phone market
 * https://www.destroyallsoftware.com/talks/the-birth-and-death-of-javascript
 * Jeff Hawkins on the future of computing (real time data passing through a membrane vs store everything and crunch later)
 * Martin Cooper on the death of general purpose wireless devices

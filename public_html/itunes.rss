@@ -2129,5 +2129,23 @@ version="2.0">
             <media:content url="https://s3.amazonaws.com/nitch/Episode_116_The_Names_of_Meat.mp3" fileSize="54566344" type="audio/mpeg"/>
             <itunes:explicit>no</itunes:explicit>
         </item>
+        <item>
+            <title>Episode 117: Segueing With Wild Abandon</title>
+            <link>http://nitch.cc/podcast/episode-117-segueing-with-wild-abandon</link>
+            <guid>http://nitch.cc/podcast/episode-117-segueing-with-wild-abandon</guid>
+            <pubDate>Fri, 18 Jul 2014 14:00:00 GMT</pubDate>
+            <author>Nitch</author>
+            <description>Jonathan and Kelli explore the subtle details that separate the good from the bad in user experience design for smartwatches.</description>
+            <enclosure url="https://s3.amazonaws.com/nitch/Episode_117_Segueing_With_Wild_Abandon.mp3" length="64172851" type="audio/mpeg"/>
+            <content:encoded>Jonathan and Kelli explore the subtle details that separate the good from the bad in user experience design for smartwatches.</content:encoded>
+            <itunes:author>Nitch</itunes:author>
+            <itunes:duration>1:12:32</itunes:duration>
+            <itunes:subtitle>Jonathan and Kelli explore the subtle details that separate the good from the bad in user experience design for smartwatches.</itunes:subtitle>
+            <itunes:summary>Jonathan and Kelli explore the subtle details that separate the good from the bad in user experience design for smartwatches.</itunes:summary>
+            <itunes:keywords>web, mobile, html5, rest, json</itunes:keywords>
+            <itunes:image href="http://nitch.cc/img/512x512.png"/>
+            <media:content url="https://s3.amazonaws.com/nitch/Episode_117_Segueing_With_Wild_Abandon.mp3" fileSize="54566344" type="audio/mpeg"/>
+            <itunes:explicit>no</itunes:explicit>
+        </item>
     </channel>
 </rss>
