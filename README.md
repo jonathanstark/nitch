@@ -8,6 +8,7 @@ Nitch
 ## Bug Report
 
 * page permanently cached if iframe appcache hack is used after normal way
+* Capistrano symmlinks disappear files in public/assets during deployment
 
 ## Feature Topic Ideas
 
@@ -19,7 +20,6 @@ Nitch
 * Martin Cooper on the death of general purpose wireless devices
 * http://www.bostonmagazine.com/news/blog/2014/03/17/sesame-ring-mbta-pass/
 * Keyboard shortcuts for Kilo (Mac OS and browser)
-* Robot & Frank
 
 ## Active Todos
 
