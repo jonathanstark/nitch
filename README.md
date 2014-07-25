@@ -3,15 +3,13 @@ Nitch
 
 ## Housekeeping
 
-* HooToo
-
 ## Bug Report
-
-* page permanently cached if iframe appcache hack is used after normal way
-* Capistrano symmlinks disappear files in public/assets during deployment
 
 ## Feature Topic Ideas
 
+* Gadgets episode?
+    * HooToo
+    * eTenna
 * Sticky Albums publication process
     * cached json
     * Sidekiq
