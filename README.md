@@ -4,6 +4,9 @@ Nitch
 ## Housekeeping
 
 * Rail Rumble
+* IE on Xbox
+* iTime on Jimmy Kimmel
+* Google Cardboard and designing for 3d + 360
 
 ## Bug Report
 
