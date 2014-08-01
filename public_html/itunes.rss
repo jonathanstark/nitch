@@ -2165,5 +2165,23 @@ version="2.0">
             <media:content url="https://s3.amazonaws.com/nitch/Episode_118_Ignorance_KY.mp3" fileSize="54566344" type="audio/mpeg"/>
             <itunes:explicit>no</itunes:explicit>
         </item>
+        <item>
+            <title>Episode 119: Whenever And Then Some</title>
+            <link>http://nitch.cc/podcast/episode-119-whenever-and-then-some</link>
+            <guid>http://nitch.cc/podcast/episode-119-whenever-and-then-some</guid>
+            <pubDate>Fri, 01 Aug 2014 14:00:00 GMT</pubDate>
+            <author>Nitch</author>
+            <description>Jonathan and Kelli talk about Rails, Rails, and more Rails. Paperclip updates, Devise bugs, and three nifty gems for your fun and enjoyment.</description>
+            <enclosure url="https://s3.amazonaws.com/nitch/Episode_119_Whenever_And_Then_Some.mp3" length="64172851" type="audio/mpeg"/>
+            <content:encoded>Jonathan and Kelli talk about Rails, Rails, and more Rails. Paperclip updates, Devise bugs, and three nifty gems for your fun and enjoyment.</content:encoded>
+            <itunes:author>Nitch</itunes:author>
+            <itunes:duration>56:11</itunes:duration>
+            <itunes:subtitle>Jonathan and Kelli talk about Rails, Rails, and more Rails. Paperclip updates, Devise bugs, and three nifty gems for your fun and enjoyment.</itunes:subtitle>
+            <itunes:summary>Jonathan and Kelli talk about Rails, Rails, and more Rails. Paperclip updates, Devise bugs, and three nifty gems for your fun and enjoyment.</itunes:summary>
+            <itunes:keywords>web, mobile, html5, rest, json</itunes:keywords>
+            <itunes:image href="http://nitch.cc/img/512x512.png"/>
+            <media:content url="https://s3.amazonaws.com/nitch/Episode_119_Whenever_And_Then_Some.mp3" fileSize="54566344" type="audio/mpeg"/>
+            <itunes:explicit>no</itunes:explicit>
+        </item>
     </channel>
 </rss>

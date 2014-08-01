@@ -3,15 +3,18 @@ Nitch
 
 ## Housekeeping
 
-* Rail Rumble
-* IE on Xbox
-* iTime on Jimmy Kimmel
-* Google Cardboard and designing for 3d + 360
+* Update on Fast Image?
 
 ## Bug Report
 
-## Feature Topic Ideas
+## Feature
 
+## Topic Ideas
+
+* Rails Database sessions
+* IE on Xbox
+* iTime on Jimmy Kimmel
+* Google Cardboard and designing for 3d + 360
 * Gadgets episode?
     * HooToo
     * eTenna
