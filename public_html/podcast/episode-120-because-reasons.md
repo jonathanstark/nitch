@@ -4,7 +4,7 @@ August 8, 2014
 
 Running time: 50:41
 
-Jonathan and Kelli talk about the new and improved Feathers front-end prototyping gem, whitespace bugs in JSON, taking the Skateboard approach to product development.
+Jonathan and Kelli talk about the new and improved Feathers front-end prototyping gem, whitespace bugs in JSON, and taking the Skateboard approach to product development.
 
 <audio preload="auto" controls>
     <source src="https://s3.amazonaws.com/nitch/Episode_120_Because_Reasons.mp3" type="audio/mpeg" />

@@ -2189,13 +2189,13 @@ version="2.0">
             <guid>http://nitch.cc/podcast/episode-120-because-reasons</guid>
             <pubDate>Fri, 08 Aug 2014 14:00:00 GMT</pubDate>
             <author>Nitch</author>
-            <description>Jonathan and Kelli talk about the new and improved Feathers front-end prototyping gem, whitespace bugs in JSON, taking the Skateboard approach to product development.</description>
+            <description>Jonathan and Kelli talk about the new and improved Feathers front-end prototyping gem, whitespace bugs in JSON, and taking the Skateboard approach to product development.</description>
             <enclosure url="https://s3.amazonaws.com/nitch/Episode_120_Because_Reasons.mp3" length="64172851" type="audio/mpeg"/>
-            <content:encoded>Jonathan and Kelli talk about the new and improved Feathers front-end prototyping gem, whitespace bugs in JSON, taking the Skateboard approach to product development.</content:encoded>
+            <content:encoded>Jonathan and Kelli talk about the new and improved Feathers front-end prototyping gem, whitespace bugs in JSON, and taking the Skateboard approach to product development.</content:encoded>
             <itunes:author>Nitch</itunes:author>
             <itunes:duration>50:41</itunes:duration>
-            <itunes:subtitle>Jonathan and Kelli talk about the new and improved Feathers front-end prototyping gem, whitespace bugs in JSON, taking the Skateboard approach to product development.</itunes:subtitle>
-            <itunes:summary>Jonathan and Kelli talk about the new and improved Feathers front-end prototyping gem, whitespace bugs in JSON, taking the Skateboard approach to product development.</itunes:summary>
+            <itunes:subtitle>Jonathan and Kelli talk about the new and improved Feathers front-end prototyping gem, whitespace bugs in JSON, and taking the Skateboard approach to product development.</itunes:subtitle>
+            <itunes:summary>Jonathan and Kelli talk about the new and improved Feathers front-end prototyping gem, whitespace bugs in JSON, and taking the Skateboard approach to product development.</itunes:summary>
             <itunes:keywords>web, mobile, html5, rest, json</itunes:keywords>
             <itunes:image href="http://nitch.cc/img/512x512.png"/>
             <media:content url="https://s3.amazonaws.com/nitch/Episode_120_Because_Reasons.mp3" fileSize="54566344" type="audio/mpeg"/>
