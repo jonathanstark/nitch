@@ -11,6 +11,8 @@ Nitch
 
 ## Topic Ideas
 
+* "Your" vs "my" in UI (direct vs indirect, joystick vs touchscreen)
+* Cooper and Minecraft (He doesn't care about device or input mode... he only cares about content. Minecraft is bigger than any one device. C+M are a new species - no phone, no tv, no house, no car, no college... aka no American Dream) Touch on Grigsby's BDConf talk, Cardboard, 360deg visuals, etc...
 * Rails Database sessions
 * IE on Xbox
 * iTime on Jimmy Kimmel
