@@ -18,8 +18,8 @@ version="2.0">
         <pubDate>Fri, 23 Mar 2012 14:00:00 GMT</pubDate>
         <description>A weekly podcast about building apps that run everywhere using open web standards like HTML, CSS, JavaScript, REST, and JSON. Hosted by Jonathan Stark and Kelli Shaver.</description>
         <language>en-us</language>
-        <atom10:link xmlns:atom10="http://www.w3.org/2005/Atom" rel="self" type="application/rss+xml" href="http://feeds.feedburner.com/nitch"/>
-        <feedburner:info uri="thewebahead"/>
+        <atom10:link xmlns:atom10="http://www.w3.org/2005/Atom" rel="self" type="application/rss+xml" href="http://feeds.feedburner.com/TheNitchPodcast"/>
+        <feedburner:info uri="TheNitchPodcast"/>
         <atom10:link xmlns:atom10="http://www.w3.org/2005/Atom" rel="hub" href="http://pubsubhubbub.appspot.com/"/>
         <feedburner:browserFriendly/>
         <itunes:subtitle>A weekly podcast about building apps that run everywhere using open web standards like HTML, CSS, JavaScript, REST, and JSON. Hosted by Jonathan Stark and Kelli Shaver.</itunes:subtitle>
@@ -33,6 +33,7 @@ version="2.0">
             <itunes:email>hello@nitch.cc</itunes:email>
         </itunes:owner>
         <itunes:category text="Technology">
+            <itunes:category text="Tech News" />
             <itunes:category text="Software How-To"/>
         </itunes:category>
         <media:category scheme="http://www.itunes.com/dtds/podcast-1.0.dtd">Technology/Software How-To</media:category>
