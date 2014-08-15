@@ -3,20 +3,16 @@ Nitch
 
 ## Housekeeping
 
-* Update on Fast Image?
+* Yours/mine relation to relative absolute links
+* Trackballs are the most confusing (mouse is an upsidedown trackball - aka double negative)
+* trackball vs touchball
 
 ## Bug Report
 
 ## Feature
 
-* "Yours" vs "mine" in UI (direct vs indirect, joystick vs touchscreen)
-
-So, this yours vs mine article got me thinking about direct vs indirect manipulation
-
 ## Topic Ideas
 
-* "Yours" vs "mine" in UI (direct vs indirect, joystick vs touchscreen)
-* Cooper and Minecraft (He doesn't care about device or input mode... he only cares about content. Minecraft is bigger than any one device. C+M are a new species - no phone, no tv, no house, no car, no college... aka no American Dream) Touch on Grigsby's BDConf talk, Cardboard, 360deg visuals, etc...
 * Rails Database sessions
 * IE on Xbox
 * iTime on Jimmy Kimmel
