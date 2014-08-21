@@ -2220,5 +2220,23 @@ version="2.0">
             <media:content url="https://s3.amazonaws.com/nitch/Episode_121_The_Butler_Model.mp3" fileSize="54566344" type="audio/mpeg"/>
             <itunes:explicit>no</itunes:explicit>
         </item>
+        <item>
+            <title>Episode 122: Ear And Whatnot</title>
+            <link>http://nitch.cc/podcast/episode-122-ear-and-whatnot</link>
+            <guid>http://nitch.cc/podcast/episode-122-ear-and-whatnot</guid>
+            <pubDate>Fri, 22 Aug 2014 14:00:00 GMT</pubDate>
+            <author>Nitch</author>
+            <description>Jonathan and Kelli talk about building watch apps with Pebble.js, auto-playing mp3s with the audio API, and compiling HTML apps with PhoneGap.</description>
+            <enclosure url="https://s3.amazonaws.com/nitch/Episode_122_Ear_And_Whatnot.mp3" length="64172851" type="audio/mpeg"/>
+            <content:encoded>Jonathan and Kelli talk about building watch apps with Pebble.js, auto-playing mp3s with the audio API, and compiling HTML apps with PhoneGap.</content:encoded>
+            <itunes:author>Nitch</itunes:author>
+            <itunes:duration>1:05:52</itunes:duration>
+            <itunes:subtitle>Jonathan and Kelli talk about building watch apps with Pebble.js, auto-playing mp3s with the audio API, and compiling HTML apps with PhoneGap.</itunes:subtitle>
+            <itunes:summary>Jonathan and Kelli talk about building watch apps with Pebble.js, auto-playing mp3s with the audio API, and compiling HTML apps with PhoneGap.</itunes:summary>
+            <itunes:keywords>web, mobile, html5, rest, json</itunes:keywords>
+            <itunes:image href="http://nitch.cc/img/512x512.png"/>
+            <media:content url="https://s3.amazonaws.com/nitch/Episode_122_Ear_And_Whatnot.mp3" fileSize="54566344" type="audio/mpeg"/>
+            <itunes:explicit>no</itunes:explicit>
+        </item>
     </channel>
 </rss>
