@@ -2238,5 +2238,23 @@ version="2.0">
             <media:content url="https://s3.amazonaws.com/nitch/Episode_122_Ear_And_Whatnot.mp3" fileSize="54566344" type="audio/mpeg"/>
             <itunes:explicit>no</itunes:explicit>
         </item>
+        <item>
+            <title>Episode 123: The Smell of Desperation</title>
+            <link>http://nitch.cc/podcast/episode-123-the-smell-of-desperation</link>
+            <guid>http://nitch.cc/podcast/episode-123-the-smell-of-desperation</guid>
+            <pubDate>Fri, 29 Aug 2014 14:00:00 GMT</pubDate>
+            <author>Nitch</author>
+            <description>Jonathan and Kelli we follow up on some Pebble smartwatch news, rant about bad error messages and documentation, and announce Nitch Bits: a series of short videos aimed at making your life as a web developer a little bit easier.</description>
+            <enclosure url="https://s3.amazonaws.com/nitch/Episode_123_The_Smell_of_Desperation.mp3" length="64172851" type="audio/mpeg"/>
+            <content:encoded>Jonathan and Kelli we follow up on some Pebble smartwatch news, rant about bad error messages and documentation, and announce Nitch Bits: a series of short videos aimed at making your life as a web developer a little bit easier.</content:encoded>
+            <itunes:author>Nitch</itunes:author>
+            <itunes:duration>49:32</itunes:duration>
+            <itunes:subtitle>Jonathan and Kelli we follow up on some Pebble smartwatch news, rant about bad error messages and documentation, and announce Nitch Bits: a series of short videos aimed at making your life as a web developer a little bit easier.</itunes:subtitle>
+            <itunes:summary>Jonathan and Kelli we follow up on some Pebble smartwatch news, rant about bad error messages and documentation, and announce Nitch Bits: a series of short videos aimed at making your life as a web developer a little bit easier.</itunes:summary>
+            <itunes:keywords>web, mobile, html5, rest, json</itunes:keywords>
+            <itunes:image href="http://nitch.cc/img/512x512.png"/>
+            <media:content url="https://s3.amazonaws.com/nitch/Episode_123_The_Smell_of_Desperation.mp3" fileSize="54566344" type="audio/mpeg"/>
+            <itunes:explicit>no</itunes:explicit>
+        </item>
     </channel>
 </rss>
