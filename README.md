@@ -3,10 +3,6 @@ Nitch
 
 ## Housekeeping
 
-* Yours/mine relation to relative absolute links
-* Trackballs are the most confusing (mouse is an upsidedown trackball - aka double negative)
-* trackball vs touchball
-
 ## Bug Report
 
 ## Feature
