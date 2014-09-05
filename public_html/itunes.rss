@@ -2256,5 +2256,23 @@ version="2.0">
             <media:content url="https://s3.amazonaws.com/nitch/Episode_123_The_Smell_of_Desperation.mp3" fileSize="54566344" type="audio/mpeg"/>
             <itunes:explicit>no</itunes:explicit>
         </item>
+        <item>
+            <title>Episode 124: Sniffing Through Charles</title>
+            <link>http://nitch.cc/podcast/episode-124-sniffing-through-charles</link>
+            <guid>http://nitch.cc/podcast/episode-124-sniffing-through-charles</guid>
+            <pubDate>Fri, 05 Sep 2014 14:00:00 GMT</pubDate>
+            <author>Nitch</author>
+            <description>Jonathan and Kelli talk about git workflow, AWS bugs, and Apple's upcoming product announcement.</description>
+            <enclosure url="https://s3.amazonaws.com/nitch/Episode_124_Sniffing_Through_Charles.mp3" length="64172851" type="audio/mpeg"/>
+            <content:encoded>Jonathan and Kelli talk about git workflow, AWS bugs, and Apple's upcoming product announcement.</content:encoded>
+            <itunes:author>Nitch</itunes:author>
+            <itunes:duration>1:05:35</itunes:duration>
+            <itunes:subtitle>Jonathan and Kelli talk about git workflow, AWS bugs, and Apple's upcoming product announcement.</itunes:subtitle>
+            <itunes:summary>Jonathan and Kelli talk about git workflow, AWS bugs, and Apple's upcoming product announcement.</itunes:summary>
+            <itunes:keywords>web, mobile, html5, rest, json</itunes:keywords>
+            <itunes:image href="http://nitch.cc/img/512x512.png"/>
+            <media:content url="https://s3.amazonaws.com/nitch/Episode_124_Sniffing_Through_Charles.mp3" fileSize="54566344" type="audio/mpeg"/>
+            <itunes:explicit>no</itunes:explicit>
+        </item>
     </channel>
 </rss>
