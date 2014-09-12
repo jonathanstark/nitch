@@ -2274,5 +2274,23 @@ version="2.0">
             <media:content url="https://s3.amazonaws.com/nitch/Episode_124_Sniffing_Through_Charles.mp3" fileSize="54566344" type="audio/mpeg"/>
             <itunes:explicit>no</itunes:explicit>
         </item>
+        <item>
+            <title>Episode 125: Super Groove</title>
+            <link>http://nitch.cc/podcast/episode-125-super-groove</link>
+            <guid>http://nitch.cc/podcast/episode-125-super-groove</guid>
+            <pubDate>Fri, 12 Sep 2014 14:00:00 GMT</pubDate>
+            <author>Nitch</author>
+            <description>Jonathan and Kelli talk about the fallout from Apple's iPhone 6 and Apple Watch announcements: iOS is officially fragmented, NFC goes mainstream, and the smartwatch category gets the Apple stamp of approval.</description>
+            <enclosure url="https://s3.amazonaws.com/nitch/Episode_125_Super_Groove.mp3" length="64172851" type="audio/mpeg"/>
+            <content:encoded>Jonathan and Kelli talk about the fallout from Apple's iPhone 6 and Apple Watch announcements: iOS is officially fragmented, NFC goes mainstream, and the smartwatch category gets the Apple stamp of approval.</content:encoded>
+            <itunes:author>Nitch</itunes:author>
+            <itunes:duration>40:48</itunes:duration>
+            <itunes:subtitle>Jonathan and Kelli talk about the fallout from Apple's iPhone 6 and Apple Watch announcements: iOS is officially fragmented, NFC goes mainstream, and the smartwatch category gets the Apple stamp of approval.</itunes:subtitle>
+            <itunes:summary>Jonathan and Kelli talk about the fallout from Apple's iPhone 6 and Apple Watch announcements: iOS is officially fragmented, NFC goes mainstream, and the smartwatch category gets the Apple stamp of approval.</itunes:summary>
+            <itunes:keywords>web, mobile, html5, rest, json</itunes:keywords>
+            <itunes:image href="http://nitch.cc/img/512x512.png"/>
+            <media:content url="https://s3.amazonaws.com/nitch/Episode_125_Super_Groove.mp3" fileSize="54566344" type="audio/mpeg"/>
+            <itunes:explicit>no</itunes:explicit>
+        </item>
     </channel>
 </rss>
