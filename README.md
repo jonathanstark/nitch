@@ -4,7 +4,8 @@ Nitch
 ## Housekeeping
 
 * Nitch Bit 3
-* Thursday September 18th I'm giving a free webinar called "Support Everything: Building Apps that Run Everywhere with HTML5, REST, and JSON"
+* KS's Vagrantfile
+* Thursday September 18th JS is giving a free webinar called "Support Everything: Building Apps that Run Everywhere with HTML5, REST, and JSON"
 
 ## Bug Report
 
