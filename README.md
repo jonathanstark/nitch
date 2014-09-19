@@ -3,10 +3,9 @@ Nitch
 
 ## Housekeeping
 
-* Nitch Bit?
-* KS's Snips
 * Support Everything video link
 * PHP remvoved from DB in QuitRI app
+* KS's Snips
 
 ## Bug Report
 
