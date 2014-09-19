@@ -3,17 +3,11 @@ Nitch
 
 ## Housekeeping
 
-* Support Everything video link
-* PHP remvoved from DB in QuitRI app
-* KS's Snips
+* Added slack support to Kilo
 
 ## Bug Report
 
-* AWS disk size (JS was df'ing on local machine)
-
 ## Feature
-
-* Moto Hint, et al
 
 ## Topic Ideas
 
