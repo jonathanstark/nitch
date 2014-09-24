@@ -7,6 +7,8 @@ Nitch
 
 ## Bug Report
 
+* MYO paint bug
+
 ## Feature
 
 ## Topic Ideas
