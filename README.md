@@ -8,12 +8,12 @@ Nitch
 
 ## Bug Report
 
+* StickyAlbums albums sticking in "republishing" state when republishing the brand.
+
 ## Feature
 
 ## Topic Ideas
 
-* Rails Database sessions
-* IE on Xbox
 * Google Cardboard and designing for 3d + 360
 * Gadgets episode?
     * HooToo
