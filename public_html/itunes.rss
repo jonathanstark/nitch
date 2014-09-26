@@ -2310,5 +2310,23 @@ version="2.0">
             <media:content url="https://s3.amazonaws.com/nitch/Episode_126_The_Brain_Baster.mp3" fileSize="54566344" type="audio/mpeg"/>
             <itunes:explicit>no</itunes:explicit>
         </item>
+        <item>
+            <title>Episode 127: Character Soup</title>
+            <link>http://nitch.cc/podcast/episode-127-character-soup</link>
+            <guid>http://nitch.cc/podcast/episode-127-character-soup</guid>
+            <pubDate>Fri, 26 Sep 2014 14:00:00 GMT</pubDate>
+            <author>Nitch</author>
+            <description>Jonathan and Kelli talk about bugs: Bash exploits, MYO armbands, HTTP headers, and a whole lot more.</description>
+            <enclosure url="https://s3.amazonaws.com/nitch/Episode_127_Character_Soup.mp3" length="64172851" type="audio/mpeg"/>
+            <content:encoded>Jonathan and Kelli talk about bugs: Bash exploits, MYO armbands, HTTP headers, and a whole lot more.</content:encoded>
+            <itunes:author>Nitch</itunes:author>
+            <itunes:duration>41:56</itunes:duration>
+            <itunes:subtitle>Jonathan and Kelli talk about bugs: Bash exploits, MYO armbands, HTTP headers, and a whole lot more.</itunes:subtitle>
+            <itunes:summary>Jonathan and Kelli talk about bugs: Bash exploits, MYO armbands, HTTP headers, and a whole lot more.</itunes:summary>
+            <itunes:keywords>web, mobile, html5, rest, json</itunes:keywords>
+            <itunes:image href="http://nitch.cc/img/512x512.png"/>
+            <media:content url="https://s3.amazonaws.com/nitch/Episode_127_Character_Soup.mp3" fileSize="54566344" type="audio/mpeg"/>
+            <itunes:explicit>no</itunes:explicit>
+        </item>
     </channel>
 </rss>

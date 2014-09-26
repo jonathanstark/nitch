@@ -3,11 +3,10 @@ Nitch
 
 ## Housekeeping
 
-* Added slack support to Kilo
+* Watch complications
+* Simple Switch
 
 ## Bug Report
-
-* MYO paint bug
 
 ## Feature
 
@@ -15,7 +14,6 @@ Nitch
 
 * Rails Database sessions
 * IE on Xbox
-* iTime on Jimmy Kimmel
 * Google Cardboard and designing for 3d + 360
 * Gadgets episode?
     * HooToo
