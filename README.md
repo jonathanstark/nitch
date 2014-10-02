@@ -4,8 +4,10 @@ Nitch
 ## Housekeeping
 
 * Watch complications
+* New Pebble site
 * Simple Switch
 * Artifact update (type, des/dev false dichotomy, designers using git, etc.)
+* Pavlok
 
 ## Bug Report
 
@@ -13,6 +15,8 @@ Nitch
 * Rails/activeRecord bug
 
 ## Feature
+
+* IndexedDB - it'll get there but this is bleed edge territory right now
 
 ## Topic Ideas
 
