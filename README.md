@@ -5,10 +5,12 @@ Nitch
 
 * Watch complications
 * Simple Switch
+* Artifact update (type, des/dev false dichotomy, designers using git, etc.)
 
 ## Bug Report
 
-* StickyAlbums albums sticking in "republishing" state when republishing the brand.
+* StickyAlbums albums sticking in "republishing" state when republishing the brand
+* Rails/activeRecord bug
 
 ## Feature
 
