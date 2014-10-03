@@ -1,25 +1,24 @@
 Nitch
 =====
 
+## Waffling
+
 ## Housekeeping
 
-* Watch complications
-* New Pebble site
 * Simple Switch
-* Artifact update (type, des/dev false dichotomy, designers using git, etc.)
-* Pavlok
 
 ## Bug Report
 
 * StickyAlbums albums sticking in "republishing" state when republishing the brand
-* Rails/activeRecord bug
 
 ## Feature
 
-* IndexedDB - it'll get there but this is bleed edge territory right now
+* IndexedDB delayed - it'll get there but this is bleed edge territory right now
+* Physical Web
 
 ## Topic Ideas
 
+* Selenium?
 * Google Cardboard and designing for 3d + 360
 * Gadgets episode?
     * HooToo
