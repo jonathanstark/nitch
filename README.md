@@ -5,19 +5,20 @@ Nitch
 
 ## Housekeeping
 
-* Simple Switch
+* RR idea
+* Simple Switch (re xplat workshop)
+* Myo update
+* Kilo SMS/Glass update
 
 ## Bug Report
 
-* StickyAlbums albums sticking in "republishing" state when republishing the brand
-
 ## Feature
 
-* IndexedDB delayed - it'll get there but this is bleed edge territory right now
 * Physical Web
 
 ## Topic Ideas
 
+* Teaching web dev to total noobs
 * Selenium?
 * Google Cardboard and designing for 3d + 360
 * Gadgets episode?
