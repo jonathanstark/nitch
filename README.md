@@ -5,16 +5,21 @@ Nitch
 
 ## Housekeeping
 
-* RR idea
-* Simple Switch (re xplat workshop)
-* Myo update
-* Kilo SMS/Glass update
+* RR imminent
+* Gadget update
+    * No Myo update yet
+    * Hint is meh so far
+    * Received Wunderbar
+* Nitch Bits
+* Responsive Web Design Bootcamp
 
 ## Bug Report
 
+* Scope considerations with coffeescript includes
+
 ## Feature
 
-* Physical Web
+* Nitrous
 
 ## Topic Ideas
 

@@ -2364,5 +2364,23 @@ version="2.0">
             <media:content url="https://s3.amazonaws.com/nitch/Episode_129_Rednecklandia.mp3" fileSize="54566344" type="audio/mpeg"/>
             <itunes:explicit>no</itunes:explicit>
         </item>
+        <item>
+            <title>Episode 130: Nerd Night</title>
+            <link>http://nitch.cc/podcast/episode-130-nerd-night</link>
+            <guid>http://nitch.cc/podcast/episode-130-nerd-night</guid>
+            <pubDate>Fri, 17 Oct 2014 14:00:00 GMT</pubDate>
+            <author>Nitch</author>
+            <description>Jonathan and Kelli talk about the Moto Hint earpiece, scope bugs in coffeescript, Firefox vs Chrome dev tools, a new web based IDE called Nitrous, and why Canadian ketchup is so delicious.</description>
+            <enclosure url="https://s3.amazonaws.com/nitch/Episode_130_Nerd_Night.mp3" length="64172851" type="audio/mpeg"/>
+            <content:encoded>Jonathan and Kelli talk about the Moto Hint earpiece, scope bugs in coffeescript, Firefox vs Chrome dev tools, a new web based IDE called Nitrous, and why Canadian ketchup is so delicious.</content:encoded>
+            <itunes:author>Nitch</itunes:author>
+            <itunes:duration>51:16</itunes:duration>
+            <itunes:subtitle>Jonathan and Kelli talk about the Moto Hint earpiece, scope bugs in coffeescript, Firefox vs Chrome dev tools, a new web based IDE called Nitrous, and why Canadian ketchup is so delicious.</itunes:subtitle>
+            <itunes:summary>Jonathan and Kelli talk about the Moto Hint earpiece, scope bugs in coffeescript, Firefox vs Chrome dev tools, a new web based IDE called Nitrous, and why Canadian ketchup is so delicious.</itunes:summary>
+            <itunes:keywords>web, mobile, html5, rest, json</itunes:keywords>
+            <itunes:image href="http://nitch.cc/img/512x512.png"/>
+            <media:content url="https://s3.amazonaws.com/nitch/Episode_130_Nerd_Night.mp3" fileSize="54566344" type="audio/mpeg"/>
+            <itunes:explicit>no</itunes:explicit>
+        </item>
     </channel>
 </rss>
