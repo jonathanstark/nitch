@@ -5,21 +5,17 @@ Nitch
 
 ## Housekeeping
 
-* RR imminent
-* Gadget update
-    * No Myo update yet
-    * Hint is meh so far
-    * Received Wunderbar
-* Nitch Bits
-* Responsive Web Design Bootcamp
+* Sign up for castbacker news
 
 ## Bug Report
 
-* Scope considerations with coffeescript includes
+* Poodlebleed SSLv3
 
 ## Feature
 
-* Nitrous
+* RR post mortem
+   * Bootstrap "HTML" centric approach
+   * Vagrant is the shit
 
 ## Topic Ideas
 
