@@ -2382,5 +2382,23 @@ version="2.0">
             <media:content url="https://s3.amazonaws.com/nitch/Episode_130_Nerd_Night.mp3" fileSize="54566344" type="audio/mpeg"/>
             <itunes:explicit>no</itunes:explicit>
         </item>
+        <item>
+            <title>Episode 131: Leadfinger</title>
+            <link>http://nitch.cc/podcast/episode-131-leadfinger</link>
+            <guid>http://nitch.cc/podcast/episode-131-leadfinger</guid>
+            <pubDate>Fri, 24 Oct 2014 14:00:00 GMT</pubDate>
+            <author>Nitch</author>
+            <description>Jonathan and Kelli talk about gotchas with POODLEBLEED, admit to foreach stupidity in PHP, and recap the fun we had building Castbacker for Rails Rumble.</description>
+            <enclosure url="https://s3.amazonaws.com/nitch/Episode_131_Leadfinger.mp3" length="64172851" type="audio/mpeg"/>
+            <content:encoded>Jonathan and Kelli talk about gotchas with POODLEBLEED, admit to foreach stupidity in PHP, and recap the fun we had building Castbacker for Rails Rumble.</content:encoded>
+            <itunes:author>Nitch</itunes:author>
+            <itunes:duration>51:28</itunes:duration>
+            <itunes:subtitle>Jonathan and Kelli talk about gotchas with POODLEBLEED, admit to foreach stupidity in PHP, and recap the fun we had building Castbacker for Rails Rumble.</itunes:subtitle>
+            <itunes:summary>Jonathan and Kelli talk about gotchas with POODLEBLEED, admit to foreach stupidity in PHP, and recap the fun we had building Castbacker for Rails Rumble.</itunes:summary>
+            <itunes:keywords>web, mobile, html5, rest, json</itunes:keywords>
+            <itunes:image href="http://nitch.cc/img/512x512.png"/>
+            <media:content url="https://s3.amazonaws.com/nitch/Episode_131_Leadfinger.mp3" fileSize="54566344" type="audio/mpeg"/>
+            <itunes:explicit>no</itunes:explicit>
+        </item>
     </channel>
 </rss>

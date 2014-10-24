@@ -39,3 +39,8 @@ Nitch
 * Figure out how to parse S3 logs
 * 'Sode-O-Matic: Add S3 file upload
 * 'Sode-O-Matic: Detect audio duration from mp3
+
+## Titles
+
+* Grepping Things
+* Cap Happy
