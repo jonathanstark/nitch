@@ -23,10 +23,11 @@ Jonathan and Kelli talk about gotchas with POODLEBLEED, admit to foreach stupidi
 * [Vote for Castbacker](http://railsrumble.com/entries/19-castbacker)
 * [Bootstrap](http://getbootstrap.com/)
 * [Flat UI](http://designmodo.github.io/Flat-UI/)
+* [POODLEBLEED](http://poodlebleed.com/)
 
 ## Titles We Considered
 
-* The LIttlest Toe
+* The Littlest Toe
 * Grepping Things
 * Cap Happy
 * Leadfinger
