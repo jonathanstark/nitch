@@ -2400,5 +2400,23 @@ version="2.0">
             <media:content url="https://s3.amazonaws.com/nitch/Episode_131_Leadfinger.mp3" fileSize="54566344" type="audio/mpeg"/>
             <itunes:explicit>no</itunes:explicit>
         </item>
+        <item>
+            <title>Episode 132: Wheelie All The Way Home</title>
+            <link>http://nitch.cc/podcast/episode-132-wheelie-all-the-way-home</link>
+            <guid>http://nitch.cc/podcast/episode-132-wheelie-all-the-way-home</guid>
+            <pubDate>Fri, 31 Oct 2014 14:00:00 GMT</pubDate>
+            <author>Nitch</author>
+            <description>Jonathan and Kelli have a grand old time talking about broken axles, smoking eyeballs, and socking Mickey.</description>
+            <enclosure url="https://s3.amazonaws.com/nitch/Episode_132_Wheelie_All_The_Way_Home.mp3" length="64172851" type="audio/mpeg"/>
+            <content:encoded>Jonathan and Kelli have a grand old time talking about broken axles, smoking eyeballs, and socking Mickey.</content:encoded>
+            <itunes:author>Nitch</itunes:author>
+            <itunes:duration>50:30</itunes:duration>
+            <itunes:subtitle>Jonathan and Kelli have a grand old time talking about broken axles, smoking eyeballs, and socking Mickey.</itunes:subtitle>
+            <itunes:summary>Jonathan and Kelli have a grand old time talking about broken axles, smoking eyeballs, and socking Mickey.</itunes:summary>
+            <itunes:keywords>web, mobile, html5, rest, json</itunes:keywords>
+            <itunes:image href="http://nitch.cc/img/512x512.png"/>
+            <media:content url="https://s3.amazonaws.com/nitch/Episode_132_Wheelie_All_The_Way_Home.mp3" fileSize="54566344" type="audio/mpeg"/>
+            <itunes:explicit>no</itunes:explicit>
+        </item>
     </channel>
 </rss>

@@ -6,16 +6,13 @@ Nitch
 ## Housekeeping
 
 * Sign up for castbacker news
+* WebAppCapable.com
 
 ## Bug Report
 
-* Poodlebleed SSLv3
-
 ## Feature
 
-* RR post mortem
-   * Bootstrap "HTML" centric approach
-   * Vagrant is the shit
+* RR rant
 
 ## Topic Ideas
 
@@ -40,7 +37,20 @@ Nitch
 * 'Sode-O-Matic: Add S3 file upload
 * 'Sode-O-Matic: Detect audio duration from mp3
 
+## Links
+
+* [Castbacker](http://castbacker.com)
+* [Web App Capable Homescreen Icon And Startup Image Generator](http://webappcapable.com)
+* [Flat UI - Free User Interface Kit](http://designmodo.github.io/Flat-UI/)
+* [Flat UI Colors](http://flatuicolors.com/)
+* [Acorn - Image Editing for Humans](http://www.flyingmeat.com/acorn/)
+* [XKCD - The General Problem](http://xkcd.com/974/)
+* [Digital Ocean](https://www.digitalocean.com/)
+* [Rails Rumble 2014](http://railsrumble.com/)
+* [JS's Mobile Web Training](https://jonathanstark.com/training)
+
 ## Titles
 
-* Grepping Things
-* Cap Happy
+* Wheelie All The Way Home
+* Socially Engineered Pizza
+* Nerdgasm
