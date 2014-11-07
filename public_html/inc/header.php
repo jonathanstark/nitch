@@ -9,6 +9,7 @@
         <?php endif; ?>
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <meta name="apple-mobile-web-app-title" content="Nitch" />
+        <meta name="google-site-verification" content="a1fRV1yKzMkYWHA8bkjw09fG-jtaKDPwyPzUOpiOFS8" />
         <link rel="alternate" type="application/rss+xml" title="Nitch Podcast" href="http://nitch.cc/itunes.rss" />
         <link rel="icon" type="image/png" href="/img/16x16.png" />
         <link rel="apple-touch-icon-precomposed" sizes="16x16" href="/img/16x16.png" />

@@ -29,6 +29,8 @@ Jonathan and Kelli talk about cross-device user experiences at Disney, no-click 
 * [Disney Phineas and Ferb: Agent P's World Showcase Adventure](https://disneyworld.disney.go.com/attractions/epcot/agent-p-world-showcase-adventure/)
 * [Amazon Echo](http://www.amazon.com/oc/echo/ref_=ods_dp_ae)
 * [Jasper - Open source platform for always-on, voice-controlled apps](http://jasperproject.github.io/)
+* [SquishTo Image Optimization for Paperclip](https://github.com/kellishaver/SquishTo)
+* [Ice Cream Photo Color Palette Analyzer](http://icecream.kellishaver.com/)
 
 ## Titles We Considered
 
