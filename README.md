@@ -3,16 +3,23 @@ Nitch
 
 ## Waffling
 
+* Eyeball zapping
+* Disney experience
+
 ## Housekeeping
 
-* Sign up for castbacker news
-* WebAppCapable.com
+* Eyeball zapping
+* Disney experience
+* Castbacker signups mode still
+* Live redesign of jsc.com?
+* New training page
 
 ## Bug Report
 
 ## Feature
 
-* RR rant
+* Ice Cream
+* SquishTo
 
 ## Topic Ideas
 

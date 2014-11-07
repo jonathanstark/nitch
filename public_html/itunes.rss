@@ -2418,5 +2418,23 @@ version="2.0">
             <media:content url="https://s3.amazonaws.com/nitch/Episode_132_Wheelie_All_The_Way_Home.mp3" fileSize="54566344" type="audio/mpeg"/>
             <itunes:explicit>no</itunes:explicit>
         </item>
+        <item>
+            <title>Episode 133: Who Put All These Little Socks On My Teeth?</title>
+            <link>http://nitch.cc/podcast/episode-133-who-put-all-these-little-socks-on-my-teeth</link>
+            <guid>http://nitch.cc/podcast/episode-133-who-put-all-these-little-socks-on-my-teeth</guid>
+            <pubDate>Fri, 07 Nov 2014 14:00:00 GMT</pubDate>
+            <author>Nitch</author>
+            <description>Jonathan and Kelli talk about cross-device user experiences at Disney, no-click purchases with Amazon Echo, image analysis with Ice Cream, image optimization with SquishTo, and Kelli’s favorite surgeon.</description>
+            <enclosure url="https://s3.amazonaws.com/nitch/Episode_133_Who_Put_All_These_Little_Socks_On_My_Teeth.mp3" length="64172851" type="audio/mpeg"/>
+            <content:encoded>Jonathan and Kelli talk about cross-device user experiences at Disney, no-click purchases with Amazon Echo, image analysis with Ice Cream, image optimization with SquishTo, and Kelli’s favorite surgeon.</content:encoded>
+            <itunes:author>Nitch</itunes:author>
+            <itunes:duration>29:35</itunes:duration>
+            <itunes:subtitle>Jonathan and Kelli talk about cross-device user experiences at Disney, no-click purchases with Amazon Echo, image analysis with Ice Cream, image optimization with SquishTo, and Kelli’s favorite surgeon.</itunes:subtitle>
+            <itunes:summary>Jonathan and Kelli talk about cross-device user experiences at Disney, no-click purchases with Amazon Echo, image analysis with Ice Cream, image optimization with SquishTo, and Kelli’s favorite surgeon.</itunes:summary>
+            <itunes:keywords>web, mobile, html5, rest, json</itunes:keywords>
+            <itunes:image href="http://nitch.cc/img/512x512.png"/>
+            <media:content url="https://s3.amazonaws.com/nitch/Episode_133_Who_Put_All_These_Little_Socks_On_My_Teeth.mp3" fileSize="54566344" type="audio/mpeg"/>
+            <itunes:explicit>no</itunes:explicit>
+        </item>
     </channel>
 </rss>
