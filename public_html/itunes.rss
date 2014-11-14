@@ -2436,5 +2436,23 @@ version="2.0">
             <media:content url="https://s3.amazonaws.com/nitch/Episode_133_Who_Put_All_These_Little_Socks_On_My_Teeth.mp3" fileSize="54566344" type="audio/mpeg"/>
             <itunes:explicit>no</itunes:explicit>
         </item>
+        <item>
+            <title>Episode 134: Doubledog Barkathon</title>
+            <link>http://nitch.cc/podcast/episode-134-doubledog-barkathon</link>
+            <guid>http://nitch.cc/podcast/episode-134-doubledog-barkathon</guid>
+            <pubDate>Fri, 14 Nov 2014 14:00:00 GMT</pubDate>
+            <author>Nitch</author>
+            <description>Jonathan and Kelli explain how great UX can sell horrible pizza.</description>
+            <enclosure url="https://s3.amazonaws.com/nitch/Episode_134_Doubledog_Barkathon.mp3" length="64172851" type="audio/mpeg"/>
+            <content:encoded>Jonathan and Kelli explain how great UX can sell horrible pizza.</content:encoded>
+            <itunes:author>Nitch</itunes:author>
+            <itunes:duration>43:49</itunes:duration>
+            <itunes:subtitle>Jonathan and Kelli explain how great UX can sell horrible pizza.</itunes:subtitle>
+            <itunes:summary>Jonathan and Kelli explain how great UX can sell horrible pizza.</itunes:summary>
+            <itunes:keywords>web, mobile, html5, rest, json</itunes:keywords>
+            <itunes:image href="http://nitch.cc/img/512x512.png"/>
+            <media:content url="https://s3.amazonaws.com/nitch/Episode_134_Doubledog_Barkathon.mp3" fileSize="54566344" type="audio/mpeg"/>
+            <itunes:explicit>no</itunes:explicit>
+        </item>
     </channel>
 </rss>

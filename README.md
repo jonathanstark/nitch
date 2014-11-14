@@ -3,23 +3,23 @@ Nitch
 
 ## Waffling
 
-* Eyeball zapping
-* Disney experience
+* Noodlehorn Kerfuffle
 
 ## Housekeeping
 
-* Eyeball zapping
-* Disney experience
 * Castbacker signups mode still
-* Live redesign of jsc.com?
-* New training page
+* Live redesign of jsc.com on 12/11
+* New training page, new mentoring page
 
 ## Bug Report
 
+* Wordcount in php
+* Hover back to top
+* Capistrano/Sidekiq
+
 ## Feature
 
-* Ice Cream
-* SquishTo
+* Domino's Pizza Tracker for Pebble
 
 ## Topic Ideas
 
