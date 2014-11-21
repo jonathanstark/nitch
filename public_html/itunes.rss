@@ -2454,5 +2454,23 @@ version="2.0">
             <media:content url="https://s3.amazonaws.com/nitch/Episode_134_Doubledog_Barkathon.mp3" fileSize="54566344" type="audio/mpeg"/>
             <itunes:explicit>no</itunes:explicit>
         </item>
+        <item>
+            <title>Episode 135: Deep Linking In Texas</title>
+            <link>http://nitch.cc/podcast/episode-135-deep-linking-in-texas</link>
+            <guid>http://nitch.cc/podcast/episode-135-deep-linking-in-texas</guid>
+            <pubDate>Fri, 21 Nov 2014 14:00:00 GMT</pubDate>
+            <author>Nitch</author>
+            <description>Jonathan and Kelli talk about a PhoneGap bug on Lollipop, building Hue Pi with Meteor, and we finally announce that Castbacker.com is live!</description>
+            <enclosure url="https://s3.amazonaws.com/nitch/Episode_135_Deep_Linking_In_Texas.mp3" length="64172851" type="audio/mpeg"/>
+            <content:encoded>Jonathan and Kelli talk about a PhoneGap bug on Lollipop, building Hue Pi with Meteor, and we finally announce that Castbacker.com is live!</content:encoded>
+            <itunes:author>Nitch</itunes:author>
+            <itunes:duration>40:44</itunes:duration>
+            <itunes:subtitle>Jonathan and Kelli talk about a PhoneGap bug on Lollipop, building Hue Pi with Meteor, and we finally announce that Castbacker.com is live!</itunes:subtitle>
+            <itunes:summary>Jonathan and Kelli talk about a PhoneGap bug on Lollipop, building Hue Pi with Meteor, and we finally announce that Castbacker.com is live!</itunes:summary>
+            <itunes:keywords>web, mobile, html5, rest, json</itunes:keywords>
+            <itunes:image href="http://nitch.cc/img/512x512.png"/>
+            <media:content url="https://s3.amazonaws.com/nitch/Episode_135_Deep_Linking_In_Texas.mp3" fileSize="54566344" type="audio/mpeg"/>
+            <itunes:explicit>no</itunes:explicit>
+        </item>
     </channel>
 </rss>

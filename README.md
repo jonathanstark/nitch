@@ -3,26 +3,22 @@ Nitch
 
 ## Waffling
 
-* Noodlehorn Kerfuffle
-
 ## Housekeeping
 
-* Castbacker signups mode still
-* Live redesign of jsc.com on 12/11
-* New training page, new mentoring page
+* Sched might be weird next week (tday in the us)
+* Two of four mentoring spots are taken
 
 ## Bug Report
 
-* Wordcount in php
-* Hover back to top
-* Capistrano/Sidekiq
+* Time picker in Kilo for PhoneGap
 
 ## Feature
 
-* Domino's Pizza Tracker for Pebble
+* Hue Pi
 
 ## Topic Ideas
 
+* PC talk/mobile last/hacker news
 * Teaching web dev to total noobs
 * Selenium?
 * Google Cardboard and designing for 3d + 360
