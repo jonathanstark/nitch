@@ -30,11 +30,11 @@ Jonathan and Kelli countdown our top ten giftable gadgets in the year's Nitch Gi
 
 ## Kelli’s Picks
 
-1. [Kindle Paperwhite](http://amzn.com/B00JG8GOWU)
-2. [RoboRally](http://amzn.com/B0009HLSP0)
-3. [Gunnar Opitks Intercept Glasses](http://amzn.com/B00HGAWJI8)
-4. [Logitech Wireless Headset H800](http://amzn.com/B005GTNZUM)
-5. [Vivis™ Knight V3 13000mAh Dual USB Portable Charger](http://amzn.com/B00LJCI53M)
+1. [Kindle Paperwhite](http://amzn.com/B00JG8GOWU) ($99 reg. $119)
+2. [RoboRally](http://amzn.com/B0009HLSP0) ($37)
+3. [Gunnar Opitks Intercept Glasses](http://amzn.com/B00HGAWJI8) ($60)
+4. [Logitech Wireless Headset H800](http://amzn.com/B005GTNZUM) ($55)
+5. [Vivis™ Knight V3 13000mAh Dual USB Portable Charger](http://amzn.com/B00LJCI53M) ($35)
 
 ## Other Links
 
