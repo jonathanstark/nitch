@@ -14,6 +14,11 @@ body {
     margin: 0;
     text-align: center;
 }
+hr {
+    border-width: 1px 0 0 0;
+    border-color: #ccc;
+    border-style: dotted;
+}
 body > .section,
 body > .footer {
     margin: 0 auto;
