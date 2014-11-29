@@ -18,24 +18,32 @@ Jonathan and Kelli countdown our top ten giftable gadgets in the year's Nitch Gi
 
 * Sorry we're late, but turkey.
 
-## Related Links
+<hr id="picks">
+
+## Jonathan’s Picks
+
+1. [Chromecast ($24)](http://www.amazon.com/Google-Chromecast-Streaming-Media-Player/dp/B00DR0PDNE/ref=sr_1_cc_1)
+2. [Hiku barcode scanner ($79)](http://hiku.us/)
+3. [Fire HD 6" ($79), Fire HD 7" ($109), Fire HDX ($179)](http://www.amazon.com/dp/B00IKPYKWG/ref=fs_fas#firetablet-compare)
+4. [Hue lightbulbs starter pack ($189)](http://www.amazon.com/Philips-431643-Personal-Wireless-Frustration/dp/B00BSN8DN4/ref=sr_1_1)
+5. [Pebble ($79), Pebble Steel ($149)](http://getpebble.com)
+
+## Kelli’s Picks
+
+1. [Kindle Paperwhite](http://amzn.com/B00JG8GOWU)
+2. [RoboRally](http://amzn.com/B0009HLSP0)
+3. [Gunnar Opitks Intercept Glasses](http://amzn.com/B00HGAWJI8)
+4. [Logitech Wireless Headset H800](http://amzn.com/B005GTNZUM)
+5. [Vivis™ Knight V3 13000mAh Dual USB Portable Charger](http://amzn.com/B00LJCI53M)
+
+## Other Links
 
 * [BlackFridayDeathCount.com](http://blackfridaydeathcount.com/ "Black Friday Death Count")
 * [Meteor.com](https://www.meteor.com/ "Meteor")
 * [The App Formerly Known As HuePi](https://github.com/kellishaver/hue-panel)
-* [Pebble Smartwatch](http://getpebble.com)
-* [Fire Tablets](http://www.amazon.com/dp/B00IKPYKWG/ref=fs_fas#firetablet-compare)
-* [Google Chromecast HDMI Streaming Media Player](http://www.amazon.com/Google-Chromecast-Streaming-Media-Player/dp/B00DR0PDNE/ref=sr_1_cc_1)
-* [Gunnar Opitks Intercept Glasses](http://amzn.com/B00HGAWJI8)
-* [Hiku barcode scanner](http://hiku.us/)
-* [Kindle Paperwhite](http://amzn.com/B00JG8GOWU)
-* [Logitech Wireless Headset H800](http://amzn.com/B005GTNZUM)
-* [Philips Hue Personal Wireless Lighting, Starter Pack](http://www.amazon.com/Philips-431643-Personal-Wireless-Frustration/dp/B00BSN8DN4/ref=sr_1_1)
-* [RoboRally](http://amzn.com/B0009HLSP0)
-* [Vivis™ Knight V3 13000mAh Dual USB Portable Charger](http://amzn.com/B00LJCI53M)
 
 ## Titles We Considered
 
 * Black Lung Friday
-* Delicio
+* Delicious Bugs
 * Turkey Jerky, not Naked Ladies
