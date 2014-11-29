@@ -22,12 +22,17 @@ Jonathan and Kelli countdown our top ten giftable gadgets in the year's Nitch Gi
 
 * [BlackFridayDeathCount.com](http://blackfridaydeathcount.com/ "Black Friday Death Count")
 * [Meteor.com](https://www.meteor.com/ "Meteor")
-* [HuePi](http://www.google.com/search?q=HuePi&btnI "HuePi - Google Search")
+* [The App Formerly Known As HuePi](https://github.com/kellishaver/hue-panel)
 * [Pebble Smartwatch](http://getpebble.com)
 * [Fire Tablets](http://www.amazon.com/dp/B00IKPYKWG/ref=fs_fas#firetablet-compare)
-* [Hiku barcode scanner](http://hiku.us/)
 * [Google Chromecast HDMI Streaming Media Player](http://www.amazon.com/Google-Chromecast-Streaming-Media-Player/dp/B00DR0PDNE/ref=sr_1_cc_1)
+* [Gunnar Opitks Intercept Glasses](http://amzn.com/B00HGAWJI8)
+* [Hiku barcode scanner](http://hiku.us/)
+* [Kindle Paperwhite](http://amzn.com/B00JG8GOWU)
+* [Logitech Wireless Headset H800](http://amzn.com/B005GTNZUM)
 * [Philips Hue Personal Wireless Lighting, Starter Pack](http://www.amazon.com/Philips-431643-Personal-Wireless-Frustration/dp/B00BSN8DN4/ref=sr_1_1)
+* [RoboRally](http://amzn.com/B0009HLSP0)
+* [Vivis™ Knight V3 13000mAh Dual USB Portable Charger](http://amzn.com/B00LJCI53M)
 
 ## Titles We Considered
 
