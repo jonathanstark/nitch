@@ -1,20 +1,19 @@
 Nitch
 =====
 
-## Waffling
-
 ## Housekeeping
-
-* Sched might be weird next week (tday in the us)
-* Two of four mentoring spots are taken
 
 ## Bug Report
 
-* Time picker in Kilo for PhoneGap
-
 ## Feature
 
-* Hue Pi
+The Nitch Gift Guide Episode
+
+5. Pebble ($79), Pebble Steel ($149)
+4. Hue lightbulbs starter pack ($189)
+3. Fire HD 6" ($79), Fire HD 7" ($109), Fire HDX ($179), iPad Mini 1 ($250)
+2. Hiku barcode scanner ($79)
+1. Chromecast ($24)
 
 ## Topic Ideas
 

@@ -2472,5 +2472,23 @@ version="2.0">
             <media:content url="https://s3.amazonaws.com/nitch/Episode_135_Deep_Linking_In_Texas.mp3" fileSize="54566344" type="audio/mpeg"/>
             <itunes:explicit>no</itunes:explicit>
         </item>
+        <item>
+            <title>Episode 136: Black Lung Friday</title>
+            <link>http://nitch.cc/podcast/episode-136-black-lung-friday</link>
+            <guid>http://nitch.cc/podcast/episode-136-black-lung-friday</guid>
+            <pubDate>Fri, 28 Nov 2014 14:00:00 GMT</pubDate>
+            <author>Nitch</author>
+            <description>Jonathan and Kelli countdown our top ten giftable gadgets in the year's Nitch Gift Guide.</description>
+            <enclosure url="https://s3.amazonaws.com/nitch/Episode_136_Black_Lung_Friday.mp3" length="64172851" type="audio/mpeg"/>
+            <content:encoded>Jonathan and Kelli countdown our top ten giftable gadgets in the year's Nitch Gift Guide.</content:encoded>
+            <itunes:author>Nitch</itunes:author>
+            <itunes:duration>1:04:57</itunes:duration>
+            <itunes:subtitle>Jonathan and Kelli countdown our top ten giftable gadgets in the year's Nitch Gift Guide.</itunes:subtitle>
+            <itunes:summary>Jonathan and Kelli countdown our top ten giftable gadgets in the year's Nitch Gift Guide.</itunes:summary>
+            <itunes:keywords>web, mobile, html5, rest, json</itunes:keywords>
+            <itunes:image href="http://nitch.cc/img/512x512.png"/>
+            <media:content url="https://s3.amazonaws.com/nitch/Episode_136_Black_Lung_Friday.mp3" fileSize="54566344" type="audio/mpeg"/>
+            <itunes:explicit>no</itunes:explicit>
+        </item>
     </channel>
 </rss>
