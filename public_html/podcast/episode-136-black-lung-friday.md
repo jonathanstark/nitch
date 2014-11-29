@@ -14,6 +14,8 @@ Jonathan and Kelli countdown our top ten giftable gadgets in the year's Nitch Gi
 
 [Download MP3](https://s3.amazonaws.com/nitch/Episode_136_Black_Lung_Friday.mp3 "Episode 136: Black Lung Friday")
 
+<hr id="housekeeping">
+
 ## Housekeeping/News
 
 * Sorry we're late, but turkey.
@@ -36,11 +38,15 @@ Jonathan and Kelli countdown our top ten giftable gadgets in the year's Nitch Gi
 4. [Logitech Wireless Headset H800](http://amzn.com/B005GTNZUM) ($55)
 5. [Vivis™ Knight V3 13000mAh Dual USB Portable Charger](http://amzn.com/B00LJCI53M) ($35)
 
+<hr id="links">
+
 ## Other Links
 
 * [BlackFridayDeathCount.com](http://blackfridaydeathcount.com/ "Black Friday Death Count")
 * [Meteor.com](https://www.meteor.com/ "Meteor")
 * [The App Formerly Known As HuePi](https://github.com/kellishaver/hue-panel)
+
+<hr id="titles">
 
 ## Titles We Considered
 
