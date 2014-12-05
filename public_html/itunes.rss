@@ -2490,5 +2490,23 @@ version="2.0">
             <media:content url="https://s3.amazonaws.com/nitch/Episode_136_Black_Lung_Friday.mp3" fileSize="54566344" type="audio/mpeg"/>
             <itunes:explicit>no</itunes:explicit>
         </item>
+        <item>
+            <title>Episode 137: Pizza Button</title>
+            <link>http://nitch.cc/podcast/episode-137-pizza-button</link>
+            <guid>http://nitch.cc/podcast/episode-137-pizza-button</guid>
+            <pubDate>Fri, 05 Dec 2014 14:00:00 GMT</pubDate>
+            <author>Nitch</author>
+            <description>Jonathan and Kelli talk about smartwatches, shoe phones, and pizza buttons.</description>
+            <enclosure url="https://s3.amazonaws.com/nitch/Episode_137_Pizza_Button.mp3" length="64172851" type="audio/mpeg"/>
+            <content:encoded>Jonathan and Kelli talk about smartwatches, shoe phones, and pizza buttons.</content:encoded>
+            <itunes:author>Nitch</itunes:author>
+            <itunes:duration>1:00:41</itunes:duration>
+            <itunes:subtitle>Jonathan and Kelli talk about smartwatches, shoe phones, and pizza buttons.</itunes:subtitle>
+            <itunes:summary>Jonathan and Kelli talk about smartwatches, shoe phones, and pizza buttons.</itunes:summary>
+            <itunes:keywords>web, mobile, html5, rest, json</itunes:keywords>
+            <itunes:image href="http://nitch.cc/img/512x512.png"/>
+            <media:content url="https://s3.amazonaws.com/nitch/Episode_137_Pizza_Button.mp3" fileSize="54566344" type="audio/mpeg"/>
+            <itunes:explicit>no</itunes:explicit>
+        </item>
     </channel>
 </rss>

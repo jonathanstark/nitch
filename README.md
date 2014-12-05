@@ -3,17 +3,25 @@ Nitch
 
 ## Housekeeping
 
+* Castbacker updates
+    * just about to hit double digits
+    * someone blogged about it
+    * added to crowdfunding page in wikipedia
+* Activite is wild but it turns out there's a feature that more important than battery life - keeping time.
+* New asus android wear watch is purdy
+* Next week is the live redesign
+* dotnet rocks Podcast
+* The Business of Freelancing Podcast
+* The Freelancers Show Podcast
+
 ## Bug Report
+
+* Rails javascript bug
+* Castbacker bug
 
 ## Feature
 
-The Nitch Gift Guide Episode
-
-5. Pebble ($79), Pebble Steel ($149)
-4. Hue lightbulbs starter pack ($189)
-3. Fire HD 6" ($79), Fire HD 7" ($109), Fire HDX ($179), iPad Mini 1 ($250)
-2. Hiku barcode scanner ($79)
-1. Chromecast ($24)
+* Flic / Dimple.io
 
 ## Topic Ideas
 
