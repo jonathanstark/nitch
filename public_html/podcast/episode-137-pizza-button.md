@@ -31,12 +31,13 @@ Jonathan and Kelli talk about smartwatches, shoe phones, and pizza buttons.
 * [Asus ZenWatch](http://gizmodo.com/asus-zenwatch-review-the-first-smartwatch-id-wear-as-a-1665903706)
 * [Withings Activite](http://www.withings.com/us/withings-activite.html)
 * [Mobile-First, Responsive Redesign of a LIVE Website!](http://www.oreilly.com/pub/e/3269)
-* [The New Digital Watch with Jon Stark](http://www.dotnetrocks.com/default.aspx?showNum=1066)
-* [The Business of Freelancing Podcast](http://doubleyourfreelancing.com/podcast/)
+* [.NET Rocks! - The New Digital Watch with Jon Stark](http://www.dotnetrocks.com/default.aspx?showNum=1066)
+* [Brennan Dunn - The Business of Freelancing Podcast](http://doubleyourfreelancing.com/podcast/)
 * [The Freelancers Show](http://devchat.tv/freelancers)
 * [Flic: The Wireless Smart Button](https://www.indiegogo.com/projects/flic-the-wireless-smart-button)
 * [DIMPLE.IO - Custom Android NFC buttons](http://dimple.io/)
 
 ## Titles We Considered
 
+* I Like Big Text And I Can Not Lie
 * Pizza Button
