@@ -3,6 +3,11 @@ Nitch
 
 ## Housekeeping
 
+* Pebble internationalization 
+* Call Loop/Zapier hack
+* GCal/Twitter Zapier hack
+
+
 * Castbacker updates
     * just about to hit double digits
     * someone blogged about it
