@@ -7,7 +7,6 @@ Nitch
 * Call Loop/Zapier hack
 * GCal/Twitter Zapier hack
 
-
 * Castbacker updates
     * just about to hit double digits
     * someone blogged about it
@@ -21,8 +20,7 @@ Nitch
 
 ## Bug Report
 
-* Rails javascript bug
-* Castbacker bug
+* Bold text on jsc.com
 
 ## Feature
 
