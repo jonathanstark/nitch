@@ -2508,5 +2508,23 @@ version="2.0">
             <media:content url="https://s3.amazonaws.com/nitch/Episode_137_Pizza_Button.mp3" fileSize="54566344" type="audio/mpeg"/>
             <itunes:explicit>no</itunes:explicit>
         </item>
+        <item>
+            <title>Episode 138: Bad Light Sabers</title>
+            <link>http://nitch.cc/podcast/episode-138-bad-light-sabers</link>
+            <guid>http://nitch.cc/podcast/episode-138-bad-light-sabers</guid>
+            <pubDate>Fri, 12 Dec 2014 14:00:00 GMT</pubDate>
+            <author>Nitch</author>
+            <description>Jonathan and Kelli talk about automated front-end testing with Rspec, Capybara, Poltergeist, and PhantomJS.</description>
+            <enclosure url="https://s3.amazonaws.com/nitch/Episode_138_Bad_Light_Sabers.mp3" length="64172851" type="audio/mpeg"/>
+            <content:encoded>Jonathan and Kelli talk about automated front-end testing with Rspec, Capybara, Poltergeist, and PhantomJS.</content:encoded>
+            <itunes:author>Nitch</itunes:author>
+            <itunes:duration>38:09</itunes:duration>
+            <itunes:subtitle>Jonathan and Kelli talk about automated front-end testing with Rspec, Capybara, Poltergeist, and PhantomJS.</itunes:subtitle>
+            <itunes:summary>Jonathan and Kelli talk about automated front-end testing with Rspec, Capybara, Poltergeist, and PhantomJS.</itunes:summary>
+            <itunes:keywords>web, mobile, html5, rest, json</itunes:keywords>
+            <itunes:image href="http://nitch.cc/img/512x512.png"/>
+            <media:content url="https://s3.amazonaws.com/nitch/Episode_138_Bad_Light_Sabers.mp3" fileSize="54566344" type="audio/mpeg"/>
+            <itunes:explicit>no</itunes:explicit>
+        </item>
     </channel>
 </rss>
