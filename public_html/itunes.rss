@@ -2526,5 +2526,23 @@ version="2.0">
             <media:content url="https://s3.amazonaws.com/nitch/Episode_138_Bad_Light_Sabers.mp3" fileSize="54566344" type="audio/mpeg"/>
             <itunes:explicit>no</itunes:explicit>
         </item>
+        <item>
+            <title>Episode 139: Space Cadet Says Bye</title>
+            <link>http://nitch.cc/podcast/episode-139-space-cadet-says-bye</link>
+            <guid>http://nitch.cc/podcast/episode-139-space-cadet-says-bye</guid>
+            <pubDate>Fri, 19 Dec 2014 14:00:00 GMT</pubDate>
+            <author>Nitch</author>
+            <description>Jonathan and Kelli talk about embracing a mobile first philosophy from a design standpoint, not a build standpoint.</description>
+            <enclosure url="https://s3.amazonaws.com/nitch/Episode_139_Space_Cadet_Says_Bye.mp3" length="64172851" type="audio/mpeg"/>
+            <content:encoded>Jonathan and Kelli talk about embracing a mobile first philosophy from a design standpoint, not a build standpoint.</content:encoded>
+            <itunes:author>Nitch</itunes:author>
+            <itunes:duration>51:18</itunes:duration>
+            <itunes:subtitle>Jonathan and Kelli talk about embracing a mobile first philosophy from a design standpoint, not a build standpoint.</itunes:subtitle>
+            <itunes:summary>Jonathan and Kelli talk about embracing a mobile first philosophy from a design standpoint, not a build standpoint.</itunes:summary>
+            <itunes:keywords>web, mobile, html5, rest, json</itunes:keywords>
+            <itunes:image href="http://nitch.cc/img/512x512.png"/>
+            <media:content url="https://s3.amazonaws.com/nitch/Episode_139_Space_Cadet_Says_Bye.mp3" fileSize="54566344" type="audio/mpeg"/>
+            <itunes:explicit>no</itunes:explicit>
+        </item>
     </channel>
 </rss>
