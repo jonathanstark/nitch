@@ -2562,5 +2562,23 @@ version="2.0">
             <media:content url="https://s3.amazonaws.com/nitch/Episode_140_Twenty_Nine_Again.mp3" fileSize="54566344" type="audio/mpeg"/>
             <itunes:explicit>no</itunes:explicit>
         </item>
+        <item>
+            <title>Episode 141: The Scrambled Eggs Of The Issue</title>
+            <link>http://nitch.cc/podcast/episode-141-the-scrambled-eggs-of-the-issue</link>
+            <guid>http://nitch.cc/podcast/episode-141-the-scrambled-eggs-of-the-issue</guid>
+            <pubDate>Fri, 02 Jan 2015 14:00:00 GMT</pubDate>
+            <author>Nitch</author>
+            <description>Jonathan and Kelli talk about ten simple things you can do to retrofit your desktop website for mobile.</description>
+            <enclosure url="https://s3.amazonaws.com/nitch/Episode_141_The_Scrambled_Eggs_Of_The_Issue.mp3" length="64172851" type="audio/mpeg"/>
+            <content:encoded>Jonathan and Kelli talk about ten simple things you can do to retrofit your desktop website for mobile.</content:encoded>
+            <itunes:author>Nitch</itunes:author>
+            <itunes:duration>34:43</itunes:duration>
+            <itunes:subtitle>Jonathan and Kelli talk about ten simple things you can do to retrofit your desktop website for mobile.</itunes:subtitle>
+            <itunes:summary>Jonathan and Kelli talk about ten simple things you can do to retrofit your desktop website for mobile.</itunes:summary>
+            <itunes:keywords>web, mobile, html5, rest, json</itunes:keywords>
+            <itunes:image href="http://nitch.cc/img/512x512.png"/>
+            <media:content url="https://s3.amazonaws.com/nitch/Episode_141_The_Scrambled_Eggs_Of_The_Issue.mp3" fileSize="54566344" type="audio/mpeg"/>
+            <itunes:explicit>no</itunes:explicit>
+        </item>
     </channel>
 </rss>
