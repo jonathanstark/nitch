@@ -2580,5 +2580,23 @@ version="2.0">
             <media:content url="https://s3.amazonaws.com/nitch/Episode_141_The_Scrambled_Eggs_Of_The_Issue.mp3" fileSize="54566344" type="audio/mpeg"/>
             <itunes:explicit>no</itunes:explicit>
         </item>
+        <item>
+            <title>Episode 142: Fancy Tickler</title>
+            <link>http://nitch.cc/podcast/episode-142-fancy-tickler</link>
+            <guid>http://nitch.cc/podcast/episode-142-fancy-tickler</guid>
+            <pubDate>Fri, 09 Jan 2015 14:00:00 GMT</pubDate>
+            <author>Nitch</author>
+            <description>Jonathan and Kelli share 8 things we're doing in the new year streamline our work and home lives: everything from creating virtual machines, to deleting twitter from our phones, to finally giving up all those silly domain names we're never actually going to use.</description>
+            <enclosure url="https://s3.amazonaws.com/nitch/Episode_142_Fancy_Tickler.mp3" length="64172851" type="audio/mpeg"/>
+            <content:encoded>Jonathan and Kelli share 8 things we're doing in the new year streamline our work and home lives: everything from creating virtual machines, to deleting twitter from our phones, to finally giving up all those silly domain names we're never actually going to use.</content:encoded>
+            <itunes:author>Nitch</itunes:author>
+            <itunes:duration>36:13</itunes:duration>
+            <itunes:subtitle>Jonathan and Kelli share 8 things we're doing in the new year streamline our work and home lives: everything from creating virtual machines, to deleting twitter from our phones, to finally giving up all those silly domain names we're never actually going to use.</itunes:subtitle>
+            <itunes:summary>Jonathan and Kelli share 8 things we're doing in the new year streamline our work and home lives: everything from creating virtual machines, to deleting twitter from our phones, to finally giving up all those silly domain names we're never actually going to use.</itunes:summary>
+            <itunes:keywords>web, mobile, html5, rest, json</itunes:keywords>
+            <itunes:image href="http://nitch.cc/img/512x512.png"/>
+            <media:content url="https://s3.amazonaws.com/nitch/Episode_142_Fancy_Tickler.mp3" fileSize="54566344" type="audio/mpeg"/>
+            <itunes:explicit>no</itunes:explicit>
+        </item>
     </channel>
 </rss>

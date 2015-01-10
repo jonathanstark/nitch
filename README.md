@@ -3,12 +3,29 @@ Nitch
 
 ## Housekeeping
 
+* Late new years episode
+* Nitch email is screwed up
+* Much to my shame and embarassment, Pizza Gourmet is on GrubHub (via Anthony Rubin)
+* QuitRI is live!
+
 ## Bug Report
+
+* Rails sending wrong status codes on some json requests
 
 ## Feature
 
+1. JS getting an office
+2. KS redid mac and only installed the tools I need/use most often
+3. JS canceled monthly services I don't use/need
+4. KS compartmentalized a lot of projects into their own virtual machines
+5. JS released around 60 domain names
+6. KS Turned off a bunch of useless notifications
+7. JS deleted Twitter from all my phones
+8. KS consolidated web hosting under one company
+
 ## Topic Ideas
 
+* Mindfulness (re purging domains, junk, appreciating dig pen, etc)
 * Zapier episode
     * Call Loop/Zapier hack
     * GCal/Twitter Zapier hack
