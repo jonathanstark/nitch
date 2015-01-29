@@ -11,29 +11,25 @@ Nitch
 
 ## Feature
 
-* In 2014, mobile went beyond phones and tablets
-    * Wearables/watches
-    * TVs
-    * Cars
-* Microsoft Hololens
-    * Google - Glass, Cardboard, Magic Leap
-    * Facebook - Oculus Rift
-    * Samsung - Gear VR
-    * Sony - Project Morpheus
-    * Microsoft - HoloLens
-* AR vs VR vs second screen
-* Possible applications
-    * Gaming
-    * Education
-    * Social
-    * Collaboration
-* Inputs
-    * Head movements
-    * Hand movements - "AirClick"
-    * Eye tracking
-    * Camera
-    * Mic (voice)
-    * Touch
+The difference between a web site and a web app
+
+* JK
+    * "webapp" is a euphemism for "js app"
+    * support your core features and PE like crazy
+* JS
+    * There is such thing as a webapp
+    * Litmus tests for appness:
+       * You have a login
+       * You don't want it indexed by search engines
+       * You don't have anon users
+
+Is it my responsibility to:
+
+* have all text translated?
+* have all audio transcribed?
+* have all audio translated?
+
+
 
 ## Topic Ideas
 
