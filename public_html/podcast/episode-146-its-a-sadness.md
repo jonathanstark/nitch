@@ -14,10 +14,6 @@ Jonathan and Kelli dispel four myths about responsive web design.
 
 [Download MP3](https://s3.amazonaws.com/nitch/Episode_146_Its_a_Sadness.mp3 "Episode 146: It’s a Sadness")
 
-## Housekeeping/News
-
-
-
 ## Related Links
 
 * [David Lynch on Watching Movies on a Telephone](https://www.youtube.com/watch?v=BcNLEwf2pOw)
