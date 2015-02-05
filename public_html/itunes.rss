@@ -2652,5 +2652,23 @@ version="2.0">
             <media:content url="https://s3.amazonaws.com/nitch/Episode_145_Backspace_Fizzability.mp3" fileSize="54566344" type="audio/mpeg"/>
             <itunes:explicit>no</itunes:explicit>
         </item>
+        <item>
+            <title>Episode 146: It’s a Sadness</title>
+            <link>http://nitch.cc/podcast/episode-146-its-a-sadness</link>
+            <guid>http://nitch.cc/podcast/episode-146-its-a-sadness</guid>
+            <pubDate>Fri, 06 Feb 2015 14:00:00 GMT</pubDate>
+            <author>Nitch</author>
+            <description>Jonathan and Kelli dispel four myths about responsive web design.</description>
+            <enclosure url="https://s3.amazonaws.com/nitch/Episode_146_Its_a_Sadness.mp3" length="64172851" type="audio/mpeg"/>
+            <content:encoded>Jonathan and Kelli dispel four myths about responsive web design.</content:encoded>
+            <itunes:author>Nitch</itunes:author>
+            <itunes:duration>35:44</itunes:duration>
+            <itunes:subtitle>Jonathan and Kelli dispel four myths about responsive web design.</itunes:subtitle>
+            <itunes:summary>Jonathan and Kelli dispel four myths about responsive web design.</itunes:summary>
+            <itunes:keywords>web, mobile, html5, rest, json</itunes:keywords>
+            <itunes:image href="http://nitch.cc/img/512x512.png"/>
+            <media:content url="https://s3.amazonaws.com/nitch/Episode_146_Its_a_Sadness.mp3" fileSize="54566344" type="audio/mpeg"/>
+            <itunes:explicit>no</itunes:explicit>
+        </item>
     </channel>
 </rss>

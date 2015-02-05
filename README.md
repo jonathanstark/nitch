@@ -11,25 +11,12 @@ Nitch
 
 ## Feature
 
-The difference between a web site and a web app
+We dispell four myths about RWD
 
-* JK
-    * "webapp" is a euphemism for "js app"
-    * support your core features and PE like crazy
-* JS
-    * There is such thing as a webapp
-    * Litmus tests for appness:
-       * You have a login
-       * You don't want it indexed by search engines
-       * You don't have anon users
-
-Is it my responsibility to:
-
-* have all text translated?
-* have all audio transcribed?
-* have all audio translated?
-
-
+1. RWD is hard to do
+2. RWD sites are slow
+3. RWD doesn’t matter
+4. RWD sites all look the same
 
 ## Topic Ideas
 
