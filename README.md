@@ -9,6 +9,8 @@ Nitch
 
 ## Bug Report
 
+jQuery selector bug (+ sign in id)
+
 ## Feature
 
 We dispell four myths about RWD
