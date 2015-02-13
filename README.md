@@ -3,9 +3,12 @@ Nitch
 
 ## Housekeeping
 
-* KS gone early feb so we might have a weird sched
-* Shorthook example is live on jsc.com
-* Training class is open for Feb 12
+* KS back!
+* Boagworld podcast is live
+* Freelancers Show
+* Shorthook taking reservations
+* ProvJS Wed 2/18
+* Training class is open for Mar 26
 
 ## Bug Report
 
@@ -13,23 +16,17 @@ jQuery selector bug (+ sign in id)
 
 ## Feature
 
-We dispell four myths about RWD
+AWS
 
-1. RWD is hard to do
-2. RWD sites are slow
-3. RWD doesn’t matter
-4. RWD sites all look the same
+* organizing
+* monitoring
+* upgrading
+* backups
 
 ## Topic Ideas
 
-* Mindfulness (re purging domains, junk, appreciating dig pen, etc)
-* Zapier episode
-    * Call Loop/Zapier hack
-    * GCal/Twitter Zapier hack
-* SMS episode (pizza ordering)
-* PC talk/mobile last/hacker news
+* PostMessage
 * Teaching web dev to total noobs
-* Google Cardboard and designing for 3d + 360
 * Sticky Albums publication process
     * cached json
     * Sidekiq

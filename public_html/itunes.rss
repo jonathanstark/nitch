@@ -2670,5 +2670,23 @@ version="2.0">
             <media:content url="https://s3.amazonaws.com/nitch/Episode_146_Its_a_Sadness.mp3" fileSize="54566344" type="audio/mpeg"/>
             <itunes:explicit>no</itunes:explicit>
         </item>
+        <item>
+            <title>Episode 147: Hugh Jass</title>
+            <link>http://nitch.cc/podcast/episode-147-hugh-jass</link>
+            <guid>http://nitch.cc/podcast/episode-147-hugh-jass</guid>
+            <pubDate>Fri, 13 Feb 2015 14:00:00 GMT</pubDate>
+            <author>Nitch</author>
+            <description>Jonathan and Kelli talk about our sticky backend. Specifically: organizing, monitoring, upgrading, and backuping (?) our resources on Amazon Web Services.</description>
+            <enclosure url="https://s3.amazonaws.com/nitch/Episode_147_Hugh_Jass.mp3" length="64172851" type="audio/mpeg"/>
+            <content:encoded>Jonathan and Kelli talk about our sticky backend. Specifically: organizing, monitoring, upgrading, and backuping (?) our resources on Amazon Web Services.</content:encoded>
+            <itunes:author>Nitch</itunes:author>
+            <itunes:duration>38:30</itunes:duration>
+            <itunes:subtitle>Jonathan and Kelli talk about our sticky backend. Specifically: organizing, monitoring, upgrading, and backuping (?) our resources on Amazon Web Services.</itunes:subtitle>
+            <itunes:summary>Jonathan and Kelli talk about our sticky backend. Specifically: organizing, monitoring, upgrading, and backuping (?) our resources on Amazon Web Services.</itunes:summary>
+            <itunes:keywords>web, mobile, html5, rest, json</itunes:keywords>
+            <itunes:image href="http://nitch.cc/img/512x512.png"/>
+            <media:content url="https://s3.amazonaws.com/nitch/Episode_147_Hugh_Jass.mp3" fileSize="54566344" type="audio/mpeg"/>
+            <itunes:explicit>no</itunes:explicit>
+        </item>
     </channel>
 </rss>
