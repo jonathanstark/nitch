@@ -3,25 +3,19 @@ Nitch
 
 ## Housekeeping
 
-* KS back!
-* Boagworld podcast is live
-* Freelancers Show
-* Shorthook taking reservations
-* ProvJS Wed 2/18
-* Training class is open for Mar 26
+* KS site back up
+* JS added skeleton to his site
+* JS setting up new site for business coaching
+* MTLTM on March 26
 
 ## Bug Report
 
-jQuery selector bug (+ sign in id)
+* Paperclip expiring urls
 
 ## Feature
 
-AWS
-
-* organizing
-* monitoring
-* upgrading
-* backups
+* Ember
+* Docker
 
 ## Topic Ideas
 
