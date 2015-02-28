@@ -3,23 +3,27 @@ Nitch
 
 ## Housekeeping
 
-* KS site back up
-* JS added skeleton to his site
-* JS setting up new site for business coaching
-* MTLTM on March 26
+* Docker / Ember show prolly next week
+* Early bird pricing for my mobile web development online class is ending Monday March 2 at midnight ET. It's an interactive online class for web developers who are looking to get up to speed with stuff like:
+    * Responsive Web Design
+    * CSS Animations
+    * Touch Events
+    * PhoneGap
+    * (Debugging)
 
 ## Bug Report
 
-* Paperclip expiring urls
+* PostMessage from vimeo
 
 ## Feature
 
-* Ember
-* Docker
+* Apps are blowing apart
+    * Pebble Timeline interface
+    * IFTTT apps (do button, do note, do cam)
+    * Twilio bought TFA provider
 
 ## Topic Ideas
 
-* PostMessage
 * Teaching web dev to total noobs
 * Sticky Albums publication process
     * cached json

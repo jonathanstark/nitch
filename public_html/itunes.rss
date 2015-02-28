@@ -2706,5 +2706,23 @@ version="2.0">
             <media:content url="https://s3.amazonaws.com/nitch/Episode_148_Bacon_Detectors.mp3" fileSize="54566344" type="audio/mpeg"/>
             <itunes:explicit>no</itunes:explicit>
         </item>
+        <item>
+            <title>Episode 149: Dot Matrix Toast</title>
+            <link>http://nitch.cc/podcast/episode-149-dot-matrix-toast</link>
+            <guid>http://nitch.cc/podcast/episode-149-dot-matrix-toast</guid>
+            <pubDate>Fri, 27 Feb 2015 14:00:00 GMT</pubDate>
+            <author>Nitch</author>
+            <description>Jonathan and Kelli discuss recent announcements from Pebble, IFTTT, and Twilio and how they portend the demise of the prevailing app store hegemony.</description>
+            <enclosure url="https://s3.amazonaws.com/nitch/Episode_149_Dot_Matrix_Toast.mp3" length="64172851" type="audio/mpeg"/>
+            <content:encoded>Jonathan and Kelli discuss recent announcements from Pebble, IFTTT, and Twilio and how they portend the demise of the prevailing app store hegemony.</content:encoded>
+            <itunes:author>Nitch</itunes:author>
+            <itunes:duration>54:46</itunes:duration>
+            <itunes:subtitle>Jonathan and Kelli discuss recent announcements from Pebble, IFTTT, and Twilio and how they portend the demise of the prevailing app store hegemony.</itunes:subtitle>
+            <itunes:summary>Jonathan and Kelli discuss recent announcements from Pebble, IFTTT, and Twilio and how they portend the demise of the prevailing app store hegemony.</itunes:summary>
+            <itunes:keywords>web, mobile, html5, rest, json</itunes:keywords>
+            <itunes:image href="http://nitch.cc/img/512x512.png"/>
+            <media:content url="https://s3.amazonaws.com/nitch/Episode_149_Dot_Matrix_Toast.mp3" fileSize="54566344" type="audio/mpeg"/>
+            <itunes:explicit>no</itunes:explicit>
+        </item>
     </channel>
 </rss>
