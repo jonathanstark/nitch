@@ -3,24 +3,13 @@ Nitch
 
 ## Housekeeping
 
-* Docker / Ember show prolly next week
-* Early bird pricing for my mobile web development online class is ending Monday March 2 at midnight ET. It's an interactive online class for web developers who are looking to get up to speed with stuff like:
-    * Responsive Web Design
-    * CSS Animations
-    * Touch Events
-    * PhoneGap
-    * (Debugging)
-
 ## Bug Report
 
-* PostMessage from vimeo
+* quotation mark bug
 
 ## Feature
 
-* Apps are blowing apart
-    * Pebble Timeline interface
-    * IFTTT apps (do button, do note, do cam)
-    * Twilio bought TFA provider
+* MURTEC talk?
 
 ## Topic Ideas
 
