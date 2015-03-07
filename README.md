@@ -3,16 +3,15 @@ Nitch
 
 ## Housekeeping
 
-## Bug Report
+* Look up def of shadow dom
 
-* quotation mark bug
+## Bug Report
 
 ## Feature
 
-* MURTEC talk?
-
 ## Topic Ideas
 
+* MURTEC talk?
 * Teaching web dev to total noobs
 * Sticky Albums publication process
     * cached json

@@ -2724,5 +2724,23 @@ version="2.0">
             <media:content url="https://s3.amazonaws.com/nitch/Episode_149_Dot_Matrix_Toast.mp3" fileSize="54566344" type="audio/mpeg"/>
             <itunes:explicit>no</itunes:explicit>
         </item>
+        <item>
+            <title>Episode 150: Lazy Pinky</title>
+            <link>http://nitch.cc/podcast/episode-150-lazy-pinky</link>
+            <guid>http://nitch.cc/podcast/episode-150-lazy-pinky</guid>
+            <pubDate>Fri, 06 Mar 2015 14:00:00 GMT</pubDate>
+            <author>Nitch</author>
+            <description>Jonathan and Kelli talk about disappearing quotation marks, app cache gotchas, disillusionment with Docker, and ramping up with Ember.</description>
+            <enclosure url="https://s3.amazonaws.com/nitch/Episode_150_Lazy_Pinky.mp3" length="64172851" type="audio/mpeg"/>
+            <content:encoded>Jonathan and Kelli talk about disappearing quotation marks, app cache gotchas, disillusionment with Docker, and ramping up with Ember.</content:encoded>
+            <itunes:author>Nitch</itunes:author>
+            <itunes:duration>54:45</itunes:duration>
+            <itunes:subtitle>Jonathan and Kelli talk about disappearing quotation marks, app cache gotchas, disillusionment with Docker, and ramping up with Ember.</itunes:subtitle>
+            <itunes:summary>Jonathan and Kelli talk about disappearing quotation marks, app cache gotchas, disillusionment with Docker, and ramping up with Ember.</itunes:summary>
+            <itunes:keywords>web, mobile, html5, rest, json</itunes:keywords>
+            <itunes:image href="http://nitch.cc/img/512x512.png"/>
+            <media:content url="https://s3.amazonaws.com/nitch/Episode_150_Lazy_Pinky.mp3" fileSize="54566344" type="audio/mpeg"/>
+            <itunes:explicit>no</itunes:explicit>
+        </item>
     </channel>
 </rss>
