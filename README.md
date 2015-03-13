@@ -3,15 +3,21 @@ Nitch
 
 ## Housekeeping
 
-* Look up def of shadow dom
+* Shadow DOM is in Chrome, status pending elsewhere
+* KS public apology?
+* Update on Docker
 
 ## Bug Report
 
+* Rack / localhost
+* JS Submit bug
+
 ## Feature
+
+* MURTEC talk
 
 ## Topic Ideas
 
-* MURTEC talk?
 * Teaching web dev to total noobs
 * Sticky Albums publication process
     * cached json
