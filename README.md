@@ -3,18 +3,22 @@ Nitch
 
 ## Housekeeping
 
-* Shadow DOM is in Chrome, status pending elsewhere
-* KS public apology?
-* Update on Docker
-
 ## Bug Report
-
-* Rack / localhost
-* JS Submit bug
 
 ## Feature
 
-* MURTEC talk
+* Follow up on MURTEC
+    * Taco Bell, Wendy's, Lotaburger
+    * more than half had apps
+    * absolutely zero had a homerun
+* Rethink Mobile
+    * SMS interactions
+    * Beacons
+    * Poster stores
+    * Captive WiFi
+* Interesting vendors
+    * Aerohive
+    * Bodhi
 
 ## Topic Ideas
 

@@ -2760,5 +2760,23 @@ version="2.0">
             <media:content url="https://s3.amazonaws.com/nitch/Episode_151_Negative_One_Beers.mp3" fileSize="54566344" type="audio/mpeg"/>
             <itunes:explicit>no</itunes:explicit>
         </item>
+        <item>
+            <title>Episode 152: Chicken Caesars Palace</title>
+            <link>http://nitch.cc/podcast/episode-152-chicken-caesars-palace</link>
+            <guid>http://nitch.cc/podcast/episode-152-chicken-caesars-palace</guid>
+            <pubDate>Fri, 20 Mar 2015 14:00:00 GMT</pubDate>
+            <author>Nitch</author>
+            <description>Jonathan and Kelli talk about how to go beyond native mobile apps and use the whole phone.</description>
+            <enclosure url="https://s3.amazonaws.com/nitch/Episode_152_Chicken_Caesars_Palace.mp3" length="64172851" type="audio/mpeg"/>
+            <content:encoded>Jonathan and Kelli talk about how to go beyond native mobile apps and use the whole phone.</content:encoded>
+            <itunes:author>Nitch</itunes:author>
+            <itunes:duration>58:35</itunes:duration>
+            <itunes:subtitle>Jonathan and Kelli talk about how to go beyond native mobile apps and use the whole phone.</itunes:subtitle>
+            <itunes:summary>Jonathan and Kelli talk about how to go beyond native mobile apps and use the whole phone.</itunes:summary>
+            <itunes:keywords>web, mobile, html5, rest, json</itunes:keywords>
+            <itunes:image href="http://nitch.cc/img/512x512.png"/>
+            <media:content url="https://s3.amazonaws.com/nitch/Episode_152_Chicken_Caesars_Palace.mp3" fileSize="54566344" type="audio/mpeg"/>
+            <itunes:explicit>no</itunes:explicit>
+        </item>
     </channel>
 </rss>
