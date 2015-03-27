@@ -7,19 +7,6 @@ Nitch
 
 ## Feature
 
-* Follow up on MURTEC
-    * Taco Bell, Wendy's, Lotaburger
-    * more than half had apps
-    * absolutely zero had a homerun
-* Rethink Mobile
-    * SMS interactions
-    * Beacons
-    * Poster stores
-    * Captive WiFi
-* Interesting vendors
-    * Aerohive
-    * Bodhi
-
 ## Topic Ideas
 
 * Teaching web dev to total noobs
@@ -38,3 +25,17 @@ Nitch
 * 'Sode-O-Matic: Add S3 file upload
 * 'Sode-O-Matic: Detect audio duration from mp3
 
+## Notes
+
+* On April 9th, 2015, the nitch podcast will turn three.
+* Three years ago, not many people were saying this stuff - now there are plenty
+* Don't want to keep repeating ourselves
+* Feel like it's time refocus the show topic. more creative thinking and hopefully more inpiring
+* Still for nerds, but less about nuts and bolts and more
+* How technology is changing the way we interact the world
+
+From a technical standpoint, we'd like to change a few things to build up a community around the podcast:
+* Change the hosting platform so we can tell which shows were most popular
+* Keep shows under 30 minutes to make them more convienent to listen to and share
+* Remove bug report, put any housekeeping at the end, any funny waffling after the end
+* Set up a subreddit where you! the Dear Listener™ can submit and vote on topic ideas

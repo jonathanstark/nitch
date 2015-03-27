@@ -2778,5 +2778,23 @@ version="2.0">
             <media:content url="https://s3.amazonaws.com/nitch/Episode_152_Chicken_Caesars_Palace.mp3" fileSize="54566344" type="audio/mpeg"/>
             <itunes:explicit>no</itunes:explicit>
         </item>
+        <item>
+            <title>Episode 153: Birthday Announcement</title>
+            <link>http://nitch.cc/podcast/episode-153-birthday-announcement</link>
+            <guid>http://nitch.cc/podcast/episode-153-birthday-announcement</guid>
+            <pubDate>Fri, 27 Mar 2015 14:00:00 GMT</pubDate>
+            <author>Nitch</author>
+            <description>Jonathan and Kelli have a birthday announcement.</description>
+            <enclosure url="https://s3.amazonaws.com/nitch/Episode_153_Birthday_Announcement.mp3" length="64172851" type="audio/mpeg"/>
+            <content:encoded>Jonathan and Kelli have a birthday announcement.</content:encoded>
+            <itunes:author>Nitch</itunes:author>
+            <itunes:duration>10:35</itunes:duration>
+            <itunes:subtitle>Jonathan and Kelli have a birthday announcement.</itunes:subtitle>
+            <itunes:summary>Jonathan and Kelli have a birthday announcement.</itunes:summary>
+            <itunes:keywords>web, mobile, html5, rest, json</itunes:keywords>
+            <itunes:image href="http://nitch.cc/img/512x512.png"/>
+            <media:content url="https://s3.amazonaws.com/nitch/Episode_153_Birthday_Announcement.mp3" fileSize="54566344" type="audio/mpeg"/>
+            <itunes:explicit>no</itunes:explicit>
+        </item>
     </channel>
 </rss>
