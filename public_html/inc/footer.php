@@ -1,5 +1,5 @@
         <div class="footer">
-            <p>Thanks for stopping by! Please feel free to <a rel="external" href="mailto:hello@nitch.cc?subject=Nitch!">say hello</a> :)</p>
+            <p>Thanks for stopping by! Please feel free to <a rel="external" href="mailto:nitch@jonathanstark.com">say hello</a> :)</p>
         </div>
         <script>
         (function(a,c,d,f){if("ontouchstart"in c||c.a&&a instanceof DocumentTouch){var b=null,e=function(){b&&(b.classList.remove(d),b=null)};a.documentElement.classList.add("touch");a.documentElement.classList.remove("no-touch");a.body.addEventListener("touchstart",function(a){e();-1<f.indexOf(a.target.tagName)&&(b=a.target,b.classList.add(d))},!1);a.body.addEventListener("touchmove",e,!1)}else a.documentElement.className+=" no-touch"})(document,window,"active",["A","INPUT"]);
